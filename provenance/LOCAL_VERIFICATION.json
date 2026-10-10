@@ -35,5 +35,16 @@
     "ffmpeg_decode": "passed"
   },
   "final_video_sha256": "81817d0b5e26e41c831a5665c160bb8e42d29a5a7af42388dacf0ded07a7bd41",
-  "limits": "Technical checks only; no new claim of full creative playback/listening or medical validation."
+  "limits": "Technical checks only; no new claim of full creative playback/listening or medical validation.",
+  "claude_handoff": {
+    "date": "2026-10-10",
+    "guide": "START_CLAUDE_RU.md",
+    "project_skills": 4,
+    "project_skill_frontmatter_validation": "passed",
+    "local_onboarding_links_checked": 56,
+    "broken_links": 0,
+    "a6api_documented_example": "offline dry-run passed",
+    "paid_request_sent": false,
+    "limits": "File layout, metadata, links and helper arguments checked; no live Claude Code session claimed."
+  }
 }
