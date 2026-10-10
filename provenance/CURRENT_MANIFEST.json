@@ -1,6 +1,7 @@
 {
   "snapshot": "current SOLO ARC production kit, EP1 v11",
   "date": "2026-10-10",
+  "hash_format": "Committed Git blob bytes for text/code; full LFS object bytes for media",
   "historical_builds_included": false,
   "new_scenario_included": false,
   "plaintext_api_keys_included": false,
@@ -17,13 +18,13 @@
     },
     {
       "path": ".gitattributes",
-      "bytes": 1129,
-      "sha256": "f73df9e55b818c21d7e8be0b505cb5e4f7bc3b20b9c88cbdd500e250135d1d88"
+      "bytes": 1096,
+      "sha256": "a85fcaf902b02032d4b523916bd8d7431729074f931b942c7afc20157761d414"
     },
     {
       "path": ".github/workflows/generate-voice.yml",
-      "bytes": 1521,
-      "sha256": "430d01d8962440e546ae67e5aeac8598c3da2118800ce0d413bfc8b09dbc6e16"
+      "bytes": 1475,
+      "sha256": "53565052dfa7b7e2933bdeb4ab549637f483b48c7213557561b5c5bedd355d3c"
     },
     {
       "path": ".github/workflows/render-ep1.yml",
@@ -37,23 +38,23 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3904,
-      "sha256": "ef594dff0b4233750ca50231d97b72b7743260c7773faa004f4ef1fa0836a8a7"
+      "bytes": 3885,
+      "sha256": "9478f1d0d110b0a6d16da21b2a13fac65bcde4b5884844ce55d2ba7facfe0942"
     },
     {
       "path": "CLAUDE.md",
-      "bytes": 374,
-      "sha256": "5981cd69e1f647df3a28ddd5fe995e140203c4a4867cd8c48c87d0bb98b301ea"
+      "bytes": 371,
+      "sha256": "8b1ff3937ed2e108bd97267e0e3ac8c0f95221a2c02b77324e3f588911dab4b5"
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 2271,
-      "sha256": "dbab28218a34c260f9ee244ac261a8a0433c93b22c23cfd59de94c59486f77ca"
+      "bytes": 2255,
+      "sha256": "6be8e02104d1a358fac27e1bdb25eac29f5bff0c9c76746308fa523718bd394e"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 2046,
-      "sha256": "b11f842820c12dae5cfee7032c46dbd7f4a459ce82f510a4e4defdf86a335034"
+      "bytes": 2033,
+      "sha256": "bd2c9d050538e971ce196566b03bcfe782e16c7669debcbf43b3e77e9301a80d"
     },
     {
       "path": "Dockerfile",
@@ -77,8 +78,8 @@
     },
     {
       "path": "episodes/ep1-v11/film/mktl6.py",
-      "bytes": 1104,
-      "sha256": "9e9ec55f6e49a41d062c693bba07d5cc497a52d4ead5dcac234c9f7cb3274550"
+      "bytes": 1092,
+      "sha256": "42dc1492f2fb15fb2dd67bdd019d030a604f2ab8374a3a20d0b7dbfef9151848"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/aac-loudness-report.json",
@@ -87,23 +88,23 @@
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/change-isolation-report.json",
-      "bytes": 196,
-      "sha256": "73ff57021a306755847772da1989c116bb2f0833469e1d391e5d1952ecbef0e8"
+      "bytes": 191,
+      "sha256": "5c368ec6612b86e8839f84ce3094748d00ac769cd31ef108f80e729be599cc5c"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/final-qa-report.json",
-      "bytes": 4644,
-      "sha256": "21e790388b15ca3ab1eb81ba38cf9e3d676fe9411fb747371981937624dd2d61"
+      "bytes": 4493,
+      "sha256": "1805cfe501d96bd217953fd27486d3ed09b79016ba975eaa7b2da056f0fe0fce"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/mix-report.json",
-      "bytes": 1381,
-      "sha256": "6e57f77087190f3c325dc50bd23eaee65e35fced82525d3e7c07e1bece81355d"
+      "bytes": 1319,
+      "sha256": "54d76bf10eba52e44478b901ff433739cf058a2d79fe98c2ee4b3b2b3ee83591"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/normalization-report.json",
-      "bytes": 273,
-      "sha256": "faa5d984124af29bae3e1c14cd1bd9efc47b11e4c6e6e62dc01410477d97684c"
+      "bytes": 262,
+      "sha256": "2bbca2e9d1b4c3e2da5ec04324c00768813a86ee4319e1e4e1b64fbf31bac2a7"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/review/contact-v11.jpg",
@@ -112,8 +113,8 @@
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/review/corner-check.json",
-      "bytes": 1532,
-      "sha256": "d246a4ad45b44a7d6c5e693cf7fb6e4359d616aee375be2fad766c9b0804863d"
+      "bytes": 1435,
+      "sha256": "c53e462f0b3511d6c7630fca69fbf527d11d39f5e4671630ff5ee48fa1b200aa"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/review/final-mp4-black.png",
@@ -167,8 +168,8 @@
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/sfx-v11.json",
-      "bytes": 3843,
-      "sha256": "97742f47e664c459ed7ca4832ca44d9f11d690f1c7bec503ab2c8fa04255e8b9"
+      "bytes": 3502,
+      "sha256": "abab50cc39efa5184763485a28cb9c8af53a600b24d8d9c53da1208a3b20944f"
     },
     {
       "path": "episodes/ep1-v11/film/out/v11/stem-music.wav",
@@ -187,13 +188,13 @@
     },
     {
       "path": "episodes/ep1-v11/film/package-lock.json",
-      "bytes": 107486,
-      "sha256": "12f8ae6f1898e4bc569966171dc2dff5c42423b940e20e9712fd427454886152"
+      "bytes": 104595,
+      "sha256": "5047170bb7dc4a61968718d2312b06dbf525954f863d5fef85c2b437e846759c"
     },
     {
       "path": "episodes/ep1-v11/film/package.json",
-      "bytes": 727,
-      "sha256": "4d48211fd5f94be789a88e38b52a7b724255b61d89a11e6440399c4c837f73d6"
+      "bytes": 703,
+      "sha256": "3089f6d054818fbaaa721e18cc5398894e7b5410a679ce373bbd2abfcf1363d5"
     },
     {
       "path": "episodes/ep1-v11/film/public/audio/master-v11.wav",
@@ -662,8 +663,8 @@
     },
     {
       "path": "episodes/ep1-v11/film/src/imgs.json",
-      "bytes": 3237,
-      "sha256": "99973ebfaf6a85ad2b5f1e31635a1ac7948448def184aa20a04503f34f5f85d4"
+      "bytes": 2931,
+      "sha256": "e912ff162e6c1beab2c33a50ac10b33227e225bea58479e7e0a1750b5a6643ac"
     },
     {
       "path": "episodes/ep1-v11/film/src/index-audio.ts",
@@ -1492,8 +1493,8 @@
     },
     {
       "path": "episodes/ep1-v11/README_V11_RU.md",
-      "bytes": 3731,
-      "sha256": "3b704248b64a48fdbaf93a1f0c135ddb170bdba4a0c60f9006e892e8998e5448"
+      "bytes": 3703,
+      "sha256": "aa969e089a0eb088b2a1642dea8381ab932e8907c0d796f08d69acec0424c14a"
     },
     {
       "path": "episodes/ep1-v11/ref/style-ref.png",
@@ -1542,28 +1543,33 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 107592,
-      "sha256": "107b7cd8fd798229704eb0a3c525ee0c67b65d5f45ef6844f603326b5ed77429"
+      "bytes": 104696,
+      "sha256": "9093a5435b4fa900bc59b5d95bce51cecb3099fd0fbfa7e051cf700f400c4a3b"
     },
     {
       "path": "package.json",
-      "bytes": 807,
-      "sha256": "d78bae3d4c43891c18d049a831c4cc0908ca89597ae2ae1e43e2f68f06ba1596"
+      "bytes": 777,
+      "sha256": "02bc2a69667526c74d7fda54fbc1ecd75232c7483d26a55ec8d9ef4f63ba5d4f"
+    },
+    {
+      "path": "provenance/GITHUB_VERIFICATION.json",
+      "bytes": 761,
+      "sha256": "760f9bca101ab5e980329fda91471479f5304b2a8af396b7622b9596ae9286c1"
     },
     {
       "path": "provenance/LOCAL_VERIFICATION.json",
-      "bytes": 999,
-      "sha256": "a2023d10e9908182896a398540f95d5e9241da2f3eb9a30462ce17a872d721eb"
+      "bytes": 960,
+      "sha256": "9903f3c47bfa54002b6bd4b1ff5877e7096d1825833a79c4fa4982d4c126a220"
     },
     {
       "path": "provenance/MORT1D_SOURCE.json",
-      "bytes": 276,
-      "sha256": "810ec14cb48d99f08971473f797fcba7dabf203075a2d349d4d958f6333b5091"
+      "bytes": 268,
+      "sha256": "e1d7123f5d2d64da01eb1a3306b56c6390ccc37fd9de6190f5a03997d7e83964"
     },
     {
       "path": "README.md",
-      "bytes": 5792,
-      "sha256": "d36c7934a737a6b8232722118cf0a1aea7db9e4d9b02822626c74280a5d84077"
+      "bytes": 5729,
+      "sha256": "fa9a267d0027efd5fcbab50b30df588570c323060c17da90df5a74629e9935bb"
     },
     {
       "path": "requirements.txt",
@@ -1942,8 +1948,8 @@
     },
     {
       "path": "skills/solo-arc-motion/agents/openai.yaml",
-      "bytes": 453,
-      "sha256": "436473dd1773503e43bcac627bd3c9540354ec0112591cc056aec5b403c065c7"
+      "bytes": 447,
+      "sha256": "d0bc2dafd50c7572be46ce20b9a65c993a66b9e034235c7f578c65e3ad765859"
     },
     {
       "path": "skills/solo-arc-motion/assets/channel/APPROVED-h3-hero-waist.png",
@@ -1972,8 +1978,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/channel/manifest.json",
-      "bytes": 355,
-      "sha256": "5b2c1568f58ed72b66d8b37f2f3594a8a6b66bae95e7bb6df02c8ac357c08030"
+      "bytes": 340,
+      "sha256": "611c076c9167b26b30a030b528b46d9a6ae87e2e20e13cf3659becb68442ba28"
     },
     {
       "path": "skills/solo-arc-motion/assets/channel/o-hourglass-full.png",
@@ -2002,8 +2008,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/demo/assets/meta.json",
-      "bytes": 485,
-      "sha256": "a1c397975b6b7d5cccc963f6d7d609197bd1f5f4f13846dbc28da1fdc6ab3f93"
+      "bytes": 462,
+      "sha256": "d172bc3dda69915f496826ce2c8fb1553cd7b7796b4a452d740ef6b1ed322c99"
     },
     {
       "path": "skills/solo-arc-motion/assets/demo/assets/point-viewer.png",
@@ -2057,13 +2063,13 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/components/FocusLift.tsx",
-      "bytes": 1253,
-      "sha256": "1a644bc96a682edbe56677ff25431e2cbd1274d60db00300b0671aa94623e89c"
+      "bytes": 1252,
+      "sha256": "7372b2452cb0e95d9351ffed2f6bab265be5941fd55b831f4d4107981e32e9b0"
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/components/motion.ts",
-      "bytes": 637,
-      "sha256": "ade0d167ddb35eea29b74b9b5e31307d80912a86b1c4a57e8a9c70547644474b"
+      "bytes": 636,
+      "sha256": "6f64a6c4864add834e2a275a635180946ce38f628a2d3089e94f72897e9d21a7"
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/components/PulseRegion.tsx",
@@ -2077,8 +2083,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/ElementsFilm.tsx",
-      "bytes": 4176,
-      "sha256": "33a7d3a93f9853cf4613a48e3e2e2036bac4073867a20fbf6c96c30216535faa"
+      "bytes": 4174,
+      "sha256": "c6c262108e67e64d0135db8d0f86af5a8d4975601e3ce4140a5344a39be2940a"
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/progressive-path.mjs",
@@ -2167,8 +2173,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/elements-study/render-elements.mjs",
-      "bytes": 3137,
-      "sha256": "9b56c3cf871081cfd1cc3b293bbd67842c79249cb6e03249d31c39feed4f0da4"
+      "bytes": 3136,
+      "sha256": "f22ec7d70395a722bc126f6f839b0c4faf47c96b2a3ee7415fff24f4e8abaafd"
     },
     {
       "path": "skills/solo-arc-motion/assets/runtime/ExerciseTemplates.tsx",
@@ -2182,8 +2188,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/runtime/MotionFilm.tsx",
-      "bytes": 8068,
-      "sha256": "92b5491e110ea79b92bba1da28f0a2afeabd21446f700d11bb988cac1418d27c"
+      "bytes": 8067,
+      "sha256": "b64e57d0dc849dd1573b135c41acaecbd05f1f49b62128bc68086780a12a117f"
     },
     {
       "path": "skills/solo-arc-motion/assets/runtime/plan-check.mjs",
@@ -2207,8 +2213,8 @@
     },
     {
       "path": "skills/solo-arc-motion/assets/runtime/render.mjs",
-      "bytes": 4087,
-      "sha256": "01eb0185623eb059765c6025e014cc426f0080743e727a43aa04f1cb8abdf932"
+      "bytes": 4086,
+      "sha256": "6c46c44b765567238e736a8cad7daaf2ca694447200eed95cd19c31bca9732d2"
     },
     {
       "path": "skills/solo-arc-motion/assets/runtime/SessionSymbols.tsx",
@@ -2582,43 +2588,43 @@
     },
     {
       "path": "skills/solo-arc-motion/references/a6api-access.md",
-      "bytes": 4647,
-      "sha256": "d7b609e5cb9e22e462c967c5bcde5489c1ff173a3e53003058d501c545d42fac"
+      "bytes": 4628,
+      "sha256": "7ed28ec3868316003406c375e0058b8e989bad8cdc094fa8fc1dc9cd3df21b5d"
     },
     {
       "path": "skills/solo-arc-motion/references/anatomy-and-instruction.md",
-      "bytes": 8678,
-      "sha256": "4829b8457b4a42681cbdf9194b268904ddba05ad9e1064c3030d37df333063a9"
+      "bytes": 8647,
+      "sha256": "aaef6228b2b607cab09bdd08b87ce7faf0bc31cc015ec4f157a1b2d15157ee42"
     },
     {
       "path": "skills/solo-arc-motion/references/asset-direction.md",
-      "bytes": 9034,
-      "sha256": "e597f59c7ec38920117317f8d1ebfe96a807e94f3d9ee0b7701b3de8bcd0d373"
+      "bytes": 8978,
+      "sha256": "3b2227fc925bd5620e34432a7d0408e82add6a426be3d951f1293793108d001d"
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 24909,
-      "sha256": "f4a5b2dc48964eecb4f10fa8c4e8501f9225dc9f24e444744dcd75cc5140d0e7"
+      "bytes": 24802,
+      "sha256": "ecc4d0ceaef02be7eb09aa26fd972a3265a377636edc89dc7f7ba5602aaf64d6"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
-      "bytes": 9499,
-      "sha256": "0b93dd60e0a54cc8a96f9ad8d2bd783db76e702b43b19d31c95a79d8478acfeb"
+      "bytes": 9430,
+      "sha256": "6408ae0563473158300ef40bc9dd6fc87754f199e8fb0157ba0160f76680c29c"
     },
     {
       "path": "skills/solo-arc-motion/references/element-components.md",
-      "bytes": 6746,
-      "sha256": "df5eaa8eb34581796b63c267953bbc831c08b7d75fded2ba000bd252f2519a5a"
+      "bytes": 6695,
+      "sha256": "e9403b485b489c37a2e06f47f35c3222c17e8faf837e15d85af37679b117363b"
     },
     {
       "path": "skills/solo-arc-motion/references/episode-workflow-ru.md",
-      "bytes": 9167,
-      "sha256": "654ff5858689411599ac2d704a181ca6b07d17d44c0364041159077d8e05b48b"
+      "bytes": 9115,
+      "sha256": "9d122628d5d258234adf90f4423a5530900b5d9f65e14b7569d5117af572fa0b"
     },
     {
       "path": "skills/solo-arc-motion/references/object-and-image-prompts-ru.md",
-      "bytes": 6033,
-      "sha256": "955a8a6f8e921ef8ae115d4979f70dc1f4f2b1e3a822cad46fa93172acc6838f"
+      "bytes": 5995,
+      "sha256": "10d6be4b54392307d0e9b79307ac62083fe978533429c9e064efd39cf3ce0692"
     },
     {
       "path": "skills/solo-arc-motion/references/original-demo.json",
@@ -2627,18 +2633,18 @@
     },
     {
       "path": "skills/solo-arc-motion/references/patterns.md",
-      "bytes": 10340,
-      "sha256": "11c0926b1cc234f7c6c497d27e509186ec827dac069ae768ff4408ec21336e8f"
+      "bytes": 10298,
+      "sha256": "3b59749f8eb6b131c44f22c5e4c06bfc0442c291d2ca58a7b53d2b9625ac001e"
     },
     {
       "path": "skills/solo-arc-motion/references/portable-fonts.md",
-      "bytes": 1278,
-      "sha256": "b9c7deaa59f3426274f85848e2f10569f7ced5ab29f4aace0f8ee4ea3e78d33a"
+      "bytes": 1271,
+      "sha256": "32b0bf8405bb8a51c000cf3940bb1a0a0afaf59da591d158e9ce5dfabce85f34"
     },
     {
       "path": "skills/solo-arc-motion/references/presence-and-cards.md",
-      "bytes": 8822,
-      "sha256": "886203c33bf4f06b317071d47e6a638f9b8d17d92dd414b9040c0b0f96bef4d6"
+      "bytes": 8790,
+      "sha256": "1595ffaa25c9a80d92f3a55ade0cd81b4e91204fbac21279b9f60b1e84aab2a6"
     },
     {
       "path": "skills/solo-arc-motion/references/production-pattern-catalog.json",
@@ -2647,38 +2653,38 @@
     },
     {
       "path": "skills/solo-arc-motion/references/qa-and-handoff-ru.md",
-      "bytes": 5677,
-      "sha256": "2004629e8d92c94a4a10d1168eade7f7e48c63e695704acbfb9093b85319a39a"
+      "bytes": 5641,
+      "sha256": "b9ddccb06fe0218ccebff6a7b93a9201d21289886364781aa96ea947a0f6cb3d"
     },
     {
       "path": "skills/solo-arc-motion/references/remotion-production-ru.md",
-      "bytes": 3617,
-      "sha256": "b06ad56670a56b56749ddae4deb3bb5a4260caec6a8e0185c9bc6a634d2087af"
+      "bytes": 3586,
+      "sha256": "23bd71eb4c22cf171885d0512bd3c04b8aab554d94c62f80ba8c25f651d8e36b"
     },
     {
       "path": "skills/solo-arc-motion/references/runtime-and-json.md",
-      "bytes": 8460,
-      "sha256": "3fe52e2f45bd8010f1dfee476f8c48cda7053df7e0d4d53eacf26d526c0b1e26"
+      "bytes": 8406,
+      "sha256": "652c2fe39f58d62c531a61354201fe5483ffca96c0d13b3edf036ee231ed8e5b"
     },
     {
       "path": "skills/solo-arc-motion/references/ryoga-focus-variants.md",
-      "bytes": 17072,
-      "sha256": "39b052461c7f7bd5a14f928f336b3db9ad6b8bd5c3fe8e89d07ee69ce6f3e205"
+      "bytes": 17001,
+      "sha256": "afa18a142203b8c39e2917cd21875535f8e48d098b9c9753f93214187e91b31d"
     },
     {
       "path": "skills/solo-arc-motion/references/science-source-notes-ru.md",
-      "bytes": 4051,
-      "sha256": "e3ff95c3cfde8ad6edb10bca69cada954023e27767016e937fb5709918b0206e"
+      "bytes": 4028,
+      "sha256": "a0f8fae7a06eaab9654654f6219e73841c6faef4b8bb6d1f4ac5a9bda1ad47cc"
     },
     {
       "path": "skills/solo-arc-motion/references/sound-and-review.md",
-      "bytes": 6968,
-      "sha256": "240feeb810a46532c98c170fa9e9b46bf34c518fce19a6c7a4a812cf4681465f"
+      "bytes": 6919,
+      "sha256": "8f8675d54d7b727f3d3811442194eab98faee593ea4df5be6e4cca8a659c8d9f"
     },
     {
       "path": "skills/solo-arc-motion/references/validation.md",
-      "bytes": 12279,
-      "sha256": "2c44f0e0b2709685d946d3da3276d4fe0dcf17ef6a5cf0e8cd40ad84510eb766"
+      "bytes": 12232,
+      "sha256": "419fb91b815830f8d575be4a3374ea2db986002ca5e329b02aaa40b84d9837c8"
     },
     {
       "path": "skills/solo-arc-motion/scripts/a6api-reference.mjs",
@@ -2697,8 +2703,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 8656,
-      "sha256": "b230c5d6a7aced1485db9103ce80ab17c7ca32a89bae7e03c03e7490f69b40ba"
+      "bytes": 8597,
+      "sha256": "e0144ed7678f3fadb8d9b4e460a671de6b1753d2904d20c9be53adefa6d7f533"
     },
     {
       "path": "skills/writers-room-story-engine/.gitignore",
@@ -2796,8 +2802,8 @@
       "sha256": "79005482e755a27e240e529593c4bc7d6326f23c41334e60d9497162cb1a10de"
     }
   ],
-  "file_count": 558,
-  "logical_bytes": 703874038,
+  "file_count": 559,
+  "logical_bytes": 703866780,
   "final_video_sha256": "81817d0b5e26e41c831a5665c160bb8e42d29a5a7af42388dacf0ded07a7bd41",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,
