@@ -1,4 +1,6 @@
-# SOLO ARC — Claude entry point
+# Fitness channel — Claude entry point
+
+The public channel name is pending. The owner rejected SOLO ARC on 11 October 2026 and wants a nickname for a channel explaining fat loss. The `solo-arc` paths are legacy technical identifiers. See `branding/README_RU.md` for current unapproved concepts.
 
 Before project work, read [START_CLAUDE_RU.md](START_CLAUDE_RU.md). It covers context intake, references, LFS downloads, dependencies, skills, API setup, production and the first prompt.
 

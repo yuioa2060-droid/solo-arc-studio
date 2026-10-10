@@ -1,6 +1,6 @@
 interface:
-  display_name: "SOLO ARC — монтаж в Remotion"
+  display_name: "Фитнес-канал — монтаж в Remotion"
   short_description: "Правила v11, чистый фон, PNG, голос и редкие SFX"
-  default_prompt: "Use $solo-arc-motion to create or edit a SOLO ARC fitness episode in Remotion with current rules, approved identity, meaningful objects, narration timing, a clean background, sparse quiet SFX and music when requested."
+  default_prompt: "Use $solo-arc-motion to create or edit this fitness channel's Remotion episode with current rules, approved identity, meaningful objects, narration timing, a clean background, sparse quiet SFX and music when requested."
 policy:
   allow_implicit_invocation: true
