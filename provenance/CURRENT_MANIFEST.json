@@ -68,8 +68,8 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 2255,
-      "sha256": "6be8e02104d1a358fac27e1bdb25eac29f5bff0c9c76746308fa523718bd394e"
+      "bytes": 2784,
+      "sha256": "12c55c1af59408e95c89f3541db92e9c69c35ec285666274fd2e0b064a9a11fc"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
@@ -1597,6 +1597,16 @@
       "sha256": "928b4a9fbb1bfc11372d211a0afd57602edf34b1f2584a526b49aea87fb8f9c3"
     },
     {
+      "path": "research/CHANNEL_BRANDING_RU.md",
+      "bytes": 43983,
+      "sha256": "3fcef6638da0daa13333f267f8031ff4e3d414a27578bdc80a8a53a0aad63bb1"
+    },
+    {
+      "path": "research/competitors-overview.jpg",
+      "bytes": 328449,
+      "sha256": "3ed5efa39cd5db0828f144372aa6b818c98b3796da03df6012c5f23f033c5feb"
+    },
+    {
       "path": "scripts/run.mjs",
       "bytes": 1496,
       "sha256": "a4cb8bdcbd84ac246c6d4c26fd9701b8f20e2718e915b208af0968cd87b5de39"
@@ -2827,8 +2837,8 @@
       "sha256": "feeeae1bca828778cc4aae48e27a3a8ab2eb3f36617014c3562351ef93068bd2"
     }
   ],
-  "file_count": 564,
-  "logical_bytes": 703901060,
+  "file_count": 566,
+  "logical_bytes": 704274021,
   "final_video_sha256": "81817d0b5e26e41c831a5665c160bb8e42d29a5a7af42388dacf0ded07a7bd41",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,
