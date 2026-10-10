@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T20:29:57.973Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "d8cba02f22964c7ff0b917e02c6ef1b1872f8e9ffbf3f6696bec200dd6317e9c",
+  "references": [
+    {
+      "name": "o-protein.png",
+      "sha256": "5f4271a03154db167daf1aeebf0ac2d0b0886b989e4213a97fa0d50b56bd83f7"
+    }
+  ],
+  "output": "/vercel/sandbox/data/work/ep-v6/raw/o-dumbbell.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/vercel/sandbox/data/work/ep-v6/raw/o-dumbbell.png",
+  "imageBytes": 1635696,
+  "imageSha256": "342bc531de4eae08a500edfe6b3e0b0d3ed732f6acbeb511348d885f33dbcfcd",
+  "finishedAt": "2026-10-09T20:30:28.601Z"
+}

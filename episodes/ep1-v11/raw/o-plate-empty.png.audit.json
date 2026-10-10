@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-08T21:23:20.141Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "19dd9dc3b5a62ba7867d3e1fcd44353348b7dda74acb72080658e8cb899d28a3",
+  "references": [
+    {
+      "name": "o-walk.png",
+      "sha256": "62745b833067ee45557593525537c9d35f00f0c8803e7e11b04eb89da645a255"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/o-plate-empty.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/o-plate-empty.png",
+  "imageBytes": 1937388,
+  "imageSha256": "5c22ed6fa7d696777288b4e5d3b8454c7a7c26e6dbc85b29352bf04dac3304ed",
+  "finishedAt": "2026-10-08T21:23:45.483Z"
+}

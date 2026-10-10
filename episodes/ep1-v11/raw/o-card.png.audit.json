@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-08T21:24:52.585Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "c54fb85b568bd7cf6d4b8fbd642b9425bdcff84d933dc2c4490bf260c4337e6c",
+  "references": [
+    {
+      "name": "k2-paper-tape.png",
+      "sha256": "466a1ecc84bad210976e64696f0d95f10728132935858768a666292ef9939e72"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/o-card.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/o-card.png",
+  "imageBytes": 1611600,
+  "imageSha256": "37ffb320baab5caabdacd9dec7d497a51b037ad23b289bf4c8362da493f5a77d",
+  "finishedAt": "2026-10-08T21:25:22.382Z"
+}

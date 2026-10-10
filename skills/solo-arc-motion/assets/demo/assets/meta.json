@@ -1,0 +1,23 @@
+{
+  "presenter-torso": {
+    "width": 830,
+    "height": 1536,
+    "highlightPath": "M325 673Q399 703 494 680L526 716Q489 817 471 910L423 1034Q342 1058 277 1031L252 941Q242 821 257 755Q283 697 325 673Z"
+  },
+  "point-viewer": {
+    "width": 906,
+    "height": 1605
+  },
+  "crunch-low-v14": {
+    "width": 1536,
+    "height": 680
+  },
+  "crunch-new-up": {
+    "width": 1536,
+    "height": 680
+  },
+  "hands-head-v14": {
+    "width": 1672,
+    "height": 940
+  }
+}

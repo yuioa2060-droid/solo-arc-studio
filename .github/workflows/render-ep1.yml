@@ -1,0 +1,50 @@
+name: Render EP1 / preview
+on:
+  workflow_dispatch:
+    inputs:
+      full_video:
+        description: Render full 1080p EP1 instead of the short preview
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - name: Fetch the runtime assets
+        run: |
+          git lfs install --local
+          git lfs pull --include="episodes/ep1-v11/film/public/**"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install rendering libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 libx11-xcb1 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 libcups2 libgtk-3-0 fonts-liberation
+          npm ci
+          npm run browser:ensure
+      - run: npm run doctor
+      - name: Render
+        env:
+          FULL_VIDEO: ${{ inputs.full_video }}
+        run: |
+          if [ "$FULL_VIDEO" = "true" ]; then
+            npm run render:ep1
+          else
+            npm run render:preview
+          fi
+      - name: Decode check
+        run: ffmpeg -v error -i outputs/*.mp4 -f null -
+      - uses: actions/upload-artifact@v4
+        with:
+          name: solo-arc-ep1
+          path: outputs/*.mp4
+          retention-days: 7
+          if-no-files-found: error

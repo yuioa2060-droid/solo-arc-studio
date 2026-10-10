@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.655Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "c949f11df85694f373b2f87dc6d4466d77ebe6125f5639b15a4babf8354acac4",
+  "references": [
+    {
+      "name": "o-salt.png",
+      "sha256": "b0e0e0f8fb5b28550d4f01ddf55a79415f77c188a0b83a3b36ac7d46a5a0bc61"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-lens.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-lens.png",
+  "imageBytes": 1823123,
+  "imageSha256": "4364caabb04c21af9dc74f538ea43c769a4da605b8632b7ec0bfd166bebeb39d",
+  "finishedAt": "2026-10-09T09:25:46.784Z"
+}

@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T23:06:29.562Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "eb48f3dc15eba2c2834efdc35060a94543a87fb180fb777425aac7dcdb365b5e",
+  "references": [
+    {
+      "name": "o-protein.png",
+      "sha256": "69e8cdae8d2aec79f1f6706137fd623eb8871f708e3b4816c4defc3a03eeae57"
+    }
+  ],
+  "output": "/vercel/sandbox/data/work/ep-v6/raw/o-hourglass-low.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/vercel/sandbox/data/work/ep-v6/raw/o-hourglass-low.png",
+  "imageBytes": 1673610,
+  "imageSha256": "f6058e64a4a84f270500d835f66c768b3c1ec91f8bd6f779d2b17952f867e0b7",
+  "finishedAt": "2026-10-09T23:06:59.829Z"
+}

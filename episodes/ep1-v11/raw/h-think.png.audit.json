@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-08T21:23:20.068Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "59d8aba29755ac603655c67ec43f3ab2d97fe3106a1a9496ee037e62ca8aa0bc",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "APPROVED-h3-hero-waist.png",
+      "sha256": "4b0149a337be3ae103ab8dad57d93ec68fb9894486228f59aec9a2e14caa5ea2"
+    },
+    {
+      "name": "h-up.png",
+      "sha256": "3a2b4d3bb7d422ffd54f5ed2ec56ce8052079b2a33e01f639ec28c9f38270025"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/h-think.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/h-think.png",
+  "imageBytes": 1000880,
+  "imageSha256": "32217786d096fe204ef0fd5507a315ea5ffd7be26cceaa82c93746fa199d4f2c",
+  "finishedAt": "2026-10-08T21:23:48.231Z"
+}

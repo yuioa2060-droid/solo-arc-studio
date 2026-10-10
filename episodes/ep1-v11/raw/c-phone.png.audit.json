@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.558Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "e1af8358f7c851bb08996fb3797ca792c9a0f5789b941392f07e4ce1c836c78a",
+  "references": [
+    {
+      "name": "o-crunch.png",
+      "sha256": "de8ef7289c4c219c81bcb62ed96dc1ad444e0dbe2bc608f08b85850c8c88a8ba"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-phone.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-phone.png",
+  "imageBytes": 1601193,
+  "imageSha256": "5160613436239d5160058307135d66bcedd8fef6eac40716ca8df19ed704ef72",
+  "finishedAt": "2026-10-09T09:26:24.259Z"
+}

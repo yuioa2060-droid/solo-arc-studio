@@ -1,0 +1,39 @@
+{
+  "current_only_export": true,
+  "doctor": {
+    "passed": true,
+    "png_headers": 76,
+    "remotion_version": "4.0.454",
+    "master_seconds": 324.74
+  },
+  "skill_validator": "passed",
+  "voice_request": {
+    "dry_run": true,
+    "paid_request_sent": false,
+    "script_characters": 4900
+  },
+  "independent_copy": {
+    "protected_code_audio_and_png_match": true,
+    "dependency_cache_excluded": true
+  },
+  "mix_rebuild": {
+    "passed": true,
+    "current_stems_only": true,
+    "source_master_preserved": true,
+    "reported_lufs": -14.1,
+    "reported_true_peak_dbtp": -1.5
+  },
+  "preview": {
+    "seconds": 4,
+    "size": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "video": "h264",
+    "audio": "aac",
+    "ffmpeg_decode": "passed"
+  },
+  "final_video_sha256": "81817d0b5e26e41c831a5665c160bb8e42d29a5a7af42388dacf0ded07a7bd41",
+  "limits": "Technical checks only; no new claim of full creative playback/listening or medical validation."
+}

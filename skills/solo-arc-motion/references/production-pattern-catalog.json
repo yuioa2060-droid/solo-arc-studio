@@ -1,0 +1,1931 @@
+{
+  "version": 16,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationSeconds": 486
+  },
+  "renderer": "Film-v16.tsx",
+  "assets": "public/assets/meta.json",
+  "timing": "Seconds mapped to existing own narration; a new voice must be aligned again.",
+  "patterns": [
+    {
+      "id": "exercise-preview-before-equipment",
+      "purpose": "Introduce the weighted movement with a temporary upper-left title, then dissolve to isolated equipment and return to the spoken curl/lowering demonstration.",
+      "renderer": "Complete registered Sprite pair, exercise-title Graphic and spaced vector props",
+      "examples": [
+        {
+          "id": "weighted-down",
+          "a": 178.9446574654956,
+          "b": 182.525130489335,
+          "x": 1020,
+          "y": 370,
+          "w": 1300,
+          "rise": 0,
+          "key": "weighted-introduction-v15",
+          "states": [
+            [
+              180.5366574654956,
+              "weighted-up"
+            ],
+            [
+              181.29465746549562,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 179.7,
+          "sourceB": 185.75,
+          "entryDuration": 0.75,
+          "fadeIn": 0.45,
+          "fadeOut": 0.5,
+          "weightedStaging": true,
+          "idleMotion": false,
+          "poseBlend": 0.38,
+          "weightedArtRevision": true
+        },
+        {
+          "id": "weighted-down",
+          "a": 184.35252195734,
+          "b": 189.36591342534504,
+          "x": 1020,
+          "y": 370,
+          "w": 1300,
+          "rise": 650,
+          "key": "weighted-down-182.25",
+          "states": [
+            [
+              186.00652195734003,
+              "weighted-up"
+            ],
+            [
+              187.88091342534503,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 182.25,
+          "sourceB": 190.9,
+          "entryDuration": 0.95,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "weightedStaging": true
+        }
+      ],
+      "verification": "weighted-introduction-verification.json",
+      "limit": "Measured for this composition; title is absent after the equipment cutaway."
+    },
+    {
+      "id": "motivated-hand-placement-cutaway",
+      "purpose": "On the spoken warning about hand placement, dissolve the floor demonstration into a separate large view of the hands behind the head; return before the spoken shoulder curl.",
+      "renderer": "Whole generated hands-head-v14 sprite, word-derived shot window",
+      "examples": [
+        {
+          "id": "hands-head-v14",
+          "key": "hands-head-warning-v14",
+          "a": 146.25615432873275,
+          "b": 149.78054579673775,
+          "x": 960,
+          "y": 310,
+          "w": 1660,
+          "rise": 420,
+          "entryDuration": 0.9,
+          "fadeIn": 0.4,
+          "fadeOut": 0.38,
+          "idleMotion": false,
+          "allowCrop": true,
+          "newCrunchArt": true,
+          "states": []
+        },
+        {
+          "id": "crunch-low-v14",
+          "key": "crunch-lift-v14",
+          "a": 149.38054579673775,
+          "b": 157.0143287327478,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 0,
+          "entryDuration": 0.65,
+          "fadeIn": 0.4,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "allowCrop": false,
+          "newCrunchArt": true,
+          "states": [
+            [
+              151.02454579673778,
+              "crunch-new-up"
+            ]
+          ]
+        }
+      ],
+      "scope": "Research-observed explanation, synchronized to own narration. No source pixels."
+    },
+    {
+      "id": "large-presenter-with-progressive-promise",
+      "purpose": "Present the visual subject first; independently reveal its colored region, then two numbered promises.",
+      "layers": [
+        "complete generated sprite",
+        "locally measured highlight path",
+        "two staggered number badges",
+        "outward progressive dashed leaders"
+      ],
+      "entry": "geometry.mjs: geometry and graphicDy",
+      "examples": [
+        {
+          "id": "presenter-torso",
+          "a": 0.135,
+          "b": 3.9946363636363635,
+          "x": 940,
+          "y": -157,
+          "w": 848.3723958333334,
+          "rise": 350,
+          "key": "abs-flex-0.15",
+          "highlight": "red",
+          "highlightA": 0.813109090909091,
+          "highlightDuration": 0.54,
+          "entryDuration": 1.1,
+          "fadeIn": 0.6,
+          "fadeOut": 0.3,
+          "allowCrop": true,
+          "sourceA": 0.15,
+          "sourceB": 4.6,
+          "states": []
+        }
+      ]
+    },
+    {
+      "id": "spoken-phrase-cutaway",
+      "purpose": "Temporarily replace imagery with short exact spoken phrases, using existing word timestamps.",
+      "renderer": "Text; exclusive voice.cards branch",
+      "data": "voice-cues.json",
+      "preparation": "58 inherited cards plus two third-chapter emphases from unchanged own word marks.",
+      "noNewSpeech": true
+    },
+    {
+      "id": "registered-whole-pose-demonstration",
+      "purpose": "Create apparent exercise movement from complete alternate PNGs without breaking anatomy.",
+      "renderer": "Sprite states",
+      "transitionSeconds": 0.24,
+      "anchors": "LocalExerciseCue inherits full sprite wrapper; never use detached screen coordinates.",
+      "examples": [
+        {
+          "id": "hanging-up",
+          "a": 9.255183640780583,
+          "b": 12.372560225846925,
+          "x": 1010,
+          "y": 130,
+          "w": 701.9524100061013,
+          "rise": 480,
+          "key": "hanging-up-10.35",
+          "states": [
+            [
+              11.01992832163165,
+              "hanging-down"
+            ]
+          ],
+          "sourceA": 10.35,
+          "sourceB": 13.55,
+          "entryDuration": 1.1664981657278637,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66
+        },
+        {
+          "id": "hanging-up",
+          "a": 34.56844226897375,
+          "b": 37.726585078660335,
+          "x": 680,
+          "y": 90,
+          "w": 669.1946308724832,
+          "rise": 480,
+          "key": "hanging-up-36.2",
+          "states": [
+            [
+              36.315116687578396,
+              "hanging-down"
+            ]
+          ],
+          "sourceA": 36.2,
+          "sourceB": 39.55,
+          "entryDuration": 1.326419980068367,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "floor-45",
+          "a": 40.49298117942281,
+          "b": 43.27737264742784,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 650,
+          "key": "floor-45-42.2",
+          "allowCrop": false,
+          "sourceA": 42.2,
+          "sourceB": 45.7,
+          "states": [],
+          "entryDuration": 1.169444416562111,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "floor-down",
+          "a": 48.72336291264655,
+          "b": 57.273192666945484,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 650,
+          "key": "floor-down-52.3",
+          "allowCrop": false,
+          "sourceA": 52.3,
+          "sourceB": 59.3,
+          "states": [],
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66
+        },
+        {
+          "id": "floor-down",
+          "a": 59.53708155583437,
+          "b": 68.17756022584693,
+          "x": 960,
+          "y": 10,
+          "w": 1500,
+          "rise": 0,
+          "key": "floor-down-61.5",
+          "states": [
+            [
+              59.953473023839386,
+              "floor-up"
+            ],
+            [
+              66.64986449184441,
+              "floor-hip"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 61.5,
+          "sourceB": 69.65,
+          "entryDuration": 1.55,
+          "fadeIn": 0.18,
+          "fadeOut": 0.62,
+          "idleMotion": false
+        },
+        {
+          "id": "floor-hip",
+          "a": 71.60449247176913,
+          "b": 83.77812416459683,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 650,
+          "key": "floor-hip-72.05",
+          "states": [
+            [
+              77.03812045169386,
+              "floor-45"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 72.05,
+          "sourceB": 84.6,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "hanging-down",
+          "a": 97.26558074027604,
+          "b": 119.91965683814304,
+          "x": 670,
+          "y": 30,
+          "w": 641.1165344722392,
+          "rise": 700,
+          "key": "hanging-down-97.65",
+          "states": [
+            [
+              103.64339523212044,
+              "hanging-up"
+            ],
+            [
+              110.82517816813048,
+              "hanging-down"
+            ],
+            [
+              116.41296110414052,
+              "hanging-up"
+            ]
+          ],
+          "allowCrop": true,
+          "sourceA": 97.65,
+          "sourceB": 121.65,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 129.84698767010906,
+          "b": 138.6888983688833,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-130.15",
+          "allowCrop": false,
+          "sourceA": 130.15,
+          "sourceB": 139.1,
+          "states": [],
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62,
+          "newCrunchArt": true
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 141.2882898368883,
+          "b": 146.45615432873274,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-142.1",
+          "states": [],
+          "allowCrop": false,
+          "sourceA": 142.1,
+          "sourceB": 158.8,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "newCrunchArt": true
+        },
+        {
+          "id": "crunch-low-v14",
+          "key": "crunch-lift-v14",
+          "a": 149.38054579673775,
+          "b": 157.0143287327478,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 0,
+          "entryDuration": 0.65,
+          "fadeIn": 0.4,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "allowCrop": false,
+          "newCrunchArt": true,
+          "states": [
+            [
+              151.02454579673778,
+              "crunch-new-up"
+            ]
+          ]
+        },
+        {
+          "id": "crunch-wrong",
+          "a": 156.6743287327478,
+          "b": 160.52424765166674,
+          "x": 960,
+          "y": 50,
+          "w": 1278.390596745027,
+          "rise": 650,
+          "key": "crunch-wrong-159",
+          "allowCrop": false,
+          "sourceA": 159,
+          "sourceB": 162.55,
+          "states": [],
+          "entryDuration": 1.4337778378378487,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66
+        },
+        {
+          "id": "crunch-new-up",
+          "a": 160.18424765166674,
+          "b": 170.17981898583102,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-up-162.65",
+          "states": [
+            [
+              167.29808727851395,
+              "crunch-low-v14"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 162.65,
+          "sourceB": 170.6,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62,
+          "newCrunchArt": true
+        },
+        {
+          "id": "weighted-down",
+          "a": 178.9446574654956,
+          "b": 182.525130489335,
+          "x": 1020,
+          "y": 370,
+          "w": 1300,
+          "rise": 0,
+          "key": "weighted-introduction-v15",
+          "states": [
+            [
+              180.5366574654956,
+              "weighted-up"
+            ],
+            [
+              181.29465746549562,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 179.7,
+          "sourceB": 185.75,
+          "entryDuration": 0.75,
+          "fadeIn": 0.45,
+          "fadeOut": 0.5,
+          "weightedStaging": true,
+          "idleMotion": false,
+          "poseBlend": 0.38,
+          "weightedArtRevision": true
+        },
+        {
+          "id": "weighted-down",
+          "a": 184.35252195734,
+          "b": 189.36591342534504,
+          "x": 1020,
+          "y": 370,
+          "w": 1300,
+          "rise": 650,
+          "key": "weighted-down-182.25",
+          "states": [
+            [
+              186.00652195734003,
+              "weighted-up"
+            ],
+            [
+              187.88091342534503,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 182.25,
+          "sourceB": 190.9,
+          "entryDuration": 0.95,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "weightedStaging": true
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 225.65229736511918,
+          "b": 231.98068883312422,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-230.5",
+          "states": [
+            [
+              226.89846757788513,
+              "crunch-new-up"
+            ],
+            [
+              227.708478216183,
+              "crunch-low-v14"
+            ],
+            [
+              228.5184888544809,
+              "crunch-new-up"
+            ],
+            [
+              229.39080800341705,
+              "crunch-low-v14"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 230.5,
+          "sourceB": 235.2,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "newCrunchArt": true
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 236.71208030112922,
+          "b": 247.8218632371393,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-240.1",
+          "states": [
+            [
+              238.99852672970067,
+              "crunch-new-up"
+            ],
+            [
+              241.52565172970066,
+              "crunch-low-v14"
+            ],
+            [
+              243.9689333075958,
+              "crunch-new-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 240.1,
+          "sourceB": 249.7,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "newCrunchArt": true
+        },
+        {
+          "id": "floor-down",
+          "a": 247.4818632371393,
+          "b": 251.3832120743486,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 650,
+          "key": "floor-down-249.8",
+          "states": [
+            [
+              248.4308399813253,
+              "floor-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 249.8,
+          "sourceB": 253.5,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 256.9636461731493,
+          "b": 262.22403764115427,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-258.6",
+          "states": [
+            [
+              258.4535572842604,
+              "crunch-new-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 258.6,
+          "sourceB": 263.1,
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.66,
+          "newCrunchArt": true
+        },
+        {
+          "id": "hanging-down",
+          "a": 268.60966562107905,
+          "b": 272.74890213299864,
+          "x": 670,
+          "y": 10,
+          "w": 650.4758999389871,
+          "rise": 700,
+          "key": "hanging-down-270.85",
+          "allowCrop": true,
+          "sourceA": 270.85,
+          "sourceB": 275.1,
+          "states": [],
+          "entryDuration": 1.55,
+          "fadeIn": 0.6,
+          "fadeOut": 0.62
+        },
+        {
+          "id": "crunch-new-up",
+          "a": 286.42785152655784,
+          "b": 291.3713011292345,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 650,
+          "key": "crunch-down-288.3",
+          "states": [
+            [
+              287.1175181932245,
+              "crunch-low-v14"
+            ],
+            [
+              287.9008739469438,
+              "crunch-new-up"
+            ],
+            [
+              288.7701596612295,
+              "crunch-low-v14"
+            ],
+            [
+              289.6394453755152,
+              "crunch-new-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 287.55,
+          "sourceB": 292.5,
+          "entryDuration": 1.1,
+          "fadeIn": 0.4,
+          "fadeOut": 0.66,
+          "poseBlend": 0.24,
+          "recoveryChapter": true,
+          "newCrunchArt": true
+        },
+        {
+          "id": "hanging-up",
+          "key": "tempo-hanging-example",
+          "sourceA": 305.2,
+          "sourceB": 307.8,
+          "a": 306.1122687211187,
+          "b": 308.1249284818067,
+          "x": 880,
+          "y": 110,
+          "w": 570,
+          "rise": 500,
+          "entryDuration": 1.05,
+          "fadeIn": 0.5,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "allowCrop": true,
+          "tempoChapter": true,
+          "poseBlend": 0.12,
+          "states": [
+            [
+              307.0622687211187,
+              "hanging-down"
+            ]
+          ]
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 307.6449284818067,
+          "b": 311.34831994981164,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 0,
+          "key": "crunch-down-305.8",
+          "states": [
+            [
+              308.0949284818067,
+              "crunch-new-up"
+            ],
+            [
+              308.79492848180666,
+              "crunch-low-v14"
+            ],
+            [
+              309.3449284818067,
+              "crunch-new-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 305.8,
+          "sourceB": 309.6,
+          "entryDuration": 0.65,
+          "fadeIn": 0.55,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "poseBlend": 0.12,
+          "tempoChapter": true,
+          "newCrunchArt": true
+        },
+        {
+          "id": "floor-down",
+          "a": 310.96831994981164,
+          "b": 314.7427114178166,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 0,
+          "key": "floor-down-309.7",
+          "states": [
+            [
+              311.9693199498116,
+              "floor-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 309.7,
+          "sourceB": 314.25,
+          "entryDuration": 1.55,
+          "fadeIn": 0.32,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.12
+        },
+        {
+          "id": "weighted-down",
+          "a": 314.40271141781665,
+          "b": 318.001347781453,
+          "x": 960,
+          "y": 192.03434610303827,
+          "w": 1460,
+          "rise": 0,
+          "key": "weighted-down-314.4",
+          "states": [
+            [
+              315.18171141781664,
+              "weighted-up"
+            ],
+            [
+              315.64771141781665,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 314.4,
+          "sourceB": 318.75,
+          "entryDuration": 1.5114272727272589,
+          "fadeIn": 0.3,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.15
+        },
+        {
+          "id": "weighted-up",
+          "a": 322.83557590966103,
+          "b": 324.71389409147923,
+          "x": 960,
+          "y": 192.03434610303827,
+          "w": 1460,
+          "rise": 0,
+          "key": "weighted-up-322.5",
+          "states": [
+            [
+              323.619575909661,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 322.5,
+          "sourceB": 326.8,
+          "entryDuration": 0.7888936363636446,
+          "fadeIn": 0.18,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.38
+        }
+      ]
+    },
+    {
+      "id": "settled-starting-pose",
+      "purpose": "Show the complete starting position before the spoken first pose change; use a stationary fade when the short hold cannot accommodate a stage entrance.",
+      "renderer": "geometry idleMotion=false, rise=0; Sprite whole PNG states",
+      "examples": [
+        {
+          "id": "floor-down",
+          "a": 59.53708155583437,
+          "b": 68.17756022584693,
+          "x": 960,
+          "y": 10,
+          "w": 1500,
+          "rise": 0,
+          "key": "floor-down-61.5",
+          "states": [
+            [
+              59.953473023839386,
+              "floor-up"
+            ],
+            [
+              66.64986449184441,
+              "floor-hip"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 61.5,
+          "sourceB": 69.65,
+          "entryDuration": 1.55,
+          "fadeIn": 0.18,
+          "fadeOut": 0.62,
+          "idleMotion": false
+        },
+        {
+          "id": "weighted-up",
+          "a": 322.83557590966103,
+          "b": 324.71389409147923,
+          "x": 960,
+          "y": 192.03434610303827,
+          "w": 1460,
+          "rise": 0,
+          "key": "weighted-up-322.5",
+          "states": [
+            [
+              323.619575909661,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 322.5,
+          "sourceB": 326.8,
+          "entryDuration": 0.7888936363636446,
+          "fadeIn": 0.18,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.38
+        }
+      ],
+      "limit": "Scene-specific measured staging; do not shorten every inertial entrance automatically."
+    },
+    {
+      "id": "ordered-tempo-comparison",
+      "purpose": "Use whole hanging, crunch, floor and weighted examples in a measured narrative order. A rapid incorrect example may have a short pose blend; the later controlled lowering has a separate slower blend.",
+      "renderer": "Sprite poseBlend; picture-plan tempoChapter",
+      "examples": [
+        {
+          "id": "hanging-up",
+          "key": "tempo-hanging-example",
+          "sourceA": 305.2,
+          "sourceB": 307.8,
+          "a": 306.1122687211187,
+          "b": 308.1249284818067,
+          "x": 880,
+          "y": 110,
+          "w": 570,
+          "rise": 500,
+          "entryDuration": 1.05,
+          "fadeIn": 0.5,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "allowCrop": true,
+          "tempoChapter": true,
+          "poseBlend": 0.12,
+          "states": [
+            [
+              307.0622687211187,
+              "hanging-down"
+            ]
+          ]
+        },
+        {
+          "id": "crunch-low-v14",
+          "a": 307.6449284818067,
+          "b": 311.34831994981164,
+          "x": 1010,
+          "y": 322,
+          "w": 1650,
+          "rise": 0,
+          "key": "crunch-down-305.8",
+          "states": [
+            [
+              308.0949284818067,
+              "crunch-new-up"
+            ],
+            [
+              308.79492848180666,
+              "crunch-low-v14"
+            ],
+            [
+              309.3449284818067,
+              "crunch-new-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 305.8,
+          "sourceB": 309.6,
+          "entryDuration": 0.65,
+          "fadeIn": 0.55,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "poseBlend": 0.12,
+          "tempoChapter": true,
+          "newCrunchArt": true
+        },
+        {
+          "id": "floor-down",
+          "a": 310.96831994981164,
+          "b": 314.7427114178166,
+          "x": 960,
+          "y": 50,
+          "w": 1322.9126213592233,
+          "rise": 0,
+          "key": "floor-down-309.7",
+          "states": [
+            [
+              311.9693199498116,
+              "floor-up"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 309.7,
+          "sourceB": 314.25,
+          "entryDuration": 1.55,
+          "fadeIn": 0.32,
+          "fadeOut": 0.66,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.12
+        },
+        {
+          "id": "weighted-down",
+          "a": 314.40271141781665,
+          "b": 318.001347781453,
+          "x": 960,
+          "y": 192.03434610303827,
+          "w": 1460,
+          "rise": 0,
+          "key": "weighted-down-314.4",
+          "states": [
+            [
+              315.18171141781664,
+              "weighted-up"
+            ],
+            [
+              315.64771141781665,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 314.4,
+          "sourceB": 318.75,
+          "entryDuration": 1.5114272727272589,
+          "fadeIn": 0.3,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.15
+        },
+        {
+          "id": "weighted-up",
+          "a": 322.83557590966103,
+          "b": 324.71389409147923,
+          "x": 960,
+          "y": 192.03434610303827,
+          "w": 1460,
+          "rise": 0,
+          "key": "weighted-up-322.5",
+          "states": [
+            [
+              323.619575909661,
+              "weighted-down"
+            ]
+          ],
+          "allowCrop": false,
+          "sourceA": 322.5,
+          "sourceB": 326.8,
+          "entryDuration": 0.7888936363636446,
+          "fadeIn": 0.18,
+          "fadeOut": 0.62,
+          "idleMotion": false,
+          "tempoChapter": true,
+          "poseBlend": 0.38
+        }
+      ],
+      "verification": "tempo-chapter-verification.json"
+    },
+    {
+      "id": "chapter-badge-through-emphasis",
+      "purpose": "Keep the active small chapter context while imagery dissolves into an exact spoken phrase. Do not hide the context with the illustrative layers.",
+      "renderer": "Film card branch retains the active corner badge",
+      "data": "voice-cues.json / graphics badge size 135",
+      "scope": "All three habit sections separately observed in source. No invented badge outside these sections."
+    },
+    {
+      "id": "prefilled-teaching-gauge",
+      "purpose": "Reveal an already established value with the chart; do not turn a fixed illustrative half-value into a different animated claim.",
+      "renderer": "ControlGauge initiallyFilled=true",
+      "examples": [
+        {
+          "type": "gauge",
+          "a": 287.64008823265806,
+          "b": 290.8999096612295,
+          "x": 960,
+          "y": 224,
+          "w": 660,
+          "fill": 0.5,
+          "color": "#E53940",
+          "sourceA": 288.75,
+          "sourceB": 292.5,
+          "rise": 0,
+          "idleMotion": false,
+          "fadeIn": 0.35,
+          "title": "Muscle growth",
+          "initiallyFilled": true,
+          "recoveryChapter": true
+        }
+      ],
+      "verification": "recovery-chapter-verification.json",
+      "limit": "Only the source-observed recovery chart is prefilled; existing challenge charts retain their own animation."
+    },
+    {
+      "id": "hidden-plan-then-payoff",
+      "purpose": "Tease the result using genuinely pixelated own plan rows, then reveal readable rows at payoff.",
+      "renderer": "TeaserPlan / FinalSessionPlan",
+      "preview": "Immutable v10 cards plus the independent third v14 card, sharing current final-plan pose at 82×20. v16 does not change the card artwork.",
+      "examples": [
+        {
+          "type": "plan",
+          "a": 15.308255959849435,
+          "b": 17.83069915199238,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "preview",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowRise": 450,
+          "rowEntry": 0.9,
+          "rise": 0,
+          "fadeIn": 0.12,
+          "fadeOut": 0.16,
+          "sourceA": 17.1,
+          "sourceB": 20.05,
+          "rowTimes": [
+            15.308255959849435,
+            15.708255959849435,
+            16.108255959849433,
+            16.508255959849436
+          ]
+        },
+        {
+          "type": "plan",
+          "a": 196.5098789209536,
+          "b": 204.57177613164757,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "preview",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowRise": 450,
+          "rowEntry": 0.9,
+          "rise": 0,
+          "fadeIn": 0.12,
+          "fadeOut": 0.16,
+          "sourceA": 200.15,
+          "sourceB": 208.55,
+          "rowTimes": [
+            196.5098789209536,
+            196.90987892095362,
+            197.30987892095362,
+            197.7098789209536
+          ]
+        },
+        {
+          "type": "plan",
+          "a": 439.5140702634877,
+          "b": 445.75939397741485,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "session",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowSourceTimes": [
+            435.2,
+            436.2,
+            437.3,
+            438.6
+          ],
+          "sourceA": 435.2,
+          "sourceB": 442.7,
+          "rowTimes": [
+            439.5140702634877,
+            440.4412497506672,
+            441.46114718656463,
+            442.66648051989796
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staggered-teaser-with-settled-hold",
+      "purpose": "Give each blurred promise its own entrance and leave a settled interval before the black spoken cutaway.",
+      "renderer": "TeaserPlan.tsx",
+      "timingVerification": "teaser-timing-verification.json",
+      "examples": [
+        {
+          "type": "plan",
+          "a": 15.308255959849435,
+          "b": 17.83069915199238,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "preview",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowRise": 450,
+          "rowEntry": 0.9,
+          "rise": 0,
+          "fadeIn": 0.12,
+          "fadeOut": 0.16,
+          "sourceA": 17.1,
+          "sourceB": 20.05,
+          "rowTimes": [
+            15.308255959849435,
+            15.708255959849435,
+            16.108255959849433,
+            16.508255959849436
+          ]
+        },
+        {
+          "type": "plan",
+          "a": 196.5098789209536,
+          "b": 204.57177613164757,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "preview",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowRise": 450,
+          "rowEntry": 0.9,
+          "rise": 0,
+          "fadeIn": 0.12,
+          "fadeOut": 0.16,
+          "sourceA": 200.15,
+          "sourceB": 208.55,
+          "rowTimes": [
+            196.5098789209536,
+            196.90987892095362,
+            197.30987892095362,
+            197.7098789209536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progressive-anatomical-guide",
+      "purpose": "Show a label first; draw its outlined dashed line outward from the locally measured muscle region.",
+      "renderer": "Leader; progressive-path.mjs",
+      "mask": false,
+      "badgeOpacity": "Only an explicitly linked badge controls opacity.",
+      "examples": [
+        {
+          "a": 25.723327195733987,
+          "b": 28.034577195733984,
+          "text": "Upper",
+          "x": 1543,
+          "y": 490,
+          "size": 72,
+          "key": "upper",
+          "target": "abs-neutral-26.2",
+          "end": [
+            0.545,
+            0.335
+          ],
+          "sourceA": 27.65,
+          "sourceB": 30.15,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1405,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 25.862002195733982,
+          "lineDuration": 0.6194150000000036
+        },
+        {
+          "a": 26.694052195733985,
+          "b": 28.034577195733984,
+          "text": "Lower",
+          "x": 1543,
+          "y": 645,
+          "size": 72,
+          "key": "lower",
+          "target": "abs-neutral-26.2",
+          "end": [
+            0.545,
+            0.42
+          ],
+          "sourceA": 28.7,
+          "sourceB": 30.15,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1405,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 26.832727195733984,
+          "lineDuration": 0.619415
+        },
+        {
+          "a": 32.54597715269468,
+          "b": 34.982128315485376,
+          "text": "Lower",
+          "x": 1543,
+          "y": 645,
+          "size": 72,
+          "key": "lower-focus",
+          "target": "abs-lower-33.65",
+          "end": [
+            0.545,
+            0.42
+          ],
+          "sourceA": 34,
+          "sourceB": 36.65,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1405,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 32.68387250153189,
+          "lineDuration": 0.6159325581395336
+        },
+        {
+          "a": 125.54916230787329,
+          "b": 129.70916074703214,
+          "text": "Upper",
+          "x": 1543,
+          "y": 490,
+          "size": 72,
+          "key": "upper-focus",
+          "target": "abs-upper-126.3",
+          "end": [
+            0.545,
+            0.335
+          ],
+          "sourceA": 126.65,
+          "sourceB": 130,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1405,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 125.73999043287328,
+          "lineDuration": 0.8523656249999902
+        },
+        {
+          "a": 428.2249958594727,
+          "b": 431.6998958594727,
+          "text": "Upper",
+          "x": 1623,
+          "y": 490,
+          "size": 72,
+          "key": "upper-recap",
+          "target": "abs-regions-422.1",
+          "end": [
+            0.545,
+            0.335
+          ],
+          "sourceA": 422.5,
+          "sourceB": 426.1,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1485,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 428.36978335947265,
+          "lineDuration": 0.6467175000000225
+        },
+        {
+          "a": 428.7076208594727,
+          "b": 431.6998958594727,
+          "text": "Lower",
+          "x": 1623,
+          "y": 645,
+          "size": 72,
+          "key": "lower-recap",
+          "target": "abs-regions-422.1",
+          "end": [
+            0.545,
+            0.42
+          ],
+          "sourceA": 423,
+          "sourceB": 426.1,
+          "horizontal": true,
+          "fromMuscle": true,
+          "lineEndX": 1485,
+          "outlined": true,
+          "dash": "18 20",
+          "lineA": 428.85240835947263,
+          "lineDuration": 0.6467175000000225
+        }
+      ]
+    },
+    {
+      "id": "registered-exercise-arrow",
+      "purpose": "Keep the cue inside the moving pose wrapper, progressively trim its actual curve geometry, and preserve contrast on white skin.",
+      "renderer": "LocalExerciseCue; progressive-path.mjs",
+      "examples": [
+        {
+          "target": "floor-down-61.5",
+          "a": 65.10151314049305,
+          "b": 68.17756022584693,
+          "type": "arrow",
+          "points": [
+            [
+              0.52,
+              0.9
+            ],
+            [
+              0.63,
+              0.76
+            ],
+            [
+              0.53,
+              0.65
+            ]
+          ],
+          "color": "#F3F3F3",
+          "sourceA": 66.5,
+          "sourceB": 69.65
+        },
+        {
+          "target": "hanging-down-97.65",
+          "a": 103.83709735978002,
+          "b": 108.65731170012545,
+          "type": "arrow",
+          "points": [
+            [
+              0.49,
+              0.53
+            ],
+            [
+              0.58,
+              0.43
+            ],
+            [
+              0.46,
+              0.38
+            ]
+          ],
+          "color": "#EEE",
+          "sourceA": 104.35,
+          "sourceB": 109.1
+        }
+      ]
+    },
+    {
+      "id": "outlined-prescription-over-cycle",
+      "purpose": "Centre stationary numbers over a full two-arrow drawn cycle, using a black 6px under-stroke. The measured isolated stage centre differs from generic diagram positioning.",
+      "renderer": "Graphic cycle; RepetitionCycle",
+      "examples": [
+        {
+          "type": "cycle",
+          "a": 85.28190338770389,
+          "b": 90.17107214554579,
+          "x": 944,
+          "y": 349,
+          "text": "(3) 12–15 reps",
+          "size": 360,
+          "sourceA": 87.1,
+          "sourceB": 91.25
+        },
+        {
+          "type": "cycle",
+          "a": 119.98535257214554,
+          "b": 124.39135257214555,
+          "x": 944,
+          "y": 349,
+          "text": "(3) 8–12 reps",
+          "size": 360,
+          "sourceA": 121.7,
+          "sourceB": 126.3
+        },
+        {
+          "type": "cycle",
+          "a": 170.30511166875783,
+          "b": 174.8572659974906,
+          "x": 944,
+          "y": 349,
+          "text": "(3) 12–15 reps",
+          "size": 360,
+          "sourceA": 170.7,
+          "sourceB": 174.8
+        },
+        {
+          "type": "cycle",
+          "a": 189.06591342534503,
+          "b": 191.8938456712672,
+          "x": 944,
+          "y": 349,
+          "text": "(3) 8–12 reps",
+          "size": 360,
+          "sourceA": 193.25,
+          "sourceB": 195.7
+        },
+        {
+          "type": "cycle",
+          "a": 414.4980601735672,
+          "b": 418.4906018402339,
+          "x": 960,
+          "y": 405,
+          "text": "Build gradually",
+          "size": 290,
+          "sourceA": 410.7,
+          "sourceB": 413.8
+        }
+      ]
+    },
+    {
+      "id": "horizontal-presenter-entry",
+      "purpose": "Bring the complete presenter from the side with a small inertial settle; all local overlays share its geometry.",
+      "renderer": "geometry slideX",
+      "examples": [
+        {
+          "id": "presenter-torso",
+          "a": 439.5140702634877,
+          "b": 443.659932319728,
+          "x": 1415,
+          "y": 65,
+          "w": 620,
+          "rise": 0,
+          "key": "relaxed-435.2",
+          "slideX": 900,
+          "idleMotion": false,
+          "entryDuration": 1.7,
+          "fadeIn": 0.2,
+          "fadeOut": 0.55,
+          "sourceA": 435.2,
+          "sourceB": 439.8,
+          "states": []
+        }
+      ]
+    },
+    {
+      "id": "sequential-plan-and-settings",
+      "purpose": "Reveal each exercise row on its own mapped time; then dissolve the presenter into a clock and frequency symbol. Keep alternative pairs explicit in this own narration.",
+      "renderer": "Plan; SessionSettings",
+      "examples": [
+        {
+          "type": "plan",
+          "a": 439.5140702634877,
+          "b": 445.75939397741485,
+          "x": 510,
+          "y": 45,
+          "w": 820,
+          "kind": "session",
+          "rowHeight": 198,
+          "rowPitch": 260,
+          "rowSourceTimes": [
+            435.2,
+            436.2,
+            437.3,
+            438.6
+          ],
+          "sourceA": 435.2,
+          "sourceB": 442.7,
+          "rowTimes": [
+            439.5140702634877,
+            440.4412497506672,
+            441.46114718656463,
+            442.66648051989796
+          ]
+        },
+        {
+          "type": "session-settings",
+          "a": 443.5271087903163,
+          "b": 445.75939397741485,
+          "x": 1335,
+          "y": 55,
+          "w": 430,
+          "rise": 0,
+          "entryDuration": 1.1,
+          "fadeIn": 0.35,
+          "fadeOut": 0.55,
+          "sourceA": 439.6,
+          "sourceB": 442.7
+        }
+      ]
+    },
+    {
+      "id": "literal-month-calendar",
+      "purpose": "Show the intended number of dates rather than filling all seven-by-five slots. Blank positions are not imaginary days.",
+      "renderer": "TrainingCalendar",
+      "examples": [
+        {
+          "type": "calendar",
+          "a": 282.9795181932245,
+          "b": 286.74615921886556,
+          "x": 946,
+          "y": 290,
+          "w": 500,
+          "days": 31,
+          "sourceA": 284.3,
+          "sourceB": 287.85,
+          "recoveryChapter": true
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "shots": [
+      {
+        "id": "presenter-torso",
+        "a": 0.135,
+        "b": 3.9946363636363635,
+        "x": 940,
+        "y": -157,
+        "w": 848.3723958333334,
+        "rise": 350,
+        "key": "abs-flex-0.15",
+        "highlight": "red",
+        "highlightA": 0.813109090909091,
+        "highlightDuration": 0.54,
+        "entryDuration": 1.1,
+        "fadeIn": 0.6,
+        "fadeOut": 0.3,
+        "allowCrop": true,
+        "sourceA": 0.15,
+        "sourceB": 4.6,
+        "states": []
+      }
+    ],
+    "graphics": [
+      {
+        "type": "badge",
+        "a": 1.9629545454545454,
+        "b": 3.9946363636363635,
+        "x": 350,
+        "y": 275,
+        "n": 1,
+        "color": "#F5F5F5",
+        "size": 270,
+        "rise": 185,
+        "entryDuration": 0.9,
+        "fadeIn": 0.44,
+        "fadeOut": 0.3,
+        "rotation": -18,
+        "key": "opening-badge-1",
+        "sourceA": 2.25,
+        "sourceB": 4.6
+      },
+      {
+        "type": "badge",
+        "a": 2.4816818181818183,
+        "b": 3.9946363636363635,
+        "x": 1610,
+        "y": 265,
+        "n": 2,
+        "color": "#F5F5F5",
+        "size": 270,
+        "rise": 185,
+        "entryDuration": 0.9,
+        "fadeIn": 0.44,
+        "fadeOut": 0.3,
+        "rotation": 9,
+        "key": "opening-badge-2",
+        "sourceA": 2.85,
+        "sourceB": 4.6
+      }
+    ],
+    "leaders": [
+      {
+        "a": 2.0580545454545454,
+        "b": 3.9946363636363635,
+        "key": "opening-leader-1",
+        "target": "abs-flex-0.15",
+        "badgeKey": "opening-badge-1",
+        "end": [
+          0.405,
+          0.49
+        ],
+        "labelPoint": [
+          475,
+          485
+        ],
+        "control": [
+          660,
+          560
+        ],
+        "fromMuscle": true,
+        "lineDuration": 0.66,
+        "sourceA": 2.36,
+        "sourceB": 4.6,
+        "lineA": 2.0580545454545454
+      },
+      {
+        "a": 2.559490909090909,
+        "b": 3.9946363636363635,
+        "key": "opening-leader-2",
+        "target": "abs-flex-0.15",
+        "badgeKey": "opening-badge-2",
+        "end": [
+          0.49,
+          0.535
+        ],
+        "labelPoint": [
+          1460,
+          468
+        ],
+        "control": [
+          1205,
+          570
+        ],
+        "fromMuscle": true,
+        "lineDuration": 0.66,
+        "sourceA": 2.94,
+        "sourceB": 4.6,
+        "lineA": 2.559490909090909
+      }
+    ]
+  },
+  "anatomicalLeaders": [
+    {
+      "a": 25.723327195733987,
+      "b": 28.034577195733984,
+      "text": "Upper",
+      "x": 1543,
+      "y": 490,
+      "size": 72,
+      "key": "upper",
+      "target": "abs-neutral-26.2",
+      "end": [
+        0.545,
+        0.335
+      ],
+      "sourceA": 27.65,
+      "sourceB": 30.15,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1405,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 25.862002195733982,
+      "lineDuration": 0.6194150000000036
+    },
+    {
+      "a": 26.694052195733985,
+      "b": 28.034577195733984,
+      "text": "Lower",
+      "x": 1543,
+      "y": 645,
+      "size": 72,
+      "key": "lower",
+      "target": "abs-neutral-26.2",
+      "end": [
+        0.545,
+        0.42
+      ],
+      "sourceA": 28.7,
+      "sourceB": 30.15,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1405,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 26.832727195733984,
+      "lineDuration": 0.619415
+    },
+    {
+      "a": 32.54597715269468,
+      "b": 34.982128315485376,
+      "text": "Lower",
+      "x": 1543,
+      "y": 645,
+      "size": 72,
+      "key": "lower-focus",
+      "target": "abs-lower-33.65",
+      "end": [
+        0.545,
+        0.42
+      ],
+      "sourceA": 34,
+      "sourceB": 36.65,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1405,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 32.68387250153189,
+      "lineDuration": 0.6159325581395336
+    },
+    {
+      "a": 125.54916230787329,
+      "b": 129.70916074703214,
+      "text": "Upper",
+      "x": 1543,
+      "y": 490,
+      "size": 72,
+      "key": "upper-focus",
+      "target": "abs-upper-126.3",
+      "end": [
+        0.545,
+        0.335
+      ],
+      "sourceA": 126.65,
+      "sourceB": 130,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1405,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 125.73999043287328,
+      "lineDuration": 0.8523656249999902
+    },
+    {
+      "a": 428.2249958594727,
+      "b": 431.6998958594727,
+      "text": "Upper",
+      "x": 1623,
+      "y": 490,
+      "size": 72,
+      "key": "upper-recap",
+      "target": "abs-regions-422.1",
+      "end": [
+        0.545,
+        0.335
+      ],
+      "sourceA": 422.5,
+      "sourceB": 426.1,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1485,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 428.36978335947265,
+      "lineDuration": 0.6467175000000225
+    },
+    {
+      "a": 428.7076208594727,
+      "b": 431.6998958594727,
+      "text": "Lower",
+      "x": 1623,
+      "y": 645,
+      "size": 72,
+      "key": "lower-recap",
+      "target": "abs-regions-422.1",
+      "end": [
+        0.545,
+        0.42
+      ],
+      "sourceA": 423,
+      "sourceB": 426.1,
+      "horizontal": true,
+      "fromMuscle": true,
+      "lineEndX": 1485,
+      "outlined": true,
+      "dash": "18 20",
+      "lineA": 428.85240835947263,
+      "lineDuration": 0.6467175000000225
+    }
+  ],
+  "localCues": [
+    {
+      "target": "floor-down-61.5",
+      "a": 65.10151314049305,
+      "b": 68.17756022584693,
+      "type": "arrow",
+      "points": [
+        [
+          0.52,
+          0.9
+        ],
+        [
+          0.63,
+          0.76
+        ],
+        [
+          0.53,
+          0.65
+        ]
+      ],
+      "color": "#F3F3F3",
+      "sourceA": 66.5,
+      "sourceB": 69.65
+    },
+    {
+      "target": "floor-hip-72.05",
+      "a": 72.3646500363204,
+      "b": 75.99736056263619,
+      "type": "label",
+      "point": [
+        0.65,
+        0.36
+      ],
+      "text": "1–2 s",
+      "sourceA": 72.6,
+      "sourceB": 75.7
+    },
+    {
+      "target": "hanging-down-97.65",
+      "a": 103.83709735978002,
+      "b": 108.65731170012545,
+      "type": "arrow",
+      "points": [
+        [
+          0.49,
+          0.53
+        ],
+        [
+          0.58,
+          0.43
+        ],
+        [
+          0.46,
+          0.38
+        ]
+      ],
+      "color": "#EEE",
+      "sourceA": 104.35,
+      "sourceB": 109.1
+    },
+    {
+      "target": "hanging-down-97.65",
+      "a": 111.9205696361355,
+      "b": 115.5835696361355,
+      "type": "cross",
+      "point": [
+        0.9,
+        0.74
+      ],
+      "color": "#E54040",
+      "sourceA": 114.7,
+      "sourceB": 118
+    },
+    {
+      "target": "crunch-lift-v14",
+      "a": 155.23659580132815,
+      "b": 156.49269336230375,
+      "type": "focus",
+      "points": [
+        [
+          0.38,
+          0.965
+        ],
+        [
+          0.57,
+          0.965
+        ]
+      ],
+      "color": "#67D667",
+      "sourceA": 156.3,
+      "sourceB": 158.8,
+      "point": [
+        0.441,
+        0.87
+      ],
+      "radius": 0.051
+    },
+    {
+      "target": "crunch-wrong-159",
+      "a": 157.05897738139646,
+      "b": 160.08808548950458,
+      "type": "cross",
+      "point": [
+        0.45,
+        0.5
+      ],
+      "color": "#EE4747",
+      "sourceA": 159.4,
+      "sourceB": 162.55
+    },
+    {
+      "target": "crunch-up-162.65",
+      "a": 165.29340435168464,
+      "b": 167.29808727851395,
+      "type": "label",
+      "point": [
+        0.44,
+        0.29
+      ],
+      "text": "1–2 s",
+      "sourceA": 166.7,
+      "sourceB": 168.3,
+      "fontSize": 52
+    },
+    {
+      "target": "floor-down-52.3",
+      "a": 54.57152600027881,
+      "b": 56.87263711138992,
+      "type": "focus",
+      "point": [
+        0.415,
+        0.9
+      ],
+      "radius": 0.073,
+      "color": "#6EDA88",
+      "sourceA": 57.4,
+      "sourceB": 59.3
+    },
+    {
+      "target": "floor-hip-72.05",
+      "a": 81.22189967480091,
+      "b": 83.77812416459683,
+      "type": "angle",
+      "point": [
+        0.5,
+        0.89
+      ],
+      "degrees": 45,
+      "color": "#F2F2F2",
+      "sourceA": 79.9,
+      "sourceB": 84.6
+    }
+  ],
+  "scope": "This file records working templates in this renderer. It is not a claim that arbitrary JSON episodes can be rendered without adaptation.",
+  "provenance": {
+    "sourceImagesUsedInOutput": false,
+    "sourceAudioUsedInOutput": false,
+    "source": "Measured browser research, own externally generated illustrations, own narration and score.",
+    "note": "Motion and composition reconstruction. Own narration causes timing differences; literal source identity is not claimed."
+  }
+}

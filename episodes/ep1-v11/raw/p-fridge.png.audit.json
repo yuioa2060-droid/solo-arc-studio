@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-08T22:28:45.743Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "13e99afabe8cd553ff1c9345e4699397b17cd337b4e08e3d64a3cf437d087d63",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "APPROVED-h3-hero-waist.png",
+      "sha256": "4b0149a337be3ae103ab8dad57d93ec68fb9894486228f59aec9a2e14caa5ea2"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/p-fridge.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/p-fridge.png",
+  "imageBytes": 1913156,
+  "imageSha256": "4bfedf25e6824cf9e8b62cf3899ccdd8bbe49f9b243a9510a034de3a13594e33",
+  "finishedAt": "2026-10-08T22:29:13.544Z"
+}

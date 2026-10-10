@@ -1,0 +1,30 @@
+{
+  "point-viewer": {
+    "width": 906,
+    "height": 1605
+  },
+  "profile": {
+    "width": 784,
+    "height": 1495
+  },
+  "back": {
+    "width": 938,
+    "height": 1501
+  },
+  "hanging-up": {
+    "width": 767,
+    "height": 1639
+  },
+  "hanging-down": {
+    "width": 767,
+    "height": 1639
+  },
+  "crunch-new-up": {
+    "width": 1536,
+    "height": 680
+  },
+  "presenter-torso": {
+    "width": 830,
+    "height": 1536
+  }
+}

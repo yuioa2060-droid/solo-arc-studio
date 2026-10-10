@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-07T23:18:00.835Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5-flare",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "471111d8e36b9f70715eead5ed7008a5eda02c968afcc8bc7867d126e12c1409",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "APPROVED-h3-hero-waist.png",
+      "sha256": "4b0149a337be3ae103ab8dad57d93ec68fb9894486228f59aec9a2e14caa5ea2"
+    }
+  ],
+  "output": "/vercel/sandbox/data/work/ep-v4/raw/x-soft.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/vercel/sandbox/data/work/ep-v4/raw/x-soft.png",
+  "imageBytes": 917817,
+  "imageSha256": "61cb6c4faf30af9550b231495362243dfc49f238a3eef93dfd1c2df2ffd4f9e6",
+  "finishedAt": "2026-10-07T23:18:33.067Z"
+}

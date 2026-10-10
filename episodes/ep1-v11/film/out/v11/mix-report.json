@@ -1,0 +1,63 @@
+{
+  "duration_seconds": 324.74,
+  "sample_rate": 48000,
+  "ending_start_seconds": 258.275,
+  "removed_whoosh_events": [
+    [
+      258.4536875,
+      "slow",
+      0.3
+    ],
+    [
+      261.7197291666667,
+      "sw",
+      0.15
+    ],
+    [
+      267.18572916666665,
+      "sw",
+      0.14
+    ],
+    [
+      271.98072916666666,
+      "sw",
+      0.14
+    ],
+    [
+      275.5127291666667,
+      "sw",
+      0.12
+    ],
+    [
+      298.2806875,
+      "slow",
+      0.3
+    ]
+  ],
+  "ending_whoosh_events": [
+    [
+      291.8657291666667,
+      "sw",
+      0.12
+    ],
+    [
+      314.3587291666667,
+      "sw",
+      0.12
+    ]
+  ],
+  "voice_bit_identical": true,
+  "early_sfx_pcm_identical": true,
+  "music_source_sha256": "c3847fe17714176712e9402964f09a22f8f4d6ab5e7fdb5b82b2d160ba7c44a5",
+  "music_source_duration_seconds": 322.43333333333334,
+  "music_gain_db": 14.603592669435612,
+  "music_active_rms_below_voice_db": 10.0,
+  "music_intro_fade_seconds": 1.2,
+  "music_outro_fade_seconds": 3.0,
+  "music_end_padding_seconds": 2.3066666666666666,
+  "unnormalized_mix_sample_peak_dbfs": -3.5672491122566994,
+  "master_loudness_target_lufs": -14,
+  "master_true_peak_target_dbtp": -1.5,
+  "master_normalized_once": true,
+  "limitations": "Instrumental verification; no claim of complete auditory/artistic review."
+}

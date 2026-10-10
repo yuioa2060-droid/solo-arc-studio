@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.644Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "d0fd1576a4c5ed850af43c952a4ead1dbcead7135e0e1c11b312ee0c0441ce8b",
+  "references": [
+    {
+      "name": "o-rice.png",
+      "sha256": "9455ff656f5e45cdf2a80b520f55e3fd62497c4ed4803f1a6ac0be8796249ca2"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-tag.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-tag.png",
+  "imageBytes": 1575847,
+  "imageSha256": "df2951e8b13cf2a4aa2d3a431efd17325dc29f589e93117ba5d77dd68e6969c5",
+  "finishedAt": "2026-10-09T09:26:23.940Z"
+}

@@ -1,0 +1,46 @@
+name: Generate Jonathan voice
+on:
+  workflow_dispatch:
+    inputs:
+      script_path:
+        description: English .txt script committed to this repository
+        type: string
+        required: true
+        default: episodes/ep1-v11/voice/full.txt
+      send_paid_request:
+        description: Send the paid ElevenLabs request; false runs validation only
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Prepare or generate voice
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: oyxaSt75JW8l04MCJaSo
+          ELEVENLABS_MODEL: eleven_v3
+          SCRIPT_PATH: ${{ inputs.script_path }}
+          SEND_PAID_REQUEST: ${{ inputs.send_paid_request }}
+        run: |
+          if [ "$SEND_PAID_REQUEST" = "true" ]; then
+            node scripts/voice.mjs --script "$SCRIPT_PATH" --out outputs/voice/take --send
+          else
+            node scripts/voice.mjs --script "$SCRIPT_PATH" --out outputs/voice/take
+          fi
+      - uses: actions/upload-artifact@v4
+        if: inputs.send_paid_request
+        with:
+          name: jonathan-voice-and-alignment
+          path: outputs/voice/*
+          retention-days: 7
+          if-no-files-found: error

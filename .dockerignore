@@ -1,0 +1,9 @@
+.git
+.env
+.env.*
+**/node_modules
+**/frames
+**/.cache
+**/__pycache__
+outputs
+private

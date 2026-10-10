@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.641Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "5ed518ce8d3df02574564cb95dda20330a6bfa8cf8000be53e6b5985cb4fea93",
+  "references": [
+    {
+      "name": "o-tape.png",
+      "sha256": "884314a5637ae8bf26d1d32fbc30bf3616cbaf6aafa35fddf69a94312ad0f891"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-stamp.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-stamp.png",
+  "imageBytes": 2105670,
+  "imageSha256": "31a8792551d503a7e2c41097fb82a616bd208faaa50f49187744625fe08f681a",
+  "finishedAt": "2026-10-09T09:25:44.822Z"
+}

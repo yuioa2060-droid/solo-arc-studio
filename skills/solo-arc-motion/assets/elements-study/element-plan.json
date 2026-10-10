@@ -1,0 +1,423 @@
+{
+  "version": 2,
+  "fps": 60,
+  "silentStudy": true,
+  "clips": [
+    {
+      "id": "focus-lift",
+      "duration": 7,
+      "review": [
+        0.7,
+        1.15,
+        1.4,
+        1.7,
+        2.2,
+        2.65,
+        3.1,
+        4,
+        5.3,
+        5.9,
+        6.5
+      ]
+    },
+    {
+      "id": "depth-stack",
+      "duration": 8,
+      "review": [
+        0.8,
+        1.5,
+        2.15,
+        2.4,
+        2.7,
+        3.2,
+        4.2,
+        4.55,
+        4.9,
+        5.5,
+        6.5
+      ]
+    },
+    {
+      "id": "pulse-region",
+      "duration": 7,
+      "review": [
+        1.2,
+        1.5,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        3,
+        3.3,
+        4,
+        5.5
+      ]
+    },
+    {
+      "id": "anatomy-focus",
+      "duration": 10,
+      "review": [
+        0.8,
+        1.5,
+        1.9,
+        2.2,
+        2.6,
+        3,
+        3.4,
+        4.5,
+        5.4,
+        5.65,
+        6,
+        6.5,
+        8
+      ]
+    },
+    {
+      "id": "chapter-map",
+      "duration": 12,
+      "review": [
+        0.8,
+        1.2,
+        1.6,
+        2,
+        3,
+        4.8,
+        5.15,
+        5.7,
+        6.5,
+        8.8,
+        9.1,
+        9.6,
+        10.5
+      ]
+    },
+    {
+      "id": "chapter-reset",
+      "duration": 6,
+      "review": [
+        0.5,
+        1.3,
+        1.8,
+        2.15,
+        2.5,
+        2.8,
+        3.3,
+        4.3
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "rear",
+      "label": "Rear",
+      "color": "#609FEC",
+      "at": 1.1,
+      "path": "M160 501 Q123 506 82 557 Q45 611 32 679 Q50 703 105 699 Q156 735 249 765 Q197 715 171 651 Q146 582 160 501Z",
+      "anchor": [
+        99,
+        606
+      ],
+      "labelPoint": [
+        -165,
+        570
+      ],
+      "muscle": "deltoid-posterior"
+    },
+    {
+      "id": "side",
+      "label": "Side",
+      "color": "#F3AC47",
+      "at": 1.9,
+      "path": "M160 501 Q207 494 252 516 Q283 547 298 592 Q314 650 285 706 L249 765 Q197 715 171 651 Q146 582 160 501Z",
+      "anchor": [
+        224,
+        626
+      ],
+      "labelPoint": [
+        -140,
+        340
+      ],
+      "muscle": "deltoid-acromial"
+    },
+    {
+      "id": "front",
+      "label": "Front",
+      "color": "#80D38A",
+      "at": 2.7,
+      "path": "M252 516 Q305 538 327 585 Q347 651 319 727 Q292 756 249 765 Q285 706 298 660 Q304 585 252 516Z",
+      "anchor": [
+        314,
+        649
+      ],
+      "labelPoint": [
+        590,
+        470
+      ],
+      "muscle": "deltoid-anterior"
+    }
+  ],
+  "latPath": "M270 639 C302 654 337 650 362 630 C367 624 371 622 375 630 C386 656 407 690 433 711 C450 725 465 728 468 737 C470 746 457 763 445 777 C427 796 405 812 383 824 C367 834 352 834 340 826 C320 811 308 791 301 771 C294 749 286 723 276 700 C267 680 264 660 270 639Z M683 639 C659 654 642 650 628 634 C624 629 621 626 617 634 C602 661 580 691 554 712 C538 726 524 731 524 740 C524 752 540 773 552 787 C562 800 571 813 582 824 C591 832 600 828 607 815 C612 801 615 786 620 770 C625 754 635 736 642 720 C656 694 672 669 683 639Z",
+  "anatomy": {
+    "schemaVersion": 1,
+    "masksPurpose": "Illustrate location of the named visible muscle region, not measured activation, exclusive recruitment or a guarantee of growth.",
+    "sources": [
+      {
+        "id": "lat-anatomy",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK448120/",
+        "supports": "Latissimus shape, attachments, convergence toward axilla, humeral extension and adduction."
+      },
+      {
+        "id": "lat-surface",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+        "supports": "Fig11.23 posterior superficial latissimus versus trapezius, lower aponeurotic area and adjacent shoulder muscles."
+      },
+      {
+        "id": "deltoid-anatomy",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK537056/",
+        "supports": "Anterior/clavicular, middle/acromial, posterior/spinal parts and convergence to deltoid tuberosity."
+      },
+      {
+        "id": "deltoid-surface",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10984646/",
+        "supports": "Fig1 lateral view of three deltoid parts and their convergent insertion."
+      }
+    ],
+    "maps": [
+      {
+        "id": "lats",
+        "asset": "back",
+        "sourceSize": [
+          938,
+          1501
+        ],
+        "view": "Posterior, arms down; surface projection on stylized skin illustration.",
+        "target": "Latissimus dorsi: visible muscular belly region on each side; not a full origin/insertion map.",
+        "reason": "Identify the broad lateral back muscle discussed in pulling/upper-arm movement, then pulse that fixed area.",
+        "sourceIds": [
+          "lat-anatomy",
+          "lat-surface"
+        ],
+        "landmarks": {
+          "inferiorScapularRegion": [
+            [
+              369,
+              623
+            ],
+            [
+              623,
+              624
+            ]
+          ],
+          "lowerTrapeziusTips": [
+            [
+              474,
+              718
+            ],
+            [
+              515,
+              719
+            ]
+          ],
+          "lateralContours": [
+            [
+              260,
+              670
+            ],
+            [
+              690,
+              674
+            ]
+          ],
+          "lowerMuscularBoundary": [
+            [
+              383,
+              824
+            ],
+            [
+              582,
+              824
+            ]
+          ]
+        },
+        "excluded": [
+          "Trapezius",
+          "Infraspinatus and teres-major region above mask",
+          "Deltoids and arms",
+          "Central lower thoracolumbar aponeurotic area",
+          "External-oblique side strip and clothing"
+        ],
+        "projectionLimit": "Colored visible belly region follows the depicted lat mass above its lower diagonal contour. Lower aponeurotic/ambiguous flank region remains uncolored. This schematic surface projection is not a full muscle attachment atlas.",
+        "includeChecks": [
+          [
+            330,
+            690
+          ],
+          [
+            410,
+            742
+          ],
+          [
+            355,
+            796
+          ],
+          [
+            653,
+            695
+          ],
+          [
+            585,
+            748
+          ],
+          [
+            584,
+            800
+          ],
+          [
+            453,
+            746
+          ]
+        ],
+        "excludeChecks": [
+          [
+            470,
+            790
+          ],
+          [
+            520,
+            870
+          ],
+          [
+            500,
+            640
+          ],
+          [
+            350,
+            580
+          ],
+          [
+            660,
+            580
+          ],
+          [
+            155,
+            630
+          ],
+          [
+            320,
+            965
+          ],
+          [
+            255,
+            837
+          ],
+          [
+            730,
+            685
+          ],
+          [
+            330,
+            885
+          ],
+          [
+            620,
+            885
+          ],
+          [
+            464,
+            721
+          ],
+          [
+            516,
+            721
+          ]
+        ],
+        "review": "V3 rejected by user: pointed medial corners and unmatched lumbar tails. V4 smooth contours inspected on an enlarged native-pixel trace and final encoded frames; no independent specialist verification.",
+        "assetSha256": "8f63f5c41a811d5f03ca21dc529921b48ab215f279cb10a0b92cc7735fbf8f91"
+      },
+      {
+        "id": "deltoid",
+        "asset": "profile",
+        "sourceSize": [
+          784,
+          1495
+        ],
+        "view": "Lateral shoulder, person faces screen right.",
+        "target": "Visible projection of posterior, acromial and anterior deltoid portions.",
+        "reason": "Explain three named portions, then focus on the acromial portion. Side means acromial, not an arbitrary center third.",
+        "sourceIds": [
+          "deltoid-anatomy",
+          "deltoid-surface"
+        ],
+        "landmarks": {
+          "superiorDeltoidArc": [
+            [
+              160,
+              501
+            ],
+            [
+              252,
+              516
+            ],
+            [
+              327,
+              585
+            ]
+          ],
+          "convergentInsertion": [
+            249,
+            765
+          ],
+          "posteriorCap": [
+            32,
+            679
+          ],
+          "anteriorCap": [
+            319,
+            727
+          ]
+        },
+        "excluded": [
+          "Trapezius",
+          "Pectoralis",
+          "Biceps below/anterior to cap",
+          "Triceps below/posterior to cap"
+        ],
+        "projectionLimit": "Borders between heads are schematic surface projection informed by the lateral anatomical diagram, not visible seams or three equal stripes. Do not transfer this map to a front/rear pose.",
+        "includeChecks": {
+          "rear": [
+            99,
+            606
+          ],
+          "side": [
+            224,
+            626
+          ],
+          "front": [
+            314,
+            649
+          ]
+        },
+        "excludeChecks": [
+          [
+            200,
+            460
+          ],
+          [
+            355,
+            645
+          ],
+          [
+            175,
+            850
+          ],
+          [
+            300,
+            812
+          ]
+        ],
+        "review": "Atlas origins, convergence and visible cap compared; source drawing remains stylized, no independent clinician review claimed.",
+        "assetSha256": "670a48ee41eff2b784bebcfc61cd3ab7732ae15b7408abdc98be7107753e20eb"
+      }
+    ]
+  }
+}

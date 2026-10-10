@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.632Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "b360a9f34d38bd0829ef4f082bb45c38b91b2b0dd229ec965db8288248b72551",
+  "references": [
+    {
+      "name": "o-calendar.png",
+      "sha256": "4ef720cbf43f0e9a1a5a13d8fc2e219787a4f60f00bb9a02c234a1527636402a"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-notebook.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-notebook.png",
+  "imageBytes": 1558344,
+  "imageSha256": "35cb6c96c9158c7ec9f74bc26c958707e17777ca0895a07030c4938c12c0172d",
+  "finishedAt": "2026-10-09T09:25:42.515Z"
+}

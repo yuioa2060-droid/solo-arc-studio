@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-09T09:25:08.635Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "05d71c86b54e3152ca09ceafaf32dcc6d8700b6c691545662b50491c88f92dea",
+  "references": [
+    {
+      "name": "o-books.png",
+      "sha256": "036eaaf5f8c8cae9378584d0e1cd23219ee41a0685254129e651b5b9b5c34f26"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/c-ticket.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/c-ticket.png",
+  "imageBytes": 2398784,
+  "imageSha256": "5c1698e2a8377c4872c49c65f6c25aed035cac452a411e3276aacd51d9a48329",
+  "finishedAt": "2026-10-09T09:26:50.947Z"
+}

@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-08T21:23:20.093Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "53b47b2a8c47852d05ef1d4b235cf7d81c90be248be01c84c9e47a90417bfe7c",
+  "references": [
+    {
+      "name": "o-tape.png",
+      "sha256": "884314a5637ae8bf26d1d32fbc30bf3616cbaf6aafa35fddf69a94312ad0f891"
+    }
+  ],
+  "output": "/data/work/ep-v6/raw/o-belt.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/data/work/ep-v6/raw/o-belt.png",
+  "imageBytes": 826458,
+  "imageSha256": "d89837c5fc9380c091f18f1236691b69a296e4739c1da53e58675c5bab99f21a",
+  "finishedAt": "2026-10-08T21:23:44.320Z"
+}

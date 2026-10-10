@@ -1,0 +1,15 @@
+{
+  "approved_identity": "APPROVED-h3-hero-waist.png",
+  "current_ep1_intro": "h-intro.png",
+  "profile_progress": [
+    "b-w1.png",
+    "b-w2.png",
+    "b-w3.png"
+  ],
+  "recovery_object": [
+    "o-hourglass-full.png",
+    "o-hourglass-low.png"
+  ],
+  "shorts_color": "#0B8371",
+  "current_rules": "../../references/current-rules-ru.md"
+}

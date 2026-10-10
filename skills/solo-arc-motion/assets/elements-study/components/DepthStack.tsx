@@ -1,0 +1,4 @@
+import React from 'react';
+import {Img,staticFile} from 'remotion';
+import {settle,ease,envelope} from './motion';
+export function DepthStack({t,items,end=8,blur=12,recedeScale=.94,oldOpacity=.43,focusDuration=.48,entry=1.05}:any){return <>{items.map((v:any,i:number)=>{const next=items[i+1],defocus=next?ease((t-next.at)/focusDuration):0,p=settle(t-v.at,entry),scale=(.76+.24*p)*(1-(1-recedeScale)*defocus);return <div key={v.id} data-depth={v.id} data-blur={(blur*defocus).toFixed(3)} style={{position:'absolute',left:v.x-v.w/2,top:v.y+115*(1-p),width:v.w,height:v.w*v.height/v.width,opacity:envelope(t,v.at,end,.38,.6)*(1-(1-oldOpacity)*defocus),transform:`scale(${scale})`,transformOrigin:'50% 70%',filter:`blur(${blur*defocus}px)`}}><Img src={staticFile(v.src)} style={{width:'100%',height:'100%'}}/></div>;})}</>;}

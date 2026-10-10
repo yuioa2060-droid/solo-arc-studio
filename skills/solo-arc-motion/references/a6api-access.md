@@ -1,0 +1,19 @@
+> ARCHIVE / HISTORICAL REFERENCE. Действующие правила после v10 находятся в [current-rules-ru.md](current-rules-ru.md). Старые красные/оливковые шорты, винтажные обёртки, обязательная музыка и жёсткие promo defaults отменены. Примеры алгоритмов использовать только после сверки текущего смысла/ассета.
+
+# A6API execution and private handoff
+
+Latest recorded batch2026-10-07: `https://a6.a6api.com/v1/images/edits`, `gpt-image-2.5`, fixed4995, $0.0012/request;34paid/$0.0408 verified for the rejected5:22film. This supersedes the older4684 observation below for that specific date, not a guarantee of future pricing. The helper accepts only the two verified A6 hosts (`api.a6api.com`, `a6.a6api.com`); `A6API_BASE_URL` selects one. New private handoff authorization includes A6API **and ElevenLabs**, in private env files, never in this skill. No paid requests are made by packaging or a dry run.
+
+## 10. A6API и экономия
+
+Адрес: https://api.a6api.com/v1; модель gpt-image-2.5; references — multipart POST /images/edits. Это внешний прокси-провайдер. Один image field для одного референса, image[] для нескольких, model/prompt/n/size. Ключ в отдельном разрешённом приватном разделе передачи. Не путать его с прежними Grok/yeelo ключами.
+
+До партии перепроверить поддержку референсов/альфы/размера и текущие цены. Последний РАБОТАВШИЙ проверенный маршрут на 2026-10-05: поставщик4684, $0.00156/запрос, strict fixed, fallback OFF. Это историческое наблюдение, не цена/доступность на любой будущий день. Дешёвые4996/$0.0012 завис и4928/$0.00144 дал upstream400;5000-й-ID/«самый дешёвый навсегда» не изобретать. Пользователь разрешил при сбое совместимого поставщика той же цены, затем ближайшего немного дороже; остановить перебор после рабочего результата. Не включать широкий скрытый fallback.
+
+Сначала один необходимый тест с референсом, посмотреть, потом масштабировать. Кэшировать prompt/reference hashes, не регенерировать принятое без причины. Журнал каждой попытки: начало/конец, model/channel, ожидаемая цена, HTTP/результат, факт оплаты. HTTP timeout не доказывает $0. Биллинг смотреть /api/log/token, quantity/quota/market_price_micros. Количество сохранённых картинок не равно числу оплаченных запросов. Новый helper не выбирает поставщика автоматически: strict pin проверяется в аккаунте; audit не выдаёт декларируемый route за доказанный ответом.
+
+Эта передача не запускает генерацию, TTS или оплату. Для облачного Claude без инструментов: подготовить файлы/промпты, не притворяться выполненными API/рендером. Для Claude Code: использовать ключ через env, не писать его в source/log/публичный репозиторий.
+
+
+
+Внешний API helper: scripts/a6api-reference.mjs --help. Он по умолчанию только проверяет аргументы; --send выполняет один платный запрос, без автоматического повтора/смены маршрута. Перед --send проверить strict account pin и цену. Аудит сохраняет declared route и billedCost:null до сверки ledger; не утверждает реальную цену без логов. Ключ из A6API_KEY; CLI Node --env-file указывает private/PRIVATE_A6API.env в отдельном пользовательском пакете. Не копировать этот файл в установленный skill.

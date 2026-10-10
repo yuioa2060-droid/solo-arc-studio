@@ -1,0 +1,30 @@
+{
+  "name": "solo-arc-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doctor": "node scripts/run.mjs doctor",
+    "studio": "node scripts/run.mjs studio",
+    "dev": "node scripts/run.mjs studio",
+    "browser:ensure": "node scripts/run.mjs browser",
+    "render:preview": "node scripts/run.mjs preview",
+    "render:ep1": "node scripts/run.mjs render",
+    "voice": "node scripts/voice.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.454",
+    "@remotion/cli": "4.0.454",
+    "@remotion/renderer": "4.0.454",
+    "remotion": "4.0.454",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.4.0"
+  }
+}
