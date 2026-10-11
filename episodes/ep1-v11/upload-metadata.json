@@ -72,6 +72,10 @@
   },
   "channel": {
     "working_name": "Rendo",
+    "handle_proposal": "@rendo",
+    "handle_fallback_proposal": "@rendofit",
+    "handle_availability": "Unconfirmed; public @rendo page returned 404 on 2026-10-11; final availability must be checked in Studio",
+    "handle_approved": false,
     "description": "Fat loss, training, and habits that stick. Simple, illustrated guides to understanding your body and getting leaner.",
     "keywords": [
       "Rendo",
@@ -90,7 +94,7 @@
     "caption_source": "episodes/ep1-v11/voice/full.txt"
   },
   "verification": {
-    "title_characters": 45,
+    "title_characters": 34,
     "description_characters": 755,
     "channel_description_characters": 116,
     "final_video_duration_seconds": 324.767,

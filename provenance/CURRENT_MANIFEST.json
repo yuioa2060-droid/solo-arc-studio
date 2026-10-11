@@ -117,6 +117,11 @@
       "sha256": "d03a119594f9d99a7b447492a78a2485a7a871cde06b798422f35e7d3b494dd1"
     },
     {
+      "path": "branding/HANDLE_RU.md",
+      "bytes": 6462,
+      "sha256": "52e948ecb93de875f9a696050b82f4b05a57f09f05e55c76953ec376f459c002"
+    },
+    {
       "path": "branding/options/rendo/avatar-preview.png",
       "bytes": 341504,
       "sha256": "ee5d4123d45356fdf2ec28a0afbb1cb9210ab88d2e597f4a70f4bab0ce232ce3"
@@ -263,8 +268,8 @@
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 7455,
-      "sha256": "22617647ec87c3b1a84ca1bc6a0b2666f3b7e707a47b0d221ee60ecb09e9d103"
+      "bytes": 7922,
+      "sha256": "ec97c6f52f60670b4b984b37f67f548351d44801fa64b59104251706389e6569"
     },
     {
       "path": "branding/thumbnails/assets/body-pair.png",
@@ -338,13 +343,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 6071,
-      "sha256": "866d80adacf5216c010fe4ba65699174495755e0290b67170133d37297f9f51f"
+      "bytes": 6258,
+      "sha256": "823cfcd7b8cfb90e701925f52175d3928857237c91cda548a429b507fb0a52a6"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 10584,
-      "sha256": "9b6d50d6e4661c7c102a147517a1eea2a99510ebabcf9476b60b9f63456a2bc0"
+      "bytes": 11122,
+      "sha256": "e78f82c0016c8000cccbb399446ede45c6e699847673dbbad16b6367864372ab"
     },
     {
       "path": "Dockerfile",
@@ -1818,8 +1823,8 @@
     },
     {
       "path": "episodes/ep1-v11/upload-metadata.json",
-      "bytes": 3829,
-      "sha256": "27ba1ef5bd9c19e16629edf97ab527e4967e4be6e6459233c51cf39bf81bd252"
+      "bytes": 4072,
+      "sha256": "50396a214eafaa1e7da076e779d82d8df363c2b30d6d106f11ec045c1a40f12c"
     },
     {
       "path": "episodes/ep1-v11/UPLOAD_RU.md",
@@ -2948,8 +2953,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 32274,
-      "sha256": "af88f192f4afaf24e356a9624202e7697899c854018fcc67121fb9e3086533b2"
+      "bytes": 32957,
+      "sha256": "5a353798a2433cebc720fe966b1448aa793546c627fd644f89c52600af73f0e4"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -3152,8 +3157,8 @@
       "sha256": "93a92a6ffb51984fc9c73de89a22b22ffec8bc1b6393fe5d5fbe344c62ad9844"
     }
   ],
-  "file_count": 629,
-  "logical_bytes": 741206611,
+  "file_count": 630,
+  "logical_bytes": 741215191,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,
