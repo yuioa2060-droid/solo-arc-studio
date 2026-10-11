@@ -13,15 +13,12 @@ try{sharp=require(arg('--sharp-module')||'sharp');}catch{throw Error('Install sh
 const out=path.join(here,'options');
 await fs.mkdir(out,{recursive:true});
 const font=path.join(root,'episodes/ep1-v11/film/public/fonts/Jost.ttf');
-const brandFonts=path.join(root,'skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts');
-const montserrat={family:'Montserrat',file:path.join(brandFonts,'Montserrat-Black.ttf')};
-const montserratItalic={family:'Montserrat',file:path.join(brandFonts,'Montserrat-BlackItalic.ttf')};
 const imgRoot=path.join(root,'episodes/ep1-v11/film/public/img');
 const colors={black:'#060606',emerald:'#0B8371',cream:'#F4F3EF',gray:'#A1A1A1'};
 const svg=(w,h,body)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${body}</svg>`);
 const rect=(x,y,w,h,fill,extra='')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${fill}" ${extra}/>`;
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-const text=async(value,size,color=colors.cream,weight='Bold',typeface={family:'Jost',file:font})=>sharp({text:{text:`<span foreground="${color}">${esc(value)}</span>`,font:`${typeface.family} ${weight} ${size}`,fontfile:typeface.file,dpi:72,rgba:true}}).png().toBuffer();
+const text=async(value,size,color=colors.cream,weight='Bold',typeface={family:'Jost',file:font},tracking=0)=>sharp({text:{text:`<span foreground="${color}" letter_spacing="${Math.round(tracking*1024)}">${esc(value)}</span>`,font:`${typeface.family} ${weight} ${size}`,fontfile:typeface.file,dpi:72,rgba:true}}).png().toBuffer();
 const label=async(value,size,color,left,top,weight='Bold',typeface)=>({input:await text(value,size,color,weight,typeface),left,top});
 const metadata=b=>sharp(b).metadata();
 const heroCache=new Map();
@@ -60,22 +57,20 @@ const portrait=async(filename,width,x,y,targetW,targetH)=>{
     return {input:cut,left:Math.max(0,x),top:Math.max(0,y)};
 };
 const circle=async(buffer,size)=>sharp(buffer).resize(size,size).composite([{input:svg(size,size,`<circle cx="${size/2}" cy="${size/2}" r="${size/2}" fill="white"/>`),blend:'dest-in'}]).png().toBuffer();
-// The owner chose the light Rendo direction. Lettering below is still a proposal.
-// Reuse the approved drawing; editable typography and geometric accents change.
-// The owner requests emerald on the banner and a little emerald on the avatar,
-// keeping the dark avatar background rather than filling it with green.
+// Avatar 02 / dry brush is approved. The next request is a minimal, atmospheric
+// banner. Light layouts retain the chosen direction; the dark layout is an
+// alternative proposal. Reuse the approved drawing and editable lettering.
 const rendoVariants=[
- {id:'wordmark',number:'01',title:'Emerald name'},
- {id:'nickname',number:'02',title:'Diagonal accent / lowercase'},
- {id:'minimal',number:'03',title:'Wide underline'},
+ {id:'wordmark',number:'01',title:'Quiet / light'},
+ {id:'nickname',number:'02',title:'Soft portrait / light'},
+ {id:'minimal',number:'03',title:'Night / dark'},
 ];
 const rendoOut=path.join(out,'rendo');
 await fs.mkdir(rendoOut,{recursive:true});
 const rendoBanners=new Map();
 const avatarPortrait=await portrait('h-fist.png',1560,-364,35,800,800);
-// Avatar 02 was selected. Add the right-hand stroke to suggest a V behind the
-// same portrait. The concealed point lies below the crop, like a large mark
-// obscured by the presenter. All four styles are proposals, not final choices.
+// The dry-brush V behind this exact portrait is approved. Other stroke styles
+// remain available in the comparison as references, not active alternatives.
 const mirrored=body=>`${body}<g transform="translate(800 0) scale(-1 1)">${body}</g>`;
 const vStyles=[
  {id:'ink',number:'01',title:'INK',body:mirrored(`<path d="M89 189 C87 169 101 160 112 153 L129 144 L124 165 L140 157 C150 191 148 216 158 250 C173 300 179 350 209 428 C234 510 265 616 318 760 L410 1035 L389 1048 C320 871 268 748 226 629 C191 533 170 463 146 392 C126 326 101 263 89 189 Z" fill="${colors.emerald}"/>`)},
@@ -92,30 +87,40 @@ for(const style of vStyles){
     if(style.id!=='ink')await fs.writeFile(path.join(rendoOut,`v-${style.id}-avatar.png`),avatar);
     console.log(JSON.stringify({avatar_v:style.id,bytes:avatar.length,generative_requests:0}));
 }
-const currentAvatar=vAvatars.get('ink');
+const currentAvatar=vAvatars.get('dry');
+const dryVBody=vStyles.find(style=>style.id==='dry').body;
+// Compact version of the same emerald brush mark used in the approved avatar.
+const brushMark=(width,height)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="40 140 720 910">${dryVBody}</svg>`);
+const ghostPortrait=async(width,x,y)=>{
+    const layer=await portrait('h-fist.png',width,x,y,2560,1440);
+    const m=await metadata(layer.input);
+    const mask=svg(m.width,m.height,`<defs><linearGradient id="portrait-fade"><stop offset="0" stop-color="white" stop-opacity="0"/><stop offset="0.25" stop-color="white" stop-opacity="0.12"/><stop offset="1" stop-color="white" stop-opacity="0.18"/></linearGradient></defs>${rect(0,0,m.width,m.height,'url(#portrait-fade)')}`);
+    return {...layer,input:await sharp(layer.input).composite([{input:mask,blend:'dest-in'}]).png().toBuffer()};
+};
 for(const variant of rendoVariants){
     const layers=[];
-    if(variant.id==='nickname'){
-        layers.push({input:svg(2560,1440,`<path d="M970 648 H1016 L1042 790 H996 Z" fill="${colors.emerald}"/>`),left:0,top:0});
-    }
-    layers.push(await portrait('h-fist.png',950,262,550,2560,1440));
     if(variant.id==='wordmark'){
-        layers.push(await label('RENDO',170,colors.emerald,1048,642,'Black Italic',montserratItalic));
-        layers.push({input:svg(48,5,rect(0,0,48,5,colors.emerald)),left:1057,top:829});
-        layers.push(await label('Fat loss, made clear.',34,'#484A47',1123,811,'Medium'));
-    }else if(variant.id==='nickname'){
-        const name=await text('rendo',212,colors.black,'Medium');
+        const name=await text('rendo',152,'#202522','Regular');
         const m=await metadata(name);
-        const dot=await text('.',212,colors.emerald,'Medium');
-        const dm=await metadata(dot);
-        layers.push({input:name,left:1050,top:641});
-        layers.push({input:dot,left:1060+m.width,top:641+m.height-dm.height});
-        layers.push(await label('Fat loss, made clear.',34,'#484A47',1058,836,'Medium'));
+        const markWidth=84,markHeight=108,gap=40;
+        const groupLeft=Math.round((2560-markWidth-gap-m.width)/2);
+        layers.push({input:brushMark(markWidth,markHeight),left:groupLeft,top:Math.round(720-markHeight/2)});
+        layers.push({input:name,left:groupLeft+markWidth+gap,top:Math.round(720-m.height/2)});
+    }else if(variant.id==='nickname'){
+        // A low-opacity crop adds the manga atmosphere without competing with
+        // the wordmark. Scale is uniform and the source PNG remains untouched.
+        layers.push(await ghostPortrait(1280,1180,420));
+        const name=await text('rendo',152,colors.emerald,'Regular');
+        const m=await metadata(name);
+        layers.push({input:name,left:Math.round(1130-m.width/2),top:Math.round(720-m.height/2)});
     }else{
-        layers.push(await label('RENDO',158,colors.black,1060,685,'Black',montserrat));
-        layers.push({input:svg(540,16,rect(0,0,540,16,colors.emerald)),left:1067,top:827});
+        const name=await text('RENDO',88,'#ECEEEA','Regular',undefined,16);
+        const m=await metadata(name);
+        layers.push({input:brushMark(68,90),left:1246,top:604});
+        layers.push({input:name,left:Math.round((2560-m.width)/2),top:735});
     }
-    const banner=await sharp(svg(2560,1440,rect(0,0,2560,1440,colors.cream))).composite(layers).png().toBuffer();
+    const background=variant.id==='minimal'?colors.black:colors.cream;
+    const banner=await sharp(svg(2560,1440,rect(0,0,2560,1440,background))).composite(layers).png().toBuffer();
     rendoBanners.set(variant.id,banner);
     // The first proposal is exported to the existing rendo-banner.png path below.
     // Keep just two additional alternatives, without duplicate full-size PNGs.
@@ -126,7 +131,7 @@ for(const variant of rendoVariants){
 }
 const concepts=[
  {id:'eiro',name:'EIRO',number:'01',about:'Fat loss, explained simply.',tone:'Clean / emerald',bg:colors.black,ink:colors.cream,hero:'h-intro.png'},
- {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Light manga / emerald accents',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
+ {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Minimal banners / approved avatar 02',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
  {id:'kairen',name:'KAIREN',number:'03',about:'Fat loss and fitness, made clear.',tone:'Bold / portrait and monogram',bg:'#07594F',ink:colors.cream,hero:'h-intro.png'},
 ];
 const comparisonLayers=[];
@@ -173,20 +178,23 @@ await sharp(svg(1600,1578,rect(0,0,1600,1578,'#080A09'))).composite(comparisonLa
 const rendoComparison=[];
 const mobileComparison=[];
 for(let i=0;i<rendoVariants.length;i++){
-    const v=rendoVariants[i],banner=rendoBanners.get(v.id),y=i*344;
+    const v=rendoVariants[i],banner=rendoBanners.get(v.id),y=i*384;
     const desktop=await sharp(banner).extract({left:0,top:509,width:2560,height:423}).resize(1480).png().toBuffer();
     rendoComparison.push(await label(`${v.number}  ${v.title}`,25,colors.cream,60,y+23,'Medium'));
     rendoComparison.push({input:desktop,left:60,top:y+76});
+    rendoComparison.push({input:await circle(currentAvatar,48),left:60,top:y+329});
+    rendoComparison.push(await label('Rendo',20,colors.cream,126,y+341,'Medium'));
     const mobile=await sharp(banner).extract({left:530,top:520,width:1500,height:400}).resize(720).png().toBuffer();
     mobileComparison.push(await label(`${v.number}`,26,colors.cream,40,i*251+15,'Medium'));
     mobileComparison.push({input:mobile,left:40,top:i*251+60});
 }
-await sharp(svg(1600,1032,rect(0,0,1600,1032,'#151716'))).composite(rendoComparison).jpeg({quality:94}).toFile(path.join(rendoOut,'comparison.jpg'));
+await sharp(svg(1600,1152,rect(0,0,1600,1152,'#151716'))).composite(rendoComparison).jpeg({quality:94}).toFile(path.join(rendoOut,'comparison.jpg'));
 await sharp(svg(800,753,rect(0,0,800,753,'#151716'))).composite(mobileComparison).png().toFile(path.join(rendoOut,'mobile-comparison.png'));
 const avatarComparison=[];
 for(let i=0;i<vStyles.length;i++){
     const v=vStyles[i],avatar=vAvatars.get(v.id),x=(i%2)*600,y=Math.floor(i/2)*570;
-    avatarComparison.push(await label(`${v.number}  ${v.title}`,27,colors.cream,x+115,y+27,'Medium'));
+    const title=v.id==='dry'?`${v.number}  ${v.title} / SELECTED`:`${v.number}  ${v.title}`;
+    avatarComparison.push(await label(title,v.id==='dry'?23:27,v.id==='dry'?colors.emerald:colors.cream,x+115,y+27,'Medium'));
     avatarComparison.push({input:await circle(avatar,320),left:x+140,top:y+83});
     avatarComparison.push({input:await circle(avatar,96),left:x+185,top:y+431});
     avatarComparison.push({input:await circle(avatar,32),left:x+349,top:y+463});
@@ -194,4 +202,4 @@ for(let i=0;i<vStyles.length;i++){
     avatarComparison.push(await label('32 px',18,'#BFC3C1',x+342,y+540,'Medium'));
 }
 await sharp(svg(1200,1140,rect(0,0,1200,1140,'#151716'))).composite(avatarComparison).png().toFile(path.join(rendoOut,'avatars-comparison.png'));
-console.log('Saved current banners and four organic V-avatar proposals. The portrait and dark background are preserved.');
+console.log('Saved three minimal banner proposals with the approved dry-brush avatar. The final banner is pending.');

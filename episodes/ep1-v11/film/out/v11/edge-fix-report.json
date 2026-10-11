@@ -1,0 +1,55 @@
+{
+  "revision": "EP1 v11 / image boundary correction 2026-10-11",
+  "status": "rebuilt_and_technically_verified_for_user_review",
+  "change": "Item clips two outer display pixels after filtering; original PNGs, anchors and montage timings retained.",
+  "frames": 9743,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
+  "source_fingerprint": "8ea6d3ecb93408f7d2bc16d55d6be96840337e959209bcb3e0ffd9e7fd415853",
+  "original_pngs_changed": false,
+  "original_aac_packets": 15225,
+  "aac_packet_hashes_and_timestamps_identical": true,
+  "full_video_and_audio_decode_passed": true,
+  "decoded_review_seconds": [
+    0,
+    5,
+    13,
+    45,
+    52,
+    65,
+    266,
+    274,
+    292,
+    319,
+    324.6
+  ],
+  "final_mp4_background_regions": [
+    {
+      "name": "right of hero",
+      "box": [
+        776,
+        180,
+        23,
+        490
+      ],
+      "minimum": 6,
+      "maximum": 6
+    },
+    {
+      "name": "below scales",
+      "box": [
+        1150,
+        833,
+        580,
+        8
+      ],
+      "minimum": 6,
+      "maximum": 6
+    }
+  ],
+  "limits": "Selected decoded frames and full decode checked. No claim of continuous creative playback or new listening. Browser clipping can change interior antialiasing by one channel value."
+}

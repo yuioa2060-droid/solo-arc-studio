@@ -31,7 +31,10 @@ export const Item:React.FC<ItemP>=({src,x,y,h,t0,t1,enter='up',seed=1,dur,back,d
   if(blurUntil!==undefined){blur+=8*(1-ease((t-blurUntil)/0.5));}
   for(const pa of pulseAt){const u=(t-pa)/0.6;if(u>0&&u<1)sc*=1+0.07*Math.sin(Math.PI*u);}
   const tf=freeze&&t>=freeze[0]&&t<freeze[1]?freeze[0]:t;const f=src.startsWith('h-')?swim(tf,seed):float(tf,seed);
-  return <div style={{position:'absolute',left:X+dx+f.x,top:Y+dy+f.y,height:H,zIndex:z,transform:`translate(-50%,-50%) rotate(${f.r+rot}deg) scale(${sc*f.k})`,opacity:op,filter:`brightness(${bright}) blur(${blur}px)`}}>
+  // Filtered, rotated transparent images can expose a faint raster boundary.
+  // Clip only the outer two display pixels after filtering, leaving the PNG,
+  // its dimensions, anchors and the interior drawing unchanged.
+  return <div style={{position:'absolute',left:X+dx+f.x,top:Y+dy+f.y,height:H,zIndex:z,transform:`translate(-50%,-50%) rotate(${f.r+rot}deg) scale(${sc*f.k})`,opacity:op,filter:`brightness(${bright}) blur(${blur}px)`,clipPath:'inset(2px)'}}>
     <Img src={staticFile('img/'+src+'.png')} style={{height:H,display:'block',borderRadius:round?'50%':undefined,WebkitMaskImage:vignette?'radial-gradient(ellipse 54% 56% at 50% 50%, black 30%, rgba(0,0,0,.55) 62%, transparent 92%)':undefined}}/></div>;
 };
 // circular preview (teaser) with emerald ring
