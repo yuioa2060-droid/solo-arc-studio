@@ -1,6 +1,6 @@
 # Fitness channel — Claude entry point
 
-The working name is Rendo; the handle is unverified. Avatar layout 02 / DRY BRUSH is approved, with a small emerald V on black. The owner requested a sharper regenerated close portrait only (head, neck, shoulders), without replacing video artwork. The new portrait revision remains for user review. Do not use V in banners: the owner rejected it there and requested many varied designs. Twelve current minimal banner proposals are in branding/README_RU.md; none is selected. SOLO ARC was rejected; solo-arc paths remain technical identifiers.
+The working name is Rendo; the handle is unverified. Avatar layout 02 / DRY BRUSH is approved, with a small emerald V on black. Its regenerated close portrait remains for quality review. Banners must have a flat white or black background, no V, and a substantial integrated #0B8371 accent; scenic backgrounds and tiny green underlines were rejected. The owner liked composition 04 / portrait and ink, rejected its Jost Medium lettering, and asked to try white. Three replacement fonts on both backgrounds are in branding/README_RU.md; the final font and background are unselected. Banner font feedback does not change Jost in videos. SOLO ARC was rejected; solo-arc paths remain technical identifiers.
 
 Before project work, read [START_CLAUDE_RU.md](START_CLAUDE_RU.md). It covers context intake, references, LFS downloads, dependencies, skills, API setup, production and the first prompt.
 

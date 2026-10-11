@@ -1,109 +1,87 @@
 {
   "date": "2026-10-11",
-  "portrait_regenerated_by": "built-in image_gen",
+  "selected_composition": "04 / portrait and ink from the previous eight-concept comparison",
+  "portrait_regenerated_by": "built-in image_gen in preceding quality revision",
   "portrait_native_size": [
     1254,
     1254
   ],
   "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
   "avatar_aliases_identical": true,
+  "avatar_unchanged_in_banner_revision": true,
   "avatar_dry_brush_geometry_retained": true,
   "banners": [
     {
       "id": "01",
+      "font": "DM Serif Display",
+      "background": "black",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     },
     {
       "id": "02",
+      "font": "DM Serif Display",
+      "background": "white",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     },
     {
       "id": "03",
+      "font": "Montserrat",
+      "background": "black",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     },
     {
       "id": "04",
+      "font": "Montserrat",
+      "background": "white",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     },
     {
       "id": "05",
+      "font": "Caveat",
+      "background": "black",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     },
     {
       "id": "06",
+      "font": "Caveat",
+      "background": "white",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "07",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "08",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "09",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "10",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "11",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
-    },
-    {
-      "id": "12",
-      "size": [
-        2560,
-        1440
-      ],
-      "png_decode_passed": true
+      "png_decode_passed": true,
+      "flat_background_samples_matched": true,
+      "emerald_pixels_in_mobile_source_crop": 18584
     }
   ],
   "desktop_and_mobile_boards_visually_reviewed": true,
@@ -113,11 +91,15 @@
     96,
     32
   ],
+  "avatar_circle_review_scope": "Preceding portrait-quality pass; avatar unchanged",
   "wordmarks_inside_conservative_mobile_crop": true,
-  "generated_background_assets": 4,
+  "scenic_backgrounds_in_current_kit": false,
+  "model_requests_for_this_banner_revision": 0,
   "production_public_assets_unchanged": 88,
   "production_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "production_video_unchanged": true,
   "final_banner_selected": false,
+  "final_font_selected": false,
+  "final_background_selected": false,
   "limits": "Local images reviewed; no YouTube publication or live platform crop claimed. New portrait submitted for quality review, not asserted to preserve every facial pixel."
 }

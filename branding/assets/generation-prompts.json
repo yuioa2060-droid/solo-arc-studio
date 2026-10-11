@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "method": "Built-in image_gen for one isolated portrait and four original background assets; editable SVG/Pango lettering and native compositing for twelve banner layouts.",
+  "method": "Built-in image_gen previously regenerated the isolated portrait. Current banners use native SVG/Pango lettering and compositing: three fonts on black and white, preserving selected composition 04. No model request is made by rebuilding.",
   "portrait": {
     "use_case": "identity-preserve",
     "prompt": "Use case: identity-preserve. Asset type: high-resolution transparent manga portrait for an existing channel avatar. Input image 1 is the EDIT TARGET: the exact close portrait crop and character identity to preserve; input image 2 is the original full-body drawing, only supporting identity/style reference. Re-render ONLY the person visible in the square avatar crop, not a full-body character. Draw at 2048 by 2048 if possible with genuinely fresh sharp black manga ink and fine readable cross-hatching, no blurry enlarging or artificial sharpening. Preserve the same adult man's exact face proportions, eye shapes and stern calm direct gaze, straight closed mouth, silver-white tousled fringe, nose and jaw, white neutral skin, bare neck/collarbones/shoulders, same head angle and same pose. Composition must closely match image 1: hair crown near 4% of the square height, eyes around 51%, chin around 78%; broad shoulders along the bottom and a tiny visible portion of the raised fist at the lower left. Keep the hair silhouette and head scale; do not zoom out. No torso below the upper chest, no abs, no shorts, no legs. Regenerate the character with crisp elegant deliberate ink linework and controlled crosshatching, not softer or more painterly than the reference. The emerald V is a separate existing native graphic: omit it completely from this portrait asset so it can be composited unchanged later. Output ONLY the isolated monochrome portrait with a genuine alpha-transparent background. No colored hair/eyes/skin, no text, no watermark, no border, no glow, no background scene, no checkerboard drawn into the image.",
@@ -10,32 +10,29 @@
     ],
     "output": "avatar-portrait.png"
   },
-  "backgrounds": [
-    {
-      "id": "forest",
-      "prompt": "Asset type: clean atmospheric background artwork for a minimal wide YouTube channel banner called Rendo. Landscape 2560 by 1440 if possible. The channel palette is near-black, off-white and a restrained deep emerald #0B8371. This is BACKGROUND ART only: no text or lettering, no logo, absolutely no letter V or V-shaped symbol, no people, no fitness equipment, no watermark. Keep the middle horizontal band especially uncluttered and low contrast so crisp typography can be added in code; visual detail mostly toward the lateral edges. Premium understated visual mood, no neon, no purple or cyan, no film grain, no gritty overlay, no distressed paper, no busy scrapbook. Use case: photorealistic-natural. An exceptionally quiet dark evergreen forest at dawn, tall vertical spruce trunks receding into soft slate mist, muted forest-green undertones, dark charcoal negative space. A few distant dim naturally lit trees, not fantasy. Very wide cinematic composition, understated photographic atmosphere and subtle layered depth. No sunbeam spotlight, no camping or hiking icons.",
-      "output": "forest-background.png"
-    },
-    {
-      "id": "daylight",
-      "prompt": "Asset type: clean atmospheric background artwork for a minimal wide YouTube channel banner called Rendo. Landscape 2560 by 1440 if possible. The channel palette is near-black, off-white and a restrained deep emerald #0B8371. This is BACKGROUND ART only: no text or lettering, no logo, absolutely no letter V or V-shaped symbol, no people, no fitness equipment, no watermark. Keep the middle horizontal band especially uncluttered and low contrast so crisp typography can be added in code; visual detail mostly toward the lateral edges. Premium understated visual mood, no neon, no purple or cyan, no film grain, no gritty overlay, no distressed paper, no busy scrapbook. Use case: photorealistic-natural. An airy modern off-white architectural wall in gentle daylight, subtle soft shadows from leaves falling only on the outer right edge, a muted deep emerald wall return at the far left. Smooth matte plaster, refined ordinary contemporary room, no furniture, no framed pictures, no printed pattern, no paper. Much clean warm-white negative space across the central strip, very minimal natural photographic texture.",
-      "output": "daylight-background.png"
-    },
-    {
-      "id": "ink",
-      "prompt": "Asset type: clean atmospheric background artwork for a minimal wide YouTube channel banner called Rendo. Landscape 2560 by 1440 if possible. The channel palette is near-black, off-white and a restrained deep emerald #0B8371. This is BACKGROUND ART only: no text or lettering, no logo, absolutely no letter V or V-shaped symbol, no people, no fitness equipment, no watermark. Keep the middle horizontal band especially uncluttered and low contrast so crisp typography can be added in code; visual detail mostly toward the lateral edges. Premium understated visual mood, no neon, no purple or cyan, no film grain, no gritty overlay, no distressed paper, no busy scrapbook. Use case: stylized-concept. Refined contemporary sumi-e landscape on a perfectly clean flat off-white background, a few restrained black-gray distant mountain ridges at the far edges, one subtle deep emerald wash low toward the right. Light grey airy negative space across the center. Sharp yet natural sparse brush strokes, elegant Japanese manga-adjacent atmosphere without ornamental symbols. No vintage paper, no paper fibers, no calligraphy, no red sun or stamp, no circular ensō, no V-shaped mountains in the center.",
-      "output": "ink-background.png"
-    },
-    {
-      "id": "city",
-      "prompt": "Asset type: clean atmospheric background artwork for a minimal wide YouTube channel banner called Rendo. Landscape 2560 by 1440 if possible. The channel palette is near-black, off-white and a restrained deep emerald #0B8371. This is BACKGROUND ART only: no text or lettering, no logo, absolutely no letter V or V-shaped symbol, no people, no fitness equipment, no watermark. Keep the middle horizontal band especially uncluttered and low contrast so crisp typography can be added in code; visual detail mostly toward the lateral edges. Premium understated visual mood, no neon, no purple or cyan, no film grain, no gritty overlay, no distressed paper, no busy scrapbook. Use case: photorealistic-natural. A very quiet charcoal modern city viewed through a large contemporary apartment window at dusk, only partial far-edge rectangular window frames and a distant unfocused skyline. Restrained moody deep emerald dusk reflections, faint soft off-white window lights, center is dark empty atmosphere. Cinematic calm adult nighttime mood, photographic realism, no people or decor, no neon signs, no large luminous streaks, no cyberpunk.",
-      "output": "city-background.png"
-    }
-  ],
   "constraints": {
     "banner_letter_v": false,
     "avatar_dry_brush_v_retained": true,
     "video_assets_modified": false,
     "portrait_approval": "Layout and stroke style previously approved; new portrait quality revision is submitted for user review."
+  },
+  "current_banner_brief": {
+    "liked_composition": "04 / portrait and ink from the eight-concept comparison",
+    "rejected_lettering": "Jost Medium in that banner only",
+    "requested_revision": "Different fonts and a white background",
+    "allowed_backgrounds": [
+      "#FFFFFF",
+      "#060606"
+    ],
+    "accent": "Substantial #0B8371 ink form behind the portrait",
+    "banner_letter_v": false,
+    "tiny_green_underline": false,
+    "portrait_geometry": {
+      "width": 600,
+      "left": 1410,
+      "top": 433
+    },
+    "final_font_selected": false,
+    "final_background_selected": false
   }
 }

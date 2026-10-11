@@ -1,8 +1,9 @@
 {
   "date": "2026-10-11",
+  "revision": "Selected portrait-and-ink composition 04; three new fonts on black and white",
   "selected_public_name": "Rendo",
   "avatar_layout": "02 / DRY BRUSH",
-  "avatar_portrait_quality_revision": "Regenerated close crop, for user review",
+  "avatar_portrait_quality_revision": "Existing close crop retained",
   "avatar_native_size": [
     1254,
     1254
@@ -10,7 +11,18 @@
   "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
   "avatar_v_geometry_unchanged": true,
   "banner_v_mark_forbidden": true,
+  "banner_allowed_backgrounds": [
+    "#FFFFFF",
+    "#060606"
+  ],
+  "scenic_backgrounds_rejected": true,
+  "tiny_green_underline_rejected": true,
+  "selected_banner_composition": "04 / portrait and ink from the previous eight-concept comparison",
+  "original_composition_04_font_rejected": "Jost Medium",
+  "final_font_selected": false,
+  "final_background_selected": false,
   "final_banner_selected": false,
+  "temporary_preview": "01",
   "conservative_mobile_crop": [
     530,
     520,
@@ -26,314 +38,182 @@
   "banners": [
     {
       "id": "01",
-      "title": "Quiet black",
-      "ru": "Тихий чёрный",
-      "kind": "type",
+      "title": "С засечками",
+      "background": "black",
+      "font": "DM Serif Display",
+      "font_style": "Regular",
+      "lettering": "rendo",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-01.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 82940,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 527694,
       "text_boxes": [
         {
-          "text": "RENDO",
+          "text": "rendo",
           "box": [
-            1065,
-            661,
-            431,
-            90
+            665,
+            638,
+            583,
+            162
           ]
         }
       ],
+      "all_name_boxes_within_mobile_crop": true,
       "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     },
     {
       "id": "02",
-      "title": "Emerald on cream",
-      "ru": "Изумруд на светлом",
-      "kind": "type",
+      "title": "С засечками",
+      "background": "white",
+      "font": "DM Serif Display",
+      "font_style": "Regular",
+      "lettering": "rendo",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-02.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 85395,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 473176,
       "text_boxes": [
         {
           "text": "rendo",
           "box": [
-            1061,
-            647,
-            438,
-            146
+            665,
+            638,
+            583,
+            162
           ]
         }
       ],
+      "all_name_boxes_within_mobile_crop": true,
       "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     },
     {
       "id": "03",
-      "title": "Portrait editorial",
-      "ru": "Портрет и имя",
-      "kind": "portrait",
+      "title": "Плотный наклонный",
+      "background": "black",
+      "font": "Montserrat",
+      "font_style": "Heavy Italic",
+      "lettering": "RENDO",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-03.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 739869,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 532489,
       "text_boxes": [
         {
-          "text": "rendo",
+          "text": "RENDO",
           "box": [
-            723,
-            647,
-            426,
-            136
+            641,
+            661,
+            630,
+            117
           ]
         }
       ],
+      "all_name_boxes_within_mobile_crop": true,
       "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     },
     {
       "id": "04",
-      "title": "Manga close-up",
-      "ru": "Крупный манга-фрагмент",
-      "kind": "portrait",
+      "title": "Плотный наклонный",
+      "background": "white",
+      "font": "Montserrat",
+      "font_style": "Heavy Italic",
+      "lettering": "RENDO",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-04.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 1902055,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 480006,
       "text_boxes": [
         {
           "text": "RENDO",
           "box": [
-            699,
             641,
-            521,
-            98
+            661,
+            630,
+            117
           ]
         }
       ],
+      "all_name_boxes_within_mobile_crop": true,
       "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     },
     {
       "id": "05",
-      "title": "Emerald split",
-      "ru": "Изумрудный разделённый фон",
-      "kind": "portrait",
+      "title": "Живая подпись",
+      "background": "black",
+      "font": "Caveat",
+      "font_style": "Bold",
+      "lettering": "rendo",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-05.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 924730,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 529044,
       "text_boxes": [
         {
           "text": "rendo",
           "box": [
-            736,
-            635,
-            440,
-            140
+            683,
+            623,
+            547,
+            192
           ]
         }
       ],
+      "all_name_boxes_within_mobile_crop": true,
       "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     },
     {
       "id": "06",
-      "title": "Soft silhouette",
-      "ru": "Лёгкий силуэт",
-      "kind": "portrait",
+      "title": "Живая подпись",
+      "background": "white",
+      "font": "Caveat",
+      "font_style": "Bold",
+      "lettering": "rendo",
+      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
       "file": "options/rendo/banner-06.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 485637,
-      "all_name_boxes_within_mobile_crop": true,
+      "bytes": 474706,
       "text_boxes": [
         {
           "text": "rendo",
           "box": [
-            760,
-            649,
-            397,
-            133
+            683,
+            623,
+            547,
+            192
           ]
         }
       ],
-      "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "07",
-      "title": "Forest / dawn",
-      "ru": "Лес в тумане",
-      "kind": "generated-background",
-      "file": "options/rendo/banner-07.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 4567268,
       "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "RENDO",
-          "box": [
-            1061,
-            663,
-            439,
-            92
-          ]
-        }
-      ],
       "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "08",
-      "title": "Ink landscape",
-      "ru": "Тушевый пейзаж",
-      "kind": "generated-background",
-      "file": "options/rendo/banner-08.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 2233276,
-      "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "Rendo",
-          "box": [
-            1089,
-            642,
-            382,
-            116
-          ]
-        }
-      ],
-      "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "09",
-      "title": "City / dusk",
-      "ru": "Город вечером",
-      "kind": "generated-background",
-      "file": "options/rendo/banner-09.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 3244792,
-      "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "rendo",
-          "box": [
-            926,
-            641,
-            369,
-            123
-          ]
-        }
-      ],
-      "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "10",
-      "title": "Wide italic",
-      "ru": "Крупное наклонное имя",
-      "kind": "type",
-      "file": "options/rendo/banner-10.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 89915,
-      "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "RENDO",
-          "box": [
-            918,
-            657,
-            724,
-            130
-          ]
-        }
-      ],
-      "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "11",
-      "title": "Graphic stripe",
-      "ru": "Графическая полоса",
-      "kind": "type",
-      "file": "options/rendo/banner-11.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 84650,
-      "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "RENDO",
-          "box": [
-            1028,
-            672,
-            545,
-            96
-          ]
-        }
-      ],
-      "banner_has_v_mark": false,
-      "approved": false
-    },
-    {
-      "id": "12",
-      "title": "Daylight",
-      "ru": "Дневной свет",
-      "kind": "generated-background",
-      "file": "options/rendo/banner-12.png",
-      "size": [
-        2560,
-        1440
-      ],
-      "bytes": 5102393,
-      "all_name_boxes_within_mobile_crop": true,
-      "text_boxes": [
-        {
-          "text": "rendo",
-          "box": [
-            1093,
-            658,
-            375,
-            124
-          ]
-        }
-      ],
-      "banner_has_v_mark": false,
+      "small_green_underline": false,
       "approved": false
     }
   ]
