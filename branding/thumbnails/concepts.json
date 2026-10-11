@@ -1,77 +1,43 @@
 {
   "date": "2026-10-11",
-  "status": "Font 03 (Montserrat Black Italic) preferred; enlarged centered caption sizes under review",
+  "status": "Font 03 preferred; body pair regenerated on request; final artwork and caption size under review",
   "episode": "Current EP1 v11 only",
-  "source_artwork_unchanged": true,
-  "source_artwork": {
+  "episode_source_artwork_unchanged": true,
+  "episode_source_artwork": {
     "b-w1.png": {
-      "sha256": "ca148e81eb8a377ec569a007e376608ef77b3ef515f42c33e1623d1098be9497",
-      "nativeSize": [
-        640,
-        1024
-      ]
+      "sha256": "ca148e81eb8a377ec569a007e376608ef77b3ef515f42c33e1623d1098be9497"
     },
     "b-w3.png": {
-      "sha256": "fd380a806866b5e44b71c4ff9909d412ddbf5fde3b56111ea609abd0876a35ae",
-      "nativeSize": [
-        640,
-        1024
-      ]
+      "sha256": "fd380a806866b5e44b71c4ff9909d412ddbf5fde3b56111ea609abd0876a35ae"
     }
   },
-  "model_requests": 0,
-  "focus": {
-    "type": "elliptical soft falloff aimed at the front of the abdomen; no anatomical cutout",
-    "ellipses_in_source_pixels": {
-      "b-w1.png": {
-        "cx": 513,
-        "cy": 355,
-        "rx": 105,
-        "ry": 113
-      },
-      "b-w3.png": {
-        "cx": 481,
-        "cy": 354,
-        "rx": 68,
-        "ry": 110
-      }
-    },
-    "black_opacity_stops": [
-      [
-        0,
-        0
-      ],
-      [
-        0.48,
-        0
-      ],
-      [
-        0.68,
-        0.14
-      ],
-      [
-        0.9,
-        0.65
-      ],
-      [
-        1,
-        0.78
-      ]
+  "generated_artwork": {
+    "file": "assets/body-pair.png",
+    "sha256": "490e6f6c28c042e92e905fbb3996b155bc7d207f863885413842a6998a9b004d",
+    "native_size": [
+      1672,
+      941
     ],
-    "crop": {
-      "left": 300,
-      "top": 178,
-      "width": 265,
-      "height": 370
-    },
-    "uniform_scale": 1.945945945945946,
-    "layer_left_positions": [
-      23,
-      727
+    "has_alpha": true,
+    "artwork_generation": "Built-in image_gen; one fresh redraw",
+    "generation_record": "assets/generation.json"
+  },
+  "model_requests_during_build": 0,
+  "focus": "Soft localized lighting included in the generated artwork; no hard anatomical mask",
+  "native_export": {
+    "file": "thumbnail.png",
+    "size": [
+      1664,
+      936
+    ],
+    "uniform_fit": "cover; slight crop for exact 16:9; no enlargement",
+    "caption_pixels": [
+      395,
+      55
     ]
   },
   "divider": {
-    "x": 640,
+    "center": 640,
     "width": 10,
     "top": [
       0,
@@ -90,7 +56,6 @@
       360
     ],
     "previous_width": 196,
-    "requested_change": "Increase legibility of preferred font 03",
     "color": "#FFFFFF"
   },
   "designs": [
@@ -116,9 +81,9 @@
         "width": 268,
         "height": 38
       },
-      "bytes": 97676,
+      "bytes": 251131,
       "approved": false,
-      "purpose": "Two larger sizes of preferred font 03; final caption size under review"
+      "purpose": "Enlarged preferred font 03 with newly generated artwork; final size and artwork under review"
     },
     {
       "id": "03-b",
@@ -142,9 +107,9 @@
         "width": 304,
         "height": 43
       },
-      "bytes": 98296,
+      "bytes": 251815,
       "approved": false,
-      "purpose": "Two larger sizes of preferred font 03; final caption size under review"
+      "purpose": "Enlarged preferred font 03 with newly generated artwork; final size and artwork under review"
     }
   ]
 }
