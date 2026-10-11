@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-12",
+  "status": "New thumbnail proposals; owner selection pending",
+  "current_thumbnail_replaced": false,
+  "control": "thumbnail.png",
+  "new_service": "A6API",
+  "candidate_count": 3,
+  "generation_request_count": 4,
+  "generation_billed_usd": 0.006036,
+  "letters_and_arrows_generated_together": true,
+  "bodies_generated_together": true,
+  "decoding_checked": true,
+  "no_artwork_enlargement": true,
+  "visual_review_completed": true,
+  "candidates": [
+    {
+      "id": "B",
+      "key": "01-straight-arrow",
+      "name": "Прямая стрелка",
+      "source": "assets/attention-straight.png",
+      "file": "attention/01-straight-arrow.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "export_size": [
+        1664,
+        936
+      ],
+      "bytes": 1715794,
+      "source_sha256": "98f4a2452d8ad67568ff5ab88ebaf4366d54c542dc6ad54953f788ba38bf782f",
+      "export_sha256": "97fc41f88ee5721454004b4ba9f034d1d865f67a322f7e05e05c5653ce32ab24",
+      "artwork_origin": "Complete A6API edit of the thumbnail; only uniform export/crop afterward",
+      "approved": false
+    },
+    {
+      "id": "C",
+      "key": "02-curved-arrow",
+      "name": "Стрелка на талию",
+      "source": "assets/attention-curved.png",
+      "file": "attention/02-curved-arrow.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "export_size": [
+        1664,
+        936
+      ],
+      "bytes": 1678678,
+      "source_sha256": "d62b2997d85b8baa61e49af21ab15d2ff82aaa2228975d75edfcdc3004d0cd6a",
+      "export_sha256": "6641da8d345d1e68a14823a5464d50f53ff56fbaf429050d9d4f518eba0fde15",
+      "artwork_origin": "Complete A6API edit of the thumbnail; only uniform export/crop afterward",
+      "approved": false
+    },
+    {
+      "id": "D",
+      "key": "03-waist-closeup",
+      "name": "Крупнее талия, без стрелки",
+      "source": "assets/attention-closeup.png",
+      "file": "attention/03-waist-closeup.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "export_size": [
+        1664,
+        936
+      ],
+      "bytes": 1765370,
+      "source_sha256": "bec864e8732d6fb3b582256984abb32771db2f59a92fae6b3a08942ae01915cc",
+      "export_sha256": "d0b72f0b24b46aab0e1b700af89445f2db60deed23130e9385f2df9bb7ef8ef5",
+      "artwork_origin": "Complete A6API edit of the thumbnail; only uniform export/crop afterward",
+      "approved": false
+    }
+  ],
+  "visual_review_scope": [
+    "All three full generated candidates",
+    "Four-way comparison with current thumbnail",
+    "Each variant at 320x180",
+    "Spelling and placement of 12 WEEKS",
+    "Arrow C targets the right waist",
+    "Smooth natural after belly without visible abs"
+  ]
+}

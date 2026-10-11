@@ -106,5 +106,7 @@
     "Tags belong in the dedicated Studio field; hashtags can appear at the end of the description.",
     "No next-episode script, title, plan or proposed hook is included.",
     "Copy approval and channel upload actions have not been performed."
-  ]
+  ],
+  "thumbnail_proposals_report": "branding/thumbnails/ATTENTION_RU.md",
+  "thumbnail_new_proposals_approved": false
 }

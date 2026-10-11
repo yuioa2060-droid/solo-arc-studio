@@ -1,0 +1,47 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-11T23:24:20.2966436Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.0018,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "c53447b25ccf06767881384325c931695c7346ca68b40ccaac118f9f7f7f114a",
+  "references": [
+    {
+      "sha256": "361ae13a793b5c8547b0edfb0d2cac678a76d27619f9e7bd43a179e03f3c7f57",
+      "name": "thumbnail.png"
+    }
+  ],
+  "output": "branding/thumbnails/assets/attention-curved-input.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "modelPrice": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ],
+    "quotaType": 1
+  },
+  "ledgerBeforeLatestCreatedAt": 1791760992,
+  "phase": "image-saved-and-billing-reconciled",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/assets/attention-curved-input.png",
+  "imageBytes": 1572714,
+  "imageSha256": "ae715ef3dc6aa46ac433d4657ed57ce6c183c442bdf82ef70ae6d6ff82e32523",
+  "newBilledRows": 1,
+  "billedQuota": 900,
+  "actualChannel": 4820,
+  "routeType": "smart",
+  "finishedAt": "2026-10-11T23:24:59.5517229Z",
+  "prompt": "branding/thumbnails/prompts/02-curved-arrow.txt",
+  "role": "reference input for C refinement",
+  "routeVerifiedByLedger": true,
+  "ownerApprovalPending": true
+}

@@ -58,8 +58,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 6028,
-      "sha256": "621e98c6c7e7f9829e7b6eca09a9668f3e87cb88a7db03c38144a79ed5a3e9fc"
+      "bytes": 5997,
+      "sha256": "5c50773779248502dd7df57e0e4c4a4ee75bcc4e531a362623054cfd673ae3cd"
     },
     {
       "path": "branding/assets/avatar-crop-reference.png",
@@ -98,8 +98,8 @@
     },
     {
       "path": "branding/current-options.json",
-      "bytes": 8396,
-      "sha256": "7fced1add8e02927e516819f58788edaf04432ae3b0251136d1f5f9756e4df39"
+      "bytes": 8769,
+      "sha256": "fa828f1c3b730083066076f25b20e790abd202c6e5dfb62fec3d3b56cd248719"
     },
     {
       "path": "branding/fonts/Anton-OFL.txt",
@@ -333,13 +333,58 @@
     },
     {
       "path": "branding/quality-check.json",
-      "bytes": 8813,
-      "sha256": "fb5db9d292e1524dfc88cea469a17386f9deed17476ec9927cc43cb235c602c4"
+      "bytes": 9186,
+      "sha256": "85fb41510d23142885d008e3d241098643d3096101f2a04dad84eec046b22914"
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 9269,
-      "sha256": "033b1d4f6005e93bfd4493055de643dd14ac56a133cc88fb492b2efbdd75ca72"
+      "bytes": 9934,
+      "sha256": "acea10383daea2611d78865f4bdde560ff78344832d8e8c0ec310b561ffb53db"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-closeup.png",
+      "bytes": 1441685,
+      "sha256": "bec864e8732d6fb3b582256984abb32771db2f59a92fae6b3a08942ae01915cc"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-closeup.png.audit.json",
+      "bytes": 1584,
+      "sha256": "2fa75a82200f9d951135f96cab4c2676ff679b36ba33f4bf50717e2764014af7"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-curved-input.png",
+      "bytes": 1572714,
+      "sha256": "ae715ef3dc6aa46ac433d4657ed57ce6c183c442bdf82ef70ae6d6ff82e32523"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-curved-input.png.audit.json",
+      "bytes": 1597,
+      "sha256": "327407071568b9eed9ceb777877fcd23c4820b3c3d398c519dfcce78f322a86e"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-curved.png",
+      "bytes": 1549039,
+      "sha256": "d62b2997d85b8baa61e49af21ab15d2ff82aaa2228975d75edfcdc3004d0cd6a"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-curved.png.audit.json",
+      "bytes": 1562,
+      "sha256": "f6b27ed7c4063de0778f073b8340453f4e6c5468a1e50cd1fe9f160f37b75fb7"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-generation.json",
+      "bytes": 1609,
+      "sha256": "7fbea8aa0c991a8c71b99c46b470d1a74ffbdfd1311d0a8575a09d05ae22edaf"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-straight.png",
+      "bytes": 1601137,
+      "sha256": "98f4a2452d8ad67568ff5ab88ebaf4366d54c542dc6ad54953f788ba38bf782f"
+    },
+    {
+      "path": "branding/thumbnails/assets/attention-straight.png.audit.json",
+      "bytes": 1568,
+      "sha256": "4ec819c9cc3c25c9b583c8fb4f5d598c3c1574e9bfd69dbdcd411ff3dfce4ada"
     },
     {
       "path": "branding/thumbnails/assets/body-pair.png",
@@ -350,6 +395,76 @@
       "path": "branding/thumbnails/assets/generation.json",
       "bytes": 4181,
       "sha256": "eeff6905269a21d4268cec943931e4b8bb75c8a450228e17542fd223070d12ba"
+    },
+    {
+      "path": "branding/thumbnails/attention/01-straight-arrow-small.jpg",
+      "bytes": 22282,
+      "sha256": "6ed719d8565a6f9fd7f8487e5b95f671de861c419bdbc8c3847ae0cd83c4427a"
+    },
+    {
+      "path": "branding/thumbnails/attention/01-straight-arrow.jpg",
+      "bytes": 241095,
+      "sha256": "db44fd09d39f0c699edc7841925dfdc8dd5241d7e062ffa47346f235cb446af8"
+    },
+    {
+      "path": "branding/thumbnails/attention/01-straight-arrow.png",
+      "bytes": 1715794,
+      "sha256": "97fc41f88ee5721454004b4ba9f034d1d865f67a322f7e05e05c5653ce32ab24"
+    },
+    {
+      "path": "branding/thumbnails/attention/02-curved-arrow-small.jpg",
+      "bytes": 22644,
+      "sha256": "29b0747c4ecaa54f6d14d98d4302e15a00383a5553a3d4d7dcf5920aebbf9553"
+    },
+    {
+      "path": "branding/thumbnails/attention/02-curved-arrow.jpg",
+      "bytes": 246042,
+      "sha256": "e1eca78dcc434d6ed5662fffe601fdac99e97ed4bf6bfad681f9b0a8792b55c8"
+    },
+    {
+      "path": "branding/thumbnails/attention/02-curved-arrow.png",
+      "bytes": 1678678,
+      "sha256": "6641da8d345d1e68a14823a5464d50f53ff56fbaf429050d9d4f518eba0fde15"
+    },
+    {
+      "path": "branding/thumbnails/attention/03-waist-closeup-small.jpg",
+      "bytes": 22196,
+      "sha256": "b63a2e229855efe5f95ee8bf9df76216fe809f0eb8000a1de1bb6fc04281a794"
+    },
+    {
+      "path": "branding/thumbnails/attention/03-waist-closeup.jpg",
+      "bytes": 240293,
+      "sha256": "832352e5a54d7b036cd4c24b9300d218c1fac2c55d73938b879b0a74bec107e1"
+    },
+    {
+      "path": "branding/thumbnails/attention/03-waist-closeup.png",
+      "bytes": 1765370,
+      "sha256": "d0b72f0b24b46aab0e1b700af89445f2db60deed23130e9385f2df9bb7ef8ef5"
+    },
+    {
+      "path": "branding/thumbnails/attention/comparison.jpg",
+      "bytes": 592482,
+      "sha256": "4f98c559333266dd0065302b57b252841bc9241b27f96c74b9f57391d4a7e27e"
+    },
+    {
+      "path": "branding/thumbnails/attention/quality-check.json",
+      "bytes": 2749,
+      "sha256": "c04751e58279a309823beddd95cf928c421b6b56ca0861cea7874b30917e1da0"
+    },
+    {
+      "path": "branding/thumbnails/attention/small-comparison.jpg",
+      "bytes": 104978,
+      "sha256": "b731afd8d6efb34684aecbcca721fc5f73a1dcb80095357eed842df581ac1bae"
+    },
+    {
+      "path": "branding/thumbnails/ATTENTION_RU.md",
+      "bytes": 7481,
+      "sha256": "18251155fe1878554d0765a5697268d18fd323bb8ce822847c9b54f539cdfbf8"
+    },
+    {
+      "path": "branding/thumbnails/build-attention.mjs",
+      "bytes": 4367,
+      "sha256": "b6028b6f02fcc31587318c01305102ece038b9179182f52933c8513b349346b0"
     },
     {
       "path": "branding/thumbnails/build.mjs",
@@ -387,14 +502,34 @@
       "sha256": "481ca38ff1c32dcb9bfc1d61a437676851bc5b445efbc7c1aa9aabf7313f7d53"
     },
     {
+      "path": "branding/thumbnails/prompts/01-straight-arrow.txt",
+      "bytes": 2060,
+      "sha256": "5b4ede2ac5d76c5eca8f4ad5d19f51e685cd71d75c8d28c00d0b5346ec2df0ad"
+    },
+    {
+      "path": "branding/thumbnails/prompts/02-curved-arrow-refine.txt",
+      "bytes": 1848,
+      "sha256": "9963df718cb42580b15d3928fc16974f147172720bc373d27eb1d9440ab63143"
+    },
+    {
+      "path": "branding/thumbnails/prompts/02-curved-arrow.txt",
+      "bytes": 1925,
+      "sha256": "c53447b25ccf06767881384325c931695c7346ca68b40ccaac118f9f7f7f114a"
+    },
+    {
+      "path": "branding/thumbnails/prompts/03-waist-closeup.txt",
+      "bytes": 2034,
+      "sha256": "c3903b782e5d898db580e5ed4eccd0f20cd9bf392a24eb873ede3ff1937e42d9"
+    },
+    {
       "path": "branding/thumbnails/quality-check.json",
       "bytes": 2188,
       "sha256": "e07a8cd4e6196bb58ff72175f8aa5b5d21915f9c8276fdb71eeaa8f5087fc4c9"
     },
     {
       "path": "branding/thumbnails/README_RU.md",
-      "bytes": 6863,
-      "sha256": "4b52ace03af4af6a9924a1ca769a362e4972337a425a018aa6fa119605295a9d"
+      "bytes": 7430,
+      "sha256": "3ccf1670c9eacf8d886dac25c290b720406aeb9523c3ae0d089ceebeda2c1c63"
     },
     {
       "path": "branding/thumbnails/small-comparison.jpg",
@@ -413,13 +548,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 6684,
-      "sha256": "20e5d9f04565d95438e01c8adb479643d466c2505e548eee811daeffb8c3f4a2"
+      "bytes": 7099,
+      "sha256": "9e9945e3fcb5548d2d9d3e17ae6006d62971e376914298594edf14d8603bfa2b"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 12305,
-      "sha256": "b4ef66b79158a182134d7de625f9a5246c7bdfc993264d47ab3c765ec1321dfe"
+      "bytes": 13864,
+      "sha256": "7e2dc82bed921432fe4506d982b48a8a5cddc4a272550776c5b9b1c1ce5ae6eb"
     },
     {
       "path": "Dockerfile",
@@ -1893,8 +2028,8 @@
     },
     {
       "path": "episodes/ep1-v11/upload-metadata.json",
-      "bytes": 4072,
-      "sha256": "50396a214eafaa1e7da076e779d82d8df363c2b30d6d106f11ec045c1a40f12c"
+      "bytes": 4188,
+      "sha256": "cd773081bc1bd0fd09eb085c159b4c268f3026fed7f1234292db2eadb2364378"
     },
     {
       "path": "episodes/ep1-v11/UPLOAD_RU.md",
@@ -1973,8 +2108,8 @@
     },
     {
       "path": "research/CHANNEL_BRANDING_RU.md",
-      "bytes": 40505,
-      "sha256": "1d54f49ca76cd2b5de626636439c196510ab260710f66e452d06106152e89506"
+      "bytes": 40474,
+      "sha256": "fcb152b324a6caa96550f084dde9aef7e816fcc340981c043ce13b1f8cf7ce5f"
     },
     {
       "path": "research/competitors-overview.jpg",
@@ -3023,8 +3158,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 33164,
-      "sha256": "1c846aec26b8f464c3bdc4edc62f4ba3878f7ae18fdd296da8a54f7bdb330d87"
+      "bytes": 34535,
+      "sha256": "67e00497cfc6286b61cd5deb8b5aba8cfd18d7aeb1fc4531ed7307081fed5446"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -3112,6 +3247,11 @@
       "sha256": "81a1bf090ad765d3bf5e9f682a78103ab3ef20a0a3ab93cd5efe1044e473979d"
     },
     {
+      "path": "skills/solo-arc-motion/scripts/a6api-windows.ps1",
+      "bytes": 6594,
+      "sha256": "c2d442a63aa3cc74145d98a5eb2a957335645ee12ade96cf76cea8a0dec11138"
+    },
+    {
       "path": "skills/solo-arc-motion/scripts/new-episode.mjs",
       "bytes": 2350,
       "sha256": "88bb16cf5fff742043872f419c2a3380c89e042637b8854a1e10e1362ed4c39e"
@@ -3123,8 +3263,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 10582,
-      "sha256": "8e68bd524e6b977ed0b8ab3f4ced63df43760553267ed02e0cc13d59d48aaf6d"
+      "bytes": 10604,
+      "sha256": "c600c559e6e2b0f6b9f72fb90b00ffe078cd00a047fc542eed1b3d6de1c16e93"
     },
     {
       "path": "skills/writers-room-story-engine/.gitignore",
@@ -3223,12 +3363,12 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 30406,
-      "sha256": "eee7ea08dfa5f577bb8bdced94a3a1d540f54a00aa58fa495260c9ab29ef5d9a"
+      "bytes": 30375,
+      "sha256": "4cffe9c7fcd89429954d712d7381c42130bbfffb86ead610830ece7be0bdad38"
     }
   ],
-  "file_count": 644,
-  "logical_bytes": 741608768,
+  "file_count": 672,
+  "logical_bytes": 754467543,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,

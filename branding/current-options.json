@@ -19,7 +19,7 @@
   "final_font_selected": false,
   "final_background_selected": false,
   "final_banner_selected": false,
-  "temporary_preview": "03",
+  "temporary_preview": null,
   "mobile_crop": [
     507,
     508,
@@ -85,7 +85,8 @@
       "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     },
     {
       "id": "02",
@@ -133,7 +134,8 @@
       "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     },
     {
       "id": "03",
@@ -181,7 +183,8 @@
       "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     },
     {
       "id": "04",
@@ -229,7 +232,8 @@
       "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     },
     {
       "id": "05",
@@ -268,7 +272,8 @@
       "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     },
     {
       "id": "06",
@@ -307,7 +312,11 @@
       "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
-      "approved": false
+      "approved": false,
+      "rejected_by_owner": true
     }
-  ]
+  ],
+  "owner_rejected_assembled_banner_layouts": true,
+  "banner_work_stopped_by_owner": true,
+  "required_future_banner_method": "Whole finished design generated through A6API"
 }

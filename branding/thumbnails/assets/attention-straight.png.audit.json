@@ -1,0 +1,47 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-11T23:22:37.1717654Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.001428,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "5b4ede2ac5d76c5eca8f4ad5d19f51e685cd71d75c8d28c00d0b5346ec2df0ad",
+  "references": [
+    {
+      "name": "thumbnail.png",
+      "sha256": "361ae13a793b5c8547b0edfb0d2cac678a76d27619f9e7bd43a179e03f3c7f57"
+    }
+  ],
+  "output": "branding/thumbnails/assets/attention-straight.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "modelPrice": 1,
+    "quotaType": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ]
+  },
+  "ledgerBeforeLatestCreatedAt": 1791759897,
+  "phase": "image-saved-and-billing-reconciled",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/assets/attention-straight.png",
+  "imageBytes": 1601137,
+  "imageSha256": "98f4a2452d8ad67568ff5ab88ebaf4366d54c542dc6ad54953f788ba38bf782f",
+  "newBilledRows": 1,
+  "billedQuota": 714,
+  "actualChannel": 4995,
+  "routeType": "smart",
+  "finishedAt": "2026-10-11T23:23:18.0400685Z",
+  "prompt": "branding/thumbnails/prompts/01-straight-arrow.txt",
+  "role": "final B",
+  "routeVerifiedByLedger": true,
+  "ownerApprovalPending": true
+}

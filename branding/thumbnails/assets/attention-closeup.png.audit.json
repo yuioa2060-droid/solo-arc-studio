@@ -1,0 +1,47 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-11T23:26:20.6711177Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.001404,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "c3903b782e5d898db580e5ed4eccd0f20cd9bf392a24eb873ede3ff1937e42d9",
+  "references": [
+    {
+      "name": "thumbnail.png",
+      "sha256": "361ae13a793b5c8547b0edfb0d2cac678a76d27619f9e7bd43a179e03f3c7f57"
+    }
+  ],
+  "output": "branding/thumbnails/assets/attention-closeup.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "quotaType": 1,
+    "modelPrice": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ]
+  },
+  "ledgerBeforeLatestCreatedAt": 1791761095,
+  "phase": "image-saved-and-billing-reconciled",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/assets/attention-closeup.png",
+  "imageBytes": 1441685,
+  "imageSha256": "bec864e8732d6fb3b582256984abb32771db2f59a92fae6b3a08942ae01915cc",
+  "ledgerReconciliationRequired": false,
+  "finishedAt": "2026-10-11T23:27:58.9813521Z",
+  "actualChannel": 5205,
+  "routeType": "smart",
+  "billedQuota": 702,
+  "routeVerifiedByLedger": true,
+  "prompt": "branding/thumbnails/prompts/03-waist-closeup.txt",
+  "role": "final D",
+  "ownerApprovalPending": true
+}
