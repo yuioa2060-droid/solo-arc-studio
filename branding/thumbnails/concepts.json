@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-11",
+  "status": "Proposal for discussion; no thumbnail style selected",
+  "episode": "Current EP1 v11 only",
+  "source_artwork_unchanged": true,
+  "source_artwork": {
+    "b-w1.png": {
+      "sha256": "ca148e81eb8a377ec569a007e376608ef77b3ef515f42c33e1623d1098be9497",
+      "nativeSize": [
+        640,
+        1024
+      ]
+    },
+    "b-w3.png": {
+      "sha256": "fd380a806866b5e44b71c4ff9909d412ddbf5fde3b56111ea609abd0876a35ae",
+      "nativeSize": [
+        640,
+        1024
+      ]
+    },
+    "m-s0.png": {
+      "sha256": "2fb47390418c29b68fabecb54f441c7146733f14fb118b4041f49229d7df818e",
+      "nativeSize": [
+        647,
+        1536
+      ]
+    },
+    "h-think.png": {
+      "sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "nativeSize": [
+        603,
+        1024
+      ]
+    },
+    "o-scale2.png": {
+      "sha256": "be922b931c00504177549d7644b5a779f79c246f45465c3b554971e3ee91f513",
+      "nativeSize": [
+        1191,
+        838
+      ]
+    }
+  },
+  "model_requests": 0,
+  "designs": [
+    {
+      "id": "01",
+      "title": "Световой акцент на талии",
+      "background": "black",
+      "copy": null,
+      "art": [
+        "b-w1.png",
+        "b-w3.png"
+      ],
+      "reference": "Ryoga: same-pose comparison, target lighter than surrounding anatomy",
+      "file": "concept-01.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 120465,
+      "approved": false,
+      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+    },
+    {
+      "id": "02",
+      "title": "Изумрудный контур",
+      "background": "black",
+      "copy": null,
+      "art": [
+        "b-w1.png",
+        "b-w3.png"
+      ],
+      "reference": "Kaizo: a contour makes the anatomical change explicit",
+      "file": "concept-02.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 155563,
+      "approved": false,
+      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+    },
+    {
+      "id": "03",
+      "title": "Живот + короткий вопрос",
+      "background": "black",
+      "copy": "STUCK?",
+      "art": [
+        "b-w1.png"
+      ],
+      "reference": "Captain Workout: one short readable phrase linked to the pictured problem",
+      "file": "concept-03.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 99278,
+      "approved": false,
+      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+    },
+    {
+      "id": "04",
+      "title": "Белый фон + проблема",
+      "background": "white",
+      "copy": "STILL STUCK?",
+      "art": [
+        "m-s0.png"
+      ],
+      "reference": "Blue Gains / Primeon: light background, large body crop and short text",
+      "file": "concept-04.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 210357,
+      "approved": false,
+      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+    },
+    {
+      "id": "05",
+      "title": "Герой + весы",
+      "background": "black",
+      "copy": "STUCK?",
+      "art": [
+        "h-think.png",
+        "o-scale2.png"
+      ],
+      "reference": "The Rep Theory: character plus a meaningful prop expresses the problem",
+      "file": "concept-05.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 242647,
+      "approved": false,
+      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+    }
+  ]
+}
