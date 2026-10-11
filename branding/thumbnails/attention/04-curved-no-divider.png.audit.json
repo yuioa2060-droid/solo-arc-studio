@@ -1,0 +1,44 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-11T23:47:20.8642329Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.001404,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "2237f4906fcd7a1ef6bf76e65ce39f47f3c6a7560fe0e80a09251aff1673c2f8",
+  "references": [
+    {
+      "sha256": "6641da8d345d1e68a14823a5464d50f53ff56fbaf429050d9d4f518eba0fde15",
+      "name": "02-curved-arrow.png"
+    }
+  ],
+  "output": "branding/thumbnails/attention/04-curved-no-divider.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "quotaType": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ],
+    "modelPrice": 1
+  },
+  "ledgerBeforeLatestCreatedAt": 1791761464,
+  "phase": "image-request-sent",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/attention/04-curved-no-divider.png",
+  "imageBytes": 1640084,
+  "imageSha256": "5e119e888dd0c5d7fa132f86e8fff07357810f074ef6819158c0a7d82b28ff7f",
+  "newBilledRows": 1,
+  "billedQuota": 702,
+  "actualChannel": 5205,
+  "routeType": "smart",
+  "finishedAt": "2026-10-11T23:48:02.3506096Z",
+  "routeVerifiedByLedger": true
+}
