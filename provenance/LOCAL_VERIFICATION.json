@@ -102,5 +102,128 @@
       }
     ],
     "limits": "Selected decoded frames and full decode checked. No claim of continuous creative playback or new listening. Browser clipping can change interior antialiasing by one channel value."
+  },
+  "branding_quality_revision": {
+    "date": "2026-10-11",
+    "portrait_regenerated_by": "built-in image_gen",
+    "portrait_native_size": [
+      1254,
+      1254
+    ],
+    "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
+    "avatar_aliases_identical": true,
+    "avatar_dry_brush_geometry_retained": true,
+    "banners": [
+      {
+        "id": "01",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "02",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "03",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "04",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "05",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "06",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "07",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "08",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "09",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "10",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "11",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      },
+      {
+        "id": "12",
+        "size": [
+          2560,
+          1440
+        ],
+        "png_decode_passed": true
+      }
+    ],
+    "desktop_and_mobile_boards_visually_reviewed": true,
+    "avatar_circles_visually_reviewed_px": [
+      480,
+      160,
+      96,
+      32
+    ],
+    "wordmarks_inside_conservative_mobile_crop": true,
+    "generated_background_assets": 4,
+    "production_public_assets_unchanged": 88,
+    "production_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
+    "production_video_unchanged": true,
+    "final_banner_selected": false,
+    "limits": "Local images reviewed; no YouTube publication or live platform crop claimed. New portrait submitted for quality review, not asserted to preserve every facial pixel."
   }
 }

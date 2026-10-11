@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-11",
+  "selected_public_name": "Rendo",
+  "avatar_layout": "02 / DRY BRUSH",
+  "avatar_portrait_quality_revision": "Regenerated close crop, for user review",
+  "avatar_native_size": [
+    1254,
+    1254
+  ],
+  "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
+  "avatar_v_geometry_unchanged": true,
+  "banner_v_mark_forbidden": true,
+  "final_banner_selected": false,
+  "conservative_mobile_crop": [
+    530,
+    520,
+    1500,
+    400
+  ],
+  "desktop_crop": [
+    0,
+    509,
+    2560,
+    423
+  ],
+  "banners": [
+    {
+      "id": "01",
+      "title": "Quiet black",
+      "ru": "Тихий чёрный",
+      "kind": "type",
+      "file": "options/rendo/banner-01.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 82940,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            1065,
+            661,
+            431,
+            90
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "02",
+      "title": "Emerald on cream",
+      "ru": "Изумруд на светлом",
+      "kind": "type",
+      "file": "options/rendo/banner-02.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 85395,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            1061,
+            647,
+            438,
+            146
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "03",
+      "title": "Portrait editorial",
+      "ru": "Портрет и имя",
+      "kind": "portrait",
+      "file": "options/rendo/banner-03.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 739869,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            723,
+            647,
+            426,
+            136
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "04",
+      "title": "Manga close-up",
+      "ru": "Крупный манга-фрагмент",
+      "kind": "portrait",
+      "file": "options/rendo/banner-04.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 1902055,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            699,
+            641,
+            521,
+            98
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "05",
+      "title": "Emerald split",
+      "ru": "Изумрудный разделённый фон",
+      "kind": "portrait",
+      "file": "options/rendo/banner-05.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 924730,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            736,
+            635,
+            440,
+            140
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "06",
+      "title": "Soft silhouette",
+      "ru": "Лёгкий силуэт",
+      "kind": "portrait",
+      "file": "options/rendo/banner-06.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 485637,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            760,
+            649,
+            397,
+            133
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "07",
+      "title": "Forest / dawn",
+      "ru": "Лес в тумане",
+      "kind": "generated-background",
+      "file": "options/rendo/banner-07.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 4567268,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            1061,
+            663,
+            439,
+            92
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "08",
+      "title": "Ink landscape",
+      "ru": "Тушевый пейзаж",
+      "kind": "generated-background",
+      "file": "options/rendo/banner-08.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 2233276,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "Rendo",
+          "box": [
+            1089,
+            642,
+            382,
+            116
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "09",
+      "title": "City / dusk",
+      "ru": "Город вечером",
+      "kind": "generated-background",
+      "file": "options/rendo/banner-09.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 3244792,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            926,
+            641,
+            369,
+            123
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "10",
+      "title": "Wide italic",
+      "ru": "Крупное наклонное имя",
+      "kind": "type",
+      "file": "options/rendo/banner-10.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 89915,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            918,
+            657,
+            724,
+            130
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "11",
+      "title": "Graphic stripe",
+      "ru": "Графическая полоса",
+      "kind": "type",
+      "file": "options/rendo/banner-11.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 84650,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            1028,
+            672,
+            545,
+            96
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    },
+    {
+      "id": "12",
+      "title": "Daylight",
+      "ru": "Дневной свет",
+      "kind": "generated-background",
+      "file": "options/rendo/banner-12.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "bytes": 5102393,
+      "all_name_boxes_within_mobile_crop": true,
+      "text_boxes": [
+        {
+          "text": "rendo",
+          "box": [
+            1093,
+            658,
+            375,
+            124
+          ]
+        }
+      ],
+      "banner_has_v_mark": false,
+      "approved": false
+    }
+  ]
+}
