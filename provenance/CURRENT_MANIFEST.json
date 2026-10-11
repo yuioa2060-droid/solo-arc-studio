@@ -263,8 +263,8 @@
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 7100,
-      "sha256": "219e9aa6a74d3484e5eab119ff884ff72e2ffcc7a7bf1f20d0c001e228a037f9"
+      "bytes": 7277,
+      "sha256": "7cccf09814fa9180ed72f5010ac74b7504e3864726d46db14aa8618d79c9d9cf"
     },
     {
       "path": "branding/thumbnails/assets/body-pair.png",
@@ -338,13 +338,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 5049,
-      "sha256": "5f12dfa894da8f2a6e31bb6788458742d34feb605dd621d4be615f6f2a50d55d"
+      "bytes": 5731,
+      "sha256": "02679546a31ed944d592fe28f31d60f26de97dc5b9e3832e0ea44e2b03834fee"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 8567,
-      "sha256": "732e0e267a39a10bf0ce3c7b8f3bcb41c0adc440ced73aee322c68fb61d2cddc"
+      "bytes": 9741,
+      "sha256": "bed72a5e0a88828309a9f605a2cd1ad777ac8006c85aae74f3a45f0f4109844a"
     },
     {
       "path": "Dockerfile",
@@ -1803,8 +1803,8 @@
     },
     {
       "path": "episodes/ep1-v11/README_V11_RU.md",
-      "bytes": 4443,
-      "sha256": "73560c7860982db22ec3f67635b67ac792be259d656c0d64b62a4dc2caf817be"
+      "bytes": 4951,
+      "sha256": "628f8a7572efca8cf0e187e129cb0a70dd9d5355be92eb8006e8fb728b33c7ab"
     },
     {
       "path": "episodes/ep1-v11/ref/style-ref.png",
@@ -1815,6 +1815,16 @@
       "path": "episodes/ep1-v11/solo-arc-ep1-v11.mp4",
       "bytes": 165593874,
       "sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552"
+    },
+    {
+      "path": "episodes/ep1-v11/upload-metadata.json",
+      "bytes": 3840,
+      "sha256": "443d5714202bed3925d59ee4faeee6e0269a09465a0588620e4bf166fcfec6a7"
+    },
+    {
+      "path": "episodes/ep1-v11/UPLOAD_RU.md",
+      "bytes": 19426,
+      "sha256": "5871bdfe34ef58bab07342ecd181da2a1a18c4a03c4ac73fbdb96556927c2e92"
     },
     {
       "path": "episodes/ep1-v11/voice/full.mp3",
@@ -1888,8 +1898,8 @@
     },
     {
       "path": "research/CHANNEL_BRANDING_RU.md",
-      "bytes": 40309,
-      "sha256": "e99663d8a74b1cae2d26a1e852935f04d503981c8d07b205390b373f0433a649"
+      "bytes": 40079,
+      "sha256": "f2a51f890ead1f1ab5b48a3da6a674603fcb4da233dfb80b1c4581f0ca35f602"
     },
     {
       "path": "research/competitors-overview.jpg",
@@ -2928,8 +2938,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 30484,
-      "sha256": "3958905d01e6747deeaaf893a8148938fa64a9a44feb26d81264cb17adae732e"
+      "bytes": 31512,
+      "sha256": "c99bdc4276f24e201f88c6e0dfa3990e94f0239bca9ee83f615fcf053630f077"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -3128,12 +3138,12 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 29141,
-      "sha256": "26341d34cc02600fa93213e2b18bbd25c22c1f7ecd99e5515836122731ef4eb8"
+      "bytes": 29473,
+      "sha256": "28189ae50a31eed0821635c2098bfe1e500af803c60b2c77cc5872fa322a1c32"
     }
   ],
-  "file_count": 625,
-  "logical_bytes": 741145619,
+  "file_count": 627,
+  "logical_bytes": 741172556,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,

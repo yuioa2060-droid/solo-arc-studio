@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-11",
+  "status": "Proposed upload copy; owner selection pending; not published to YouTube",
+  "episode": "Existing EP1 v11 only",
+  "title": "Why You're Not Losing Fat (And How to Fix It)",
+  "title_variants": [
+    "Why You're Not Losing Fat (And How to Fix It)",
+    "How to Lose Fat and Keep Your Muscle",
+    "Fat Loss: The 3 Things That Actually Matter"
+  ],
+  "description": "Trying to lose fat, but the scale won't move?\nThis video breaks down nutrition, simple home strength training, sleep, and daily movement—plus a practical plan for your first week.\n\nChapters\n00:00 Why fat loss feels stuck\n00:37 Food, water weight, and the scale\n01:48 Strength training and keeping muscle\n03:32 Sleep and daily movement\n04:18 What progress can look like\n04:40 Recap and your first-week plan\n04:55 Start tonight\n\nResearch mentioned\nAb training and belly fat — Vispute et al. (2011)\nhttps://pubmed.ncbi.nlm.nih.gov/21804427/\nSleep restriction and fat loss — Nedeltcheva et al. (2010)\nhttps://pubmed.ncbi.nlm.nih.gov/20921542/\nWhere fat goes — Meerman & Brown (2014)\nhttps://www.bmj.com/content/349/bmj.g7257\n\n#FatLoss #WeightLoss #HomeWorkout",
+  "tags": [
+    "fat loss",
+    "weight loss",
+    "how to lose fat",
+    "weight loss for beginners",
+    "belly fat",
+    "home workout",
+    "strength training for beginners",
+    "calorie deficit",
+    "protein for fat loss",
+    "sleep and weight loss"
+  ],
+  "hashtags": [
+    "FatLoss",
+    "WeightLoss",
+    "HomeWorkout"
+  ],
+  "video_language": "en",
+  "thumbnail": "branding/thumbnails/thumbnail.png",
+  "chapters": [
+    {
+      "seconds": 0,
+      "exact_start": 0,
+      "title": "Why fat loss feels stuck"
+    },
+    {
+      "seconds": 37,
+      "exact_start": 37.344,
+      "title": "Food, water weight, and the scale"
+    },
+    {
+      "seconds": 108,
+      "exact_start": 108.285,
+      "title": "Strength training and keeping muscle"
+    },
+    {
+      "seconds": 212,
+      "exact_start": 212.219,
+      "title": "Sleep and daily movement"
+    },
+    {
+      "seconds": 258,
+      "exact_start": 258.275,
+      "title": "What progress can look like"
+    },
+    {
+      "seconds": 280,
+      "exact_start": 280.323,
+      "title": "Recap and your first-week plan"
+    },
+    {
+      "seconds": 295,
+      "exact_start": 295.352,
+      "title": "Start tonight"
+    }
+  ],
+  "chapters_basis": {
+    "file": "episodes/ep1-v11/film/src/tl6.ts",
+    "method": "SEC film seconds include AT=1.0; chapter times floored to whole seconds; 00:00 opening",
+    "manual_watch_page_check_pending": true
+  },
+  "channel": {
+    "working_name": "Rendo",
+    "description": "Fat loss, training, and habits that stick. Simple, illustrated guides to understanding your body and getting leaner.",
+    "keywords": [
+      "Rendo",
+      "fat loss",
+      "weight loss",
+      "fitness",
+      "home workout",
+      "strength training",
+      "healthy habits"
+    ],
+    "description_approved": false
+  },
+  "suggested_upload_settings": {
+    "category": "Sports",
+    "made_for_kids": false,
+    "caption_source": "episodes/ep1-v11/voice/full.txt"
+  },
+  "verification": {
+    "title_characters": 45,
+    "description_characters": 755,
+    "channel_description_characters": 116,
+    "final_video_duration_seconds": 324.767,
+    "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552"
+  },
+  "notes": [
+    "English copy matches the current English voiceover.",
+    "The 12 WEEKS illustration does not establish a fixed outcome or a personal weight-loss case study.",
+    "Tags belong in the dedicated Studio field; hashtags can appear at the end of the description.",
+    "No next-episode script, title, plan or proposed hook is included.",
+    "Copy approval and channel upload actions have not been performed."
+  ]
+}

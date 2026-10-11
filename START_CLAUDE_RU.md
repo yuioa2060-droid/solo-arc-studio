@@ -89,6 +89,7 @@ git lfs install --local
 | Исходные рисунки и промпты EP1 | `episodes/ep1-v11/raw/` и `prompts/`; действующие правила выше формулировок старого запроса |
 | Проверочные кадры v11 | `episodes/ep1-v11/film/out/v11/review/` |
 | Готовый пример монтажа | [Финальный EP1 v11](episodes/ep1-v11/solo-arc-ep1-v11.mp4) и [описание проекта](episodes/ep1-v11/README_V11_RU.md) |
+| Название, описание, About и загрузка готового EP1 | [Актуальные предложения и рекомендации](episodes/ep1-v11/UPLOAD_RU.md), [готовые поля JSON](episodes/ep1-v11/upload-metadata.json); ещё не утверждены и не опубликованы |
 
 ### Приёмы Ryoga, анимация и фактология
 

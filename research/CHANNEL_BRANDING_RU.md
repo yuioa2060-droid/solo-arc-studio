@@ -142,7 +142,7 @@ Rendo выбран как рабочее направление. Актуаль�
 | Публичное имя | Rendo — рабочее имя выбранного второго направления; handle не проверен |
 | Handle | Проверить после выбора имени; текущая доступность не подтверждена |
 | Тематика | Разные понятные объяснения о похудении и связанных фитнес-вопросах |
-| About | Предложение Rendo: `Understand your body. Get leaner.`; обязательная длина не задана |
+| About | Актуальное предложение: `Fat loss, training, and habits that stick. Simple, illustrated guides to understanding your body and getting leaner.` — 116 символов; ещё не утверждено |
 | Герой | Уже утверждённая идентичность и принятые PNG |
 | Аватар | Принят макет № 2 — DRY BRUSH; портрет перегенерирован отдельно ради качества, прежние штрихи V и тёмная основа сохранены |
 | Баннер | Дорабатывается композиция № 4 «Портрет и тушь»: три новых шрифта на белом/чёрном; крупная форма #0B8371 за портретом; без V и маленькой зелёной линии. Шрифт и фон ещё не выбраны |
@@ -154,7 +154,7 @@ Rendo выбран как рабочее направление. Актуаль�
 
 ## Шаблон описания каждого видео
 
-Наш порядок: **конкретная польза → что внутри → главы → связанный материал при наличии → источники → короткий футер → тематические хэштеги**.
+Актуальный предлагаемый порядок: **проблема и польза в двух фразах → главы → источники → 2–3 тематических хэштега**. Реальные связанные материалы и обязательные кредиты добавлять по необходимости. [Комплект готового EP1](../episodes/ep1-v11/UPLOAD_RU.md) содержит текущие тексты и рекомендации; их ещё не утвердил владелец.
 
 YouTube рекомендует объяснять видео в первых строках, делать уникальное описание для каждого выпуска и естественно использовать 1–2 основных слова темы. Повторяющийся блок можно сохранить в настройках загрузки. Это поддерживает компактный шаблон, но не одинаковое вступление во всех выпусках. [Рекомендации по описаниям](https://support.google.com/youtube/answer/12948449?hl=en).
 
@@ -162,77 +162,36 @@ YouTube рекомендует объяснять видео в первых с�
 [One sentence naming the viewer's specific problem.]
 [One sentence explaining what this video helps them understand or do.]
 
-IN THIS VIDEO
-- [Useful point 1]
-- [Useful point 2]
-- [Useful point 3]
-
 CHAPTERS
 00:00 [Opening]
 [mm:ss] [Actual section]
 [mm:ss] [Actual section]
 [mm:ss] [Practical payoff]
 
-RELATED
-[One relevant published video, playlist, or genuinely useful resource: URL]
-
 SOURCES
 - [Author, year — claim/topic]: [Primary source URL]
 - [Author, year — claim/topic]: [Primary source URL]
 
-[Channel name] — illustrated fitness for a leaner, stronger body.
-Educational fitness content. Individual results vary.
-
-#[SpecificTopic] #[RelevantCategory] #[ChannelName]
+#[SpecificTopic] #[RelevantCategory] #[OtherRelevantTopic]
 ```
 
 **Как применять:**
 
 1. Полностью заменить placeholders. Первые две строки и конкретные пункты писать заново по текущему выпуску.
-2. `IN THIS VIDEO` убрать, если первые две строки уже объясняют содержание. Три пункта — ориентир для компактности, не обязательная формула.
+2. Две первые фразы должны объяснять конкретную пользу; отдельный список содержания нужен, только если добавляет ясность.
 3. Главы поставить по финальному монтажу. Первая с 00:00, минимум три по возрастанию, каждая минимум 10 секунд. Доступность функции зависит от канала. [Правила глав](https://support.google.com/youtube/answer/9884579?hl=en).
 4. `RELATED` удалить, если подходящего опубликованного материала или готового ресурса нет. Не заменять его обещанием выдуманного опубликованного продолжения.
 5. Источник привязать к конкретному утверждению. Количество ссылок зависит от фактов; 2–4 — удобный старт, не ограничение. Отдельно отметить значимое ограничение исследования, когда оно влияет на вывод.
 6. Добавить обязательные кредиты музыки/ассетов, если это требуется реальными условиями использования. Не выдумывать автора, лицензию или разрешение на присланную музыку.
-7. В Upload defaults сохранить только две строки постоянного футера. Источники, главы, ссылки и тематические хэштеги меняются от ролика к ролику.
+7. В Upload defaults сохранять только действительно повторяющиеся сведения/кредиты. Вступление, источники, главы, ссылки и тематические хэштеги меняются от ролика к ролику; обязательного общего футера нет.
 
 Для нашего спокойного тона достаточно 2–3 релевантных хэштегов. Это редакционный выбор, не доказанное «оптимальное число для алгоритма». Длинное описание и больше тегов сами по себе не гарантируют просмотры.
 
 ### Пример для уже готового EP1 v11
 
-Ниже описание существующего выпуска; новый сценарий сюда не включён. `[Channel name]` и `#[ChannelName]` заменить после выбора публичного имени. Границы глав взяты из текущего [tl6.ts](../episodes/ep1-v11/film/src/tl6.ts), `SEC`, и округлены вниз до секунды. После загрузки видео проверить переходы в предпросмотре.
+Единый актуальный текст, три названия, About и объяснения — в [UPLOAD_RU.md](../episodes/ep1-v11/UPLOAD_RU.md); готовые поля — в [upload-metadata.json](../episodes/ep1-v11/upload-metadata.json). Рекомендуемое название: `Why You're Not Losing Fat (And How to Fix It)`. Описание — 755 символов со всеми семью главами, тремя источниками и хэштегами; вступление состоит из двух фраз. Это предложения для существующего EP1, не утверждённые поля YouTube и не новый сценарий.
 
-```text
-Why can the scale make fat loss feel impossible, even when you're making progress?
-This video explains nutrition, strength training, sleep, and daily movement—with a simple plan for your first week.
-
-IN THIS VIDEO
-- Tracking progress beyond a single weigh-in
-- Three simple strength exercises you can do at home
-- Building a routine around food, movement, and sleep
-
-CHAPTERS
-00:00 Why progress feels stuck
-00:37 Your plate and the scale
-01:48 Keeping your muscle
-03:32 Sleep and daily movement
-04:18 Reading your progress
-04:40 Your first-week plan
-04:55 Start tonight
-
-SOURCES
-- Vispute et al., 2011 — abdominal exercise and abdominal fat:
-https://pubmed.ncbi.nlm.nih.gov/21804427/
-- Nedeltcheva et al., 2010 — sleep restriction during a reduced-calorie diet:
-https://pubmed.ncbi.nlm.nih.gov/20921542/
-- Meerman & Brown, 2014 — what happens to fat during oxidation:
-https://www.bmj.com/content/349/bmj.g7257
-
-[Channel name] — illustrated fitness for a leaner, stronger body.
-Educational fitness content. Individual results vary.
-
-#FatLoss #HomeWorkout #[ChannelName]
-```
+Границы глав взяты из текущего [tl6.ts](../episodes/ep1-v11/film/src/tl6.ts), `SEC`, и округлены вниз до секунды. 04:40 называется «Recap and your first-week plan», потому что план раскрывается после повторения внутри этой главы. После загрузки проверить переходы в проигрывателе.
 
 Библиографические данные и темы источников сверены с первичными публикациями: [Vispute](https://pubmed.ncbi.nlm.nih.gov/21804427/), [Nedeltcheva](https://pubmed.ncbi.nlm.nih.gov/20921542/), [Meerman & Brown](https://www.bmj.com/content/349/bmj.g7257) ([запись в PubMed](https://pubmed.ncbi.nlm.nih.gov/25516540/)). Это ключевые источники существующего выпуска, а не полный список подтверждений для всех возможных будущих советов. Границы интерпретации сохранены в [science-source-notes-ru.md](../skills/solo-arc-motion/references/science-source-notes-ru.md).
 
