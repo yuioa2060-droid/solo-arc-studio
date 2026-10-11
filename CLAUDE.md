@@ -1,6 +1,6 @@
 # Fitness channel — Claude entry point
 
-The owner selected concept 2, Rendo, for refinement on 11 October 2026: the light banner, approved manga hero and black portrait avatar. The latest request is to improve the banner lettering. Rendo is the working name; the three typography proposals in `branding/README_RU.md` are still pending. SOLO ARC was rejected; the `solo-arc` paths are legacy technical identifiers.
+The owner selected concept 2, Rendo, for refinement on 11 October 2026: the light banner, approved manga hero and dark portrait avatar. The latest request is emerald #0B8371 on the banner and a little emerald on the avatar, without a solid green avatar background. Rendo is the working name; the three accent proposals in `branding/README_RU.md` are still pending. SOLO ARC was rejected; the `solo-arc` paths are legacy technical identifiers.
 
 Before project work, read [START_CLAUDE_RU.md](START_CLAUDE_RU.md). It covers context intake, references, LFS downloads, dependencies, skills, API setup, production and the first prompt.
 

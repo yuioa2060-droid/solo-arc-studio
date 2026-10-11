@@ -58,18 +58,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4726,
-      "sha256": "b211e021b89d9d775fd033c157ee4276dcaef284a42ba1e55f49fb2238de0a16"
+      "bytes": 4905,
+      "sha256": "de9666bc2b689a4b66b48e6f8f17d78f4e66f4a4e8ca5299149f25909b432d0e"
     },
     {
       "path": "branding/build-concepts.mjs",
-      "bytes": 10922,
-      "sha256": "014526adf1314f3e5797720ab51e213761ba0e2b698e46888302b3928d70009b"
+      "bytes": 13353,
+      "sha256": "eb78d9281bc89314c0374962747cf33bf681c2f02703765623c2eac579179e04"
     },
     {
       "path": "branding/options/comparison.jpg",
-      "bytes": 195322,
-      "sha256": "b448fdc3b885e730fadcc1ef2ff7a9ad816876ffd431e324a88b608a64b8dce6"
+      "bytes": 196854,
+      "sha256": "8cdec3fcd4825c236b1a7e11dd619a9df65aba559a6da2162f1f2e998345d143"
     },
     {
       "path": "branding/options/eiro-avatar.png",
@@ -112,74 +112,89 @@
       "sha256": "5d5a537e1d0c7fa1d5bdbdd73b581d12fd3996baffeb9cc6c9a3dee692d9a1fa"
     },
     {
+      "path": "branding/options/rendo/avatars-comparison.png",
+      "bytes": 158469,
+      "sha256": "b5edcf5e23af6e447f87a752d58122bbfb57c1d5f12ebd1fe8a21b821da8b61b"
+    },
+    {
       "path": "branding/options/rendo/comparison.jpg",
-      "bytes": 156524,
-      "sha256": "18743214d08c2b4a6d5a35f3c563ae3a8675886df1da0199aff20990a434c489"
+      "bytes": 163304,
+      "sha256": "8c8984d3c3e6ae59cbb3aa6a54b042c85e5574912b33c8b9014d420aa577ad48"
+    },
+    {
+      "path": "branding/options/rendo/minimal-avatar.png",
+      "bytes": 738539,
+      "sha256": "1da2c09c08dc9ee2301516ababe9eedadf4eb88e03b22db31edeb4897babdb7b"
     },
     {
       "path": "branding/options/rendo/minimal-banner.png",
-      "bytes": 935629,
-      "sha256": "fbb7d2e1d4c20f23a822c779a165fba57dd4880f2712466c554a1ecddd47406a"
+      "bytes": 935753,
+      "sha256": "38ccf23bd3e1d9d16916f7ac1783b2217dc007324a5be58d4e29036a46b0dcad"
     },
     {
       "path": "branding/options/rendo/minimal-mobile.png",
-      "bytes": 51178,
-      "sha256": "115b035c408552f503545d9af2d5460c8854cc62d76667bab5bf8f41b439a6ba"
+      "bytes": 51338,
+      "sha256": "cdf9de23e9cae5a300c2307875b0aefea5cec4c35499957918fbfff4be1adfa6"
     },
     {
       "path": "branding/options/rendo/mobile-comparison.png",
-      "bytes": 236260,
-      "sha256": "740d30153b3f23c70c123d97bff9581e746eea1b4487d667596eb5aaaea9171b"
+      "bytes": 240406,
+      "sha256": "10d7372db17dae505b368da6f309caa4d57543a356d97dd90618634be439aa77"
+    },
+    {
+      "path": "branding/options/rendo/nickname-avatar.png",
+      "bytes": 744954,
+      "sha256": "9e253a3426497158497d37457e4e0568360d2d313fa61f47ffe2b9bd85e4a86f"
     },
     {
       "path": "branding/options/rendo/nickname-banner.png",
-      "bytes": 940439,
-      "sha256": "a78e43fbf25e46d9a974f6a1506ef3cef9e777551c3bdc738db97becc78ce4f1"
+      "bytes": 942570,
+      "sha256": "73305be528f97a2688075ce34892adb2335689dfea515b421d91f6b6c06c0920"
     },
     {
       "path": "branding/options/rendo/nickname-mobile.png",
-      "bytes": 55448,
-      "sha256": "5844a49a78b848514c48da7427da3bb1857b56e9061069f9eade88e85553483f"
+      "bytes": 56886,
+      "sha256": "a36e2a317b935e096fc5b8a39f412540297aa1afb7b3ddedc9eea0bf2a9e3606"
     },
     {
       "path": "branding/options/rendo-avatar.png",
-      "bytes": 738465,
-      "sha256": "28223343dbe9bea7442fa4c6da03ae93f02bc141ba8870496b79930fd7343693"
+      "bytes": 744114,
+      "sha256": "56a1d3ebd6425b21332f443bb3b098caab92ec6a8b690da073b582c4bb90357a"
     },
     {
       "path": "branding/options/rendo-banner.png",
-      "bytes": 941718,
-      "sha256": "6f9fdfe5013b1d3363c4dc1f3c3decd4a9de0ae1894db5e340ab039b26218700"
+      "bytes": 941817,
+      "sha256": "89caa1d69bdd6874fddfcfb2da2a4367312fce45e2969180f0d43d33690df530"
     },
     {
       "path": "branding/options/rendo-mobile.png",
-      "bytes": 55744,
-      "sha256": "069dbb7297f665c5bf6dbd83de7e1613084994beba1e1e91db034e9b9dfc7727"
+      "bytes": 56802,
+      "sha256": "fea67cdc9b2093b4e02dab77240c5f66fb30df962fbaa56855442dc227bf8727"
     },
     {
       "path": "branding/options/rendo-preview.png",
-      "bytes": 162090,
-      "sha256": "02ac4d576f955e0001e9778511dd2b219a6cfd5a59a1885f948124d01b737da1"
+      "bytes": 165285,
+      "sha256": "23a78c96c02e92c76e9041c27c0aa4fff8149eb1f3f066aed4a93bd2a0052a5f"
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 5556,
-      "sha256": "b16d5f1c185c98bb0e1f70fa853b3489d067e806d22d4a58a2760569809d7541"
+      "bytes": 7140,
+      "sha256": "d6d9de39d1b33ddff21e75ef65c853d7eef67e6e38dfdd86cbf68bfc6d5354b3"
     },
     {
       "path": "CLAUDE.md",
-      "bytes": 2415,
-      "sha256": "059611bb921eb92a11f7b626da184739dddd7063b58148dfba1411031433ab9c"
+      "bytes": 2484,
+      "sha256": "6a0fab28e1fca7d971abddf6a3c73791b6dd70ac1bb981f751ded2fd7fb624ea"
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 3544,
-      "sha256": "64533f3848c0c050eeca8fa66c30f58b9ac7713e321466296790399733934cd4"
+      "bytes": 3669,
+      "sha256": "94b24efb49ba2fc5080c3d73b154abb26d86e18d24a949d49e654e8ee8b8d26b"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 4146,
-      "sha256": "bdd9007882cf38f5f1ab798feb7a91f98ab971270292b5dbefc448e38ad39b90"
+      "bytes": 4930,
+      "sha256": "b2558dee3e8ccc7d21667e3f35b7452cea58bf7c0390a1ef3a7c5e9bc0f071e6"
     },
     {
       "path": "Dockerfile",
@@ -1703,8 +1718,8 @@
     },
     {
       "path": "research/CHANNEL_BRANDING_RU.md",
-      "bytes": 38662,
-      "sha256": "a2f6f442c43cd144ece3d4eba15dcae4d2892b268dd0a921d23ccb952092b5cd"
+      "bytes": 38807,
+      "sha256": "56f4f86917210659096ae2cbceeee6357e19a8984d845736658ed039ce4da88a"
     },
     {
       "path": "research/competitors-overview.jpg",
@@ -2738,8 +2753,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 26302,
-      "sha256": "b0a78ee4dddeb19b2ff9f869f62abb9d895f5a15361ed7c0a37065430a4b782b"
+      "bytes": 27183,
+      "sha256": "9c2dad9f90d130071706e612af6f13711821cdc9104e2659905e74febe66953d"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -2938,12 +2953,12 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 28650,
-      "sha256": "8452ff17b46e7cd9f815c3fdfdebe0cd9fb36886d163a9121da58a0e81f7b9dc"
+      "bytes": 28771,
+      "sha256": "0db542fe97082a3df3069feb12dcb18407fc2b97b1e293a8266bb2fb0e8ae054"
     }
   ],
-  "file_count": 587,
-  "logical_bytes": 711805102,
+  "file_count": 590,
+  "logical_bytes": 713479695,
   "final_video_sha256": "81817d0b5e26e41c831a5665c160bb8e42d29a5a7af42388dacf0ded07a7bd41",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,

@@ -61,19 +61,27 @@ const portrait=async(filename,width,x,y,targetW,targetH)=>{
 };
 const circle=async(buffer,size)=>sharp(buffer).resize(size,size).composite([{input:svg(size,size,`<circle cx="${size/2}" cy="${size/2}" r="${size/2}" fill="white"/>`),blend:'dest-in'}]).png().toBuffer();
 // The owner chose the light Rendo direction. Lettering below is still a proposal.
-// Reuse the approved drawing; only editable typography and layout change.
+// Reuse the approved drawing; editable typography and geometric accents change.
+// The owner requests emerald on the banner and a little emerald on the avatar,
+// keeping the dark avatar background rather than filling it with green.
 const rendoVariants=[
- {id:'wordmark',number:'01',title:'Italic / one short line'},
- {id:'nickname',number:'02',title:'Lowercase / quieter lettering'},
- {id:'minimal',number:'03',title:'Name only / no tagline'},
+ {id:'wordmark',number:'01',title:'Emerald name / edge arc',avatarTitle:'EDGE ARC'},
+ {id:'nickname',number:'02',title:'Diagonal accents / lowercase',avatarTitle:'DIAGONAL'},
+ {id:'minimal',number:'03',title:'Wide underline / small stroke',avatarTitle:'SMALL STROKE'},
 ];
 const rendoOut=path.join(out,'rendo');
 await fs.mkdir(rendoOut,{recursive:true});
 const rendoBanners=new Map();
+const rendoAvatars=new Map();
+const avatarPortrait=await portrait('h-fist.png',1560,-364,35,800,800);
 for(const variant of rendoVariants){
-    const layers=[await portrait('h-fist.png',950,262,550,2560,1440)];
+    const layers=[];
+    if(variant.id==='nickname'){
+        layers.push({input:svg(2560,1440,`<path d="M970 648 H1016 L1042 790 H996 Z" fill="${colors.emerald}"/>`),left:0,top:0});
+    }
+    layers.push(await portrait('h-fist.png',950,262,550,2560,1440));
     if(variant.id==='wordmark'){
-        layers.push(await label('RENDO',170,colors.black,1048,642,'Black Italic',montserratItalic));
+        layers.push(await label('RENDO',170,colors.emerald,1048,642,'Black Italic',montserratItalic));
         layers.push({input:svg(48,5,rect(0,0,48,5,colors.emerald)),left:1057,top:829});
         layers.push(await label('Fat loss, made clear.',34,'#484A47',1123,811,'Medium'));
     }else if(variant.id==='nickname'){
@@ -86,6 +94,7 @@ for(const variant of rendoVariants){
         layers.push(await label('Fat loss, made clear.',34,'#484A47',1058,836,'Medium'));
     }else{
         layers.push(await label('RENDO',158,colors.black,1060,685,'Black',montserrat));
+        layers.push({input:svg(540,16,rect(0,0,540,16,colors.emerald)),left:1067,top:827});
     }
     const banner=await sharp(svg(2560,1440,rect(0,0,2560,1440,colors.cream))).composite(layers).png().toBuffer();
     rendoBanners.set(variant.id,banner);
@@ -94,11 +103,24 @@ for(const variant of rendoVariants){
     if(variant.id!=='wordmark')await fs.writeFile(path.join(rendoOut,`${variant.id}-banner.png`),banner);
     const mobile=await sharp(banner).extract({left:530,top:520,width:1500,height:400}).resize(600).png().toBuffer();
     if(variant.id!=='wordmark')await fs.writeFile(path.join(rendoOut,`${variant.id}-mobile.png`),mobile);
+    const avatarLayers=[];
+    if(variant.id==='nickname'){
+        avatarLayers.push({input:svg(800,800,`<path d="M55 175 L93 162 L256 632 L218 645 Z" fill="${colors.emerald}"/>`),left:0,top:0});
+    }
+    avatarLayers.push(avatarPortrait);
+    if(variant.id==='wordmark'){
+        avatarLayers.push({input:svg(800,800,`<path d="M74.37 588 A376 376 0 0 1 158.32 111.96" fill="none" stroke="${colors.emerald}" stroke-width="20" stroke-linecap="round"/>`),left:0,top:0});
+    }else if(variant.id==='minimal'){
+        avatarLayers.push({input:svg(96,18,rect(0,0,96,18,colors.emerald,'rx="3"')),left:65,top:560});
+    }
+    const avatar=await sharp(svg(800,800,rect(0,0,800,800,colors.black))).composite(avatarLayers).png().toBuffer();
+    rendoAvatars.set(variant.id,avatar);
+    if(variant.id!=='wordmark')await fs.writeFile(path.join(rendoOut,`${variant.id}-avatar.png`),avatar);
     console.log(JSON.stringify({banner_variant:variant.id,bytes:banner.length,generative_requests:0}));
 }
 const concepts=[
  {id:'eiro',name:'EIRO',number:'01',about:'Fat loss, explained simply.',tone:'Clean / emerald',bg:colors.black,ink:colors.cream,hero:'h-intro.png'},
- {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Light manga / revised lettering',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
+ {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Light manga / emerald accents',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
  {id:'kairen',name:'KAIREN',number:'03',about:'Fat loss and fitness, made clear.',tone:'Bold / portrait and monogram',bg:'#07594F',ink:colors.cream,hero:'h-intro.png'},
 ];
 const comparisonLayers=[];
@@ -114,7 +136,7 @@ for(let index=0;index<concepts.length;index++){
         bannerLayers.push(await label('FAT LOSS, EXPLAINED SIMPLY.',34,'#B7B7B7',612,862,'Medium'));
         avatar=await sharp(svg(800,800,rect(0,0,800,800,colors.emerald))).composite([await portrait(c.hero,1600,-400,38,800,800)]).png().toBuffer();
     }else if(c.id==='rendo'){
-        avatar=await sharp(svg(800,800,rect(0,0,800,800,colors.black))).composite([await portrait(c.hero,1560,-364,35,800,800)]).png().toBuffer();
+        avatar=rendoAvatars.get('wordmark');
     }else{
         bannerLayers.push(await portrait(c.hero,930,1210,522,2560,1440));
         bannerLayers.push(await label(c.name,164,c.ink,588,652));
@@ -155,4 +177,19 @@ for(let i=0;i<rendoVariants.length;i++){
 }
 await sharp(svg(1600,1032,rect(0,0,1600,1032,'#151716'))).composite(rendoComparison).jpeg({quality:94}).toFile(path.join(rendoOut,'comparison.jpg'));
 await sharp(svg(800,753,rect(0,0,800,753,'#151716'))).composite(mobileComparison).png().toFile(path.join(rendoOut,'mobile-comparison.png'));
-console.log('Saved current branding concepts and Rendo lettering alternatives. The light Rendo direction is selected; final lettering is pending.');
+const avatarComparison=[];
+for(let i=0;i<rendoVariants.length;i++){
+    const v=rendoVariants[i],avatar=rendoAvatars.get(v.id),x=i*400;
+    avatarComparison.push(await label(`${v.number}  ${v.avatarTitle}`,25,colors.cream,x+56,30,'Medium'));
+    avatarComparison.push({input:await circle(avatar,270),left:x+65,top:98});
+    avatarComparison.push({input:await circle(avatar,96),left:x+127,top:419});
+    avatarComparison.push({input:await circle(avatar,32),left:x+246,top:451});
+}
+avatarComparison.push(await label('96 px',19,'#BFC3C1',144,534,'Medium'));
+avatarComparison.push(await label('32 px',19,'#BFC3C1',240,534,'Medium'));
+avatarComparison.push(await label('96 px',19,'#BFC3C1',544,534,'Medium'));
+avatarComparison.push(await label('32 px',19,'#BFC3C1',640,534,'Medium'));
+avatarComparison.push(await label('96 px',19,'#BFC3C1',944,534,'Medium'));
+avatarComparison.push(await label('32 px',19,'#BFC3C1',1040,534,'Medium'));
+await sharp(svg(1200,586,rect(0,0,1200,586,'#151716'))).composite(avatarComparison).png().toFile(path.join(rendoOut,'avatars-comparison.png'));
+console.log('Saved current Rendo banner and avatar accent proposals. Final accent treatment is pending.');
