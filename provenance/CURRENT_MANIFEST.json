@@ -263,103 +263,58 @@
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 6931,
-      "sha256": "e2386d1d6dd73ef5e19e879bc5e77cf0bd99b59aaa96285acee9f094e867ada4"
+      "bytes": 7016,
+      "sha256": "a906ae8429da41f7fd1753504870832c4124c1f5be1df552e12b1340c78cf0c4"
     },
     {
       "path": "branding/thumbnails/build.mjs",
-      "bytes": 9244,
-      "sha256": "7e4595214122a1859b0d101065da4855774452e38014ae87e3b101fbea7f2548"
+      "bytes": 8579,
+      "sha256": "9628cac46e1086df8b6acb22a4cf7bd76eda8d7269c35cbeea3da7278457191b"
     },
     {
       "path": "branding/thumbnails/comparison.jpg",
-      "bytes": 285698,
-      "sha256": "642874a8950cf9ccd087a708dcd6ab2af49d3be320a7782ba89571bf9899e35e"
+      "bytes": 97928,
+      "sha256": "699c4f1695afbe295048d73842859878a9f9971b91f7687fb54d530dd470240c"
     },
     {
-      "path": "branding/thumbnails/concept-01-small.jpg",
-      "bytes": 10462,
-      "sha256": "9acc06c7ea401ad7d14e279bfaf8a7f3cc637a68258c06f0fb74a2903096385a"
+      "path": "branding/thumbnails/concept-03-a-small.jpg",
+      "bytes": 10804,
+      "sha256": "05f706c97ed66f19810c1a6a405d70cb7f31318ee83666d3ed78338f42b8e7b4"
     },
     {
-      "path": "branding/thumbnails/concept-01.jpg",
-      "bytes": 94962,
-      "sha256": "9e36116a37b20353dce53eb5ac0630ff8c5240a4f8e439201d9ee27f964024e2"
+      "path": "branding/thumbnails/concept-03-a.jpg",
+      "bytes": 97676,
+      "sha256": "63e80bf2e55e21bbdec54e506a392df1ea9f8febaf89b0b2f3fc093718783676"
     },
     {
-      "path": "branding/thumbnails/concept-02-small.jpg",
-      "bytes": 10431,
-      "sha256": "7f2082cbd971ad7f8e3887c084dd1a0b63b6004781b39f8d8bb1459d5ed8034e"
+      "path": "branding/thumbnails/concept-03-b-small.jpg",
+      "bytes": 10849,
+      "sha256": "767d253cb0f9422cb3e0a0452d86121d255f3fd5067b254269674f5a358440e4"
     },
     {
-      "path": "branding/thumbnails/concept-02.jpg",
-      "bytes": 94798,
-      "sha256": "54e884e825bfee18ed44326dc792b17868dfe89d26f4de3f56e55a791ec2a59d"
-    },
-    {
-      "path": "branding/thumbnails/concept-03-small.jpg",
-      "bytes": 10411,
-      "sha256": "dc7149084e46045bd80d9c6959e04c2b041d65f742ea3725120e2d58d23bb658"
-    },
-    {
-      "path": "branding/thumbnails/concept-03.jpg",
-      "bytes": 94886,
-      "sha256": "a49c8ca9013bc753d8cdda288de86d1025bca26709740e7fe583810cd4eaca76"
-    },
-    {
-      "path": "branding/thumbnails/concept-04-small.jpg",
-      "bytes": 10352,
-      "sha256": "839cf8caa56c715b1af4b86922e5086e2cef58812c7411e60692545c29a308fd"
-    },
-    {
-      "path": "branding/thumbnails/concept-04.jpg",
-      "bytes": 94958,
-      "sha256": "7c9b62b83e63246058125761db5c9a786eebed9e00ee6eb52bd5faa9eb778675"
-    },
-    {
-      "path": "branding/thumbnails/concept-05-small.jpg",
-      "bytes": 10288,
-      "sha256": "b9bae26691ed1699279d05285ad9b30b0925137d79194025c2ff44a9ae79a3a2"
-    },
-    {
-      "path": "branding/thumbnails/concept-05.jpg",
-      "bytes": 94080,
-      "sha256": "792c4abeaaa622a360aa943ffb46c6409dc74eb5b28fc889b7e7d10ce7bdc40d"
-    },
-    {
-      "path": "branding/thumbnails/concept-06-small.jpg",
-      "bytes": 10260,
-      "sha256": "3e09fd1993fa207c60385cfe603783b89a91b0e1cf0ea5a8dd6fc957230b66c7"
-    },
-    {
-      "path": "branding/thumbnails/concept-06.jpg",
-      "bytes": 94615,
-      "sha256": "449b23585ab73ed849ee8c41c0376583ea7b03d05077a0ae01418288b0371f12"
+      "path": "branding/thumbnails/concept-03-b.jpg",
+      "bytes": 98296,
+      "sha256": "a44405615f83ce180bdab1e3f5897fc7e0dbde92535f7ccf8755913951cc07d4"
     },
     {
       "path": "branding/thumbnails/concepts.json",
-      "bytes": 5583,
-      "sha256": "8f2a502baa1ab557e512d1075c03825e6666edfa9e42ceeda183975df34c61a4"
-    },
-    {
-      "path": "branding/thumbnails/font-comparison.jpg",
-      "bytes": 106755,
-      "sha256": "e1d92b145dd0966048bb32bb4edf592bde621201b03bd8c97b3b34fd1a95e8bd"
+      "bytes": 3096,
+      "sha256": "b51f1a47d4aaff752af09f18d7af23849ebd4fe2bb7d30a13c31070afc85534d"
     },
     {
       "path": "branding/thumbnails/quality-check.json",
-      "bytes": 3014,
-      "sha256": "557e18616ad266b3fda14272a0c97edbbdc99d2f627db3ef79ce1a1a616e8bc4"
+      "bytes": 1730,
+      "sha256": "821c5d4164adedacff0849b03c6d2d6fee98c6f4714ee4739e69c1ffe48d347b"
     },
     {
       "path": "branding/thumbnails/README_RU.md",
-      "bytes": 6091,
-      "sha256": "689c3c03e993f3554323ff86d335d02c51bdef2593f4b6a14c079ad8aab1a8d9"
+      "bytes": 5611,
+      "sha256": "3b9d019f8d77dbca70abb0189902ce8d03e2f1e4a6290b506ea53da98edb5311"
     },
     {
       "path": "branding/thumbnails/small-comparison.jpg",
-      "bytes": 90408,
-      "sha256": "a08b196f4ba75dfff9ebb0ba4266b2bae4a2bd2595076a7259835c3c0383dd43"
+      "bytes": 31969,
+      "sha256": "86d013b396d43b9ecafc065a2f799cedb7300421a5f9eb37751feafc3a5b9df7"
     },
     {
       "path": "CLAUDE.md",
@@ -368,13 +323,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 4875,
-      "sha256": "e2222cd65374573d28467148d6a9642eab6afe2ff9363d45fa7176c1cc01f81e"
+      "bytes": 4985,
+      "sha256": "83810b212e7ca1f228c788aef35150bc2692aaddb8dcf2a7231c4a72936fe3d8"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 8291,
-      "sha256": "33e4c5231c926ef26fbb2e89111e0882f715a40ec00492a8717fd90aeb5a1b32"
+      "bytes": 8427,
+      "sha256": "9ad146628ca2402dc1e51795f3b74ec8662d289c4665f845b871caaeb25eaab6"
     },
     {
       "path": "Dockerfile",
@@ -1918,8 +1873,8 @@
     },
     {
       "path": "research/CHANNEL_BRANDING_RU.md",
-      "bytes": 40132,
-      "sha256": "6d64a2b30bef7f4de2e4582e925d1849ea1096190be75d91eefc466ce1523a24"
+      "bytes": 40255,
+      "sha256": "f4cebfc5dd6cfb7a361ab01ec2a1984ebb9b96ee3dc67ebf06d13dd1096cb391"
     },
     {
       "path": "research/competitors-overview.jpg",
@@ -1928,8 +1883,8 @@
     },
     {
       "path": "research/THUMBNAILS_RU.md",
-      "bytes": 13275,
-      "sha256": "863df9773c56e25ad65e27305554567f316d8fbd113aab8da14732c2cf008b61"
+      "bytes": 13210,
+      "sha256": "70ac035544949eba05c9dfd3c3f65cc690c897a1ed84d96f05457415f743d403"
     },
     {
       "path": "scripts/run.mjs",
@@ -2958,8 +2913,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 30185,
-      "sha256": "d0cd51746ad834f5dfa06d242b8ab39bab4351b84ff25dcd3042162d3282cbbe"
+      "bytes": 30411,
+      "sha256": "b215310bd3bcfccdfe70b953b6150c4153cff5ce617bdd5319b88e59388d137c"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -3162,8 +3117,8 @@
       "sha256": "26341d34cc02600fa93213e2b18bbd25c22c1f7ecd99e5515836122731ef4eb8"
     }
   ],
-  "file_count": 631,
-  "logical_bytes": 738918935,
+  "file_count": 622,
+  "logical_bytes": 738148792,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,

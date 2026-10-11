@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "12 WEEKS and small centered placement requested; font and refined soft lighting under review",
+  "status": "Font 03 (Montserrat Black Italic) preferred; enlarged centered caption sizes under review",
   "episode": "Current EP1 v11 only",
   "source_artwork_unchanged": true,
   "source_artwork": {
@@ -64,20 +64,24 @@
       "width": 265,
       "height": 370
     },
-    "uniform_scale": 1.945945945945946
+    "uniform_scale": 1.945945945945946,
+    "layer_left_positions": [
+      23,
+      727
+    ]
   },
   "divider": {
     "x": 640,
     "width": 10,
     "top": [
       0,
-      319
+      312
     ],
     "bottom": [
-      401,
+      408,
       720
     ],
-    "gap": 82,
+    "gap": 96,
     "color": "#B9BDBC"
   },
   "caption": {
@@ -85,172 +89,62 @@
       640,
       360
     ],
-    "max_size": [
-      196,
-      42
-    ],
+    "previous_width": 196,
+    "requested_change": "Increase legibility of preferred font 03",
     "color": "#FFFFFF"
-  },
-  "font_preview": {
-    "file": "font-comparison.jpg",
-    "source_crop": {
-      "left": 480,
-      "top": 280,
-      "width": 320,
-      "height": 160
-    },
-    "uniform_enlargement": 1.5
   },
   "designs": [
     {
-      "id": "01",
-      "title": "Jost Medium",
-      "copy": "12 WEEKS",
-      "font": "Jost Medium",
-      "size": [
-        1280,
-        720
-      ],
-      "fontFile": "episodes/ep1-v11/film/public/fonts/Jost.ttf",
-      "file": "concept-01.jpg",
-      "caption_pixels": [
-        196,
-        35
-      ],
-      "caption_box": {
-        "left": 542,
-        "top": 343,
-        "width": 196,
-        "height": 35
-      },
-      "bytes": 94962,
-      "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
-    },
-    {
-      "id": "02",
-      "title": "Montserrat Bold",
-      "copy": "12 WEEKS",
-      "font": "Montserrat Bold",
-      "size": [
-        1280,
-        720
-      ],
-      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-Bold.ttf",
-      "file": "concept-02.jpg",
-      "caption_pixels": [
-        196,
-        30
-      ],
-      "caption_box": {
-        "left": 542,
-        "top": 345,
-        "width": 196,
-        "height": 30
-      },
-      "bytes": 94798,
-      "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
-    },
-    {
-      "id": "03",
-      "title": "Montserrat Black Italic",
+      "id": "03-a",
+      "title": "A — 268 px",
       "copy": "12 WEEKS",
       "font": "Montserrat Heavy Italic",
       "size": [
         1280,
         720
       ],
+      "maxWidth": 268,
       "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-BlackItalic.ttf",
-      "file": "concept-03.jpg",
+      "file": "concept-03-a.jpg",
       "caption_pixels": [
-        196,
-        28
-      ],
-      "caption_box": {
-        "left": 542,
-        "top": 346,
-        "width": 196,
-        "height": 28
-      },
-      "bytes": 94886,
-      "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
-    },
-    {
-      "id": "04",
-      "title": "DM Serif Display",
-      "copy": "12 WEEKS",
-      "font": "DM Serif Display",
-      "size": [
-        1280,
-        720
-      ],
-      "fontFile": "branding/fonts/DMSerifDisplay-Regular.ttf",
-      "file": "concept-04.jpg",
-      "caption_pixels": [
-        186,
-        31
-      ],
-      "caption_box": {
-        "left": 547,
-        "top": 345,
-        "width": 186,
-        "height": 31
-      },
-      "bytes": 94958,
-      "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
-    },
-    {
-      "id": "05",
-      "title": "JetBrains Mono",
-      "copy": "12 WEEKS",
-      "font": "JetBrains Mono",
-      "size": [
-        1280,
-        720
-      ],
-      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/JetBrainsMono-Regular.ttf",
-      "file": "concept-05.jpg",
-      "caption_pixels": [
-        171,
-        26
-      ],
-      "caption_box": {
-        "left": 555,
-        "top": 347,
-        "width": 171,
-        "height": 26
-      },
-      "bytes": 94080,
-      "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
-    },
-    {
-      "id": "06",
-      "title": "Caveat Bold",
-      "copy": "12 weeks",
-      "font": "Caveat Bold",
-      "size": [
-        1280,
-        720
-      ],
-      "fontFile": "branding/fonts/Caveat.ttf",
-      "file": "concept-06.jpg",
-      "caption_pixels": [
-        167,
+        268,
         38
       ],
       "caption_box": {
-        "left": 557,
+        "left": 506,
         "top": 341,
-        "width": 167,
+        "width": 268,
         "height": 38
       },
-      "bytes": 94615,
+      "bytes": 97676,
       "approved": false,
-      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
+      "purpose": "Two larger sizes of preferred font 03; final caption size under review"
+    },
+    {
+      "id": "03-b",
+      "title": "B — 304 px",
+      "copy": "12 WEEKS",
+      "font": "Montserrat Heavy Italic",
+      "size": [
+        1280,
+        720
+      ],
+      "maxWidth": 304,
+      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-BlackItalic.ttf",
+      "file": "concept-03-b.jpg",
+      "caption_pixels": [
+        304,
+        43
+      ],
+      "caption_box": {
+        "left": 488,
+        "top": 339,
+        "width": 304,
+        "height": 43
+      },
+      "bytes": 98296,
+      "approved": false,
+      "purpose": "Two larger sizes of preferred font 03; final caption size under review"
     }
   ]
 }

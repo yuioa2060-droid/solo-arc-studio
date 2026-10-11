@@ -1,141 +1,60 @@
 {
   "date": "2026-10-11",
-  "status": "12 WEEKS and small centered placement requested; font and refined soft lighting under review",
+  "status": "Font 03 (Montserrat Black Italic) preferred; enlarged centered caption sizes under review",
   "checks": [
     {
-      "file": "concept-01.jpg",
+      "file": "concept-03-a.jpg",
       "decoded": true,
       "size": [
         1280,
         720
       ],
-      "bytes": 94962
+      "bytes": 97676
     },
     {
-      "file": "concept-01-small.jpg",
+      "file": "concept-03-a-small.jpg",
       "decoded": true,
       "size": [
         320,
         180
       ],
-      "bytes": 10462
+      "bytes": 10804
     },
     {
-      "file": "concept-02.jpg",
+      "file": "concept-03-b.jpg",
       "decoded": true,
       "size": [
         1280,
         720
       ],
-      "bytes": 94798
+      "bytes": 98296
     },
     {
-      "file": "concept-02-small.jpg",
+      "file": "concept-03-b-small.jpg",
       "decoded": true,
       "size": [
         320,
         180
       ],
-      "bytes": 10431
-    },
-    {
-      "file": "concept-03.jpg",
-      "decoded": true,
-      "size": [
-        1280,
-        720
-      ],
-      "bytes": 94886
-    },
-    {
-      "file": "concept-03-small.jpg",
-      "decoded": true,
-      "size": [
-        320,
-        180
-      ],
-      "bytes": 10411
-    },
-    {
-      "file": "concept-04.jpg",
-      "decoded": true,
-      "size": [
-        1280,
-        720
-      ],
-      "bytes": 94958
-    },
-    {
-      "file": "concept-04-small.jpg",
-      "decoded": true,
-      "size": [
-        320,
-        180
-      ],
-      "bytes": 10352
-    },
-    {
-      "file": "concept-05.jpg",
-      "decoded": true,
-      "size": [
-        1280,
-        720
-      ],
-      "bytes": 94080
-    },
-    {
-      "file": "concept-05-small.jpg",
-      "decoded": true,
-      "size": [
-        320,
-        180
-      ],
-      "bytes": 10288
-    },
-    {
-      "file": "concept-06.jpg",
-      "decoded": true,
-      "size": [
-        1280,
-        720
-      ],
-      "bytes": 94615
-    },
-    {
-      "file": "concept-06-small.jpg",
-      "decoded": true,
-      "size": [
-        320,
-        180
-      ],
-      "bytes": 10260
+      "bytes": 10849
     },
     {
       "file": "comparison.jpg",
       "decoded": true,
       "size": [
         1632,
-        1580
+        548
       ],
-      "bytes": 285698
+      "bytes": 97928
     },
     {
       "file": "small-comparison.jpg",
       "decoded": true,
       "size": [
         704,
-        742
+        258
       ],
-      "bytes": 90408
-    },
-    {
-      "file": "font-comparison.jpg",
-      "decoded": true,
-      "size": [
-        1056,
-        1004
-      ],
-      "bytes": 106755
+      "bytes": 31969
     }
   ],
   "source_hashes_match_production_manifest": true,
