@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "Composition sketches; no owner approval",
+  "status": "Light-focus direction chosen for refinement; final caption and illustration not selected",
   "checks": [
     {
       "file": "concept-01.jpg",
@@ -9,7 +9,7 @@
         1280,
         720
       ],
-      "bytes": 120465
+      "bytes": 116225
     },
     {
       "file": "concept-01-small.jpg",
@@ -18,7 +18,7 @@
         320,
         180
       ],
-      "bytes": 12265
+      "bytes": 13750
     },
     {
       "file": "concept-02.jpg",
@@ -27,7 +27,7 @@
         1280,
         720
       ],
-      "bytes": 155563
+      "bytes": 112403
     },
     {
       "file": "concept-02-small.jpg",
@@ -36,7 +36,7 @@
         320,
         180
       ],
-      "bytes": 16015
+      "bytes": 13246
     },
     {
       "file": "concept-03.jpg",
@@ -45,7 +45,7 @@
         1280,
         720
       ],
-      "bytes": 99278
+      "bytes": 117455
     },
     {
       "file": "concept-03-small.jpg",
@@ -54,7 +54,7 @@
         320,
         180
       ],
-      "bytes": 12169
+      "bytes": 14824
     },
     {
       "file": "concept-04.jpg",
@@ -63,7 +63,7 @@
         1280,
         720
       ],
-      "bytes": 210357
+      "bytes": 113825
     },
     {
       "file": "concept-04-small.jpg",
@@ -72,7 +72,7 @@
         320,
         180
       ],
-      "bytes": 20568
+      "bytes": 13507
     },
     {
       "file": "concept-05.jpg",
@@ -81,7 +81,7 @@
         1280,
         720
       ],
-      "bytes": 242647
+      "bytes": 117914
     },
     {
       "file": "concept-05-small.jpg",
@@ -90,7 +90,25 @@
         320,
         180
       ],
-      "bytes": 20385
+      "bytes": 13629
+    },
+    {
+      "file": "concept-06.jpg",
+      "decoded": true,
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 115273
+    },
+    {
+      "file": "concept-06-small.jpg",
+      "decoded": true,
+      "size": [
+        320,
+        180
+      ],
+      "bytes": 13520
     },
     {
       "file": "comparison.jpg",
@@ -99,7 +117,7 @@
         1632,
         1580
       ],
-      "bytes": 388651
+      "bytes": 350824
     },
     {
       "file": "small-comparison.jpg",
@@ -108,7 +126,7 @@
         704,
         742
       ],
-      "bytes": 113736
+      "bytes": 112343
     }
   ],
   "source_hashes_match_production_manifest": true,
@@ -125,27 +143,6 @@
       "nativeSize": [
         640,
         1024
-      ]
-    },
-    "m-s0.png": {
-      "sha256": "2fb47390418c29b68fabecb54f441c7146733f14fb118b4041f49229d7df818e",
-      "nativeSize": [
-        647,
-        1536
-      ]
-    },
-    "h-think.png": {
-      "sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
-      "nativeSize": [
-        603,
-        1024
-      ]
-    },
-    "o-scale2.png": {
-      "sha256": "be922b931c00504177549d7644b5a779f79c246f45465c3b554971e3ee91f513",
-      "nativeSize": [
-        1191,
-        838
       ]
     }
   },

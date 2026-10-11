@@ -1,5 +1,5 @@
-// Editable composition sketches for the existing EP1, using its approved artwork.
-// Focus and contours are presentation layers. Source PNGs and the film stay intact.
+// Current EP1 thumbnail refinements: source-bound abdominal focus and editable copy.
+// Each source illustration uses one uniform crop/scale. Source PNGs stay intact.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -11,78 +11,73 @@ const root=path.resolve(here,'../..');
 const argument=process.argv.indexOf('--sharp-module');
 const sharp=require(argument<0?'sharp':process.argv[argument+1]);
 const img=path.join(root,'episodes/ep1-v11/film/public/img');
-const font=path.join(root,'skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-BlackItalic.ttf');
+const fonts=path.join(root,'skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts');
 const labelsFont=path.join(root,'episodes/ep1-v11/film/public/fonts/Jost.ttf');
-const C={black:'#060606',white:'#FFFFFF',green:'#0B8371',board:'#171919'};
-const W=1280,H=720;
+const C={black:'#060606',white:'#FFFFFF',green:'#0B8371',divider:'#B9BDBC',board:'#171919'};
+const W=1280,H=720,crop={left:300,top:178,width:265,height:370},positions=[55,695];
+const focus={
+ 'b-w1.png':'M414 279 C440 297 481 296 507 279 C522 318 534 362 529 398 C529 414 527 427 521 436 C480 436 446 425 410 417 C400 382 397 351 404 323 C410 304 413 290 414 279 Z',
+ 'b-w3.png':'M413 280 C432 290 454 289 470 282 C475 319 475 371 482 425 L413 417 C404 382 401 348 411 310 Z',
+};
+const outsideDim=0.70,featherSource=0.8,dividerWidth=10;
 const svg=(w,h,body)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${body}</svg>`);
 const rect=(w,h,color)=>`<rect width="${w}" height="${h}" fill="${color}"/>`;
 const layer=(input,left,top)=>({input,left,top});
-
-// One uniform crop/scale per illustration; no separate body-part manipulation.
-const torsoCrop={left:300,top:178,width:265,height:370};
-const pairPositions=[55,695];
-const cutout=async(name,crop,height,left,top,{focus=false}={})=>{
- let buffer=await sharp(path.join(img,name)).extract(crop).resize({height}).png().toBuffer();
- if(focus){
-  const {width}=await sharp(buffer).metadata();
-  const scale=height/crop.height;
-  const sourceCenter=name==='b-w1.png'?[455,350]:[440,350];
-  const cx=(sourceCenter[0]-crop.left)*scale,cy=(sourceCenter[1]-crop.top)*scale;
-  const overlay=svg(width,height,`<defs><radialGradient id="f" gradientUnits="userSpaceOnUse" cx="${cx}" cy="${cy}" r="${220*scale}" gradientTransform="translate(0 ${cy*0.23}) scale(1 0.77)"><stop offset="0" stop-color="black" stop-opacity="0"/><stop offset="0.28" stop-color="black" stop-opacity="0"/><stop offset="0.62" stop-color="black" stop-opacity="0.48"/><stop offset="1" stop-color="black" stop-opacity="0.72"/></radialGradient></defs><rect width="100%" height="100%" fill="url(#f)"/>`);
-  buffer=await sharp(buffer).composite([{input:overlay,blend:'atop'}]).png().toBuffer();
- }
- return layer(buffer,left,top);
+const focusedBody=async(name,left)=>{
+ const scale=H/crop.height;
+ let buffer=await sharp(path.join(img,name)).extract(crop).resize({height:H}).png().toBuffer();
+ const {width}=await sharp(buffer).metadata();
+ const overlay=svg(width,H,`<defs><filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="${featherSource}"/></filter><mask id="outside" maskUnits="userSpaceOnUse" x="0" y="0" width="${width}" height="${H}" style="mask-type:luminance"><rect width="100%" height="100%" fill="white"/><g transform="scale(${scale}) translate(${-crop.left} ${-crop.top})"><path d="${focus[name]}" fill="black" filter="url(#edge)"/></g></mask></defs><rect width="100%" height="100%" fill="black" opacity="${outsideDim}" mask="url(#outside)"/>`);
+ buffer=await sharp(buffer).composite([{input:overlay,blend:'atop'}]).png().toBuffer();
+ return layer(buffer,left,0);
 };
-const word=async(value,size,color,left,top,maxWidth=620)=>{
- const rendered=await sharp({text:{text:`<span foreground="${color}">${value}</span>`,font:`Montserrat Heavy Italic ${size}`,fontfile:font,dpi:72,rgba:true}}).png().toBuffer();
- return layer(await sharp(rendered).resize({width:maxWidth,withoutEnlargement:true}).png().toBuffer(),left,top);
+const escapeXml=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const textLayer=async(runs,{size=106,style='italic',box,align='center'}={})=>{
+ const fontfile=path.join(fonts,style==='italic'?'Montserrat-BlackItalic.ttf':'Montserrat-Black.ttf');
+ const font=style==='italic'?`Montserrat Heavy Italic ${size}`:`Montserrat Heavy ${size}`;
+ const text=runs.map(([value,color])=>`<span foreground="${color}">${escapeXml(value)}</span>`).join('');
+ let buffer=await sharp({text:{text,font,fontfile,dpi:72,rgba:true}}).png().toBuffer();
+ buffer=await sharp(buffer).resize({width:box.width,height:box.height,fit:'inside',withoutEnlargement:true}).png().toBuffer();
+ const m=await sharp(buffer).metadata();
+ const x=align==='left'?box.left:align==='right'?box.left+box.width-m.width:box.left+Math.round((box.width-m.width)/2);
+ return layer(buffer,x,box.top+Math.round((box.height-m.height)/2));
 };
-const label=async(value,size,color=C.white)=>sharp({text:{text:`<span foreground="${color}">${value}</span>`,font:`Jost Medium ${size}`,fontfile:labelsFont,dpi:72,rgba:true}}).png().toBuffer();
-const divider=(background)=>layer(svg(W,H,`<path d="M640 42 V678" stroke="${background==='white'?'#C9CCCB':'#797C7B'}" stroke-width="3"/>`),0,0);
-const waistContour=(name,left)=>{
- // Coordinates belong to these two specific source PNGs, in source pixels.
- const d=name==='b-w1.png'
-  ?'M507 282 C520 317 530 352 529 389 C531 411 527 425 522 436'
-  :'M470 282 C475 324 475 367 482 425';
- const scale=H/torsoCrop.height;
- return layer(svg(W,H,`<g transform="translate(${left-torsoCrop.left*scale} ${-torsoCrop.top*scale}) scale(${scale})"><path d="${d}" fill="none" stroke="${C.green}" stroke-width="5.5" stroke-linecap="round"/></g>`),0,0);
-};
-
+const label=async(value,size)=>sharp({text:{text:`<span foreground="white">${escapeXml(value)}</span>`,font:`Jost Medium ${size}`,fontfile:labelsFont,dpi:72,rgba:true}}).png().toBuffer();
+const rightBox={left:664,top:588,width:586,height:104};
+const leftBox={left:30,top:588,width:580,height:104};
 const designs=[
- {id:'01',title:'Световой акцент на талии',background:'black',copy:null,art:['b-w1.png','b-w3.png'],reference:'Ryoga: same-pose comparison, target lighter than surrounding anatomy'},
- {id:'02',title:'Изумрудный контур',background:'black',copy:null,art:['b-w1.png','b-w3.png'],reference:'Kaizo: a contour makes the anatomical change explicit'},
- {id:'03',title:'Живот + короткий вопрос',background:'black',copy:'STUCK?',art:['b-w1.png'],reference:'Captain Workout: one short readable phrase linked to the pictured problem'},
- {id:'04',title:'Белый фон + проблема',background:'white',copy:'STILL STUCK?',art:['m-s0.png'],reference:'Blue Gains / Primeon: light background, large body crop and short text'},
- {id:'05',title:'Герой + весы',background:'black',copy:'STUCK?',art:['h-think.png','o-scale2.png'],reference:'The Rep Theory: character plus a meaningful prop expresses the problem'},
+ {id:'01',title:'12 WEEKS — в строку',copy:'12 WEEKS',layout:'single line, lower right',font:'Montserrat Black Italic'},
+ {id:'02',title:'12 WEEKS — крупная цифра',copy:'12 WEEKS',layout:'large numeral, lower right',font:'Montserrat Black'},
+ {id:'03',title:'WEEK 1 / WEEK 12',copy:'WEEK 1 / WEEK 12',layout:'paired lower labels',font:'Montserrat Black'},
+ {id:'04',title:'LOSE FAT',copy:'LOSE FAT',layout:'single line, lower right',font:'Montserrat Black Italic'},
+ {id:'05',title:'3 SIGNALS',copy:'3 SIGNALS',layout:'single line, lower right',font:'Montserrat Black Italic'},
+ {id:'06',title:'STUCK?',copy:'STUCK?',layout:'question under the starting body',font:'Montserrat Black Italic'},
 ];
+const bodies=await Promise.all(Object.keys(focus).map((name,j)=>focusedBody(name,positions[j])));
+const separator=layer(svg(W,H,`<rect x="${W/2-dividerWidth/2}" y="0" width="${dividerWidth}" height="${H}" fill="${C.divider}"/>`),0,0);
 const results=[];
 for(const design of designs){
- const layers=[];
- if(['01','02'].includes(design.id)){
-  for(let j=0;j<2;j++)layers.push(await cutout(design.art[j],torsoCrop,H,pairPositions[j],0,{focus:design.id==='01'}));
-  layers.push(divider(design.background));
-  if(design.id==='02')for(let j=0;j<2;j++)layers.push(waistContour(design.art[j],pairPositions[j]));
+ const layers=[...bodies,separator];
+ if(design.id==='01'){
+  layers.push(await textLayer([['12 ',C.white],['WEEKS',C.green]],{box:rightBox,size:116}));
+ }else if(design.id==='02'){
+  layers.push(await textLayer([['12',C.green]],{style:'upright',size:200,box:{left:678,top:523,width:206,height:173}}));
+  layers.push(await textLayer([['WEEKS',C.white]],{style:'upright',size:100,box:{left:890,top:589,width:351,height:105}}));
  }else if(design.id==='03'){
-  layers.push(await cutout('b-w1.png',torsoCrop,H,45,0,{focus:true}));
-  layers.push(await word('STUCK?',196,C.green,585,277,635));
+  layers.push(await textLayer([['WEEK 1',C.white]],{style:'upright',size:106,box:leftBox}));
+  layers.push(await textLayer([['WEEK ',C.white],['12',C.green]],{style:'upright',size:106,box:rightBox}));
  }else if(design.id==='04'){
-  layers.push(await cutout('m-s0.png',{left:0,top:250,width:647,height:660},H,0,0));
-  layers.push(await word('STILL',159,C.black,710,227,500));
-  layers.push(await word('STUCK?',159,C.green,705,365,525));
+  layers.push(await textLayer([['LOSE ',C.white],['FAT',C.green]],{box:rightBox,size:116}));
+ }else if(design.id==='05'){
+  layers.push(await textLayer([['3 ',C.white],['SIGNALS',C.green]],{box:rightBox,size:116}));
  }else{
-  const heroMeta=await sharp(path.join(img,'h-think.png')).metadata();
-  layers.push(await cutout('h-think.png',{left:0,top:0,width:heroMeta.width,height:880},700,770,20));
-  layers.push(layer(await sharp(path.join(img,'o-scale2.png')).resize({width:640}).png().toBuffer(),50,260));
-  layers.push(await word('STUCK?',159,C.white,64,75,645));
+  layers.push(await textLayer([['STUCK',C.white],['?',C.green]],{box:leftBox,size:138}));
  }
  const file=`concept-${design.id}.jpg`;
- const background=design.background==='white'?C.white:C.black;
- await sharp(svg(W,H,rect(W,H,background))).composite(layers).jpeg({quality:96,chromaSubsampling:'4:4:4'}).toFile(path.join(here,file));
+ await sharp(svg(W,H,rect(W,H,C.black))).composite(layers).jpeg({quality:96,chromaSubsampling:'4:4:4'}).toFile(path.join(here,file));
  await sharp(path.join(here,file)).resize(320,180).jpeg({quality:94,chromaSubsampling:'4:4:4'}).toFile(path.join(here,`concept-${design.id}-small.jpg`));
- const meta=await sharp(path.join(here,file)).metadata();
- await sharp(path.join(here,file)).stats();
- results.push({...design,file,size:[meta.width,meta.height],bytes:(await fs.stat(path.join(here,file))).size,approved:false,purpose:'Composition sketch for EP1; not final high-resolution illustration'});
+ const metadata=await sharp(path.join(here,file)).metadata();
+ results.push({...design,file,size:[metadata.width,metadata.height],bytes:(await fs.stat(path.join(here,file))).size,approved:false,purpose:'Refinement of the chosen light-focus composition; caption not selected'});
 }
 
 const makeBoard=async(panelW,name)=>{
@@ -91,36 +86,35 @@ const makeBoard=async(panelW,name)=>{
  const width=2*panelW+gap+2*pad,height=2*pad+rows*(header+panelH)+(rows-1)*gap;
  const layers=[];
  for(let j=0;j<designs.length;j++){
-  const d=designs[j],row=Math.floor(j/2);
-  const lastOdd=j===designs.length-1&&designs.length%2===1;
-  const x=lastOdd?Math.round((width-panelW)/2):pad+(j%2)*(panelW+gap);
-  const y=pad+row*(header+panelH+gap);
-  const rendered=await sharp(await label(`${d.id}  ${d.title}`,small?21:28)).resize({width:panelW,withoutEnlargement:true}).png().toBuffer();
+  const design=designs[j],row=Math.floor(j/2),x=pad+(j%2)*(panelW+gap),y=pad+row*(header+panelH+gap);
+  const rendered=await sharp(await label(`${design.id}  ${design.title}`,small?21:28)).resize({width:panelW,withoutEnlargement:true}).png().toBuffer();
   layers.push(layer(rendered,x,y));
-  layers.push(layer(await sharp(path.join(here,`concept-${d.id}.jpg`)).resize(panelW,panelH).png().toBuffer(),x,y+header));
+  layers.push(layer(await sharp(path.join(here,`concept-${design.id}.jpg`)).resize(panelW,panelH).png().toBuffer(),x,y+header));
  }
  await sharp(svg(width,height,rect(width,height,C.board))).composite(layers).jpeg({quality:95,chromaSubsampling:'4:4:4'}).toFile(path.join(here,name));
 };
 await makeBoard(768,'comparison.jpg');
 await makeBoard(320,'small-comparison.jpg');
+
 const sourceArtwork={};
-for(const name of new Set(designs.flatMap(d=>d.art))){
- const buffer=await fs.readFile(path.join(img,name)),m=await sharp(buffer).metadata();
- sourceArtwork[name]={sha256:createHash('sha256').update(buffer).digest('hex'),nativeSize:[m.width,m.height]};
+for(const name of Object.keys(focus)){
+ const buffer=await fs.readFile(path.join(img,name)),metadata=await sharp(buffer).metadata();
+ sourceArtwork[name]={sha256:createHash('sha256').update(buffer).digest('hex'),nativeSize:[metadata.width,metadata.height]};
 }
-await fs.writeFile(path.join(here,'concepts.json'),JSON.stringify({date:'2026-10-11',status:'Proposal for discussion; no thumbnail style selected',episode:'Current EP1 v11 only',source_artwork_unchanged:true,source_artwork:sourceArtwork,model_requests:0,designs:results},null,2)+'\n');
+const manifest=JSON.parse(await fs.readFile(path.join(root,'provenance/CURRENT_MANIFEST.json'),'utf8'));
+for(const [name,source] of Object.entries(sourceArtwork)){
+ const original=manifest.files.find(file=>file.path===`episodes/ep1-v11/film/public/img/${name}`);
+ if(!original||original.sha256!==source.sha256)throw new Error(`Source differs from the production manifest: ${name}`);
+}
 const checks=[];
-for(const name of [...designs.flatMap(d=>[`concept-${d.id}.jpg`,`concept-${d.id}-small.jpg`]),'comparison.jpg','small-comparison.jpg']){
+for(const name of [...designs.flatMap(design=>[`concept-${design.id}.jpg`,`concept-${design.id}-small.jpg`]),'comparison.jpg','small-comparison.jpg']){
  const file=path.join(here,name),metadata=await sharp(file).metadata();
  await sharp(file).stats();
  const expected=name.endsWith('-small.jpg')?[320,180]:/^concept-\d+\.jpg$/.test(name)?[W,H]:null;
  if(expected&&(metadata.width!==expected[0]||metadata.height!==expected[1]))throw new Error(`Unexpected dimensions: ${name}`);
  checks.push({file:name,decoded:true,size:[metadata.width,metadata.height],bytes:(await fs.stat(file)).size});
 }
-const manifest=JSON.parse(await fs.readFile(path.join(root,'provenance/CURRENT_MANIFEST.json'),'utf8'));
-for(const [name,source] of Object.entries(sourceArtwork)){
- const original=manifest.files.find(f=>f.path===`episodes/ep1-v11/film/public/img/${name}`);
- if(!original||original.sha256!==source.sha256)throw new Error(`Source differs from the production manifest: ${name}`);
-}
-await fs.writeFile(path.join(here,'quality-check.json'),JSON.stringify({date:'2026-10-11',status:'Composition sketches; no owner approval',checks,source_hashes_match_production_manifest:true,source_artwork:sourceArtwork,model_requests:0,limitations:['Decode and size checks do not establish artistic approval.','The sketches enlarge existing illustrations; no new high-resolution drawing was generated.','Human visual review is recorded in README_RU.md; this script performs technical checks only.']},null,2)+'\n');
-console.log(JSON.stringify({concepts:results.length,size:[W,H],model_requests:0,final_style_selected:false}));
+const status='Light-focus direction chosen for refinement; final caption and illustration not selected';
+await fs.writeFile(path.join(here,'concepts.json'),JSON.stringify({date:'2026-10-11',status,episode:'Current EP1 v11 only',source_artwork_unchanged:true,source_artwork:sourceArtwork,model_requests:0,focus:{region:'abdomen below the chest and above the waistband; exclude arm',paths_in_source_pixels:focus,crop,uniform_scale:H/crop.height,outside_dim_opacity:outsideDim,edge_feather_source_pixels:featherSource},divider:{x:640,width:dividerWidth,from:0,to:H,color:C.divider},designs:results},null,2)+'\n');
+await fs.writeFile(path.join(here,'quality-check.json'),JSON.stringify({date:'2026-10-11',status,checks,source_hashes_match_production_manifest:true,source_artwork:sourceArtwork,model_requests:0,limitations:['Decode and size checks do not establish artistic approval.','The sketches enlarge existing illustrations; no new high-resolution drawing was generated.','Human visual review is recorded in README_RU.md; this script performs technical checks only.']},null,2)+'\n');
+console.log(JSON.stringify({concepts:results.length,size:[W,H],focus:'source-bound abdomen',divider_width:dividerWidth,divider_full_height:true,model_requests:0,caption_selected:false}));

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "Proposal for discussion; no thumbnail style selected",
+  "status": "Light-focus direction chosen for refinement; final caption and illustration not selected",
   "episode": "Current EP1 v11 only",
   "source_artwork_unchanged": true,
   "source_artwork": {
@@ -17,123 +17,122 @@
         640,
         1024
       ]
-    },
-    "m-s0.png": {
-      "sha256": "2fb47390418c29b68fabecb54f441c7146733f14fb118b4041f49229d7df818e",
-      "nativeSize": [
-        647,
-        1536
-      ]
-    },
-    "h-think.png": {
-      "sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
-      "nativeSize": [
-        603,
-        1024
-      ]
-    },
-    "o-scale2.png": {
-      "sha256": "be922b931c00504177549d7644b5a779f79c246f45465c3b554971e3ee91f513",
-      "nativeSize": [
-        1191,
-        838
-      ]
     }
   },
   "model_requests": 0,
+  "focus": {
+    "region": "abdomen below the chest and above the waistband; exclude arm",
+    "paths_in_source_pixels": {
+      "b-w1.png": "M414 279 C440 297 481 296 507 279 C522 318 534 362 529 398 C529 414 527 427 521 436 C480 436 446 425 410 417 C400 382 397 351 404 323 C410 304 413 290 414 279 Z",
+      "b-w3.png": "M413 280 C432 290 454 289 470 282 C475 319 475 371 482 425 L413 417 C404 382 401 348 411 310 Z"
+    },
+    "crop": {
+      "left": 300,
+      "top": 178,
+      "width": 265,
+      "height": 370
+    },
+    "uniform_scale": 1.945945945945946,
+    "outside_dim_opacity": 0.7,
+    "edge_feather_source_pixels": 0.8
+  },
+  "divider": {
+    "x": 640,
+    "width": 10,
+    "from": 0,
+    "to": 720,
+    "color": "#B9BDBC"
+  },
   "designs": [
     {
       "id": "01",
-      "title": "Световой акцент на талии",
-      "background": "black",
-      "copy": null,
-      "art": [
-        "b-w1.png",
-        "b-w3.png"
-      ],
-      "reference": "Ryoga: same-pose comparison, target lighter than surrounding anatomy",
+      "title": "12 WEEKS — в строку",
+      "copy": "12 WEEKS",
+      "layout": "single line, lower right",
+      "font": "Montserrat Black Italic",
       "file": "concept-01.jpg",
       "size": [
         1280,
         720
       ],
-      "bytes": 120465,
+      "bytes": 116225,
       "approved": false,
-      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
     },
     {
       "id": "02",
-      "title": "Изумрудный контур",
-      "background": "black",
-      "copy": null,
-      "art": [
-        "b-w1.png",
-        "b-w3.png"
-      ],
-      "reference": "Kaizo: a contour makes the anatomical change explicit",
+      "title": "12 WEEKS — крупная цифра",
+      "copy": "12 WEEKS",
+      "layout": "large numeral, lower right",
+      "font": "Montserrat Black",
       "file": "concept-02.jpg",
       "size": [
         1280,
         720
       ],
-      "bytes": 155563,
+      "bytes": 112403,
       "approved": false,
-      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
     },
     {
       "id": "03",
-      "title": "Живот + короткий вопрос",
-      "background": "black",
-      "copy": "STUCK?",
-      "art": [
-        "b-w1.png"
-      ],
-      "reference": "Captain Workout: one short readable phrase linked to the pictured problem",
+      "title": "WEEK 1 / WEEK 12",
+      "copy": "WEEK 1 / WEEK 12",
+      "layout": "paired lower labels",
+      "font": "Montserrat Black",
       "file": "concept-03.jpg",
       "size": [
         1280,
         720
       ],
-      "bytes": 99278,
+      "bytes": 117455,
       "approved": false,
-      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
     },
     {
       "id": "04",
-      "title": "Белый фон + проблема",
-      "background": "white",
-      "copy": "STILL STUCK?",
-      "art": [
-        "m-s0.png"
-      ],
-      "reference": "Blue Gains / Primeon: light background, large body crop and short text",
+      "title": "LOSE FAT",
+      "copy": "LOSE FAT",
+      "layout": "single line, lower right",
+      "font": "Montserrat Black Italic",
       "file": "concept-04.jpg",
       "size": [
         1280,
         720
       ],
-      "bytes": 210357,
+      "bytes": 113825,
       "approved": false,
-      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
     },
     {
       "id": "05",
-      "title": "Герой + весы",
-      "background": "black",
-      "copy": "STUCK?",
-      "art": [
-        "h-think.png",
-        "o-scale2.png"
-      ],
-      "reference": "The Rep Theory: character plus a meaningful prop expresses the problem",
+      "title": "3 SIGNALS",
+      "copy": "3 SIGNALS",
+      "layout": "single line, lower right",
+      "font": "Montserrat Black Italic",
       "file": "concept-05.jpg",
       "size": [
         1280,
         720
       ],
-      "bytes": 242647,
+      "bytes": 117914,
       "approved": false,
-      "purpose": "Composition sketch for EP1; not final high-resolution illustration"
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+    },
+    {
+      "id": "06",
+      "title": "STUCK?",
+      "copy": "STUCK?",
+      "layout": "question under the starting body",
+      "font": "Montserrat Black Italic",
+      "file": "concept-06.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 115273,
+      "approved": false,
+      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
     }
   ]
 }
