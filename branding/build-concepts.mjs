@@ -13,13 +13,16 @@ try{sharp=require(arg('--sharp-module')||'sharp');}catch{throw Error('Install sh
 const out=path.join(here,'options');
 await fs.mkdir(out,{recursive:true});
 const font=path.join(root,'episodes/ep1-v11/film/public/fonts/Jost.ttf');
+const brandFonts=path.join(root,'skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts');
+const montserrat={family:'Montserrat',file:path.join(brandFonts,'Montserrat-Black.ttf')};
+const montserratItalic={family:'Montserrat',file:path.join(brandFonts,'Montserrat-BlackItalic.ttf')};
 const imgRoot=path.join(root,'episodes/ep1-v11/film/public/img');
 const colors={black:'#060606',emerald:'#0B8371',cream:'#F4F3EF',gray:'#A1A1A1'};
 const svg=(w,h,body)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${body}</svg>`);
 const rect=(x,y,w,h,fill,extra='')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${fill}" ${extra}/>`;
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-const text=async(value,size,color=colors.cream,weight='Bold')=>sharp({text:{text:`<span foreground="${color}">${esc(value)}</span>`,font:`Jost ${weight} ${size}`,fontfile:font,dpi:72,rgba:true}}).png().toBuffer();
-const label=async(value,size,color,left,top,weight='Bold')=>({input:await text(value,size,color,weight),left,top});
+const text=async(value,size,color=colors.cream,weight='Bold',typeface={family:'Jost',file:font})=>sharp({text:{text:`<span foreground="${color}">${esc(value)}</span>`,font:`${typeface.family} ${weight} ${size}`,fontfile:typeface.file,dpi:72,rgba:true}}).png().toBuffer();
+const label=async(value,size,color,left,top,weight='Bold',typeface)=>({input:await text(value,size,color,weight,typeface),left,top});
 const metadata=b=>sharp(b).metadata();
 const heroCache=new Map();
 const cleanExteriorMatte=async(file)=>{
@@ -57,9 +60,45 @@ const portrait=async(filename,width,x,y,targetW,targetH)=>{
     return {input:cut,left:Math.max(0,x),top:Math.max(0,y)};
 };
 const circle=async(buffer,size)=>sharp(buffer).resize(size,size).composite([{input:svg(size,size,`<circle cx="${size/2}" cy="${size/2}" r="${size/2}" fill="white"/>`),blend:'dest-in'}]).png().toBuffer();
+// The owner chose the light Rendo direction. Lettering below is still a proposal.
+// Reuse the approved drawing; only editable typography and layout change.
+const rendoVariants=[
+ {id:'wordmark',number:'01',title:'Italic / one short line'},
+ {id:'nickname',number:'02',title:'Lowercase / quieter lettering'},
+ {id:'minimal',number:'03',title:'Name only / no tagline'},
+];
+const rendoOut=path.join(out,'rendo');
+await fs.mkdir(rendoOut,{recursive:true});
+const rendoBanners=new Map();
+for(const variant of rendoVariants){
+    const layers=[await portrait('h-fist.png',950,262,550,2560,1440)];
+    if(variant.id==='wordmark'){
+        layers.push(await label('RENDO',170,colors.black,1048,642,'Black Italic',montserratItalic));
+        layers.push({input:svg(48,5,rect(0,0,48,5,colors.emerald)),left:1057,top:829});
+        layers.push(await label('Fat loss, made clear.',34,'#484A47',1123,811,'Medium'));
+    }else if(variant.id==='nickname'){
+        const name=await text('rendo',212,colors.black,'Medium');
+        const m=await metadata(name);
+        const dot=await text('.',212,colors.emerald,'Medium');
+        const dm=await metadata(dot);
+        layers.push({input:name,left:1050,top:641});
+        layers.push({input:dot,left:1060+m.width,top:641+m.height-dm.height});
+        layers.push(await label('Fat loss, made clear.',34,'#484A47',1058,836,'Medium'));
+    }else{
+        layers.push(await label('RENDO',158,colors.black,1060,685,'Black',montserrat));
+    }
+    const banner=await sharp(svg(2560,1440,rect(0,0,2560,1440,colors.cream))).composite(layers).png().toBuffer();
+    rendoBanners.set(variant.id,banner);
+    // The first proposal is exported to the existing rendo-banner.png path below.
+    // Keep just two additional alternatives, without duplicate full-size PNGs.
+    if(variant.id!=='wordmark')await fs.writeFile(path.join(rendoOut,`${variant.id}-banner.png`),banner);
+    const mobile=await sharp(banner).extract({left:530,top:520,width:1500,height:400}).resize(600).png().toBuffer();
+    if(variant.id!=='wordmark')await fs.writeFile(path.join(rendoOut,`${variant.id}-mobile.png`),mobile);
+    console.log(JSON.stringify({banner_variant:variant.id,bytes:banner.length,generative_requests:0}));
+}
 const concepts=[
  {id:'eiro',name:'EIRO',number:'01',about:'Fat loss, explained simply.',tone:'Clean / emerald',bg:colors.black,ink:colors.cream,hero:'h-intro.png'},
- {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Manga / high contrast',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
+ {id:'rendo',name:'RENDO',number:'02',about:'Understand your body. Get leaner.',tone:'Light manga / revised lettering',bg:colors.cream,ink:colors.black,hero:'h-fist.png'},
  {id:'kairen',name:'KAIREN',number:'03',about:'Fat loss and fitness, made clear.',tone:'Bold / portrait and monogram',bg:'#07594F',ink:colors.cream,hero:'h-intro.png'},
 ];
 const comparisonLayers=[];
@@ -75,10 +114,6 @@ for(let index=0;index<concepts.length;index++){
         bannerLayers.push(await label('FAT LOSS, EXPLAINED SIMPLY.',34,'#B7B7B7',612,862,'Medium'));
         avatar=await sharp(svg(800,800,rect(0,0,800,800,colors.emerald))).composite([await portrait(c.hero,1600,-400,38,800,800)]).png().toBuffer();
     }else if(c.id==='rendo'){
-        bannerLayers.push(await portrait(c.hero,950,262,550,2560,1440));
-        bannerLayers.push(await label(c.name,188,c.ink,1038,624));
-        bannerLayers.push(await label('UNDERSTAND YOUR BODY.',35,'#424242',1050,837,'Medium'));
-        bannerLayers.push(await label('GET LEANER.',35,colors.emerald,1050,884,'Bold'));
         avatar=await sharp(svg(800,800,rect(0,0,800,800,colors.black))).composite([await portrait(c.hero,1560,-364,35,800,800)]).png().toBuffer();
     }else{
         bannerLayers.push(await portrait(c.hero,930,1210,522,2560,1440));
@@ -87,7 +122,7 @@ for(let index=0;index<concepts.length;index++){
         const mm=await metadata(monogram);
         avatar=await sharp(svg(800,800,rect(0,0,800,800,'#07594F'))).composite([{input:monogram,left:Math.floor((800-mm.width)/2),top:Math.floor((800-mm.height)/2)}]).png().toBuffer();
     }
-    const banner=await sharp(bannerBase).composite(bannerLayers).png().toBuffer();
+    const banner=c.id==='rendo'?rendoBanners.get('wordmark'):await sharp(bannerBase).composite(bannerLayers).png().toBuffer();
     await fs.writeFile(path.join(out,`${c.id}-banner.png`),banner);
     await fs.writeFile(path.join(out,`${c.id}-avatar.png`),avatar);
     const desktop=await sharp(banner).extract({left:0,top:509,width:2560,height:423}).resize(1480).png().toBuffer();
@@ -107,4 +142,17 @@ for(let index=0;index<concepts.length;index++){
     console.log(JSON.stringify({concept:c.id,banner:[2560,1440],avatar:[800,800],preview:[1600,510],source:c.hero,generative_requests:0}));
 }
 await sharp(svg(1600,1578,rect(0,0,1600,1578,'#080A09'))).composite(comparisonLayers).jpeg({quality:93}).toFile(path.join(out,'comparison.jpg'));
-console.log('Saved current branding concepts. Names remain proposals.');
+const rendoComparison=[];
+const mobileComparison=[];
+for(let i=0;i<rendoVariants.length;i++){
+    const v=rendoVariants[i],banner=rendoBanners.get(v.id),y=i*344;
+    const desktop=await sharp(banner).extract({left:0,top:509,width:2560,height:423}).resize(1480).png().toBuffer();
+    rendoComparison.push(await label(`${v.number}  ${v.title}`,25,colors.cream,60,y+23,'Medium'));
+    rendoComparison.push({input:desktop,left:60,top:y+76});
+    const mobile=await sharp(banner).extract({left:530,top:520,width:1500,height:400}).resize(720).png().toBuffer();
+    mobileComparison.push(await label(`${v.number}`,26,colors.cream,40,i*251+15,'Medium'));
+    mobileComparison.push({input:mobile,left:40,top:i*251+60});
+}
+await sharp(svg(1600,1032,rect(0,0,1600,1032,'#151716'))).composite(rendoComparison).jpeg({quality:94}).toFile(path.join(rendoOut,'comparison.jpg'));
+await sharp(svg(800,753,rect(0,0,800,753,'#151716'))).composite(mobileComparison).png().toFile(path.join(rendoOut,'mobile-comparison.png'));
+console.log('Saved current branding concepts and Rendo lettering alternatives. The light Rendo direction is selected; final lettering is pending.');

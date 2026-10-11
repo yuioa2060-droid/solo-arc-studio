@@ -1,6 +1,6 @@
 # Fitness channel — Claude entry point
 
-The public channel name is pending. The owner rejected SOLO ARC on 11 October 2026 and wants a nickname for a channel explaining fat loss. The `solo-arc` paths are legacy technical identifiers. See `branding/README_RU.md` for current unapproved concepts.
+The owner selected concept 2, Rendo, for refinement on 11 October 2026: the light banner, approved manga hero and black portrait avatar. The latest request is to improve the banner lettering. Rendo is the working name; the three typography proposals in `branding/README_RU.md` are still pending. SOLO ARC was rejected; the `solo-arc` paths are legacy technical identifiers.
 
 Before project work, read [START_CLAUDE_RU.md](START_CLAUDE_RU.md). It covers context intake, references, LFS downloads, dependencies, skills, API setup, production and the first prompt.
 
