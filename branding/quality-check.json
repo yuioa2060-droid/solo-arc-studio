@@ -1,105 +1,324 @@
 {
-  "date": "2026-10-11",
-  "selected_composition": "04 / portrait and ink from the previous eight-concept comparison",
-  "portrait_regenerated_by": "built-in image_gen in preceding quality revision",
-  "portrait_native_size": [
-    1254,
-    1254
+  "date": "2026-10-12",
+  "revision": "Three original banner directions following the owner reference; six black/white versions",
+  "selected_public_name": "Rendo",
+  "avatar_layout": "02 / DRY BRUSH",
+  "avatar_changed": false,
+  "banner_v_mark_forbidden": true,
+  "banner_allowed_backgrounds": [
+    "#FFFFFF",
+    "#060606"
   ],
-  "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
-  "avatar_aliases_identical": true,
-  "avatar_unchanged_in_banner_revision": true,
-  "avatar_dry_brush_geometry_retained": true,
+  "scenic_backgrounds_rejected": true,
+  "tiny_green_underline_rejected": true,
+  "reference_used_for": "Personality, scale, and lettering/character interaction only",
+  "reference_composition_copied": false,
+  "competitor_image_pixels_used": false,
+  "new_model_requests": 0,
+  "existing_artwork_origin": "A6API",
+  "final_font_selected": false,
+  "final_background_selected": false,
+  "final_banner_selected": false,
+  "temporary_preview": "03",
+  "mobile_crop": [
+    507,
+    508,
+    1546,
+    423
+  ],
+  "conservative_mobile_crop": [
+    530,
+    520,
+    1500,
+    400
+  ],
+  "desktop_crop": [
+    0,
+    508,
+    2560,
+    423
+  ],
   "banners": [
     {
       "id": "01",
-      "font": "DM Serif Display",
+      "title": "Портрет внутри буквы",
+      "layout": "letter-o",
       "background": "black",
+      "font": "Anton",
+      "file": "options/rendo/banner-01.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 175011,
+      "sha256": "add302fe04e078e9975d6add6f87dfd026504559f0fab53232bccd65c25301d5",
+      "text_boxes": [
+        {
+          "text": "REND",
+          "box": [
+            808,
+            579,
+            594,
+            282
+          ]
+        },
+        {
+          "text": "O",
+          "box": [
+            1434,
+            561,
+            318,
+            318
+          ]
+        }
+      ],
+      "face_box": [
+        1524,
+        621,
+        142,
+        163
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     },
     {
       "id": "02",
-      "font": "DM Serif Display",
+      "title": "Портрет внутри буквы",
+      "layout": "letter-o",
       "background": "white",
+      "font": "Anton",
+      "file": "options/rendo/banner-02.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 121270,
+      "sha256": "2fabdc2b34683124ec346ef5026520eaf864fa8939877127f2a288cfd76b7402",
+      "text_boxes": [
+        {
+          "text": "REND",
+          "box": [
+            808,
+            579,
+            594,
+            282
+          ]
+        },
+        {
+          "text": "O",
+          "box": [
+            1434,
+            561,
+            318,
+            318
+          ]
+        }
+      ],
+      "face_box": [
+        1524,
+        621,
+        142,
+        163
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     },
     {
       "id": "03",
-      "font": "Montserrat",
+      "title": "Герой между буквами",
+      "layout": "center",
       "background": "black",
+      "font": "Bebas Neue",
+      "file": "options/rendo/banner-03.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 509321,
+      "sha256": "74442946322f090c31b1f8fdd658346a54305ce215866d6e22a50d035f7dfe7a",
+      "text_boxes": [
+        {
+          "text": "RE",
+          "box": [
+            668,
+            573,
+            296,
+            294
+          ]
+        },
+        {
+          "text": "NDO",
+          "box": [
+            1454,
+            573,
+            472,
+            294
+          ]
+        }
+      ],
+      "face_box": [
+        1176,
+        553,
+        186,
+        175
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-cross.png",
+      "artwork_source_sha256": "383d7b8fef4a98c30d5419e9ef99dbdc8db01cadda77bbe7865b05cf34159592",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     },
     {
       "id": "04",
-      "font": "Montserrat",
+      "title": "Герой между буквами",
+      "layout": "center",
       "background": "white",
+      "font": "Bebas Neue",
+      "file": "options/rendo/banner-04.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 461665,
+      "sha256": "9e467b9aaed0b78230fd9485b81275ac5e10aca56bb1d79310f7397d2e0598ff",
+      "text_boxes": [
+        {
+          "text": "RE",
+          "box": [
+            668,
+            573,
+            296,
+            294
+          ]
+        },
+        {
+          "text": "NDO",
+          "box": [
+            1454,
+            573,
+            472,
+            294
+          ]
+        }
+      ],
+      "face_box": [
+        1176,
+        553,
+        186,
+        175
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-cross.png",
+      "artwork_source_sha256": "383d7b8fef4a98c30d5419e9ef99dbdc8db01cadda77bbe7865b05cf34159592",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     },
     {
       "id": "05",
-      "font": "Caveat",
+      "title": "Изумрудная лента",
+      "layout": "ribbon",
       "background": "black",
+      "font": "Bangers",
+      "file": "options/rendo/banner-05.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 532297,
+      "sha256": "24996e3a2278b9bf4b29c38a47fd58f5663f5b7fb7acfe4c3e272316dce5d5d8",
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            1052,
+            587,
+            711,
+            241
+          ]
+        }
+      ],
+      "face_box": [
+        736,
+        545,
+        198,
+        186
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     },
     {
       "id": "06",
-      "font": "Caveat",
+      "title": "Изумрудная лента",
+      "layout": "ribbon",
       "background": "white",
+      "font": "Bangers",
+      "file": "options/rendo/banner-06.png",
       "size": [
         2560,
         1440
       ],
-      "png_decode_passed": true,
-      "flat_background_samples_matched": true,
-      "emerald_pixels_in_mobile_source_crop": 18584
+      "bytes": 489072,
+      "sha256": "daf0f7632b57ae6304d9e63a88ac0544be8cb71913a46df61baefc8dd2b709c5",
+      "text_boxes": [
+        {
+          "text": "RENDO",
+          "box": [
+            1052,
+            587,
+            711,
+            241
+          ]
+        }
+      ],
+      "face_box": [
+        736,
+        545,
+        198,
+        186
+      ],
+      "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
+      "banner_has_v_mark": false,
+      "small_green_underline": false,
+      "approved": false
     }
   ],
-  "desktop_and_mobile_boards_visually_reviewed": true,
-  "avatar_circles_visually_reviewed_px": [
-    480,
-    160,
-    96,
-    32
+  "decoded_banner_count": 6,
+  "name_safe_area_checked": true,
+  "visual_review_completed": true,
+  "visual_review_scope": [
+    "All six desktop versions",
+    "All six mobile crops",
+    "Name and face visibility on white/black",
+    "Prepared A6API source art; no enlargement"
   ],
-  "avatar_circle_review_scope": "Preceding portrait-quality pass; avatar unchanged",
-  "wordmarks_inside_conservative_mobile_crop": true,
-  "scenic_backgrounds_in_current_kit": false,
-  "model_requests_for_this_banner_revision": 0,
-  "production_public_assets_unchanged": 88,
-  "production_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
-  "production_video_unchanged": true,
-  "final_banner_selected": false,
-  "final_font_selected": false,
-  "final_background_selected": false,
-  "limits": "Local images reviewed; no YouTube publication or live platform crop claimed. New portrait submitted for quality review, not asserted to preserve every facial pixel."
+  "owner_selection_pending": true,
+  "avatar_sha256_unchanged": "81b02092ac1633b06fb6fc820c7876f6adb25f214b9f826596724a9ce617906f"
 }

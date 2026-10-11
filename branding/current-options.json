@@ -1,15 +1,9 @@
 {
-  "date": "2026-10-11",
-  "revision": "Selected portrait-and-ink composition 04; three new fonts on black and white",
+  "date": "2026-10-12",
+  "revision": "Three original banner directions following the owner reference; six black/white versions",
   "selected_public_name": "Rendo",
   "avatar_layout": "02 / DRY BRUSH",
-  "avatar_portrait_quality_revision": "Existing close crop retained",
-  "avatar_native_size": [
-    1254,
-    1254
-  ],
-  "portrait_sha256": "402b59526339d08ba4923583b9b99351501af29b34ea3982ead69d2e2dd6ef83",
-  "avatar_v_geometry_unchanged": true,
+  "avatar_changed": false,
   "banner_v_mark_forbidden": true,
   "banner_allowed_backgrounds": [
     "#FFFFFF",
@@ -17,12 +11,21 @@
   ],
   "scenic_backgrounds_rejected": true,
   "tiny_green_underline_rejected": true,
-  "selected_banner_composition": "04 / portrait and ink from the previous eight-concept comparison",
-  "original_composition_04_font_rejected": "Jost Medium",
+  "reference_used_for": "Personality, scale, and lettering/character interaction only",
+  "reference_composition_copied": false,
+  "competitor_image_pixels_used": false,
+  "new_model_requests": 0,
+  "existing_artwork_origin": "A6API",
   "final_font_selected": false,
   "final_background_selected": false,
   "final_banner_selected": false,
-  "temporary_preview": "01",
+  "temporary_preview": "03",
+  "mobile_crop": [
+    507,
+    508,
+    1546,
+    423
+  ],
   "conservative_mobile_crop": [
     530,
     520,
@@ -31,187 +34,277 @@
   ],
   "desktop_crop": [
     0,
-    509,
+    508,
     2560,
     423
   ],
   "banners": [
     {
       "id": "01",
-      "title": "С засечками",
+      "title": "Портрет внутри буквы",
+      "layout": "letter-o",
       "background": "black",
-      "font": "DM Serif Display",
-      "font_style": "Regular",
-      "lettering": "rendo",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Anton",
       "file": "options/rendo/banner-01.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 527694,
+      "bytes": 175011,
+      "sha256": "add302fe04e078e9975d6add6f87dfd026504559f0fab53232bccd65c25301d5",
       "text_boxes": [
         {
-          "text": "rendo",
+          "text": "REND",
           "box": [
-            665,
-            638,
-            583,
-            162
+            808,
+            579,
+            594,
+            282
+          ]
+        },
+        {
+          "text": "O",
+          "box": [
+            1434,
+            561,
+            318,
+            318
           ]
         }
       ],
+      "face_box": [
+        1524,
+        621,
+        142,
+        163
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false
     },
     {
       "id": "02",
-      "title": "С засечками",
+      "title": "Портрет внутри буквы",
+      "layout": "letter-o",
       "background": "white",
-      "font": "DM Serif Display",
-      "font_style": "Regular",
-      "lettering": "rendo",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Anton",
       "file": "options/rendo/banner-02.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 473176,
+      "bytes": 121270,
+      "sha256": "2fabdc2b34683124ec346ef5026520eaf864fa8939877127f2a288cfd76b7402",
       "text_boxes": [
         {
-          "text": "rendo",
+          "text": "REND",
           "box": [
-            665,
-            638,
-            583,
-            162
+            808,
+            579,
+            594,
+            282
+          ]
+        },
+        {
+          "text": "O",
+          "box": [
+            1434,
+            561,
+            318,
+            318
           ]
         }
       ],
+      "face_box": [
+        1524,
+        621,
+        142,
+        163
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "Emerald O is a real letter and contains the thoughtful portrait.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false
     },
     {
       "id": "03",
-      "title": "Плотный наклонный",
+      "title": "Герой между буквами",
+      "layout": "center",
       "background": "black",
-      "font": "Montserrat",
-      "font_style": "Heavy Italic",
-      "lettering": "RENDO",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Bebas Neue",
       "file": "options/rendo/banner-03.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 532489,
+      "bytes": 509321,
+      "sha256": "74442946322f090c31b1f8fdd658346a54305ce215866d6e22a50d035f7dfe7a",
       "text_boxes": [
         {
-          "text": "RENDO",
+          "text": "RE",
           "box": [
-            641,
-            661,
-            630,
-            117
+            668,
+            573,
+            296,
+            294
+          ]
+        },
+        {
+          "text": "NDO",
+          "box": [
+            1454,
+            573,
+            472,
+            294
           ]
         }
       ],
+      "face_box": [
+        1176,
+        553,
+        186,
+        175
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-cross.png",
+      "artwork_source_sha256": "383d7b8fef4a98c30d5419e9ef99dbdc8db01cadda77bbe7865b05cf34159592",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false
     },
     {
       "id": "04",
-      "title": "Плотный наклонный",
+      "title": "Герой между буквами",
+      "layout": "center",
       "background": "white",
-      "font": "Montserrat",
-      "font_style": "Heavy Italic",
-      "lettering": "RENDO",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Bebas Neue",
       "file": "options/rendo/banner-04.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 480006,
+      "bytes": 461665,
+      "sha256": "9e467b9aaed0b78230fd9485b81275ac5e10aca56bb1d79310f7397d2e0598ff",
       "text_boxes": [
         {
-          "text": "RENDO",
+          "text": "RE",
           "box": [
-            641,
-            661,
-            630,
-            117
+            668,
+            573,
+            296,
+            294
+          ]
+        },
+        {
+          "text": "NDO",
+          "box": [
+            1454,
+            573,
+            472,
+            294
           ]
         }
       ],
+      "face_box": [
+        1176,
+        553,
+        186,
+        175
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-cross.png",
+      "artwork_source_sha256": "383d7b8fef4a98c30d5419e9ef99dbdc8db01cadda77bbe7865b05cf34159592",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A broad curved emerald shape anchors the central character; the name is split around him.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false
     },
     {
       "id": "05",
-      "title": "Живая подпись",
+      "title": "Изумрудная лента",
+      "layout": "ribbon",
       "background": "black",
-      "font": "Caveat",
-      "font_style": "Bold",
-      "lettering": "rendo",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Bangers",
       "file": "options/rendo/banner-05.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 529044,
+      "bytes": 532297,
+      "sha256": "24996e3a2278b9bf4b29c38a47fd58f5663f5b7fb7acfe4c3e272316dce5d5d8",
       "text_boxes": [
         {
-          "text": "rendo",
+          "text": "RENDO",
           "box": [
-            683,
-            623,
-            547,
-            192
+            1052,
+            587,
+            711,
+            241
           ]
         }
       ],
+      "face_box": [
+        736,
+        545,
+        198,
+        186
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false
     },
     {
       "id": "06",
-      "title": "Живая подпись",
+      "title": "Изумрудная лента",
+      "layout": "ribbon",
       "background": "white",
-      "font": "Caveat",
-      "font_style": "Bold",
-      "lettering": "rendo",
-      "accent": "Emerald ink silhouette behind the portrait; selected composition 04",
+      "font": "Bangers",
       "file": "options/rendo/banner-06.png",
       "size": [
         2560,
         1440
       ],
-      "bytes": 474706,
+      "bytes": 489072,
+      "sha256": "daf0f7632b57ae6304d9e63a88ac0544be8cb71913a46df61baefc8dd2b709c5",
       "text_boxes": [
         {
-          "text": "rendo",
+          "text": "RENDO",
           "box": [
-            683,
-            623,
-            547,
-            192
+            1052,
+            587,
+            711,
+            241
           ]
         }
       ],
+      "face_box": [
+        736,
+        545,
+        198,
+        186
+      ],
       "all_name_boxes_within_mobile_crop": true,
+      "artwork_source": "episodes/ep1-v11/film/public/img/h-think.png",
+      "artwork_source_sha256": "84f22de86b8fe53bcd3e0c96b04233bf32cffe8ea3bb6efaa923b7d449f0b63b",
+      "artwork_origin": "Existing A6API /images/edits result; reused without regeneration",
+      "accent": "A wide curved emerald ribbon folds through the lettering; the thinking pose overlaps its left edge.",
       "banner_has_v_mark": false,
       "small_green_underline": false,
       "approved": false

@@ -1,6 +1,6 @@
 {
   "snapshot": "current fitness-channel production kit, EP1 v11; public name pending",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "hash_format": "Committed Git blob bytes for text/code; full LFS object bytes for media",
   "historical_builds_included": false,
   "new_scenario_included": false,
@@ -58,8 +58,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5602,
-      "sha256": "60d49292bafca52c549506772c19d9b93a032d13b0ea185e60788344f45c4b21"
+      "bytes": 6028,
+      "sha256": "621e98c6c7e7f9829e7b6eca09a9668f3e87cb88a7db03c38144a79ed5a3e9fc"
     },
     {
       "path": "branding/assets/avatar-crop-reference.png",
@@ -77,19 +77,59 @@
       "sha256": "e918a417a4914a2f6787b7f99c3dfb21e2264877811332bd3758ddf1958b1c94"
     },
     {
+      "path": "branding/assets/reference-kaizo-banner.png",
+      "bytes": 414888,
+      "sha256": "612cebe7d10ff55bdc465fc2167e7fefc01a66dc51eae28fd0b5f7a1447b97b0"
+    },
+    {
+      "path": "branding/build-banner-directions.mjs",
+      "bytes": 10960,
+      "sha256": "313dd1f9ce578fe4a3f56656a0b2be1d2e65aff994207a9a66e08867f3b81e2e"
+    },
+    {
       "path": "branding/build-concepts.mjs",
       "bytes": 102,
       "sha256": "160f3c6f20ded8c058c862372d1d95fe52b9eb724e1653cb367f2c146bd8f215"
     },
     {
       "path": "branding/build-current.mjs",
-      "bytes": 12006,
-      "sha256": "06f01f224d49b512751adcc7cad2f410c15cec3475f33d4b2d7d02f72c531b20"
+      "bytes": 5071,
+      "sha256": "30afbd8dda0f5fef3bbcc20882fa8c84f6e1c7f7c206cfd7fc90ed7d91d0a836"
     },
     {
       "path": "branding/current-options.json",
-      "bytes": 5397,
-      "sha256": "37a7f5c54b4f64ab6fd1f344d91b95cbf5f432ddb3e5a7263e8bfcddfd478e8e"
+      "bytes": 8396,
+      "sha256": "7fced1add8e02927e516819f58788edaf04432ae3b0251136d1f5f9756e4df39"
+    },
+    {
+      "path": "branding/fonts/Anton-OFL.txt",
+      "bytes": 4390,
+      "sha256": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
+    },
+    {
+      "path": "branding/fonts/Anton-Regular.ttf",
+      "bytes": 170812,
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+    },
+    {
+      "path": "branding/fonts/Bangers-OFL.txt",
+      "bytes": 4387,
+      "sha256": "01f0dea3bc499f7fcc471577fe3a8d7df6e74e6b456d2228b767a239740811ae"
+    },
+    {
+      "path": "branding/fonts/Bangers-Regular.ttf",
+      "bytes": 93148,
+      "sha256": "4160a7311de9342674cce9160cde9fcbb30f48190397d86ff1b70b455af65824"
+    },
+    {
+      "path": "branding/fonts/BebasNeue-OFL.txt",
+      "bytes": 4336,
+      "sha256": "1ad713665104ebc1ad80176b6b14f2d7dbc91aeed4180855a9514bb350b52e31"
+    },
+    {
+      "path": "branding/fonts/BebasNeue-Regular.ttf",
+      "bytes": 61400,
+      "sha256": "08e4623805102d819f58601e46e345648846075e363b2ceb23313c2d1c83ec73"
     },
     {
       "path": "branding/fonts/Caveat-OFL.txt",
@@ -113,8 +153,8 @@
     },
     {
       "path": "branding/fonts/README.md",
-      "bytes": 874,
-      "sha256": "d03a119594f9d99a7b447492a78a2485a7a871cde06b798422f35e7d3b494dd1"
+      "bytes": 1486,
+      "sha256": "87e5d63639a5040a811b06f3ffafa32d0e415045c5548f8e59bd3a6a4f476994"
     },
     {
       "path": "branding/HANDLE_RU.md",
@@ -132,79 +172,109 @@
       "sha256": "ee5d4123d45356fdf2ec28a0afbb1cb9210ab88d2e597f4a70f4bab0ce232ce3"
     },
     {
+      "path": "branding/options/rendo/banner-01-desktop.jpg",
+      "bytes": 34683,
+      "sha256": "78823b2ce1c8f866ac823c948a8a74df36b0fa575ceddeeed9333a0a22a93b3c"
+    },
+    {
       "path": "branding/options/rendo/banner-01-mobile.png",
-      "bytes": 89708,
-      "sha256": "508143978dafabdc447c28b2b4cb2e1ee3b868a93c1c78491e502db42e81e989"
+      "bytes": 59538,
+      "sha256": "1af4f42539c9444059a8fecbd5e6e79a483ac4881dc50986bde17d3d88a64fb7"
     },
     {
       "path": "branding/options/rendo/banner-01.png",
-      "bytes": 527694,
-      "sha256": "f2de0623a1b4866efa85a0791ca4651bf4acf5cfed4a8611f09ad426b2a0b43c"
+      "bytes": 175011,
+      "sha256": "add302fe04e078e9975d6add6f87dfd026504559f0fab53232bccd65c25301d5"
+    },
+    {
+      "path": "branding/options/rendo/banner-02-desktop.jpg",
+      "bytes": 35815,
+      "sha256": "a9537da751d174b905a6e19d4985c692b33422c940088200c93f562257096e3f"
     },
     {
       "path": "branding/options/rendo/banner-02-mobile.png",
-      "bytes": 88274,
-      "sha256": "a280a4f0dd17b570beef54cc1af048290f4614b2f76b24c363463e953de7ba42"
+      "bytes": 57088,
+      "sha256": "fa229333e0ff8e7a9cb9579419bb9ad79b70d1324d0bd724ce3e2ecac9db52ee"
     },
     {
       "path": "branding/options/rendo/banner-02.png",
-      "bytes": 473176,
-      "sha256": "a81e9791ffffbb577dfde99d54112038f71ee29d9a9ede31ba1b6e5a015dd1f9"
+      "bytes": 121270,
+      "sha256": "2fabdc2b34683124ec346ef5026520eaf864fa8939877127f2a288cfd76b7402"
+    },
+    {
+      "path": "branding/options/rendo/banner-03-desktop.jpg",
+      "bytes": 48181,
+      "sha256": "0dacb10c100d354b2cb9d432241be4ac94377e4a4ea6fc3eb08d91dece7c7dfc"
     },
     {
       "path": "branding/options/rendo/banner-03-mobile.png",
-      "bytes": 89575,
-      "sha256": "b74b05756a327b132fee3c3ddd05c9414748832f27e15c234a34ac012725090a"
+      "bytes": 119191,
+      "sha256": "e485640440e3b57fec509c934a1a465f61c1cb71597b6ec5873fa0e231888740"
     },
     {
       "path": "branding/options/rendo/banner-03.png",
-      "bytes": 532489,
-      "sha256": "3cd4c568ba9b2fe0a227e8e8705ef3fd52ce19177f2e4dd10208ed8965333ed2"
+      "bytes": 509321,
+      "sha256": "74442946322f090c31b1f8fdd658346a54305ce215866d6e22a50d035f7dfe7a"
+    },
+    {
+      "path": "branding/options/rendo/banner-04-desktop.jpg",
+      "bytes": 48458,
+      "sha256": "2b333a9a49c8188e3c78fb2d66f6722971d50f670fd37bbbc8a2dd15d7785415"
     },
     {
       "path": "branding/options/rendo/banner-04-mobile.png",
-      "bytes": 88303,
-      "sha256": "775e16604075c2056310ae70ba326d486d041f6cd7b22f1ac748a530b35564ef"
+      "bytes": 117321,
+      "sha256": "ac7744a4eb8977f5e7a8dcc1058818a54a450f44d7fd2a597faac72b8d97e89f"
     },
     {
       "path": "branding/options/rendo/banner-04.png",
-      "bytes": 480006,
-      "sha256": "66d85c88315503f35d8fb3be9af19cbabedce3f36c9d1638fccd6ffeeafd6933"
+      "bytes": 461665,
+      "sha256": "9e467b9aaed0b78230fd9485b81275ac5e10aca56bb1d79310f7397d2e0598ff"
+    },
+    {
+      "path": "branding/options/rendo/banner-05-desktop.jpg",
+      "bytes": 61877,
+      "sha256": "bae8ce81c073c87bddae50f028df04cfd0a187b277e78e9f73fcabdd66237ade"
     },
     {
       "path": "branding/options/rendo/banner-05-mobile.png",
-      "bytes": 90910,
-      "sha256": "47cfcb3c0ffa76dfef099cf71c142b50d0f4434a9db9cc7366d5fc7e478fd08a"
+      "bytes": 137921,
+      "sha256": "25678623f4e41794172d9fa75264123d2f54b4f30db0725ab0d43e91cb4ab082"
     },
     {
       "path": "branding/options/rendo/banner-05.png",
-      "bytes": 529044,
-      "sha256": "644fb979cb36687ab2d061581584a8bcfaf8b85e0d7c76820dfc33e74a4bad48"
+      "bytes": 532297,
+      "sha256": "24996e3a2278b9bf4b29c38a47fd58f5663f5b7fb7acfe4c3e272316dce5d5d8"
+    },
+    {
+      "path": "branding/options/rendo/banner-06-desktop.jpg",
+      "bytes": 62443,
+      "sha256": "19ba570ac7b72fa1d34bd6b1c01312cd8ad300f3186db8aa2cfc8710a69cd1f3"
     },
     {
       "path": "branding/options/rendo/banner-06-mobile.png",
-      "bytes": 89501,
-      "sha256": "311fe083a0e82aa8a93a3f94e71228e8994bacffbcdb51973558cb9825299440"
+      "bytes": 136462,
+      "sha256": "f70a986a3a6731ead9a0726338f76439c0ccaa5b5ecd727dc391b3423e1b7633"
     },
     {
       "path": "branding/options/rendo/banner-06.png",
-      "bytes": 474706,
-      "sha256": "da9fb1fe631e7ecff36fbce9c0240e3b5bd3855f6173d59df7d015b10add728f"
+      "bytes": 489072,
+      "sha256": "daf0f7632b57ae6304d9e63a88ac0544be8cb71913a46df61baefc8dd2b709c5"
     },
     {
       "path": "branding/options/rendo/comparison-black.jpg",
-      "bytes": 145422,
-      "sha256": "2c378a7fb1a6f3038138cebebb1eb8fd1fb64788bfef7831aea7257af6810b48"
+      "bytes": 136455,
+      "sha256": "d2806c32d2690e40458e7883b90455791cccae30cf777e6fd468c91b56aa61b7"
     },
     {
       "path": "branding/options/rendo/comparison-white.jpg",
-      "bytes": 146795,
-      "sha256": "4483b53fb46f673972465a466c76a418d9cbae838c6f991edf4c85ec8e85ee59"
+      "bytes": 141252,
+      "sha256": "e326bcbb0d739abac76f5090a03e72c4cabc17620e6c4bdef4042dce15efd991"
     },
     {
       "path": "branding/options/rendo/comparison.jpg",
-      "bytes": 290344,
-      "sha256": "594aa6379695530e8cc5e87b5e362a0a1c7b17e47c7e498119639a6597f3ece0"
+      "bytes": 276727,
+      "sha256": "d80fe8aa73a220a7472fc8adf2deb1094d45d78a4040a91d477a3dabcff78c9e"
     },
     {
       "path": "branding/options/rendo/minimal-banner.png",
@@ -218,8 +288,8 @@
     },
     {
       "path": "branding/options/rendo/mobile-comparison.jpg",
-      "bytes": 260704,
-      "sha256": "3c57c6dba7dfb4a861ef062d2c32e80bb0862a32f470820152bf48846ccc4470"
+      "bytes": 274834,
+      "sha256": "36b2abefe7a0037e47796c150f233eb94fedf53484fb464a9ac5f9c70eed3758"
     },
     {
       "path": "branding/options/rendo/mobile-comparison.png",
@@ -248,8 +318,8 @@
     },
     {
       "path": "branding/options/rendo-banner.png",
-      "bytes": 527694,
-      "sha256": "f2de0623a1b4866efa85a0791ca4651bf4acf5cfed4a8611f09ad426b2a0b43c"
+      "bytes": 509321,
+      "sha256": "74442946322f090c31b1f8fdd658346a54305ce215866d6e22a50d035f7dfe7a"
     },
     {
       "path": "branding/options/rendo-mobile.png",
@@ -263,13 +333,13 @@
     },
     {
       "path": "branding/quality-check.json",
-      "bytes": 2958,
-      "sha256": "71bf27d8c9eb31feec3fc359127154714980845d722c7e9ab239bf8b315bb209"
+      "bytes": 8813,
+      "sha256": "fb5db9d292e1524dfc88cea469a17386f9deed17476ec9927cc43cb235c602c4"
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 7922,
-      "sha256": "ec97c6f52f60670b4b984b37f67f548351d44801fa64b59104251706389e6569"
+      "bytes": 9269,
+      "sha256": "033b1d4f6005e93bfd4493055de643dd14ac56a133cc88fb492b2efbdd75ca72"
     },
     {
       "path": "branding/thumbnails/assets/body-pair.png",
@@ -343,13 +413,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 6258,
-      "sha256": "823cfcd7b8cfb90e701925f52175d3928857237c91cda548a429b507fb0a52a6"
+      "bytes": 6684,
+      "sha256": "20e5d9f04565d95438e01c8adb479643d466c2505e548eee811daeffb8c3f4a2"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 11122,
-      "sha256": "e78f82c0016c8000cccbb399446ede45c6e699847673dbbad16b6367864372ab"
+      "bytes": 12305,
+      "sha256": "b4ef66b79158a182134d7de625f9a5246c7bdfc993264d47ab3c765ec1321dfe"
     },
     {
       "path": "Dockerfile",
@@ -1903,8 +1973,8 @@
     },
     {
       "path": "research/CHANNEL_BRANDING_RU.md",
-      "bytes": 40079,
-      "sha256": "f2a51f890ead1f1ab5b48a3da6a674603fcb4da233dfb80b1c4581f0ca35f602"
+      "bytes": 40505,
+      "sha256": "1d54f49ca76cd2b5de626636439c196510ab260710f66e452d06106152e89506"
     },
     {
       "path": "research/competitors-overview.jpg",
@@ -2953,8 +3023,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 32957,
-      "sha256": "5a353798a2433cebc720fe966b1448aa793546c627fd644f89c52600af73f0e4"
+      "bytes": 33164,
+      "sha256": "1c846aec26b8f464c3bdc4edc62f4ba3878f7ae18fdd296da8a54f7bdb330d87"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -3053,8 +3123,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 10156,
-      "sha256": "eb81f18a00edeedbbc38832eabc495657ea1be035e1f3a055030fec89f8c171c"
+      "bytes": 10582,
+      "sha256": "8e68bd524e6b977ed0b8ab3f4ced63df43760553267ed02e0cc13d59d48aaf6d"
     },
     {
       "path": "skills/writers-room-story-engine/.gitignore",
@@ -3153,12 +3223,12 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 29980,
-      "sha256": "93a92a6ffb51984fc9c73de89a22b22ffec8bc1b6393fe5d5fbe344c62ad9844"
+      "bytes": 30406,
+      "sha256": "eee7ea08dfa5f577bb8bdced94a3a1d540f54a00aa58fa495260c9ab29ef5d9a"
     }
   ],
-  "file_count": 630,
-  "logical_bytes": 741215191,
+  "file_count": 644,
+  "logical_bytes": 741608768,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,
