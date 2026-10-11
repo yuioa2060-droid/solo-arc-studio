@@ -1,5 +1,5 @@
-// Current EP1 thumbnail refinements: source-bound abdominal focus and editable copy.
-// Each source illustration uses one uniform crop/scale. Source PNGs stay intact.
+// Current EP1: local soft light, small centered "12 WEEKS", interrupted divider.
+// Font variants are native editable layout; source artwork is not redrawn or warped.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -11,90 +11,74 @@ const root=path.resolve(here,'../..');
 const argument=process.argv.indexOf('--sharp-module');
 const sharp=require(argument<0?'sharp':process.argv[argument+1]);
 const img=path.join(root,'episodes/ep1-v11/film/public/img');
-const fonts=path.join(root,'skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts');
+const mortFonts='skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts';
 const labelsFont=path.join(root,'episodes/ep1-v11/film/public/fonts/Jost.ttf');
 const C={black:'#060606',white:'#FFFFFF',green:'#0B8371',divider:'#B9BDBC',board:'#171919'};
 const W=1280,H=720,crop={left:300,top:178,width:265,height:370},positions=[55,695];
 const focus={
- 'b-w1.png':'M414 279 C440 297 481 296 507 279 C522 318 534 362 529 398 C529 414 527 427 521 436 C480 436 446 425 410 417 C400 382 397 351 404 323 C410 304 413 290 414 279 Z',
- 'b-w3.png':'M413 280 C432 290 454 289 470 282 C475 319 475 371 482 425 L413 417 C404 382 401 348 411 310 Z',
+ 'b-w1.png':{cx:513,cy:355,rx:105,ry:113},
+ 'b-w3.png':{cx:481,cy:354,rx:68,ry:110},
 };
-const outsideDim=0.70,featherSource=0.8,dividerWidth=10;
+const stops=[[0,0],[0.48,0],[0.68,0.14],[0.90,0.65],[1,0.78]];
+const dividerWidth=10,dividerGap=82;
 const svg=(w,h,body)=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${body}</svg>`);
 const rect=(w,h,color)=>`<rect width="${w}" height="${h}" fill="${color}"/>`;
 const layer=(input,left,top)=>({input,left,top});
+const escapeXml=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const focusedBody=async(name,left)=>{
- const scale=H/crop.height;
+ const scale=H/crop.height,{cx,cy,rx,ry}=focus[name];
  let buffer=await sharp(path.join(img,name)).extract(crop).resize({height:H}).png().toBuffer();
  const {width}=await sharp(buffer).metadata();
- const overlay=svg(width,H,`<defs><filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="${featherSource}"/></filter><mask id="outside" maskUnits="userSpaceOnUse" x="0" y="0" width="${width}" height="${H}" style="mask-type:luminance"><rect width="100%" height="100%" fill="white"/><g transform="scale(${scale}) translate(${-crop.left} ${-crop.top})"><path d="${focus[name]}" fill="black" filter="url(#edge)"/></g></mask></defs><rect width="100%" height="100%" fill="black" opacity="${outsideDim}" mask="url(#outside)"/>`);
+ const gradient=stops.map(([offset,opacity])=>`<stop offset="${offset}" stop-color="black" stop-opacity="${opacity}"/>`).join('');
+ const overlay=svg(width,H,`<defs><radialGradient id="light" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="translate(${(cx-crop.left)*scale} ${(cy-crop.top)*scale}) scale(${rx*scale} ${ry*scale})">${gradient}</radialGradient></defs><rect width="100%" height="100%" fill="url(#light)"/>`);
  buffer=await sharp(buffer).composite([{input:overlay,blend:'atop'}]).png().toBuffer();
  return layer(buffer,left,0);
 };
-const escapeXml=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-const textLayer=async(runs,{size=106,style='italic',box,align='center'}={})=>{
- const fontfile=path.join(fonts,style==='italic'?'Montserrat-BlackItalic.ttf':'Montserrat-Black.ttf');
- const font=style==='italic'?`Montserrat Heavy Italic ${size}`:`Montserrat Heavy ${size}`;
- const text=runs.map(([value,color])=>`<span foreground="${color}">${escapeXml(value)}</span>`).join('');
- let buffer=await sharp({text:{text,font,fontfile,dpi:72,rgba:true}}).png().toBuffer();
- buffer=await sharp(buffer).resize({width:box.width,height:box.height,fit:'inside',withoutEnlargement:true}).png().toBuffer();
- const m=await sharp(buffer).metadata();
- const x=align==='left'?box.left:align==='right'?box.left+box.width-m.width:box.left+Math.round((box.width-m.width)/2);
- return layer(buffer,x,box.top+Math.round((box.height-m.height)/2));
+const designs=[
+ {id:'01',title:'Jost Medium',copy:'12 WEEKS',font:'Jost Medium',size:48,fontFile:'episodes/ep1-v11/film/public/fonts/Jost.ttf'},
+ {id:'02',title:'Montserrat Bold',copy:'12 WEEKS',font:'Montserrat Bold',size:43,fontFile:`${mortFonts}/Montserrat-Bold.ttf`},
+ {id:'03',title:'Montserrat Black Italic',copy:'12 WEEKS',font:'Montserrat Heavy Italic',size:42,fontFile:`${mortFonts}/Montserrat-BlackItalic.ttf`},
+ {id:'04',title:'DM Serif Display',copy:'12 WEEKS',font:'DM Serif Display',size:44,fontFile:'branding/fonts/DMSerifDisplay-Regular.ttf'},
+ {id:'05',title:'JetBrains Mono',copy:'12 WEEKS',font:'JetBrains Mono',size:36,fontFile:`${mortFonts}/JetBrainsMono-Regular.ttf`},
+ {id:'06',title:'Caveat Bold',copy:'12 weeks',font:'Caveat Bold',size:56,fontFile:'branding/fonts/Caveat.ttf'},
+];
+const caption=async design=>{
+ let buffer=await sharp({text:{text:`<span foreground="${C.white}">${escapeXml(design.copy)}</span>`,font:`${design.font} ${design.size}`,fontfile:path.join(root,design.fontFile),dpi:72,rgba:true}}).png().toBuffer();
+ buffer=await sharp(buffer).resize({width:196,height:42,fit:'inside',withoutEnlargement:true}).png().toBuffer();
+ const metadata=await sharp(buffer).metadata();
+ return {placement:layer(buffer,Math.round((W-metadata.width)/2),Math.round((H-metadata.height)/2)),size:[metadata.width,metadata.height]};
 };
 const label=async(value,size)=>sharp({text:{text:`<span foreground="white">${escapeXml(value)}</span>`,font:`Jost Medium ${size}`,fontfile:labelsFont,dpi:72,rgba:true}}).png().toBuffer();
-const rightBox={left:664,top:588,width:586,height:104};
-const leftBox={left:30,top:588,width:580,height:104};
-const designs=[
- {id:'01',title:'12 WEEKS — в строку',copy:'12 WEEKS',layout:'single line, lower right',font:'Montserrat Black Italic'},
- {id:'02',title:'12 WEEKS — крупная цифра',copy:'12 WEEKS',layout:'large numeral, lower right',font:'Montserrat Black'},
- {id:'03',title:'WEEK 1 / WEEK 12',copy:'WEEK 1 / WEEK 12',layout:'paired lower labels',font:'Montserrat Black'},
- {id:'04',title:'LOSE FAT',copy:'LOSE FAT',layout:'single line, lower right',font:'Montserrat Black Italic'},
- {id:'05',title:'3 SIGNALS',copy:'3 SIGNALS',layout:'single line, lower right',font:'Montserrat Black Italic'},
- {id:'06',title:'STUCK?',copy:'STUCK?',layout:'question under the starting body',font:'Montserrat Black Italic'},
-];
 const bodies=await Promise.all(Object.keys(focus).map((name,j)=>focusedBody(name,positions[j])));
-const separator=layer(svg(W,H,`<rect x="${W/2-dividerWidth/2}" y="0" width="${dividerWidth}" height="${H}" fill="${C.divider}"/>`),0,0);
+const lineTopEnd=(H-dividerGap)/2,lineBottomStart=(H+dividerGap)/2;
+const separator=layer(svg(W,H,`<rect x="${W/2-dividerWidth/2}" y="0" width="${dividerWidth}" height="${lineTopEnd}" fill="${C.divider}"/><rect x="${W/2-dividerWidth/2}" y="${lineBottomStart}" width="${dividerWidth}" height="${H-lineBottomStart}" fill="${C.divider}"/>`),0,0);
 const results=[];
 for(const design of designs){
- const layers=[...bodies,separator];
- if(design.id==='01'){
-  layers.push(await textLayer([['12 ',C.white],['WEEKS',C.green]],{box:rightBox,size:116}));
- }else if(design.id==='02'){
-  layers.push(await textLayer([['12',C.green]],{style:'upright',size:200,box:{left:678,top:523,width:206,height:173}}));
-  layers.push(await textLayer([['WEEKS',C.white]],{style:'upright',size:100,box:{left:890,top:589,width:351,height:105}}));
- }else if(design.id==='03'){
-  layers.push(await textLayer([['WEEK 1',C.white]],{style:'upright',size:106,box:leftBox}));
-  layers.push(await textLayer([['WEEK ',C.white],['12',C.green]],{style:'upright',size:106,box:rightBox}));
- }else if(design.id==='04'){
-  layers.push(await textLayer([['LOSE ',C.white],['FAT',C.green]],{box:rightBox,size:116}));
- }else if(design.id==='05'){
-  layers.push(await textLayer([['3 ',C.white],['SIGNALS',C.green]],{box:rightBox,size:116}));
- }else{
-  layers.push(await textLayer([['STUCK',C.white],['?',C.green]],{box:leftBox,size:138}));
- }
- const file=`concept-${design.id}.jpg`;
- await sharp(svg(W,H,rect(W,H,C.black))).composite(layers).jpeg({quality:96,chromaSubsampling:'4:4:4'}).toFile(path.join(here,file));
+ const text=await caption(design),file=`concept-${design.id}.jpg`;
+ await sharp(svg(W,H,rect(W,H,C.black))).composite([...bodies,separator,text.placement]).jpeg({quality:96,chromaSubsampling:'4:4:4'}).toFile(path.join(here,file));
  await sharp(path.join(here,file)).resize(320,180).jpeg({quality:94,chromaSubsampling:'4:4:4'}).toFile(path.join(here,`concept-${design.id}-small.jpg`));
  const metadata=await sharp(path.join(here,file)).metadata();
- results.push({...design,file,size:[metadata.width,metadata.height],bytes:(await fs.stat(path.join(here,file))).size,approved:false,purpose:'Refinement of the chosen light-focus composition; caption not selected'});
+ results.push({...design,file,size:[metadata.width,metadata.height],caption_pixels:text.size,caption_box:{left:text.placement.left,top:text.placement.top,width:text.size[0],height:text.size[1]},bytes:(await fs.stat(path.join(here,file))).size,approved:false,purpose:'Font variants for the requested small centered caption; lighting and font under review'});
 }
 
-const makeBoard=async(panelW,name)=>{
+const makeBoard=async(panelW,name,{centerCrop=false}={})=>{
  const small=panelW<=320,pad=small?20:32,gap=small?24:32,header=small?38:52;
- const panelH=Math.round(panelW*9/16),rows=Math.ceil(designs.length/2);
+ const panelH=centerCrop?Math.round(panelW/2):Math.round(panelW*9/16),rows=Math.ceil(designs.length/2);
  const width=2*panelW+gap+2*pad,height=2*pad+rows*(header+panelH)+(rows-1)*gap;
  const layers=[];
  for(let j=0;j<designs.length;j++){
   const design=designs[j],row=Math.floor(j/2),x=pad+(j%2)*(panelW+gap),y=pad+row*(header+panelH+gap);
   const rendered=await sharp(await label(`${design.id}  ${design.title}`,small?21:28)).resize({width:panelW,withoutEnlargement:true}).png().toBuffer();
   layers.push(layer(rendered,x,y));
-  layers.push(layer(await sharp(path.join(here,`concept-${design.id}.jpg`)).resize(panelW,panelH).png().toBuffer(),x,y+header));
+  let panel=sharp(path.join(here,`concept-${design.id}.jpg`));
+  if(centerCrop)panel=panel.extract({left:480,top:280,width:320,height:160});
+  layers.push(layer(await panel.resize(panelW,panelH).png().toBuffer(),x,y+header));
  }
  await sharp(svg(width,height,rect(width,height,C.board))).composite(layers).jpeg({quality:95,chromaSubsampling:'4:4:4'}).toFile(path.join(here,name));
 };
 await makeBoard(768,'comparison.jpg');
 await makeBoard(320,'small-comparison.jpg');
+await makeBoard(480,'font-comparison.jpg',{centerCrop:true});
 
 const sourceArtwork={};
 for(const name of Object.keys(focus)){
@@ -107,14 +91,14 @@ for(const [name,source] of Object.entries(sourceArtwork)){
  if(!original||original.sha256!==source.sha256)throw new Error(`Source differs from the production manifest: ${name}`);
 }
 const checks=[];
-for(const name of [...designs.flatMap(design=>[`concept-${design.id}.jpg`,`concept-${design.id}-small.jpg`]),'comparison.jpg','small-comparison.jpg']){
+for(const name of [...designs.flatMap(design=>[`concept-${design.id}.jpg`,`concept-${design.id}-small.jpg`]),'comparison.jpg','small-comparison.jpg','font-comparison.jpg']){
  const file=path.join(here,name),metadata=await sharp(file).metadata();
  await sharp(file).stats();
  const expected=name.endsWith('-small.jpg')?[320,180]:/^concept-\d+\.jpg$/.test(name)?[W,H]:null;
  if(expected&&(metadata.width!==expected[0]||metadata.height!==expected[1]))throw new Error(`Unexpected dimensions: ${name}`);
  checks.push({file:name,decoded:true,size:[metadata.width,metadata.height],bytes:(await fs.stat(file)).size});
 }
-const status='Light-focus direction chosen for refinement; final caption and illustration not selected';
-await fs.writeFile(path.join(here,'concepts.json'),JSON.stringify({date:'2026-10-11',status,episode:'Current EP1 v11 only',source_artwork_unchanged:true,source_artwork:sourceArtwork,model_requests:0,focus:{region:'abdomen below the chest and above the waistband; exclude arm',paths_in_source_pixels:focus,crop,uniform_scale:H/crop.height,outside_dim_opacity:outsideDim,edge_feather_source_pixels:featherSource},divider:{x:640,width:dividerWidth,from:0,to:H,color:C.divider},designs:results},null,2)+'\n');
+const status='12 WEEKS and small centered placement requested; font and refined soft lighting under review';
+await fs.writeFile(path.join(here,'concepts.json'),JSON.stringify({date:'2026-10-11',status,episode:'Current EP1 v11 only',source_artwork_unchanged:true,source_artwork:sourceArtwork,model_requests:0,focus:{type:'elliptical soft falloff aimed at the front of the abdomen; no anatomical cutout',ellipses_in_source_pixels:focus,black_opacity_stops:stops,crop,uniform_scale:H/crop.height},divider:{x:640,width:dividerWidth,top:[0,lineTopEnd],bottom:[lineBottomStart,H],gap:dividerGap,color:C.divider},caption:{center:[640,360],max_size:[196,42],color:C.white},font_preview:{file:'font-comparison.jpg',source_crop:{left:480,top:280,width:320,height:160},uniform_enlargement:1.5},designs:results},null,2)+'\n');
 await fs.writeFile(path.join(here,'quality-check.json'),JSON.stringify({date:'2026-10-11',status,checks,source_hashes_match_production_manifest:true,source_artwork:sourceArtwork,model_requests:0,limitations:['Decode and size checks do not establish artistic approval.','The sketches enlarge existing illustrations; no new high-resolution drawing was generated.','Human visual review is recorded in README_RU.md; this script performs technical checks only.']},null,2)+'\n');
-console.log(JSON.stringify({concepts:results.length,size:[W,H],focus:'source-bound abdomen',divider_width:dividerWidth,divider_full_height:true,model_requests:0,caption_selected:false}));
+console.log(JSON.stringify({concepts:results.length,size:[W,H],focus:'soft localized elliptical falloff',divider_width:dividerWidth,divider_gap:dividerGap,caption_center:[640,360],model_requests:0,font_selected:false}));

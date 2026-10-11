@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "Light-focus direction chosen for refinement; final caption and illustration not selected",
+  "status": "12 WEEKS and small centered placement requested; font and refined soft lighting under review",
   "episode": "Current EP1 v11 only",
   "source_artwork_unchanged": true,
   "source_artwork": {
@@ -21,118 +21,236 @@
   },
   "model_requests": 0,
   "focus": {
-    "region": "abdomen below the chest and above the waistband; exclude arm",
-    "paths_in_source_pixels": {
-      "b-w1.png": "M414 279 C440 297 481 296 507 279 C522 318 534 362 529 398 C529 414 527 427 521 436 C480 436 446 425 410 417 C400 382 397 351 404 323 C410 304 413 290 414 279 Z",
-      "b-w3.png": "M413 280 C432 290 454 289 470 282 C475 319 475 371 482 425 L413 417 C404 382 401 348 411 310 Z"
+    "type": "elliptical soft falloff aimed at the front of the abdomen; no anatomical cutout",
+    "ellipses_in_source_pixels": {
+      "b-w1.png": {
+        "cx": 513,
+        "cy": 355,
+        "rx": 105,
+        "ry": 113
+      },
+      "b-w3.png": {
+        "cx": 481,
+        "cy": 354,
+        "rx": 68,
+        "ry": 110
+      }
     },
+    "black_opacity_stops": [
+      [
+        0,
+        0
+      ],
+      [
+        0.48,
+        0
+      ],
+      [
+        0.68,
+        0.14
+      ],
+      [
+        0.9,
+        0.65
+      ],
+      [
+        1,
+        0.78
+      ]
+    ],
     "crop": {
       "left": 300,
       "top": 178,
       "width": 265,
       "height": 370
     },
-    "uniform_scale": 1.945945945945946,
-    "outside_dim_opacity": 0.7,
-    "edge_feather_source_pixels": 0.8
+    "uniform_scale": 1.945945945945946
   },
   "divider": {
     "x": 640,
     "width": 10,
-    "from": 0,
-    "to": 720,
+    "top": [
+      0,
+      319
+    ],
+    "bottom": [
+      401,
+      720
+    ],
+    "gap": 82,
     "color": "#B9BDBC"
+  },
+  "caption": {
+    "center": [
+      640,
+      360
+    ],
+    "max_size": [
+      196,
+      42
+    ],
+    "color": "#FFFFFF"
+  },
+  "font_preview": {
+    "file": "font-comparison.jpg",
+    "source_crop": {
+      "left": 480,
+      "top": 280,
+      "width": 320,
+      "height": 160
+    },
+    "uniform_enlargement": 1.5
   },
   "designs": [
     {
       "id": "01",
-      "title": "12 WEEKS — в строку",
+      "title": "Jost Medium",
       "copy": "12 WEEKS",
-      "layout": "single line, lower right",
-      "font": "Montserrat Black Italic",
-      "file": "concept-01.jpg",
+      "font": "Jost Medium",
       "size": [
         1280,
         720
       ],
-      "bytes": 116225,
+      "fontFile": "episodes/ep1-v11/film/public/fonts/Jost.ttf",
+      "file": "concept-01.jpg",
+      "caption_pixels": [
+        196,
+        35
+      ],
+      "caption_box": {
+        "left": 542,
+        "top": 343,
+        "width": 196,
+        "height": 35
+      },
+      "bytes": 94962,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     },
     {
       "id": "02",
-      "title": "12 WEEKS — крупная цифра",
+      "title": "Montserrat Bold",
       "copy": "12 WEEKS",
-      "layout": "large numeral, lower right",
-      "font": "Montserrat Black",
-      "file": "concept-02.jpg",
+      "font": "Montserrat Bold",
       "size": [
         1280,
         720
       ],
-      "bytes": 112403,
+      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-Bold.ttf",
+      "file": "concept-02.jpg",
+      "caption_pixels": [
+        196,
+        30
+      ],
+      "caption_box": {
+        "left": 542,
+        "top": 345,
+        "width": 196,
+        "height": 30
+      },
+      "bytes": 94798,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     },
     {
       "id": "03",
-      "title": "WEEK 1 / WEEK 12",
-      "copy": "WEEK 1 / WEEK 12",
-      "layout": "paired lower labels",
-      "font": "Montserrat Black",
-      "file": "concept-03.jpg",
+      "title": "Montserrat Black Italic",
+      "copy": "12 WEEKS",
+      "font": "Montserrat Heavy Italic",
       "size": [
         1280,
         720
       ],
-      "bytes": 117455,
+      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/Montserrat-BlackItalic.ttf",
+      "file": "concept-03.jpg",
+      "caption_pixels": [
+        196,
+        28
+      ],
+      "caption_box": {
+        "left": 542,
+        "top": 346,
+        "width": 196,
+        "height": 28
+      },
+      "bytes": 94886,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     },
     {
       "id": "04",
-      "title": "LOSE FAT",
-      "copy": "LOSE FAT",
-      "layout": "single line, lower right",
-      "font": "Montserrat Black Italic",
-      "file": "concept-04.jpg",
+      "title": "DM Serif Display",
+      "copy": "12 WEEKS",
+      "font": "DM Serif Display",
       "size": [
         1280,
         720
       ],
-      "bytes": 113825,
+      "fontFile": "branding/fonts/DMSerifDisplay-Regular.ttf",
+      "file": "concept-04.jpg",
+      "caption_pixels": [
+        186,
+        31
+      ],
+      "caption_box": {
+        "left": 547,
+        "top": 345,
+        "width": 186,
+        "height": 31
+      },
+      "bytes": 94958,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     },
     {
       "id": "05",
-      "title": "3 SIGNALS",
-      "copy": "3 SIGNALS",
-      "layout": "single line, lower right",
-      "font": "Montserrat Black Italic",
-      "file": "concept-05.jpg",
+      "title": "JetBrains Mono",
+      "copy": "12 WEEKS",
+      "font": "JetBrains Mono",
       "size": [
         1280,
         720
       ],
-      "bytes": 117914,
+      "fontFile": "skills/solo-arc-motion/engines/html-motion/assets/template/assets/fonts/JetBrainsMono-Regular.ttf",
+      "file": "concept-05.jpg",
+      "caption_pixels": [
+        171,
+        26
+      ],
+      "caption_box": {
+        "left": 555,
+        "top": 347,
+        "width": 171,
+        "height": 26
+      },
+      "bytes": 94080,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     },
     {
       "id": "06",
-      "title": "STUCK?",
-      "copy": "STUCK?",
-      "layout": "question under the starting body",
-      "font": "Montserrat Black Italic",
-      "file": "concept-06.jpg",
+      "title": "Caveat Bold",
+      "copy": "12 weeks",
+      "font": "Caveat Bold",
       "size": [
         1280,
         720
       ],
-      "bytes": 115273,
+      "fontFile": "branding/fonts/Caveat.ttf",
+      "file": "concept-06.jpg",
+      "caption_pixels": [
+        167,
+        38
+      ],
+      "caption_box": {
+        "left": 557,
+        "top": 341,
+        "width": 167,
+        "height": 38
+      },
+      "bytes": 94615,
       "approved": false,
-      "purpose": "Refinement of the chosen light-focus composition; caption not selected"
+      "purpose": "Font variants for the requested small centered caption; lighting and font under review"
     }
   ]
 }
