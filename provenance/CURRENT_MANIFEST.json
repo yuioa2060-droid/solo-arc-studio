@@ -58,8 +58,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5256,
-      "sha256": "52a7d59c39369e743a15e0f9823fbc63787fceb71b714daaf0ef7a76f8f2f911"
+      "bytes": 5602,
+      "sha256": "60d49292bafca52c549506772c19d9b93a032d13b0ea185e60788344f45c4b21"
     },
     {
       "path": "branding/assets/avatar-crop-reference.png",
@@ -263,8 +263,8 @@
     },
     {
       "path": "branding/README_RU.md",
-      "bytes": 7277,
-      "sha256": "7cccf09814fa9180ed72f5010ac74b7504e3864726d46db14aa8618d79c9d9cf"
+      "bytes": 7455,
+      "sha256": "22617647ec87c3b1a84ca1bc6a0b2666f3b7e707a47b0d221ee60ecb09e9d103"
     },
     {
       "path": "branding/thumbnails/assets/body-pair.png",
@@ -318,8 +318,8 @@
     },
     {
       "path": "branding/thumbnails/README_RU.md",
-      "bytes": 6393,
-      "sha256": "0644299c292125825dda9befc77a33a6a44dee3402c3137fc091ca3c2594102f"
+      "bytes": 6863,
+      "sha256": "4b52ace03af4af6a9924a1ca769a362e4972337a425a018aa6fa119605295a9d"
     },
     {
       "path": "branding/thumbnails/small-comparison.jpg",
@@ -338,13 +338,13 @@
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 5731,
-      "sha256": "02679546a31ed944d592fe28f31d60f26de97dc5b9e3832e0ea44e2b03834fee"
+      "bytes": 6071,
+      "sha256": "866d80adacf5216c010fe4ba65699174495755e0290b67170133d37297f9f51f"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 9741,
-      "sha256": "bed72a5e0a88828309a9f605a2cd1ad777ac8006c85aae74f3a45f0f4109844a"
+      "bytes": 10584,
+      "sha256": "9b6d50d6e4661c7c102a147517a1eea2a99510ebabcf9476b60b9f63456a2bc0"
     },
     {
       "path": "Dockerfile",
@@ -1818,13 +1818,13 @@
     },
     {
       "path": "episodes/ep1-v11/upload-metadata.json",
-      "bytes": 3840,
-      "sha256": "443d5714202bed3925d59ee4faeee6e0269a09465a0588620e4bf166fcfec6a7"
+      "bytes": 3829,
+      "sha256": "27ba1ef5bd9c19e16629edf97ab527e4967e4be6e6459233c51cf39bf81bd252"
     },
     {
       "path": "episodes/ep1-v11/UPLOAD_RU.md",
-      "bytes": 19426,
-      "sha256": "5871bdfe34ef58bab07342ecd181da2a1a18c4a03c4ac73fbdb96556927c2e92"
+      "bytes": 20111,
+      "sha256": "332381ab4e0dc4e90d272ddb5a24c60c74ff6022637d1188f8868aac36258f78"
     },
     {
       "path": "episodes/ep1-v11/voice/full.mp3",
@@ -1910,6 +1910,16 @@
       "path": "research/THUMBNAILS_RU.md",
       "bytes": 13318,
       "sha256": "1225f1a9ea99ce00dbe57b72ebee5c6e3b3004589add3876d65e45e7924c1db6"
+    },
+    {
+      "path": "research/VIDEO_TITLE_SAMPLE.tsv",
+      "bytes": 11594,
+      "sha256": "793f69a6e6a6c17e7de85c18079dc78caeec5d6b0b185c32806582d5482c65ea"
+    },
+    {
+      "path": "research/VIDEO_TITLES_RU.md",
+      "bytes": 17712,
+      "sha256": "db4bc47d904e06b26685b3cd5dca7a0480b22c5ae716486d7a2a799575943818"
     },
     {
       "path": "scripts/run.mjs",
@@ -2938,8 +2948,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 31512,
-      "sha256": "c99bdc4276f24e201f88c6e0dfa3990e94f0239bca9ee83f615fcf053630f077"
+      "bytes": 32274,
+      "sha256": "af88f192f4afaf24e356a9624202e7697899c854018fcc67121fb9e3086533b2"
     },
     {
       "path": "skills/solo-arc-motion/references/direction-and-tempo.md",
@@ -2958,8 +2968,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/object-and-image-prompts-ru.md",
-      "bytes": 5995,
-      "sha256": "10d6be4b54392307d0e9b79307ac62083fe978533429c9e064efd39cf3ce0692"
+      "bytes": 6301,
+      "sha256": "5b20971913df6e5675a3dee620f52d7530b45e6702af66b2ccaaca01dd2b1284"
     },
     {
       "path": "skills/solo-arc-motion/references/original-demo.json",
@@ -3038,8 +3048,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 9833,
-      "sha256": "3d4789839fb1ffcb581530e6c61f4d3cf1c425b847ad9328fede8b5b606e0e22"
+      "bytes": 10156,
+      "sha256": "eb81f18a00edeedbbc38832eabc495657ea1be035e1f3a055030fec89f8c171c"
     },
     {
       "path": "skills/writers-room-story-engine/.gitignore",
@@ -3138,12 +3148,12 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 29473,
-      "sha256": "28189ae50a31eed0821635c2098bfe1e500af803c60b2c77cc5872fa322a1c32"
+      "bytes": 29980,
+      "sha256": "93a92a6ffb51984fc9c73de89a22b22ffec8bc1b6393fe5d5fbe344c62ad9844"
     }
   ],
-  "file_count": 627,
-  "logical_bytes": 741172556,
+  "file_count": 629,
+  "logical_bytes": 741206611,
   "final_video_sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
   "entrypoint_links_verified": true,
   "actual_secret_scan_passed": true,
