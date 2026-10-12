@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T00:24:07.254Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.00156,
+  "promptSha256": "ba7d08807d606d64dc577148af96390fdc8785e479432002a27dec713a5c7239",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    },
+    {
+      "name": "o-apple.png",
+      "sha256": "5445978d3df23d9d9f27d89c5d087427175e1c7547327aa9a06f5cd9733cf420"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-alarm.png",
+  "dryRun": false,
+  "httpStatus": 504,
+  "status": "failed",
+  "error": "Non-JSON API response; response body omitted.",
+  "finishedAt": "2026-10-12T00:29:09.085Z",
+  "billedUnits": 780,
+  "billingSource": "derived: usage counter before the next successful request exceeded the counter after the previous one by 780 units (HTTP 504, no image returned)"
+}

@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T00:04:43.437Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.001428,
+  "promptSha256": "84388b218d19f45d8f211b4d1410c395529690b09f03d71a6ee9783b2e54a871",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-apple.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-apple.png",
+  "imageBytes": 1635445,
+  "imageSha256": "5445978d3df23d9d9f27d89c5d087427175e1c7547327aa9a06f5cd9733cf420",
+  "finishedAt": "2026-10-12T00:05:16.590Z",
+  "billedUnits": 714,
+  "billingSource": "token usage counter delta (500000 units = 1 USD); concurrent requests would blur this",
+  "promptFile": "episodes/ep2-hunger/prompts/o-apple.txt",
+  "size": "1024x1024"
+}

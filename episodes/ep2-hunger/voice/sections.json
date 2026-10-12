@@ -1,0 +1,51 @@
+{
+ "sections": [
+  {
+   "name": "hook",
+   "start": 0.0
+  },
+  {
+   "name": "why",
+   "start": 30.59
+  },
+  {
+   "name": "d1",
+   "start": 55.157
+  },
+  {
+   "name": "d2",
+   "start": 85.421
+  },
+  {
+   "name": "d3",
+   "start": 129.331
+  },
+  {
+   "name": "d4",
+   "start": 188.513
+  },
+  {
+   "name": "water",
+   "start": 237.709
+  },
+  {
+   "name": "plan",
+   "start": 252.915
+  },
+  {
+   "name": "close",
+   "start": 273.089
+  }
+ ],
+ "total": 303.119,
+ "chapters": {
+  "Let's get started.": 1.5,
+  "only turn it down.": 1.8,
+  "start with breakfast.": 2.0,
+  "and lost more weight.": 2.0,
+  "put the phone down.": 2.0,
+  "close the kitchen.": 2.0,
+  "it costs nothing.": 1.3,
+  "Screenshot it.": 2.2
+ }
+}

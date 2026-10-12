@@ -1,0 +1,26 @@
+{
+  "startedAt": "2026-10-12T00:30:19.266Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "01fe366cdd6e1bbfac9dc5908ecd88e45b6fef9c352a29d848d8b87c0dfb0686",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    },
+    {
+      "name": "o-apple.png",
+      "sha256": "5445978d3df23d9d9f27d89c5d087427175e1c7547327aa9a06f5cd9733cf420"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-fish.png",
+  "dryRun": false,
+  "httpStatus": 403,
+  "status": "failed",
+  "error": "API rejected request: 当前可用额度不足。 原因：您的可用额度（账户余额或订阅额度）不足，平台无法完成本次预扣或调用。 解决方案：请补充可用额度后重试。 request_id: 20261012003021759460268268d9d6xuZS6YyS",
+  "finishedAt": "2026-10-12T00:30:21.828Z"
+}

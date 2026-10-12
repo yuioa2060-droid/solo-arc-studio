@@ -1,0 +1,14 @@
+{
+  "dryRun": false,
+  "script": "episodes/ep2-hunger/voice/full.txt",
+  "characters": 4384,
+  "voice": "oyxaSt75JW8l04MCJaSo",
+  "model": "eleven_v3",
+  "stability": 0.5,
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/voice/full",
+  "paidRequestSent": true,
+  "httpStatus": 200,
+  "words": 779,
+  "characterCost": "1929",
+  "status": "saved-unreviewed-native-tempo"
+}
