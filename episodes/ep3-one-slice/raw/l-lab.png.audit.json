@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T10:56:50.874Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "c011a135db66a806921c5f8139a243478443486117c65bd1a48ba2a008324e68",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/l-lab.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/l-lab.png",
+  "imageBytes": 3460128,
+  "imageSha256": "07cb3ee04084fa28162426f65afbaf2d72a404eb2275b3a9ef14c59d3db9b488",
+  "finishedAt": "2026-10-12T10:57:38.152Z"
+}

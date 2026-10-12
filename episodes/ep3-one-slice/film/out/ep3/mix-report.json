@@ -1,0 +1,69 @@
+{
+  "duration_seconds": 296.64,
+  "sample_rate": 48000,
+  "music_under_voice_db_target": -16.0,
+  "duck_depth": 0.42,
+  "voice_active_rms_dbfs": -24.0,
+  "voice_limiter_max_reduction_db": -3.5,
+  "variants": {
+    "master-nomusic": {
+      "pass1": {
+        "input_i": "-24.32",
+        "input_tp": "-12.02",
+        "input_lra": "2.20",
+        "input_thresh": "-34.62",
+        "output_i": "-13.89",
+        "output_tp": "-1.57",
+        "output_lra": "2.00",
+        "output_thresh": "-24.19",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.11"
+      },
+      "pass2": {
+        "input_i": "-24.29",
+        "input_tp": "-12.40",
+        "input_lra": "2.10",
+        "input_thresh": "-34.59",
+        "output_i": "-13.97",
+        "output_tp": "-2.08",
+        "output_lra": "2.10",
+        "output_thresh": "-24.28",
+        "normalization_type": "linear",
+        "target_offset": "-0.03"
+      },
+      "limiter_max_reduction_db": -3.4,
+      "pre_limit_peak": 0.24,
+      "public_file": "film/public/audio/master-ep3.wav"
+    },
+    "master-music": {
+      "pass1": {
+        "input_i": "-24.33",
+        "input_tp": "-12.06",
+        "input_lra": "2.30",
+        "input_thresh": "-34.54",
+        "output_i": "-13.90",
+        "output_tp": "-1.54",
+        "output_lra": "2.10",
+        "output_thresh": "-24.07",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.10"
+      },
+      "pass2": {
+        "input_i": "-24.29",
+        "input_tp": "-12.40",
+        "input_lra": "2.20",
+        "input_thresh": "-34.47",
+        "output_i": "-13.96",
+        "output_tp": "-2.07",
+        "output_lra": "2.20",
+        "output_thresh": "-24.14",
+        "normalization_type": "linear",
+        "target_offset": "-0.04"
+      },
+      "limiter_max_reduction_db": -3.4,
+      "pre_limit_peak": 0.24,
+      "public_file": "film/public/audio/master-ep3-music.wav"
+    }
+  },
+  "limits": "Technical mix and loudness measurement only. No listening was done; no claim of artistic approval."
+}

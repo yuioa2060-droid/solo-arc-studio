@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T10:47:06.782Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "1a57537cd5a6be0388c62d18fdf5dd7b7e69bce0abe05e1d637a3b4b14cdaf6a",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/s-eyes.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/s-eyes.png",
+  "imageBytes": 5279828,
+  "imageSha256": "a52e5aaa176c37ed41bbb51060840987cc72c57e5ec9e75ebf6ca803dc3d0a3a",
+  "finishedAt": "2026-10-12T10:47:50.714Z"
+}

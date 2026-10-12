@@ -1,0 +1,27 @@
+[
+ {
+  "name": "l-lab",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "l-shake",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "l-bowls",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "d-lab",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "d-bowls",
+  "mode": "obj",
+  "size": "1536x1024"
+ }
+]

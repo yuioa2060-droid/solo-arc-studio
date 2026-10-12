@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-12T10:49:10.865Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "5874bac7a98c0b9dbb67d476b403852ac671e2edf4f274f3b06263367bb432b5",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/o-gavel.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/o-gavel.png",
+  "imageBytes": 1675299,
+  "imageSha256": "50b5173db46fff7fe92fe34ddd6ee2e18007f4ea01d43ddda77a3ea0932165e3",
+  "finishedAt": "2026-10-12T10:49:50.976Z"
+}

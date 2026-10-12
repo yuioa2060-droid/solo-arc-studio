@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T10:47:50.797Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "18b1a5b9443034379bdbb2a0d5be9c211a6c01e2e73f0c645467b5df3e20a032",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/sp-couch.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/sp-couch.png",
+  "imageBytes": 2840964,
+  "imageSha256": "711f95c7d7f10e0a15a52478edf3196282d5c783bc49e6c1f3aef38095a09873",
+  "finishedAt": "2026-10-12T10:48:29.950Z"
+}

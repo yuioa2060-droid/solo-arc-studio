@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T10:50:36.358Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "0d90be058ced58b9da3a2bb0fa84cf59b69d0034a162d4f7a8d7ead9c002f86a",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "APPROVED-h3-hero-waist.png",
+      "sha256": "4b0149a337be3ae103ab8dad57d93ec68fb9894486228f59aec9a2e14caa5ea2"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/h-phone-b.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/h-phone-b.png",
+  "imageBytes": 1131868,
+  "imageSha256": "d4a70f5ec5a632cc7bed832addfb7d046c4740bbf9e8c1d5ba160fae5d081aa1",
+  "finishedAt": "2026-10-12T10:51:10.624Z"
+}

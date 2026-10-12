@@ -1,0 +1,137 @@
+{
+ "default_sentence": 0.3,
+ "default_clause": 0.15,
+ "chapters": [
+  [
+   "with a cake.",
+   "stopcut",
+   1.0
+  ],
+  [
+   "Stop.",
+   "freeze",
+   1.6
+  ],
+  [
+   "what it is. One slice.",
+   "p1980",
+   1.1
+  ],
+  [
+   "the what-the-hell effect.",
+   "pmath",
+   1.2
+  ],
+  [
+   "It did not break.",
+   "pspiral",
+   0.9
+  ],
+  [
+   "is the fire.",
+   "pwhy",
+   1.4
+  ],
+  [
+   "can be rewritten.",
+   "ptwo",
+   1.0
+  ],
+  [
+   "and shrug.",
+   "pdonut",
+   0.9
+  ],
+  [
+   "don't slip twice.",
+   "phonest",
+   1.3
+  ],
+  [
+   "There is real help for that.",
+   "pmove",
+   1.5
+  ],
+  [
+   "write that sentence down.",
+   "pdone",
+   1.9
+  ],
+  [
+   "know what to say.",
+   "psure",
+   1.1
+  ],
+  [
+   "a hint, not proof.",
+   "pmoves",
+   1.0
+  ]
+ ],
+ "lull": [
+  [
+   "Three-forty in the afternoon.",
+   0.8
+  ],
+  [
+   "The scale is finally moving.",
+   0.55
+  ],
+  [
+   "right after you eat it.",
+   0.7
+  ],
+  [
+   "already blown it.",
+   0.55
+  ],
+  [
+   "finish the box.",
+   0.55
+  ],
+  [
+   "on Monday.",
+   0.8
+  ],
+  [
+   "next thirty seconds.",
+   0.7
+  ],
+  [
+   "exactly why it works.",
+   0.6
+  ],
+  [
+   "you'd already planned.",
+   0.6
+  ],
+  [
+   "follow through.",
+   0.7
+  ],
+  [
+   "One day out of seven.",
+   0.6
+  ],
+  [
+   "you skip the scale.",
+   0.8
+  ],
+  [
+   "unfreeze this room.",
+   0.9
+  ],
+  [
+   "Early evidence says maybe.",
+   0.5
+  ],
+  [
+   "hard on yourself.",
+   0.5
+  ],
+  [
+   "the strictest eaters.",
+   0.3
+  ]
+ ]
+}

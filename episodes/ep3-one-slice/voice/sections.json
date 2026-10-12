@@ -1,0 +1,72 @@
+{
+ "sections": [
+  {
+   "name": "hook",
+   "start": 0.0
+  },
+  {
+   "name": "stopcut",
+   "start": 14.031
+  },
+  {
+   "name": "freeze",
+   "start": 15.757
+  },
+  {
+   "name": "p1980",
+   "start": 47.839
+  },
+  {
+   "name": "pmath",
+   "start": 89.298
+  },
+  {
+   "name": "pspiral",
+   "start": 111.965
+  },
+  {
+   "name": "pwhy",
+   "start": 131.981
+  },
+  {
+   "name": "ptwo",
+   "start": 153.986
+  },
+  {
+   "name": "pdonut",
+   "start": 179.782
+  },
+  {
+   "name": "pmoves",
+   "start": 205.023
+  },
+  {
+   "name": "phonest",
+   "start": 260.619
+  },
+  {
+   "name": "pmove",
+   "start": 275.096
+  },
+  {
+   "name": "psure",
+   "start": 288.07
+  }
+ ],
+ "total": 290.637,
+ "chapters": {
+  "with a cake.": 1.0,
+  "Stop.": 1.6,
+  "what it is. One slice.": 1.1,
+  "the what-the-hell effect.": 1.2,
+  "It did not break.": 0.9,
+  "is the fire.": 1.4,
+  "can be rewritten.": 1.0,
+  "and shrug.": 0.9,
+  "don't slip twice.": 1.3,
+  "There is real help for that.": 1.5,
+  "write that sentence down.": 1.9,
+  "know what to say.": 1.1,
+  "a hint, not proof.": 1.0
+ }
+}

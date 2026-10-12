@@ -1,0 +1,128 @@
+[
+ {
+  "name": "m-alarm",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "m-prep",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "m-shoes",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "m-scale",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "o-clockface",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "s-cake",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "s-eyes",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "sp-phone",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "sp-pizza",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "sp-couch",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "sp-bag",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "sp-scale",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "rc-dinner",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "rc-walk",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "rc-morning",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "o-gavel",
+  "mode": "obj",
+  "size": "1024x1024"
+ },
+ {
+  "name": "o-match",
+  "mode": "obj",
+  "size": "1024x1024"
+ },
+ {
+  "name": "mv-phone",
+  "mode": "scene",
+  "size": "2048x1152"
+ },
+ {
+  "name": "h-stop",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "a"
+ },
+ {
+  "name": "h-stop",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "b"
+ },
+ {
+  "name": "h-point",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "a"
+ },
+ {
+  "name": "h-point",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "b"
+ },
+ {
+  "name": "h-phone",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "a"
+ },
+ {
+  "name": "h-phone",
+  "mode": "hero",
+  "size": "1536x1024",
+  "suffix": "b"
+ }
+]
