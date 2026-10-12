@@ -1,0 +1,42 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-12T00:04:30.0845493Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "b1c362d91124a17dd7f9f2919c5b17073ed207187fe647bf75f450f2d717c6d2",
+  "references": [
+    {
+      "sha256": "39e52627fecb71f278994168ccf73a37d3500aaecffac026608e3d8dab7b5bad",
+      "name": "05-center-transformation.png"
+    }
+  ],
+  "output": "branding/thumbnails/attention/06-continuous-dimmed-divider.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "quotaType": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ],
+    "modelPrice": 1
+  },
+  "ledgerBeforeLatestCreatedAt": 1791762949,
+  "phase": "image-request-sent",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/attention/06-continuous-dimmed-divider.png",
+  "imageBytes": 1221598,
+  "imageSha256": "c077c156cd4f0ac9732ad0123b442bf3214db7051ade8c68d1519d49cf58ab85",
+  "newBilledRows": 2,
+  "finishedAt": "2026-10-12T00:05:09.0514191Z",
+  "visualReviewCompleted": true,
+  "ownerApprovalPending": true
+}
