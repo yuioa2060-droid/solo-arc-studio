@@ -1,0 +1,42 @@
+{
+  "projectDate": "2026-10-12",
+  "startedAt": "2026-10-11T23:55:08.3418396Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "bff4348e22651cbd696a2d98cbc836c56f7bcd8d2c2c8804e2ee680c6898ba69",
+  "references": [
+    {
+      "sha256": "5e119e888dd0c5d7fa132f86e8fff07357810f074ef6819158c0a7d82b28ff7f",
+      "name": "04-curved-no-divider.png"
+    }
+  ],
+  "output": "branding/thumbnails/attention/05-center-transformation.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ],
+    "quotaType": 1,
+    "modelPrice": 1
+  },
+  "ledgerBeforeLatestCreatedAt": 1791762478,
+  "phase": "image-request-sent",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "branding/thumbnails/attention/05-center-transformation.png",
+  "imageBytes": 1232898,
+  "imageSha256": "39e52627fecb71f278994168ccf73a37d3500aaecffac026608e3d8dab7b5bad",
+  "newBilledRows": 0,
+  "finishedAt": "2026-10-11T23:55:53.9029011Z",
+  "visualReviewCompleted": true,
+  "ownerApprovalPending": true
+}
