@@ -1,0 +1,89 @@
+{
+  "title": "How I Lost Fat Without Starving Myself",
+  "description": "Trying to lose fat, but constant hunger keeps ruining your diet?\nThis video breaks down five changes to your meals, drinks, sleep, and daily routine—plus a simple way to put them into practice.\n\nChapters\n00:00 Why diets keep falling apart\n00:50 Why eating less feels impossible\n01:48 Protein first\n02:36 Eat bigger, not smaller\n03:25 Stop drinking your calories\n04:16 Sleep and cravings\n05:00 Plan for hunger\n05:39 Your daily routine\n\n#FatLoss #WeightLoss #Nutrition",
+  "tags": [
+    "how i lost fat without starving myself",
+    "how to lose fat",
+    "fat loss",
+    "weight loss",
+    "lose fat without starving",
+    "weight loss without hunger",
+    "calorie deficit",
+    "how to stay full on a diet",
+    "always hungry on a diet",
+    "hunger control",
+    "appetite control",
+    "high protein diet",
+    "high satiety foods",
+    "volume eating",
+    "filling foods",
+    "healthy weight loss",
+    "sustainable weight loss",
+    "liquid calories",
+    "sleep and weight loss",
+    "late night cravings",
+    "diet tips",
+    "nutrition",
+    "fat loss diet plan",
+    "balanced meals",
+    "rendo"
+  ],
+  "hashtags": [
+    "FatLoss",
+    "WeightLoss",
+    "Nutrition"
+  ],
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "Why diets keep falling apart",
+      "timestamp": "00:00"
+    },
+    {
+      "seconds": 50,
+      "title": "Why eating less feels impossible",
+      "timestamp": "00:50"
+    },
+    {
+      "seconds": 108,
+      "title": "Protein first",
+      "timestamp": "01:48"
+    },
+    {
+      "seconds": 156,
+      "title": "Eat bigger, not smaller",
+      "timestamp": "02:36"
+    },
+    {
+      "seconds": 205,
+      "title": "Stop drinking your calories",
+      "timestamp": "03:25"
+    },
+    {
+      "seconds": 256,
+      "title": "Sleep and cravings",
+      "timestamp": "04:16"
+    },
+    {
+      "seconds": 300,
+      "title": "Plan for hunger",
+      "timestamp": "05:00"
+    },
+    {
+      "seconds": 339,
+      "title": "Your daily routine",
+      "timestamp": "05:39"
+    }
+  ],
+  "video": "final/rendo-ep2-hunger-v6.mp4",
+  "video_sha256": "90ed11d137d6447642e3be4bf8b03e4bde5e47bf60ef30369adc4b9755e7c9f8",
+  "duration_seconds": 387.2,
+  "language": "en",
+  "thumbnail_proposals": [
+    "thumbnail/deliver/05-fat-loss-still-eating.png",
+    "thumbnail/deliver/06-fat-loss-no-starving.png"
+  ],
+  "thumbnail_selected_by_owner": false,
+  "copy_status": "Revised to owner-requested EP1 format, no public research links. Not uploaded to YouTube.",
+  "chapters_basis": "Visible section transitions in the actual 6:27.2 final, checked at 0.25s and floored to whole seconds."
+}

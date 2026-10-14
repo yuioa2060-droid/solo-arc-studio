@@ -25,3 +25,8 @@ __pycache__/
 npm-debug.log*
 outputs/
 **/out/rebuild-v11/
+
+# Reproducible EP2 exports; keep the sole final/ fixture tracked.
+/episodes/ep2-hunger/ending-remotion.mp4
+/episodes/ep2-hunger/review/runtime/
+/episodes/ep2-hunger/thumbnail/review/*-export.json

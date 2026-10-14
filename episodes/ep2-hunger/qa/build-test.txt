@@ -1,0 +1,6 @@
+rebuild-current.py: succeeded
+Rebuilt video SHA256 == final video SHA256
+Full decode of rebuilt file: zero error bytes
+render.mjs --check: compiled, loaded Jost, rendered hero and last frame
+Individual visual review: passed
+No full human listening performed

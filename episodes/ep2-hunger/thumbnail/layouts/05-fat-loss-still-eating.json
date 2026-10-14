@@ -1,0 +1,10 @@
+{
+  "headline": "STILL EATING",
+  "texts": [
+    {"text": "STILL", "at": [628, 145], "anchor": "mt", "size": 94},
+    {"text": "EATING", "at": [628, 255], "anchor": "mt", "size": 84}
+  ],
+  "arrows": [
+    {"points": [[414, 550], [565, 460], [762, 465], [962, 546]], "width": 12, "head_length": 38, "head_width": 35}
+  ]
+}

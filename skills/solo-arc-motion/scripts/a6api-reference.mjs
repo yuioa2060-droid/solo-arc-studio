@@ -13,7 +13,7 @@ const prompt=await fs.readFile(promptFile,'utf8');if(!prompt.trim())throw Error(
 if(await fs.stat(output).catch(()=>null))throw Error('Output exists; accepted images are not overwritten.');
 const refs=[];for(const file of refPaths){const bytes=await fs.readFile(file);const ext=path.extname(file).toLowerCase();const mime={'.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'}[ext];if(!mime)throw Error('Reference must be PNG/JPEG/WebP');refs.push({file,bytes,mime,sha256:digest(bytes)});}
 const model=process.env.A6API_MODEL||'gpt-image-2.5';
-const base=process.env.A6API_BASE_URL||'https://api.a6api.com/v1';
+const base=process.env.A6API_BASE_URL||'https://a6.a6api.com/v1';
 const baseUrl=new URL(base);if(baseUrl.protocol!=='https:'||!['api.a6api.com','a6.a6api.com'].includes(baseUrl.hostname)||baseUrl.username||baseUrl.password)throw Error('Credential is scoped to the two verified HTTPS A6API hosts in this helper.');
 const audit={startedAt:new Date().toISOString(),endpoint:base.replace(/\/$/,'')+'/images/edits',model,declaredRouteId:get('--route-id',null),expectedPriceUsd:get('--expected-price',null),routeVerifiedByResponse:false,billedCostUsd:null,promptSha256:digest(Buffer.from(prompt)),references:refs.map(r=>({name:path.basename(r.file),sha256:r.sha256})),output:path.resolve(output),dryRun:!args.includes('--send')};
 if(audit.dryRun){console.log(JSON.stringify(audit,null,2));process.exit(0);}

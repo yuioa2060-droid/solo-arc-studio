@@ -1,0 +1,16 @@
+{
+  "intro_source_end": 54.03333333333333,
+  "intro_output_end": 50.03333333333333,
+  "intro_speed": 1.0799467021985343,
+  "time_saved_seconds": 4,
+  "duration_seconds": 387.2,
+  "music_tempo_changed": false,
+  "music_splice_crossfade_seconds": 1.5,
+  "voice_pitch_preserved": true,
+  "tail_video_stream_copied": true,
+  "mapping": "old<=54.033333: old/(1621/1501); later: old-4",
+  "end_screen_seconds": [
+    377.2,
+    387.2
+  ]
+}

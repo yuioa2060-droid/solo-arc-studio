@@ -1,0 +1,11 @@
+{
+  "change": "Only music attenuated; voice and SFX stems unchanged; video stream copied",
+  "music_base_reduction_db": 0.6,
+  "additional_initial_reduction_db": 2,
+  "music_compression_threshold_dbfs": -40.4,
+  "music_compression_ratio": "4:1, 6dB soft knee, 2sec RMS, 1sec smoothing",
+  "max_music_reduction_db": 8.784739017486572,
+  "median_music_reduction_db": 2.6204286217689514,
+  "duration_seconds": 391.2,
+  "full_human_audio_listen": false
+}

@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-14",
+  "repository": "https://github.com/yuioa2060-droid/solo-arc-studio",
+  "snapshot": "Current Rendo handoff: EP1 v11 and completed EP2, with current publishing context.",
+  "intake": "EP2_INTAKE.json retains original ZIP file hashes; portable code and current metadata were updated after import.",
+  "source_scope": {
+    "ep1_full_editable_project": true,
+    "ep2_main_body_layers_available": false,
+    "ep2_editable_ending_and_rebuild_recipe": true,
+    "obsolete_local_4m15_ep2_included": false
+  },
+  "api_credentials": {
+    "a6_key": "Same working key used for the latest thumbnails; owner confirmed 2026-10-14.",
+    "encrypted_repository_secret_updated": true,
+    "secret_name": "A6API_KEY",
+    "github_api_http": 204,
+    "metadata_verified_http": 200,
+    "plaintext_key_included": false,
+    "clone_receives_secret_values": false
+  },
+  "checks": {
+    "transfer_final_movie_hashes_match": true,
+    "metadata_verifier_passed": true,
+    "skill_creator_validation_passed": true,
+    "local_document_links": {
+      "documents": 12,
+      "links": 74,
+      "passed": true
+    },
+    "ep2_ending_check_and_full_render_passed": true,
+    "ep2_ending_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "color_range": "pc",
+          "r_frame_rate": "30/1",
+          "duration": "15.600000",
+          "nb_frames": "468"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "15.658667",
+          "nb_frames": "734"
+        }
+      ],
+      "format": {
+        "duration": "15.658667",
+        "size": "1847977"
+      }
+    },
+    "ep2_rebuild_from_final_stems_passed": true,
+    "ep2_rebuild_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "color_range": "pc",
+          "r_frame_rate": "30/1",
+          "duration": "387.200000",
+          "nb_frames": "11616"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "387.200000",
+          "nb_frames": "18151"
+        }
+      ],
+      "format": {
+        "duration": "387.200000",
+        "size": "150417734"
+      }
+    },
+    "ep2_rebuild_video_stream_matches_original": true,
+    "video_stream_sha256": "ca19fccdad4c0e18d20260974e5e039f64a8f08f848704bcff8082ec76b00f15",
+    "ep2_rebuild_with_newly_rendered_ending_passed": true,
+    "ep2_replacement_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "color_range": "pc",
+          "r_frame_rate": "30/1",
+          "duration": "387.200000",
+          "nb_frames": "11616"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "387.200000",
+          "nb_frames": "18151"
+        }
+      ],
+      "format": {
+        "duration": "387.200000",
+        "size": "149229202"
+      }
+    },
+    "thumbnail_portable_reexport": {
+      "passed": true,
+      "png_sha256_unchanged": true,
+      "variants": [
+        "05-fat-loss-still-eating",
+        "06-fat-loss-no-starving"
+      ]
+    },
+    "public_description": {
+      "chapters": 8,
+      "chapter_transitions_checked_visually_against_final": true,
+      "research_links_included": false
+    },
+    "tags": {
+      "count": 25,
+      "youtube_character_budget_used": 500
+    },
+    "a6_local_helper_dry_run_passed": true,
+    "paid_api_requests_made_during_packaging": 0,
+    "full_new_audio_listening_claimed": false,
+    "full_new_artistic_review_claimed": false,
+    "youtube_published_by_this_handoff": false
+  },
+  "remote_publication": "Only local checks are recorded here before commit. Remote ref/LFS/Actions verification is performed after upload; this file does not claim an unperformed fresh clone."
+}

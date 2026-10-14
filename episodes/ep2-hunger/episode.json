@@ -1,0 +1,35 @@
+{
+  "channel": "Rendo",
+  "title": "How I Lost Fat Without Starving Myself",
+  "voice_id": "oyxaSt75JW8l04MCJaSo",
+  "voice_model": "eleven_v3",
+  "voice_stability": 0.5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_seconds": 387.2,
+  "intro_speed": 1.0799467021985343,
+  "intro_source_seconds": 54.033333333,
+  "intro_output_seconds": 50.033333333,
+  "music": "ElevenLabs Music music_v1; organic ambient; no synthetic DIY piano",
+  "end_screen": {
+    "from_seconds": 377.2,
+    "until_seconds": 387.2,
+    "video": [
+      1100,
+      225,
+      640,
+      360
+    ],
+    "subscribe_center": [
+      1420,
+      815
+    ],
+    "subscribe_diameter": 216
+  },
+  "secret_values_included": false,
+  "full_human_audio_listen": false,
+  "source_archive_title": "How I Stopped Being Hungry on a Diet",
+  "current_video": "final/rendo-ep2-hunger-v6.mp4",
+  "source_scope": "Full final film and audio stems; editable ending only. Original body scene layers are not available."
+}
