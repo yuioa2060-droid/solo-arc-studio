@@ -2,6 +2,7 @@ param(
  [Parameter(Mandatory=$true)][string]$PromptFile,
  [Parameter(Mandatory=$true)][string]$ReferenceFile,
  [Parameter(Mandatory=$true)][string]$OutputFile,
+ [string[]]$AdditionalReferences=@(),
  [string]$Size='1536x1024',
  [string]$ProjectDate=[TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow,'Russian Standard Time').ToString('yyyy-MM-dd'),
  [switch]$Send
@@ -12,6 +13,8 @@ if (Test-Path -LiteralPath $OutputFile) { throw 'Destination exists; no accepted
 $taskPrompt=Get-Content -LiteralPath $PromptFile -Raw -Encoding UTF8
 if ([string]::IsNullOrWhiteSpace($taskPrompt)) { throw 'Empty prompt' }
 $taskReference=Get-Item -LiteralPath $ReferenceFile
+$taskReferences=@($taskReference)
+foreach ($taskExtraReference in $AdditionalReferences) { $taskReferences+=Get-Item -LiteralPath $taskExtraReference }
 $taskOutputPath=[System.IO.Path]::GetFullPath($OutputFile)
 $taskHeaders=@{Authorization='Bearer '+$taskA6Key;Accept='application/json'}
 $taskEndpoint='https://a6.a6api.com/v1/images/edits'
@@ -21,7 +24,7 @@ $taskAudit=[ordered]@{
  declaredRouteId=$null;routeVerifiedByResponse=$false;billedCostUsd=$null
  expectedPriceBasis='Latest successful image ledger rows, not a guaranteed quote'
  promptSha256=(Get-FileHash -LiteralPath $PromptFile -Algorithm SHA256).Hash.ToLowerInvariant()
- references=@(@{name=$taskReference.Name;sha256=(Get-FileHash -LiteralPath $ReferenceFile -Algorithm SHA256).Hash.ToLowerInvariant()})
+ references=@($taskReferences | ForEach-Object { @{name=$_.Name;sha256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()} })
  output=$taskOutputPath;sizeRequested=$Size;dryRun=(-not $Send)
 }
 if (-not $Send) { $taskAudit | ConvertTo-Json -Depth 6; exit 0 }
@@ -39,6 +42,7 @@ try {
  $taskAudit.phase='image-request-sent'
  $taskAudit | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath ($taskOutputPath+'.audit.json') -Encoding utf8NoBOM
  $taskForm=@{model='gpt-image-2.5';prompt=$taskPrompt;n='1';size=$Size;image=$taskReference}
+ if ($taskReferences.Count -gt 1) { $taskForm.Remove('image') | Out-Null; $taskForm['image[]']=$taskReferences }
  $taskResponse=Invoke-RestMethod -Uri $taskEndpoint -Headers $taskHeaders -Method Post -Form $taskForm -TimeoutSec 300 -ResponseHeadersVariable taskImageHeaders
  $taskResult=$taskResponse.data[0]
  if ($taskResult.b64_json) { $taskImageBytes=[Convert]::FromBase64String($taskResult.b64_json) }
@@ -77,6 +81,15 @@ try {
 } catch {
  $taskAudit.status='failed'
  $taskAudit.errorType=$_.Exception.GetType().Name
+ $taskFailed=$_
+ try {
+  $taskBody=$taskFailed.ErrorDetails.Message | ConvertFrom-Json
+  $taskMessage=if($taskBody.error.message){[string]$taskBody.error.message}elseif($taskBody.message){[string]$taskBody.message}else{''}
+  $taskMessage=$taskMessage.Replace($taskA6Key,'[redacted]') -replace 'sk-[A-Za-z0-9_-]+','[redacted]' -replace '[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}','[redacted-email]'
+  if($taskMessage.Length -gt 350){$taskMessage=$taskMessage.Substring(0,350)}
+  $taskAudit.safeFailureMessage=$taskMessage
+  $taskAudit.failureCode=$taskBody.error.code
+ }catch{}
  if ($_.Exception.Response) { $taskAudit.httpStatus=[int]$_.Exception.Response.StatusCode }
  # Never print raw exceptions or API response bodies; they can contain secrets.
  $taskAudit.error='Image request or save failed; inspect HTTP status and reconcile ledger before retrying'

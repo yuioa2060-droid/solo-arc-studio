@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-14",
+  "source_archive": "rendo-studio-ep2-final.zip",
+  "source_archive_sha256": "ec05759cd12c163dc8a3d8b8ba936813d6666df4ee3735ecb6e510f5bd247eec",
+  "source_video_matches_transfer": true,
+  "ep1_video_matches_transfer": true,
+  "imported_files": [
+    {
+      "path": "episodes/ep2-hunger/HOW_IT_WAS_MADE_RU.md",
+      "bytes": 7942,
+      "source_sha256": "e4120c68385b6a97a01d54a6c7f229458d9b08c9a5861de684db956c692bc948"
+    },
+    {
+      "path": "episodes/ep2-hunger/README_RU.md",
+      "bytes": 2340,
+      "source_sha256": "90d37b63fcf595f0df55cbb55b2937d6e2b2859f8e040b17ec5dbaf1a1376038"
+    },
+    {
+      "path": "episodes/ep2-hunger/audio/stems/music.flac",
+      "bytes": 46219313,
+      "source_sha256": "30f7c02c687ca17d0e4eec0415cb2692265ef3d91d331253ec135eee884eb9c6"
+    },
+    {
+      "path": "episodes/ep2-hunger/audio/stems/sfx.flac",
+      "bytes": 1411709,
+      "source_sha256": "d38b6a2eb44bf3ca3f053d2345c601b3ce2448e30b71a40149f60978cf3821a0"
+    },
+    {
+      "path": "episodes/ep2-hunger/audio/stems/voice.flac",
+      "bytes": 30313718,
+      "source_sha256": "dfe64acd6480b43dd676d18486793d795f0d6d2b4e418af061b006e3c8ac2e30"
+    },
+    {
+      "path": "episodes/ep2-hunger/build/lower-music-reference.py",
+      "bytes": 1886,
+      "source_sha256": "5aa2d2584b6301777b84783f1624448da2455f1dbe49dab40ee33aa5a70df50c"
+    },
+    {
+      "path": "episodes/ep2-hunger/build/rebuild-current.py",
+      "bytes": 2126,
+      "source_sha256": "d66fdfb18f842959f1acc11c1e7f27c0b699244dfc3fd9dbcd752aab1b957648"
+    },
+    {
+      "path": "episodes/ep2-hunger/episode.json",
+      "bytes": 744,
+      "source_sha256": "79fde660821d41efcd5ff513dfab5cc5468e97b092fb7a5833efc3593cf6d3dc"
+    },
+    {
+      "path": "episodes/ep2-hunger/film/public/fonts/Jost.ttf",
+      "bytes": 134996,
+      "source_sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076"
+    },
+    {
+      "path": "episodes/ep2-hunger/film/public/hero-cutout.png",
+      "bytes": 1909608,
+      "source_sha256": "bbadd282536c7ece2bb3e1722bfd80187ce765f88ea988c7a8b99b507fa973fe"
+    },
+    {
+      "path": "episodes/ep2-hunger/film/public/progress-last.png",
+      "bytes": 598067,
+      "source_sha256": "f62dccc1843d147c4639fcaeea56f4633c765fd064e4ba1a8ea8e0081d5cc96f"
+    },
+    {
+      "path": "episodes/ep2-hunger/film/src/ep1lib.tsx",
+      "bytes": 9563,
+      "source_sha256": "ad4e9320922e1c6ce2f1c7b62ff71cb7c42255270472f20f5da109d53b5b5111"
+    },
+    {
+      "path": "episodes/ep2-hunger/film/src/index.tsx",
+      "bytes": 1295,
+      "source_sha256": "a34ee41ede17b2bd050cf08ea6c149ce753607d1be3c29132166bef0c3423acf"
+    },
+    {
+      "path": "episodes/ep2-hunger/final/rendo-ep2-hunger-v6.mp4",
+      "bytes": 150417539,
+      "source_sha256": "90ed11d137d6447642e3be4bf8b03e4bde5e47bf60ef30369adc4b9755e7c9f8"
+    },
+    {
+      "path": "episodes/ep2-hunger/prompts/ambient.txt",
+      "bytes": 733,
+      "source_sha256": "527d888fb14013de1c3ef2f8c06b522c5129ed1f9e51354ce40b6db2ea823fe6"
+    },
+    {
+      "path": "episodes/ep2-hunger/prompts/hero-correction.txt",
+      "bytes": 1188,
+      "source_sha256": "dbfeffd04c68db656460395b19c80f36113c3c6152b0eb2e62e82e25dc817b0c"
+    },
+    {
+      "path": "episodes/ep2-hunger/prompts/hero-initial.txt",
+      "bytes": 1721,
+      "source_sha256": "0f43cf3fe8d9f46e75fdb58b4993396a5dcb19f46a37413fb5d2da2bd3abbce9"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/build-test.txt",
+      "bytes": 258,
+      "source_sha256": "6d844d0c3a21efc2ab6715415d99bfa8d6cf0a1fd91141dade54c86efff523d8"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/music-change.json",
+      "bytes": 450,
+      "source_sha256": "26f92ff8814718935833b18c536c489db16441b5f75de3ffa4a6259a2e8973fc"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/qa-decode.log",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/qa-level.log",
+      "bytes": 8523,
+      "source_sha256": "d134beaf78779ce995fa2e16ba1fd65f68a90bece47a7af4e97fd1b1a521dc58"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/qa-probe.json",
+      "bytes": 578,
+      "source_sha256": "4c4ea57f24eae83b7150ec8712d7d885479ec3c640c95840a3a92d327140a0af"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/summary.json",
+      "bytes": 243,
+      "source_sha256": "be5531a6fd9b91ace2355412d412db29c1b8d42b4e4ea08a57c382df37915ab1"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/timing-map.json",
+      "bytes": 433,
+      "source_sha256": "69bd246426efd1926d178ea0e5d11dde402f19f1ce9163087acfd12758df8d89"
+    },
+    {
+      "path": "episodes/ep2-hunger/raw/clean-voice.mp3",
+      "bytes": 15025676,
+      "source_sha256": "bb51c0155953787ed143085bb3e726dbf634613d95e04009c6997ae3b6d5948a"
+    },
+    {
+      "path": "episodes/ep2-hunger/raw/ending-voice.mp3",
+      "bytes": 100772,
+      "source_sha256": "4f589acdccc629ffb175a2ba90fdaaa2d78767d1a81f00694e042840ec48d100"
+    },
+    {
+      "path": "episodes/ep2-hunger/raw/hero-final.png",
+      "bytes": 2105178,
+      "source_sha256": "ccf42bcfe31a8025833102df1c631ebdbee55eb49f8707289e9a5e0a2acde3d5"
+    },
+    {
+      "path": "episodes/ep2-hunger/raw/organic-ambient.mp3",
+      "bytes": 2880828,
+      "source_sha256": "f21f55b5041af3c080526cd088b97dfc652b207f8bce2befa7438e33c5b655c6"
+    },
+    {
+      "path": "episodes/ep2-hunger/render.mjs",
+      "bytes": 1332,
+      "source_sha256": "2c96222a6b37c9cc8205bdb08934da4549648c1c3d059ac744ebc41b20aa202c"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/build-check-black.png",
+      "bytes": 34418,
+      "source_sha256": "d8a47083af576d4b882a0495196940e6d70dd81c7b285e51e76f649a70fe8703"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/build-check-hero.png",
+      "bytes": 764892,
+      "source_sha256": "6e69776a17399f6ac5e90d961f27d0b7dcf4f5c465f44c38f7762fbb4a1fc5b3"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/final28.png",
+      "bytes": 550372,
+      "source_sha256": "e27d4e5c0beaf46fc6183583e8962748fecce76e05c034c42e4ea0474b7cdb64"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/final379.png",
+      "bytes": 673598,
+      "source_sha256": "f20e567754e547103fda28c570d72c07199dcb6c9717feccabdf3b8ac1942c21"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/final5.png",
+      "bytes": 669647,
+      "source_sha256": "d3444854d44a98af019bdc9bf2e5222693f9777ccac659bbde009c5316a1af72"
+    },
+    {
+      "path": "episodes/ep2-hunger/review/final50.png",
+      "bytes": 255710,
+      "source_sha256": "122e0897b9dd561653f6a58de3705676cc8c2fe713f2c743e9416944a1b186d6"
+    },
+    {
+      "path": "episodes/ep2-hunger/voice/ending-words.json",
+      "bytes": 1110,
+      "source_sha256": "94bc29f041f73ec1486d8f007d7823f32f8337c070daf094e03a3001bae4ba44"
+    },
+    {
+      "path": "episodes/ep2-hunger/voice/ending.txt",
+      "bytes": 94,
+      "source_sha256": "6aef25f200a94cd1b5ae4509861c741d943d6f825cdbbc867fa84c2c058b20a0"
+    },
+    {
+      "path": "episodes/ep2-hunger/voice/full.txt",
+      "bytes": 4726,
+      "source_sha256": "e02345c10187f0c4ffccbaff6b36a3843914692ea5742649343ffef12a23ef3a"
+    }
+  ],
+  "historical_ep2_versions_included": false,
+  "earlier_4m15_episode_included": false,
+  "new_thumbnails_included": "Only latest title-matched proposals 05/06, their source art/prompts/layouts and code",
+  "original_main_ep2_scene_layers_available": false,
+  "plaintext_credentials_included": false
+}

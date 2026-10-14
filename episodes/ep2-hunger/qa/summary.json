@@ -1,0 +1,14 @@
+{
+  "input_lufs": -14.02,
+  "input_true_peak_dbTP": -1.82,
+  "lra": 3.6,
+  "decoded_frames": 11616,
+  "decode_error_log_bytes": 0,
+  "visual_review": [
+    "final5",
+    "final28",
+    "final50",
+    "final379"
+  ],
+  "full_listening": false
+}

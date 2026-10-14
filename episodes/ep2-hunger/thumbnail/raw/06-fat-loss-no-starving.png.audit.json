@@ -1,0 +1,44 @@
+{
+  "projectDate": "2026-10-13",
+  "startedAt": "2026-10-13T19:36:27.0297419Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "requestCount": 1,
+  "autoRetries": 0,
+  "routingMode": "Existing account routing; no routing settings modified",
+  "declaredRouteId": null,
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.00036,
+  "expectedPriceBasis": "Latest successful image ledger rows, not a guaranteed quote",
+  "promptSha256": "82bf2e02ff0cd8d98dabb480de24a2d72fa7db13302882c249eb26180bd05fc1",
+  "references": [
+    {
+      "sha256": "bbadd282536c7ece2bb3e1722bfd80187ce765f88ea988c7a8b99b507fa973fe",
+      "name": "hero-cutout.png"
+    }
+  ],
+  "output": "D:\\AI\\production\\rendo-ep2-thumbnails-20261013\\raw\\06-fat-loss-no-starving.png",
+  "sizeRequested": "1536x864",
+  "dryRun": false,
+  "currentPublicPrice": {
+    "modelPrice": 1,
+    "endpointTypes": [
+      "image-generation",
+      "openai"
+    ],
+    "quotaType": 1
+  },
+  "ledgerBeforeLatestCreatedAt": 1791920059,
+  "phase": "image-request-sent",
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "D:\\AI\\production\\rendo-ep2-thumbnails-20261013\\raw\\06-fat-loss-no-starving.png",
+  "imageBytes": 1046408,
+  "imageSha256": "aa75a903f9d5fc99928412a0f9c87273c2ae84035460800e727a4276edfe7ad0",
+  "newBilledRows": 1,
+  "billedQuota": 180,
+  "actualChannel": 4928,
+  "routeType": "pin",
+  "routeVerifiedByLedger": true,
+  "finishedAt": "2026-10-13T19:37:11.4432443Z"
+}

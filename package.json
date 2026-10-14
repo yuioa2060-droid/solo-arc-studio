@@ -9,7 +9,11 @@
     "browser:ensure": "node scripts/run.mjs browser",
     "render:preview": "node scripts/run.mjs preview",
     "render:ep1": "node scripts/run.mjs render",
-    "voice": "node scripts/voice.mjs"
+    "voice": "node scripts/voice.mjs",
+    "check:ep2": "node scripts/ep2.mjs check",
+    "render:ep2-ending": "node scripts/ep2.mjs ending",
+    "rebuild:ep2": "node scripts/ep2.mjs rebuild",
+    "verify:context": "node scripts/verify-context.mjs"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.454",

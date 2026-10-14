@@ -1,0 +1,11 @@
+Edit the supplied finished before/after thumbnail. The user clarified the arrow's meaning: it must represent TRANSFORMATION FROM THE LEFT BIGGER BODY TO THE RIGHT SLIMMER BODY, in the MIDDLE of the image. It is NOT an anatomical pointer on the right margin.
+
+Remove the existing curved red arrow at the far RIGHT of the right body completely, restoring the plain black background there. Do not leave any red fragment.
+
+Draw ONE clean bold curved RED (#D93636) arrow in the BLACK CENTRAL GAP BETWEEN THE TWO FIGURES. It runs LEFT TO RIGHT: its tail starts near the LEFT belly silhouette, rises into a graceful upward arch through the middle gap, then turns toward the RIGHT slimmer figure with a clearly visible arrowhead. The entire arc is BETWEEN the bodies, just ABOVE the existing "12 WEEKS" text, not outside the right body. The arrowhead points RIGHT, indicating the change from the left figure to the right figure. It does NOT point back left or downward at the right belly. Use a readable, moderately thick red shaft and a broad simple arrowhead, no glow or blur.
+
+Approximate placement for this 1672x941 reference: tail around x=585..625,y=350..395; arch rising to y=285..320 around x=820; arrowhead ending around x=1050..1090,y=335..385. Protect all letters of the centered white "12 WEEKS" caption beneath the arc. No arrow on the far-right margin. No direct straight arrow, no repeated arrows, no circles.
+
+There is NO VERTICAL DIVIDER or partition. Preserve the uninterrupted black central background, the two figures, exact right-facing profiles, matching scale and crop, natural moderate soft belly on the left, naturally slimmer SOFT SMOOTH belly on the right WITHOUT visible abs, emerald shorts, soft localized white belly light and sharp monochrome manga ink. Keep the existing correctly spelled white "12 WEEKS" text in its current place and size. Do not move or distort bodies or add a muscular transformation.
+
+One complete high quality 16:9 thumbnail, with only this central curved transformation arrow changed. No additional words, effects, labels, scenery, UI or watermark.
