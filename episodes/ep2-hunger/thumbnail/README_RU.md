@@ -2,6 +2,8 @@
 
 **How I Lost Fat Without Starving Myself** — выбранное владельцем название. Два предложения, финальный выбор владельца ещё не зафиксирован:
 
+Обоснование референса The Rep Theory, связь с заголовком и фактическая проверка — [BRIEF_RU.md](BRIEF_RU.md).
+
 1. `deliver/05-fat-loss-still-eating.png` / JPG: до/после, меньшая талия и нормальный обед; STILL EATING, красная дуга по смыслу. Рекомендация агента.
 2. `deliver/06-fat-loss-no-starving.png` / JPG: крупный стройный герой с обедом, NO STARVING.
 

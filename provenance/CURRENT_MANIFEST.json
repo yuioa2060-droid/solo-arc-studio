@@ -6,8 +6,8 @@
   "completed_episode_scripts_included": true,
   "unpublished_next_episode_draft_included": false,
   "plaintext_api_keys_included": false,
-  "file_count": 754,
-  "total_bytes": 1019314110,
+  "file_count": 757,
+  "total_bytes": 1019331962,
   "final_movies": [
     "episodes/ep1-v11/solo-arc-ep1-v11.mp4",
     "episodes/ep2-hunger/final/rendo-ep2-hunger-v6.mp4"
@@ -105,8 +105,8 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 21032,
-      "sha256": "428f0c8e53a8567867bb4f67931e6a85a59382e510f6d82134ba1b288340b1fe",
+      "bytes": 21143,
+      "sha256": "74fb8b3dec239c2e4a5f5eb4ca69012a9b4819b6965c64f0920b61b65a66544b",
       "hash_source": "git_blob"
     },
     {
@@ -747,8 +747,8 @@
     },
     {
       "path": "context/SOURCE_SCOPE_RU.md",
-      "bytes": 4367,
-      "sha256": "59d87e6a4f2bb65186d3b01b8c5ef6cb7ba07955297c5c21df936155d5696b6c",
+      "bytes": 4716,
+      "sha256": "817911bffa785a01be644cc62fa8477ca37d843f2c34eebc2fbf91bea45b89bd",
       "hash_source": "git_blob"
     },
     {
@@ -2589,8 +2589,8 @@
     },
     {
       "path": "episodes/ep2-hunger/UPLOAD_RU.md",
-      "bytes": 2407,
-      "sha256": "4e9b976369e2c968c45a2581cc69f59aed794275ae5990cf4484e99abd4e0fc3",
+      "bytes": 2658,
+      "sha256": "25f0dcb8e50e977da70faa7ab61630e1506c0f688d701592cad425894620c18f",
       "hash_source": "git_blob"
     },
     {
@@ -2693,6 +2693,12 @@
       "path": "episodes/ep2-hunger/qa/build-test.txt",
       "bytes": 258,
       "sha256": "6d844d0c3a21efc2ab6715415d99bfa8d6cf0a1fd91141dade54c86efff523d8",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep2-hunger/qa/description-sources-ru.md",
+      "bytes": 9958,
+      "sha256": "f507d87116bbeecba6dbd40880f071651b50d1e33ce7eff8ccd389b5f4586ab6",
       "hash_source": "git_blob"
     },
     {
@@ -2816,9 +2822,15 @@
       "hash_source": "git_blob"
     },
     {
+      "path": "episodes/ep2-hunger/thumbnail/BRIEF_RU.md",
+      "bytes": 5170,
+      "sha256": "8f19f0c0d9365f8da0470ca7dd77da1b9435acb1320068589d4817ca5fc07d3f",
+      "hash_source": "git_blob"
+    },
+    {
       "path": "episodes/ep2-hunger/thumbnail/README_RU.md",
-      "bytes": 2346,
-      "sha256": "a27c71bee7b25fd947ddde1fea735edfa35ed5f2d53cf4c2cdc25e0474f426f8",
+      "bytes": 2515,
+      "sha256": "6bacc52c9c054b5d86c0fe05d1a7e34a29d6771f3f9f3748dfe05c4c908e1ba5",
       "hash_source": "git_blob"
     },
     {
@@ -2978,6 +2990,12 @@
       "hash_source": "git_blob"
     },
     {
+      "path": "provenance/GITHUB_CHECK_20261014.json",
+      "bytes": 1703,
+      "sha256": "5d86e49ccce91e90afeb651f3cf34b4ec025e42267adad21152f5e0803d21dec",
+      "hash_source": "git_blob"
+    },
+    {
       "path": "provenance/GITHUB_VERIFICATION.json",
       "bytes": 761,
       "sha256": "760f9bca101ab5e980329fda91471479f5304b2a8af396b7622b9596ae9286c1",
@@ -2997,8 +3015,8 @@
     },
     {
       "path": "provenance/UPDATE_20261014.json",
-      "bytes": 4259,
-      "sha256": "a796ee17bf9a5df872e556d504519f4fdc8a2eb8387000b043f57b5ffaa63bdf",
+      "bytes": 4400,
+      "sha256": "33edfda52aeb0e923b92935d05e1f26f337c9aacc0ded49b192af228c6db4235",
       "hash_source": "git_blob"
     },
     {

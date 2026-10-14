@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "repository": "https://github.com/yuioa2060-droid/solo-arc-studio",
+  "media_and_runtime_verified_at_commit": "80d0a0ec93530f2dc32e98be80cc5d1edb4db7bf",
+  "movies": [
+    {
+      "path": "episodes/ep1-v11/solo-arc-ep1-v11.mp4",
+      "bytes": 165593874,
+      "sha256": "5a26eb8921737104355600f02e6750361eb18f8051712e6c99643559ff3aa552",
+      "full_remote_byte_verification": true,
+      "method": "All contiguous HTTP ranges compared byte-for-byte and combined SHA-256."
+    },
+    {
+      "path": "episodes/ep2-hunger/final/rendo-ep2-hunger-v6.mp4",
+      "bytes": 150417539,
+      "sha256": "90ed11d137d6447642e3be4bf8b03e4bde5e47bf60ef30369adc4b9755e7c9f8",
+      "full_remote_byte_verification": true,
+      "method": "All contiguous HTTP ranges compared byte-for-byte and combined SHA-256."
+    }
+  ],
+  "lfs_verification": {
+    "all_contiguous_ranges_verified": true,
+    "range_count": 38,
+    "byte_for_byte_match": true,
+    "combined_remote_sha256_matches_delivered_files": true,
+    "initial_full_get_hash_check_failed": true,
+    "resolved_by": "Every byte verified using contiguous HTTPS ranges; files were not changed."
+  },
+  "a6_workflow": {
+    "url": "https://github.com/yuioa2060-droid/solo-arc-studio/actions/runs/38546140083",
+    "run_id": 38546140083,
+    "conclusion": "success",
+    "encrypted_secret_authenticated": true,
+    "selected_reference_lfs_download_passed": true,
+    "request_plan_artifact_created": true,
+    "send_paid_request": false,
+    "paid_generations": 0
+  },
+  "notes": "Verified media and executable workflow are unchanged in the following documentation/provenance commit. API keys and signed LFS URLs are not included."
+}

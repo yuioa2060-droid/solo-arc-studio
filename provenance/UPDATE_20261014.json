@@ -23,8 +23,8 @@
     "metadata_verifier_passed": true,
     "skill_creator_validation_passed": true,
     "local_document_links": {
-      "documents": 12,
-      "links": 74,
+      "documents": 14,
+      "links": 79,
       "passed": true
     },
     "ep2_ending_check_and_full_render_passed": true,
@@ -134,7 +134,9 @@
     "paid_api_requests_made_during_packaging": 0,
     "full_new_audio_listening_claimed": false,
     "full_new_artistic_review_claimed": false,
-    "youtube_published_by_this_handoff": false
+    "youtube_published_by_this_handoff": false,
+    "a6_github_actions_read_only_authentication_and_dry_run_passed": true,
+    "full_remote_movie_bytes_verified": true
   },
-  "remote_publication": "Only local checks are recorded here before commit. Remote ref/LFS/Actions verification is performed after upload; this file does not claim an unperformed fresh clone."
+  "remote_publication": "Verified media/runtime payload at 80d0a0ec93530f2dc32e98be80cc5d1edb4db7bf. Remote evidence is in GITHUB_CHECK_20261014.json; this report and final documentation are committed afterward."
 }
