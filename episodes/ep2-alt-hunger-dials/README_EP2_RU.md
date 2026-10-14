@@ -1,5 +1,7 @@
 # EP2 · «Почему хочется есть при дефиците и как приглушить голод»
 
+> **Статус папки.** Это альтернативный черновик EP2, собранный ассистентом, а не финальный EP2 владельца. Финал EP2 (`How I Lost Fat Without Starving Myself`) лежит в `episodes/ep2-hunger/`. Эта папка называлась `episodes/ep2-hunger/`, пока в `main` не появился финал; файлы перенесены сюда без изменений. Пути `episodes/ep2-hunger/…` внутри `raw/*.audit.json` и `voice/full.request.json` — исторические записи запросов, их нужно читать как этот каталог.
+
 Продолжение темы из финала EP1 («если от еды меньше всегда голодно — исправим в следующем видео»). Рабочее название ролика: **Why You're Always Hungry on a Diet (And How to Turn It Down)**; название и описание не утверждены, публикация не выполнялась ([черновик](UPLOAD_DRAFT_EP2_RU.md)).
 
 **Идея.** Голод — это тревога, которую нельзя выключить, но можно приглушить. Четыре «ручки»: **белок → объём → настоящая еда → вечер**. Каждая ручка опирается на исследование (в тексте названо число участников и условие), в конце — один день питания на карточках и честное предупреждение. Финал: «сегодня вечером решите завтрашний завтрак — это ручка номер один; остальное подождёт».
@@ -20,8 +22,8 @@
 
 ```sh
 # голос: один take, dry-run по умолчанию; ключи только из окружения
-node --env-file=<credentials.env> scripts/voice.mjs --script episodes/ep2-hunger/voice/full.txt --out episodes/ep2-hunger/voice/full --send
-cd episodes/ep2-hunger/voice && python tighten.py      # паузы + ритуалы глав, новые marks
+node --env-file=<credentials.env> scripts/voice.mjs --script episodes/ep2-alt-hunger-dials/voice/full.txt --out episodes/ep2-alt-hunger-dials/voice/full --send
+cd episodes/ep2-alt-hunger-dials/voice && python tighten.py      # паузы + ритуалы глав, новые marks
 cd ../film && python mktl.py && python mix-ep2.py       # tl.ts и мастер (−14 LUFS); --music --tp -2.0 для варианта с музыкой
 node doctor.mjs
 REMOTION_BROWSER_EXECUTABLE=/usr/local/bin/google-chrome node render-portable.mjs --silent --out out/render/ep2-silent.mp4

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><style>@font-face{font-family:Anton;src:url(../../../../branding/fonts/Anton-Regular.ttf)}@font-face{font-family:BebasNeue;src:url(../../../../branding/fonts/BebasNeue-Regular.ttf)}</style></defs>
+<rect width="1280" height="720" fill="black"/>
+<image href="../raw/05-fat-loss-still-eating.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+<text x="628" y="226.0" font-family="Anton" font-size="94" text-anchor="middle" fill="#FFFFFF">STILL</text>
+<text x="628" y="327.5" font-family="Anton" font-size="84" text-anchor="middle" fill="#FFFFFF">EATING</text>
+<path d="M 414 550 C 565 460 762 465 962 546" fill="none" stroke="#F42535" stroke-width="12" stroke-linecap="round"/>
+<polygon points="962.00,546.00 932.92,515.92 920.24,548.55" fill="#F42535"/>
+</svg>

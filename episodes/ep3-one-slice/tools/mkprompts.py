@@ -9,7 +9,7 @@ SCENE_STYLE = ("Cinematic manga illustration, full-bleed wide shot, drawn in rou
   "(desaturated, slightly warm), strong cinematic composition and lighting. Copy the drawing style of the references exactly, but use the references ONLY for their line style "
   "and colour treatment: do NOT draw their characters or objects. No text, no letters, no numbers, no digits, no logos, no speech bubbles, no frame, no border, no watermark. "
   "Correct anatomy, exactly five fingers per hand.\n")
-HERO_STYLE = open(ROOT.parent / 'ep2-hunger/prompts/h-hungry.txt').read().split('EXPRESSION AND ATTITUDE')[0]
+HERO_STYLE = open(ROOT.parent / 'ep2-alt-hunger-dials/prompts/h-hungry.txt').read().split('EXPRESSION AND ATTITUDE')[0]
 OBJ_STYLE = ("Ink illustration with full muted natural colour under the ink (hand-drawn hatching visible, desaturated realistic colours), copy the drawing style of the reference exactly. "
   "ONE object alone, centred, on solid pure black (#000000) background. NO frame, NO container, NO ring, NO glow, NO platform, NO floor shadow, NO paper, NO tape, nothing around it. "
   "No text, no numbers, no digits, no logos. Clean and premium. A small dark emerald (#0B8371) detail is part of the object itself, only where described.\n")

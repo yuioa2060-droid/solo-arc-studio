@@ -1,0 +1,6 @@
+Correct this character asset for video compositing. Preserve the SAME exact new face, white hair, folded arms, ink linework, natural anatomy, expression, chest, emerald shorts and pose from the supplied image. Do NOT redesign the character.
+
+MANDATORY corrections:
+1. Remove ALL of the gray/green background halo, ALL lighting behind the character, ALL gradient/vignette and shadows around the silhouette. Return genuine transparent background with alpha. If your renderer cannot produce alpha, use completely flat pure BLACK background, identical black across all outside pixels. Absolutely NO halo, spot lighting, vignette or gradient. This is a cutout asset, not a poster.
+2. Leave generous clear transparent/black margin ABOVE the complete hair, around both shoulders and arms. The hair and crossed arms must be completely inside the canvas, not touching edges. Fit the subject into 85% of the canvas height. Reconstruct the very top few hair tips that touched the original top edge. Show head through upper hips only, not full body.
+3. Keep the crisp detailed manga ink illustration in high native resolution. Do not blur, no glow. No text, letters, frame, symbols or other objects.

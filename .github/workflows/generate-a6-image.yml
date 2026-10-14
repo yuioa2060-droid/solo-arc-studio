@@ -1,0 +1,62 @@
+name: Generate A6 image
+on:
+  workflow_dispatch:
+    inputs:
+      prompt_path:
+        description: English prompt file inside this repository
+        required: true
+        default: episodes/ep2-hunger/thumbnail/prompts/05-fat-loss-still-eating.txt
+      reference_path:
+        description: Existing image reference inside this repository
+        required: true
+        default: episodes/ep2-hunger/film/public/hero-cutout.png
+      send_paid_request:
+        description: Send one paid A6API request (otherwise dry-run only)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  image:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch only the requested LFS reference
+        shell: pwsh
+        env:
+          PROMPT_PATH: ${{ inputs.prompt_path }}
+          REFERENCE_PATH: ${{ inputs.reference_path }}
+        run: |
+          $taskRoot=[IO.Path]::GetFullPath((Get-Location).Path)+[IO.Path]::DirectorySeparatorChar
+          foreach($taskInputPath in @($env:PROMPT_PATH,$env:REFERENCE_PATH)) {
+            $taskResolved=[IO.Path]::GetFullPath((Join-Path (Get-Location).Path $taskInputPath))
+            if(!$taskResolved.StartsWith($taskRoot,[StringComparison]::OrdinalIgnoreCase)){throw 'Input must stay inside repository'}
+            if(!(Test-Path -LiteralPath $taskResolved -PathType Leaf)){throw 'Input file missing'}
+          }
+          if([IO.Path]::GetExtension($env:PROMPT_PATH) -ne '.txt'){throw 'Prompt must be a text file'}
+          if([IO.Path]::GetExtension($env:REFERENCE_PATH) -notin @('.png','.jpg','.jpeg','.webp')){throw 'Reference must be an image file'}
+          git lfs install --local
+          git lfs pull --include "$env:REFERENCE_PATH" --exclude ""
+          if($LASTEXITCODE -ne 0){throw 'Reference LFS download failed'}
+      - name: Create a dry-run plan or one requested image
+        shell: pwsh
+        env:
+          A6API_KEY: ${{ secrets.A6API_KEY }}
+          PROMPT_PATH: ${{ inputs.prompt_path }}
+          REFERENCE_PATH: ${{ inputs.reference_path }}
+          SEND_PAID_REQUEST: ${{ inputs.send_paid_request }}
+        run: |
+          New-Item -ItemType Directory -Path outputs/images -Force | Out-Null
+          $taskSend=$env:SEND_PAID_REQUEST -eq 'true'
+          if(!$env:A6API_KEY){throw 'A6API_KEY secret missing'}
+          $taskHeaders=@{Authorization='Bearer '+$env:A6API_KEY;Accept='application/json'}
+          try {$taskLedger=Invoke-RestMethod -Uri 'https://a6.a6api.com/api/log/token' -Headers $taskHeaders -Method Get -TimeoutSec 30}
+          catch {throw 'A6API read-only authentication check failed; transport details suppressed'}
+          if(!$taskLedger.success){throw 'A6API read-only authentication check failed'}
+          Write-Output 'A6API_KEY authenticated; no paid request made by this check.'
+          & ./scripts/image.ps1 -PromptFile $env:PROMPT_PATH -ReferenceFile $env:REFERENCE_PATH -OutputFile outputs/images/generated.png -Send:$taskSend | Set-Content -LiteralPath outputs/images/request-result.json -Encoding utf8
+          if($LASTEXITCODE -ne 0){throw 'Image request failed; inspect sanitized audit and reconcile billing before retry'}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: a6-image-or-plan
+          path: outputs/images/

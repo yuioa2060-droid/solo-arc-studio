@@ -1,0 +1,17 @@
+Edit this finished before/after YouTube thumbnail with one precise change: ADD A CONTINUOUS STRAIGHT VERTICAL GREY DIVIDER THROUGH THE EXACT CENTER, but make the divider gradually DARKER behind the central red arrow and white "12 WEEKS" caption. The arrow and letters are drawn ON TOP of the divider.
+
+Preserve the source image's exact layout, bodies, central curved red transformation arrow pointing LEFT TO RIGHT above "12 WEEKS", typography, natural proportions, light and emerald shorts. The arrow is not an anatomical pointer at the right margin. Do not move, resize or redraw it into a straight shape.
+
+Divider specification for this approximately 1672x941 canvas:
+- One perfectly straight single line at x approximately 836, around 12 to 14 pixels wide, aligned from the TOP EDGE to the BOTTOM EDGE.
+- Near the top and bottom, it is clearly visible matte light grey, about #B9BDBC.
+- From around y=130 to y=240 it smoothly fades to a DARK GREY, about #252A29. This is a gradual change in the LINE'S brightness/opacity only.
+- Behind the arrow, behind the caption, AND in the empty area BETWEEN the arrow and caption, the divider remains continuous as a faint but still visible dark-grey vertical stroke. It is NOT cut out or completely erased. The central line color must remain a little lighter than the black backdrop.
+- Around y=480 to y=590 it gradually returns to light grey, continuing visibly all the way to the bottom.
+- Keep the same width and alignment throughout. NO geometric gap, no broken segments, no dotted line, no horizontal crossbar and no harsh sudden brightness steps.
+
+Foreground order: black background, then this uninterrupted softly dimmed divider, then the existing RED CURVED ARROW and the WHITE LETTERS on top. Where a solid red arrow or a white letter physically covers the line, the arrow/letter occludes it naturally, with no grey leaking over them. Between the lettering strokes the faint dark-grey divider can still show. Do not put a black rectangle, label, opaque plate, halo or vignette behind the text/arrow; darken only the narrow separator itself.
+
+Keep "12 WEEKS" perfectly readable, white, bold italic, with the original size and position. Preserve the clean near-black background, cropped right-facing matching bodies, moderate soft left belly, naturally slim SOFT smooth after body with no visible abs, emerald shorts, and soft localized white belly light. Do not deform or exaggerate any body, change the crop, add noise, neon, extra arrows or any other text.
+
+Deliver one complete coherent high quality 16:9 thumbnail. This should look like the same supplied design, with a full-height unbroken line softly receding under the arrow and text, not a line with gaps.
