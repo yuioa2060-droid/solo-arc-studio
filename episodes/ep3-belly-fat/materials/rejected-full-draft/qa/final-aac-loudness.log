@@ -1,0 +1,47 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'rendo-ep3-belly.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:07:48.10, start: 0.000000, bitrate: 1602 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1335 kb/s, 30 fps, 30 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        ICC Profile
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 257 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 pcm_s16le
+size=N/A time=00:00:11.70 bitrate=N/A speed=23.4x    size=N/A time=00:00:25.20 bitrate=N/A speed=25.2x    size=N/A time=00:00:37.10 bitrate=N/A speed=24.7x    size=N/A time=00:00:49.20 bitrate=N/A speed=24.6x    size=N/A time=00:01:01.60 bitrate=N/A speed=24.6x    size=N/A time=00:01:14.90 bitrate=N/A speed=  25x    size=N/A time=00:01:27.40 bitrate=N/A speed=  25x    size=N/A time=00:01:40.90 bitrate=N/A speed=25.2x    size=N/A time=00:01:54.30 bitrate=N/A speed=25.4x    size=N/A time=00:02:07.40 bitrate=N/A speed=25.5x    size=N/A time=00:02:19.40 bitrate=N/A speed=25.3x    size=N/A time=00:02:31.70 bitrate=N/A speed=25.3x    size=N/A time=00:02:44.50 bitrate=N/A speed=25.3x    size=N/A time=00:02:57.20 bitrate=N/A speed=25.3x    size=N/A time=00:03:10.90 bitrate=N/A speed=25.4x    size=N/A time=00:03:25.00 bitrate=N/A speed=25.6x    size=N/A time=00:03:39.30 bitrate=N/A speed=25.8x    size=N/A time=00:03:53.50 bitrate=N/A speed=25.9x    size=N/A time=00:04:06.00 bitrate=N/A speed=25.9x    size=N/A time=00:04:16.90 bitrate=N/A speed=25.7x    size=N/A time=00:04:29.50 bitrate=N/A speed=25.7x    size=N/A time=00:04:42.80 bitrate=N/A speed=25.7x    size=N/A time=00:04:56.30 bitrate=N/A speed=25.8x    size=N/A time=00:05:09.70 bitrate=N/A speed=25.8x    size=N/A time=00:05:21.20 bitrate=N/A speed=25.7x    size=N/A time=00:05:34.50 bitrate=N/A speed=25.7x    size=N/A time=00:05:48.40 bitrate=N/A speed=25.8x    size=N/A time=00:06:02.40 bitrate=N/A speed=25.9x    size=N/A time=00:06:16.50 bitrate=N/A speed=  26x    size=N/A time=00:06:29.90 bitrate=N/A speed=  26x    size=N/A time=00:06:43.50 bitrate=N/A speed=  26x    size=N/A time=00:06:56.60 bitrate=N/A speed=  26x    size=N/A time=00:07:09.70 bitrate=N/A speed=  26x    size=N/A time=00:07:22.50 bitrate=N/A speed=  26x    size=N/A time=00:07:34.50 bitrate=N/A speed=  26x    [Parsed_loudnorm_0 @ 0x7fdf58002100] 
+{
+	"input_i" : "-14.04",
+	"input_tp" : "-1.28",
+	"input_lra" : "2.60",
+	"input_thresh" : "-24.81",
+	"output_i" : "-14.03",
+	"output_tp" : "-1.27",
+	"output_lra" : "2.50",
+	"output_thresh" : "-24.78",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.03"
+}
+[out#0/null @ 0x1e9c8d40] video:0KiB audio:351088KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:07:48.20 bitrate=N/A speed=  26x    

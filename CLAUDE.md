@@ -1,5 +1,7 @@
 # Rendo — Claude entry point
 
+**Активная задача — закончить EP3 по принятому минутному примеру.** Сначала читать [START_CLAUDE_EP3_RU.md](START_CLAUDE_EP3_RU.md) и [context/EP3_CURRENT_RU.md](context/EP3_CURRENT_RU.md). Полный первый EP3 отклонён; 60.3-секундная новая подача принята. Красные brush-зачёркивания и стрелки упражнений ещё предстоит внести, полный новый выпуск ещё не собран.
+
 Read [START_CLAUDE_RU.md](START_CLAUDE_RU.md), [AGENTS.md](AGENTS.md), `context/USER_FEEDBACK_RU.md`, `skills/solo-arc-motion/SKILL.md`, and the complete `skills/solo-arc-motion/references/current-rules-ru.md` before project work. Project skill entry points are in `.claude/skills/`; implementations and resources are under `skills/`.
 
 Two current films are included: EP1 v11 (fully editable Remotion) and EP2 **How I Lost Fat Without Starving Myself**, final 6:27.2. EP2 has separated audio, an editable ending, and a working final rebuild; its original main-scene layers/alignment/31 PNGs were not available in the supplied files. Read `context/SOURCE_SCOPE_RU.md`. Never present the earlier 4:15 local episode as this final's source. Use EP1 as the full editable scaffold for a new original episode.
@@ -10,4 +12,7 @@ EP2's owner-selected title is in `episodes/ep2-hunger/upload-metadata.json`. Its
 
 Keys exist only in runtime environment/ignored `.env` or encrypted GitHub Actions Secrets. `A6API_KEY` is the working key used for the latest thumbnails. A clone cannot read Secret values. Paid API helpers default to dry-run; ordinary installation, checks and publishing this repository do not authorize paid generations. New owner requests define production scope.
 
-Pull the required Git LFS media before inspecting/rebuilding. Root scripts: `npm run doctor`, `npm run render:preview`, `npm run render:ep1`, `npm run check:ep2`, `npm run render:ep2-ending`, `npm run rebuild:ep2 -- --out outputs/ep2-rebuilt.mp4`. Technical tests are not creative acceptance or a full listening review. Prefer current files; exclude historical MP4 revisions, caches and private credentials.
+Pull the required Git LFS media before inspecting/rebuilding. Root scripts: `npm run doctor`, `npm run render:preview`, `npm run render:ep1`, `npm run check:ep2`, `npm run render:ep2-ending`, `npm run rebuild:ep2 -- --out outputs/ep2-rebuilt.mp4`. Technical tests are not creative acceptance or a full listening review. Prefer current files. The owner explicitly requested the supplied EP3 dialogue, both source archives extracted as files, the accepted minute and the rejected full movie as status-labelled material on 2026-10-15; this is the narrow historical exception. Exclude unrelated old revisions, caches and private credentials.
+
+
+For active EP3 continue `approved-direction/film/src/Redo.tsx` using its full original voice and corrected words, not the rejected full Episode3 layout or a fresh EP1 copy. Last requested red rough strike-throughs and exercise arrows are pending. Root commands: `npm run check:ep3`, `npm run studio:ep3`, `npm run render:ep3-sample`. A6API current status: verified Nano2.1, unavailable tested GPT2.5 routes; consult the dated API profile before any new paid image request.

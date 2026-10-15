@@ -1,0 +1,666 @@
+{
+  "status": "candidate",
+  "file_count": 132,
+  "files": [
+    {
+      "path": "rendo-ep3/README_RU.md",
+      "bytes": 3897,
+      "sha256": "a63ab0353c3e51b149903f157a2223dd8ef890602c22904eb4f038bc2db7aac7"
+    },
+    {
+      "path": "rendo-ep3/references.md",
+      "bytes": 1486,
+      "sha256": "8fe655773be977ff09ad0cdaae63ee5e74ccfd0eeaa29033d8acb32f707d019a"
+    },
+    {
+      "path": "rendo-ep3/voice/full.txt",
+      "bytes": 6953,
+      "sha256": "a25e130509033a624503da71d74007a41e52b54a8b1e54f31b85807c3f8878b4"
+    },
+    {
+      "path": "rendo-ep3/voice/take1.mp3",
+      "bytes": 2377151,
+      "sha256": "d128d3a470f7f0328a05a3dc7dc159e56ae02b89f8d7afb39b65ad172831f2b2"
+    },
+    {
+      "path": "rendo-ep3/voice/take1.words.json",
+      "bytes": 16348,
+      "sha256": "a4d776841ff04e37659fb71ea0d2be9b3cc4b0a79ef121deff6cde05a61df841"
+    },
+    {
+      "path": "rendo-ep3/voice/take1.alignment.json",
+      "bytes": 36021,
+      "sha256": "124cbc8c5620a833e9807047df95841bbb9eabcd0f06295767f622016d7dde65"
+    },
+    {
+      "path": "rendo-ep3/voice/part1.txt",
+      "bytes": 2225,
+      "sha256": "e6c9bc422ffdc47a5121ac6c99bb49a29a558ba1fb28ea6b103bd6bb40d74ca0"
+    },
+    {
+      "path": "rendo-ep3/voice/take2.mp3",
+      "bytes": 2540991,
+      "sha256": "7c35e66da9234bc0458a95ca9742aeb379d03e64e683f640d7931c00114a0c72"
+    },
+    {
+      "path": "rendo-ep3/voice/take2.words.json",
+      "bytes": 17784,
+      "sha256": "63852f6bd7ca0f4b71fb1a92dae43c74f3fca18f9c3a223a34e931c8de155675"
+    },
+    {
+      "path": "rendo-ep3/voice/take2.alignment.json",
+      "bytes": 39469,
+      "sha256": "5e646ad79c873b94069a09cd8a351f34cf78443d02e89b126b14b564ca5692d0"
+    },
+    {
+      "path": "rendo-ep3/voice/part2.txt",
+      "bytes": 2434,
+      "sha256": "cc6335102406d3d9b5c170b1bd338936bab1a9da8619e0106d015bac67ec4a65"
+    },
+    {
+      "path": "rendo-ep3/voice/take3.mp3",
+      "bytes": 2571502,
+      "sha256": "75d64a1388f9cb6dbe9a289bf00900af2638167db6e5b71a36f6a3161c752404"
+    },
+    {
+      "path": "rendo-ep3/voice/take3.words.json",
+      "bytes": 16504,
+      "sha256": "313a7aaef52907e6d3ccb5bb42bac636bb4602042047cfab049a826fb29caa19"
+    },
+    {
+      "path": "rendo-ep3/voice/take3.alignment.json",
+      "bytes": 37232,
+      "sha256": "e229a6d577500656ddf5de7241254e951065cec8f10171f0cdb377ae4fb524f3"
+    },
+    {
+      "path": "rendo-ep3/voice/part3.txt",
+      "bytes": 2289,
+      "sha256": "a0d60c0c19e9987a5bc94818f2414fd7b3f4878fc0e1db90973854b80955ca3f"
+    },
+    {
+      "path": "rendo-ep3/voice/words.json",
+      "bytes": 95059,
+      "sha256": "eb1b0498eab9e2179728e732622f0cd5e475c8759c98331d96b9ecfa73c1026e"
+    },
+    {
+      "path": "rendo-ep3/voice/assembly.json",
+      "bytes": 369,
+      "sha256": "f044da20035eae4ca9a6222d6a478b104ee0fc4ca03d4b3ffc8767c31ba74612"
+    },
+    {
+      "path": "rendo-ep3/qa/pose-registration.json",
+      "bytes": 362,
+      "sha256": "f6cc1f6426703b987fbbe3481dcc67ba4ace00ceeb1c3d7e56dc6f9012b931a8"
+    },
+    {
+      "path": "rendo-ep3/qa/x-crunch-blend-0.25.png",
+      "bytes": 1055479,
+      "sha256": "e89904dc40bf09dfec2f70ef6a5b2f20fc34270a723786dcd2901da6011fae6a"
+    },
+    {
+      "path": "rendo-ep3/qa/x-crunch-blend-0.5.png",
+      "bytes": 1069353,
+      "sha256": "29f57c9265a3daddd58c8b93b94decdd7a8fa7c802af892d38d7fc805fb9cac0"
+    },
+    {
+      "path": "rendo-ep3/qa/x-crunch-blend-0.75.png",
+      "bytes": 1028540,
+      "sha256": "ec0f287693abb97bd58793f0d9da0621cc09654de9bbcd4ca77d34b30aa6cc4a"
+    },
+    {
+      "path": "rendo-ep3/qa/x-hinge-blend-0.25.png",
+      "bytes": 208537,
+      "sha256": "9f6d07222fa17b37a5ae03d9f74b5d75f5e896dbe1aefdec53d8d0b7100fa83c"
+    },
+    {
+      "path": "rendo-ep3/qa/x-hinge-blend-0.5.png",
+      "bytes": 217999,
+      "sha256": "4cd6bf8c0f80fe1a2b9d38653c62af2e4dcd11fc90cc31bb14cae5da39e8741e"
+    },
+    {
+      "path": "rendo-ep3/qa/x-hinge-blend-0.75.png",
+      "bytes": 211711,
+      "sha256": "2d69c3d2b54936355f1297243fdc06e09ba8d2a814f8980f908b8a2d45094bc1"
+    },
+    {
+      "path": "rendo-ep3/qa/scene-map.json",
+      "bytes": 26065,
+      "sha256": "5c5e41c5d20c15a3c469ea51bfe5c30a6cea58ea7ed73dbe4fed3bdced1bc517"
+    },
+    {
+      "path": "rendo-ep3/qa/sfx-events.json",
+      "bytes": 402,
+      "sha256": "583e4d141085c2594754b858054a048ff241868d73e684d8692595dc75c54c13"
+    },
+    {
+      "path": "rendo-ep3/qa/music-envelope.json",
+      "bytes": 317,
+      "sha256": "6e0c146a17b908d4a1c1bff4f244bf147701c5e25051ed6149b3d9718db99c70"
+    },
+    {
+      "path": "rendo-ep3/qa/premix-loudness.json",
+      "bytes": 262,
+      "sha256": "bb71789b4d5e5f9f98f91eb1aafbaec271fab2fe3e3186b7336b3f56985c847d"
+    },
+    {
+      "path": "rendo-ep3/qa/master-normalization.log",
+      "bytes": 5035,
+      "sha256": "cb00435967d8e4292aa2d727745bf1a0e575d001f0424134afdbf152937fdce2"
+    },
+    {
+      "path": "rendo-ep3/qa/active-art.json",
+      "bytes": 455,
+      "sha256": "dd702892b2c3778354e21282d41df5ae07a755a957ee95fb2eef4b9a1661fc5e"
+    },
+    {
+      "path": "rendo-ep3/qa/recovery-status.json",
+      "bytes": 396,
+      "sha256": "c1d0660545e7270a095faadfbf4eb312b6b4e2e76791c87efb48e9c56ede68f1"
+    },
+    {
+      "path": "rendo-ep3/qa/report.md",
+      "bytes": 2988,
+      "sha256": "eb22ec92ce810d478a3d62f9e12bc0b7240885d493eebbc6e9de5c5ea95bca94"
+    },
+    {
+      "path": "rendo-ep3/qa/final-probe.json",
+      "bytes": 4509,
+      "sha256": "d4c6351bf79b4eabe97d5fbcac85ef7a17a3c0ce2d35c1c0b81920b0d2ef2d0e"
+    },
+    {
+      "path": "rendo-ep3/qa/full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rendo-ep3/qa/final-0.9.png",
+      "bytes": 603960,
+      "sha256": "682498cfbbbcc1e49fbbb55a1508f0e35383ef1737b238fdc1db35f467264aa2"
+    },
+    {
+      "path": "rendo-ep3/qa/final-262.44.png",
+      "bytes": 510893,
+      "sha256": "ca14c5f1a0a228632f4f4b240a66e925dc398a6e8c88327f8abf884ff7e19b30"
+    },
+    {
+      "path": "rendo-ep3/qa/final-412.213.png",
+      "bytes": 854084,
+      "sha256": "608cdb5520db6efd18ab5db8d208f2311f518302ed9d1ae6959cead6c931a75d"
+    },
+    {
+      "path": "rendo-ep3/qa/final-467.95.png",
+      "bytes": 9131,
+      "sha256": "806285fadce71706d01f4ce2e2053ac398fd508e2ab02bd349d9c4c7451529d9"
+    },
+    {
+      "path": "rendo-ep3/qa/final-aac-loudness.log",
+      "bytes": 3680,
+      "sha256": "5d8ac06f6c812c1f9745e1942ff2f8df7324cfa71a9762af727f17922cc7902b"
+    },
+    {
+      "path": "rendo-ep3/qa/final-metrics.json",
+      "bytes": 229,
+      "sha256": "e00cf4e806f18211ab285d30dacc6166dcc0de53c26d72da5ba993f248e8ffd6"
+    },
+    {
+      "path": "rendo-ep3/qa/video-text-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "rendo-ep3/qa/patch-a-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "rendo-ep3/qa/patch-b-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "rendo-ep3/qa/patch-c-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "rendo-ep3/qa/patch-d-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "rendo-ep3/raw/x-crunch-low.png",
+      "bytes": 1789259,
+      "sha256": "f43e45efc7ca7e226bccf828a83c8fff04b5dfea378b1f36773b32a4472fc8ec"
+    },
+    {
+      "path": "rendo-ep3/raw/h-tape-refined.png",
+      "bytes": 980712,
+      "sha256": "1fe1eca629320c33dc535f90f2321b98c326e12e92b6e539cfbf3e7db825e788"
+    },
+    {
+      "path": "rendo-ep3/raw/h-log.png",
+      "bytes": 1058788,
+      "sha256": "a20839a8b03d4aa9a45ca7245404b084d3020a070033e24626339f115d39513e"
+    },
+    {
+      "path": "rendo-ep3/raw/h-open.png",
+      "bytes": 995216,
+      "sha256": "cce9d70634b35b684507d7dc70b4f3f94ade6ad98812a78746352b415329afad"
+    },
+    {
+      "path": "rendo-ep3/raw/s-meal.png",
+      "bytes": 992902,
+      "sha256": "efde32f84a6e3ca3c084b59c4e3a97bb5b2e80e233d499306b12eb67abd94137"
+    },
+    {
+      "path": "rendo-ep3/raw/x-hinge-a.png",
+      "bytes": 508185,
+      "sha256": "4ccb7e72988e1ffdd21550786d42f4e4a98941cc91cf220c84a2fd4aea1cd7a9"
+    },
+    {
+      "path": "rendo-ep3/raw/s-mirror.png",
+      "bytes": 881603,
+      "sha256": "a46ae62b91a2ea9b21e4e6e3d3c14c606be9c7962ce9feb4c4f867ab07b69345"
+    },
+    {
+      "path": "rendo-ep3/raw/x-hinge-b.png",
+      "bytes": 1348490,
+      "sha256": "f64f12c5dafd740d32c7c0a4d2394137f9c3ae314bd6866ad8eead6cb7ac663e"
+    },
+    {
+      "path": "rendo-ep3/raw/o-protein.png",
+      "bytes": 2132307,
+      "sha256": "69e8cdae8d2aec79f1f6706137fd623eb8871f708e3b4816c4defc3a03eeae57"
+    },
+    {
+      "path": "rendo-ep3/raw/ambient-ep3.mp3",
+      "bytes": 1920566,
+      "sha256": "4d8edbd602429ca4dd42d3011f910a7f452ff3e956f3403e135d74c018de4b69"
+    },
+    {
+      "path": "rendo-ep3/build/assemble-voice.py",
+      "bytes": 1350,
+      "sha256": "2d4f16ac009f9b0f205b1a4ba76de16a214fa22d9ed4cc1c7df985cd32a58418"
+    },
+    {
+      "path": "rendo-ep3/build/make-timeline.py",
+      "bytes": 10253,
+      "sha256": "9f1428929ba4c6e20b3a34cc1c036f18c7b6596e0e1cce87fa4a4dd77e0c6e9f"
+    },
+    {
+      "path": "rendo-ep3/build/prepare-art.py",
+      "bytes": 1795,
+      "sha256": "94f24b82b0888b78647d19fd720a9cee1aac7be2caeec9406085ea8fc792a370"
+    },
+    {
+      "path": "rendo-ep3/build/register-poses.py",
+      "bytes": 2787,
+      "sha256": "c80d4e89972ba009d3c7ad6f5e175cbb6dfc755b04f9fb59753653d8b58071a0"
+    },
+    {
+      "path": "rendo-ep3/build/mix.py",
+      "bytes": 3804,
+      "sha256": "6dd8c1a86aab0156e8307618db81e1dfa2f02c7c60871739d2f9e35c2b255adf"
+    },
+    {
+      "path": "rendo-ep3/film/src/Episode3.tsx",
+      "bytes": 12781,
+      "sha256": "5d177f1560acc1ffff5adce0f4c1d30056b55b262702bffa30c648277e7b027d"
+    },
+    {
+      "path": "rendo-ep3/film/src/Root.tsx",
+      "bytes": 296,
+      "sha256": "07057f25020ffc4f226a68a2064a6891fc97fa567b8f2b801d613ef4aedd4417"
+    },
+    {
+      "path": "rendo-ep3/film/src/index.ts",
+      "bytes": 86,
+      "sha256": "309d14a1bb4ad80b7b4752f3ff7ec95a13e7752379cf261776a099c5c0f39002"
+    },
+    {
+      "path": "rendo-ep3/film/src/timeline.json",
+      "bytes": 28808,
+      "sha256": "af7483f5ca8f3ac5bfa73b592bdd48684ddde0655e20e584a3e76f39ccd3e95a"
+    },
+    {
+      "path": "rendo-ep3/film/render-ep3.mjs",
+      "bytes": 2814,
+      "sha256": "5f56bc80d8b047769db5be8eb1b8cd18d84e858d312786885f945dd8b0ba1b42"
+    },
+    {
+      "path": "rendo-ep3/film/export-final.mjs",
+      "bytes": 468,
+      "sha256": "097879d37a234f1b8a3f14cd2abb82042585b3d7230b9feffbd023cdeceba5c0"
+    },
+    {
+      "path": "rendo-ep3/film/fixts.mjs",
+      "bytes": 324,
+      "sha256": "403542e2d84adf99ead7745cced3c3a08dba56558a4a3b5410a8b99aacf34abf"
+    },
+    {
+      "path": "rendo-ep3/film/package.json",
+      "bytes": 575,
+      "sha256": "b3990fec1c7909f6ad5f4b3cb671176bd39201534248d222e54f814787dd200a"
+    },
+    {
+      "path": "rendo-ep3/film/tsconfig.json",
+      "bytes": 206,
+      "sha256": "d8d1f713dd6d303a606ef339cb4f0d627f79c0c1f2ec2cff58388d058ab2f552"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/b-w1.png",
+      "bytes": 344303,
+      "sha256": "1afef6ddb8db5e798e0fc4fceb6160bbcfc67803af494a22fb101f4f7d8564a7"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-crunch.png",
+      "bytes": 1242312,
+      "sha256": "2ba241a4b24d9f688168720c9e28c6882c66be13058e838154be54e53bb96f33"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-down.png",
+      "bytes": 977399,
+      "sha256": "9531f9750c723adbe56f6e5ea359293dcf0ca6b65a14cf9ac96d6f2a07771fa3"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-explain.png",
+      "bytes": 854906,
+      "sha256": "e93fcac7e77642c05bf78ba40a8046f46b4b4700f8b1c3f736e39ab3e2762bac"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-intro.png",
+      "bytes": 880766,
+      "sha256": "0f10a12e368db03bda6a32e894cc76907ccf67183dc2eed84e405f9ab41ee3bf"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-log.png",
+      "bytes": 818434,
+      "sha256": "eace86028c0b30aedab16aa5485a46dfc80f544f18eea79f57c8d0980d14fb7f"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-open.png",
+      "bytes": 868849,
+      "sha256": "901a6afe0798d248daca2477b5e48fad21f3cfee017e8404f30fb2c09b50014c"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-plate.png",
+      "bytes": 915877,
+      "sha256": "f2884e2abdf14cdd122b3faee97c5b40788f298168c84ddf0f2edb35527b0dec"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-profile.png",
+      "bytes": 806702,
+      "sha256": "02d4b88c22ff1feb3501ff732e139fca35c7c05cac7c392ff3aae766ac239b3f"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-tape.png",
+      "bytes": 741384,
+      "sha256": "69145c61ae69aaacc19a159ec415ef8efdffc8a2346916396815e7d56508c436"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-think.png",
+      "bytes": 742949,
+      "sha256": "d5e1485229bafaa38b9bd033209b7485cf79735e7703ac6cf19b40b7a4369f25"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/h-you.png",
+      "bytes": 854196,
+      "sha256": "a7d8844c8fd4c0632c254523b92257930d3ec5ac8798e3f12da059fbf39a4158"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-dumbbell.png",
+      "bytes": 1414979,
+      "sha256": "61f7e94c80e41c92fdabeb08c398c3bfd134bcc7541b2d43f7222cb01f1115df"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-hourglass-full.png",
+      "bytes": 1116843,
+      "sha256": "d2c8ab966e5aa55ed956f716392b0e9ad62a7996403a2bbd4369b676fa04c427"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-plate.png",
+      "bytes": 2103367,
+      "sha256": "1e0b6843cfe2f6c69569bf822196d451a8685b5ecb39e45aacd391b47483c119"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-plate-empty.png",
+      "bytes": 1948991,
+      "sha256": "84c81d1ac1150c255dc4c04cb19e55c7ca05f1735423d91d953cf68a8b26447b"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-protein.png",
+      "bytes": 2145867,
+      "sha256": "693778123d31a8ea41cb05f92e12fde2e23db1b5f86edad1bbe9e5b3488af217"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-scale.png",
+      "bytes": 1739482,
+      "sha256": "460220a0b9c56ee1a63254286914adbbf0703f9cfea4c542e783a8bac2f6bfdb"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/o-tape.png",
+      "bytes": 1890793,
+      "sha256": "296335efd3b206d73b3d8732313db4969210ff2e19a9a45bda2a782dcfb01ca8"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/p-sleep.png",
+      "bytes": 2889001,
+      "sha256": "b6f5c9c146aff645f3376a89f4cd2f1fa0e07e6e7b66bba1dabad5aad4b7bba1"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/p-walk.png",
+      "bytes": 3275380,
+      "sha256": "1c289feef610a5d1156d53022a895221e1dee5b8289f423c5066ddfc8a95beb0"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/s-meal.png",
+      "bytes": 814938,
+      "sha256": "44a1c3ffea14d21fdab92ebf65a220d1179c9708e2c11449798c9be2e14b7477"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/s-mirror.png",
+      "bytes": 680254,
+      "sha256": "f9aad30f68dc50587814fa0e7c1f2b95e62c19f563530bc22df76bec31f09400"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-crunch-high.png",
+      "bytes": 1082298,
+      "sha256": "f6f81f1d1aa78792ffe1aeb14175a7859cf6944e576a54c9a30096536966cb2e"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-crunch-low.png",
+      "bytes": 1111424,
+      "sha256": "a55476a7e10db031cab0acc25da9cc3beb0ac4de2019af5d950f94af93cc7634"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-hinge-a.png",
+      "bytes": 496083,
+      "sha256": "5de90c7ca2c3970b4229d79c6b0e8731a24606c0a2281c2ecaa602426c90a336"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-hinge-b.png",
+      "bytes": 231452,
+      "sha256": "46203f95f674dbf27cade6d0096ae9ca7c1515fea7ce65264b1abeee65b8223d"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-hinge-menu.png",
+      "bytes": 210068,
+      "sha256": "e7cb6dbf4e1dd70394f3ead6ed8f1eb4b34984caa9ae10824d6bb5a32f3f6d61"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-push-a.png",
+      "bytes": 993317,
+      "sha256": "eba08e1e3fd9c213f80e31e26ac6ea9eed688125a86cff8f5a2beee5715079c4"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-push-b.png",
+      "bytes": 1093992,
+      "sha256": "34358496b305eb2382bcab26e7a5a9e35c890339c8fe633f1a201504a922680c"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-row-a.png",
+      "bytes": 634261,
+      "sha256": "34cddb9b9aa5295db95a92d47e1ea369523b88d7810a8d63a983140d7a045473"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/x-squat-a.png",
+      "bytes": 609075,
+      "sha256": "72758ffd450bd008ed3ae4773607ece0dbceaf732a77b2459872f9ce229ffee0"
+    },
+    {
+      "path": "rendo-ep3/film/public/art/meta.json",
+      "bytes": 5015,
+      "sha256": "3cce6425526a15d495a28ea200faf0c3e68dc8b0d014922a6ec2bbe1b59bb6c8"
+    },
+    {
+      "path": "rendo-ep3/film/public/fonts/Jost.ttf",
+      "bytes": 134996,
+      "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076"
+    },
+    {
+      "path": "rendo-ep3/film/public/fonts/OFL-Jost.txt",
+      "bytes": 4384,
+      "sha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5"
+    },
+    {
+      "path": "rendo-ep3/film/public/audio/voice.wav",
+      "bytes": 89869484,
+      "sha256": "bcaa02a50fef087874af0527cfa6da3a737882dce2da96ebfb1cfedf1fe81893"
+    },
+    {
+      "path": "rendo-ep3/film/public/audio/stem-voice.wav",
+      "bytes": 89869484,
+      "sha256": "2704eb0fa2b90632b92c40c144b33ca331a6a5542f8d438407056f73cf21bf97"
+    },
+    {
+      "path": "rendo-ep3/film/public/audio/stem-music.wav",
+      "bytes": 89869484,
+      "sha256": "bb2190811fe141d7921e692d929b6e55af210b18b5a012ffdffd30e08733332a"
+    },
+    {
+      "path": "rendo-ep3/film/public/audio/stem-sfx.wav",
+      "bytes": 89869484,
+      "sha256": "4f0f4426d0d77ca505d7485e9cf23fab3f04a3f89eb51942b79d4324fd4968dd"
+    },
+    {
+      "path": "rendo-ep3/film/public/audio/master.wav",
+      "bytes": 134804262,
+      "sha256": "ae64eede9d37d84c93e79eb5da6eed6fdc1542c954b0019316bf33b1c71017c3"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/a6api-access.md",
+      "bytes": 4628,
+      "sha256": "7ed28ec3868316003406c375e0058b8e989bad8cdc094fa8fc1dc9cd3df21b5d"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/anatomy-and-instruction.md",
+      "bytes": 8647,
+      "sha256": "aaef6228b2b607cab09bdd08b87ce7faf0bc31cc015ec4f157a1b2d15157ee42"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/asset-direction.md",
+      "bytes": 8978,
+      "sha256": "3b2227fc925bd5620e34432a7d0408e82add6a426be3d951f1293793108d001d"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/current-rules-ru.md",
+      "bytes": 27583,
+      "sha256": "18e5782baf9177a4efe602519a49aeef2d34a84b844509458020bf914abb3478"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/direction-and-tempo.md",
+      "bytes": 9430,
+      "sha256": "6408ae0563473158300ef40bc9dd6fc87754f199e8fb0157ba0160f76680c29c"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/element-components.md",
+      "bytes": 6695,
+      "sha256": "e9403b485b489c37a2e06f47f35c3222c17e8faf837e15d85af37679b117363b"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/episode-workflow-ru.md",
+      "bytes": 9115,
+      "sha256": "9d122628d5d258234adf90f4423a5530900b5d9f65e14b7569d5117af572fa0b"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/object-and-image-prompts-ru.md",
+      "bytes": 5995,
+      "sha256": "10d6be4b54392307d0e9b79307ac62083fe978533429c9e064efd39cf3ce0692"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/original-demo.json",
+      "bytes": 9585,
+      "sha256": "43b4a5748350ef34c37430eb2ae9475df0ce3822cec6812774ad76c23e72168e"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/patterns.md",
+      "bytes": 10298,
+      "sha256": "3b59749f8eb6b131c44f22c5e4c06bfc0442c291d2ca58a7b53d2b9625ac001e"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/portable-fonts.md",
+      "bytes": 1271,
+      "sha256": "32b0bf8405bb8a51c000cf3940bb1a0a0afaf59da591d158e9ce5dfabce85f34"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/presence-and-cards.md",
+      "bytes": 8790,
+      "sha256": "1595ffaa25c9a80d92f3a55ade0cd81b4e91204fbac21279b9f60b1e84aab2a6"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/production-pattern-catalog.json",
+      "bytes": 50052,
+      "sha256": "e458829f1ea5044721fd182f307ba77d0e9daa665ca943c6ce376b40b32cce8a"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/qa-and-handoff-ru.md",
+      "bytes": 5641,
+      "sha256": "b9ddccb06fe0218ccebff6a7b93a9201d21289886364781aa96ea947a0f6cb3d"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/remotion-production-ru.md",
+      "bytes": 3586,
+      "sha256": "23bd71eb4c22cf171885d0512bd3c04b8aab554d94c62f80ba8c25f651d8e36b"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/runtime-and-json.md",
+      "bytes": 8406,
+      "sha256": "652c2fe39f58d62c531a61354201fe5483ffca96c0d13b3edf036ee231ed8e5b"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/ryoga-focus-variants.md",
+      "bytes": 17001,
+      "sha256": "afa18a142203b8c39e2917cd21875535f8e48d098b9c9753f93214187e91b31d"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/science-source-notes-ru.md",
+      "bytes": 4028,
+      "sha256": "a0f8fae7a06eaab9654654f6219e73841c6faef4b8bb6d1f4ac5a9bda1ad47cc"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/sound-and-review.md",
+      "bytes": 6919,
+      "sha256": "8f8675d54d7b727f3d3811442194eab98faee593ea4df5be6e4cca8a659c8d9f"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/references/validation.md",
+      "bytes": 12232,
+      "sha256": "419fb91b815830f8d575be4a3374ea2db986002ca5e329b02aaa40b84d9837c8"
+    },
+    {
+      "path": "rendo-ep3/channel-skill/SKILL.md",
+      "bytes": 9248,
+      "sha256": "9c4f3d416bf7a0106fbca87a4e5d1968aa401792f1e36755a4d94c66677735eb"
+    },
+    {
+      "path": "rendo-ep3/channel-context/START_HERE_RU.md",
+      "bytes": 3779,
+      "sha256": "6d78134e2140a69ef0dce7d03f7d734609fc69905d38d1f265dc46bfc8e5c750"
+    },
+    {
+      "path": "rendo-ep3/channel-context/USER_FEEDBACK_RU.md",
+      "bytes": 5745,
+      "sha256": "788a90461dadb618ec8f6bf6954ee2e24d4352f7443b1790d997ae0d840309ac"
+    }
+  ]
+}

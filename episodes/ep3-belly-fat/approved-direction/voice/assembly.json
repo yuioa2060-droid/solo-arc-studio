@@ -1,0 +1,24 @@
+{
+  "parts": [
+    {
+      "part": 1,
+      "offset": 0.55,
+      "duration": 147.44
+    },
+    {
+      "part": 2,
+      "offset": 148.39000000000001,
+      "duration": 157.68
+    },
+    {
+      "part": 3,
+      "offset": 306.47,
+      "duration": 159.6
+    }
+  ],
+  "duration": 468.07,
+  "speed": 1.0,
+  "leading_silence": 0.55,
+  "between_takes": 0.4,
+  "tail": 2.0
+}

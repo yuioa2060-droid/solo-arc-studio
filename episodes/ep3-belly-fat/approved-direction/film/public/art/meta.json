@@ -1,0 +1,42 @@
+{
+  "h-intro": {
+    "width": 649,
+    "height": 1024
+  },
+  "h-think": {
+    "width": 584,
+    "height": 1024
+  },
+  "h-tape": {
+    "width": 632,
+    "height": 1022
+  },
+  "h-open": {
+    "width": 982,
+    "height": 940
+  },
+  "s-mirror": {
+    "width": 672,
+    "height": 1007
+  },
+  "x-crunch-low": {
+    "width": 1800,
+    "height": 1100
+  },
+  "x-crunch-high": {
+    "width": 1800,
+    "height": 1100
+  },
+  "o-hourglass-full": {
+    "width": 526,
+    "height": 1146
+  },
+  "o2-plate-empty": {
+    "width": 1252,
+    "height": 872
+  },
+  "o2-plate-potato": {
+    "width": 1252,
+    "height": 872
+  }
+}

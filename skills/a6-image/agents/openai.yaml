@@ -1,0 +1,4 @@
+interface:
+  display_name: "A6API Images"
+  short_description: "Nano Banana 2.1 и GPT Image 2.5 через A6API"
+  default_prompt: "Используй $a6-image и создай изображение по моему промпту."

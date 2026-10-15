@@ -1,0 +1,18 @@
+{
+  "source": "new organic ElevenLabs Music music_v1",
+  "highpass_hz": 170,
+  "core_seconds": [
+    10,
+    110
+  ],
+  "crossfade_seconds": 20,
+  "scene_swells": [
+    150.31,
+    253.93,
+    376.76300000000003,
+    384.95000000000005,
+    424.91
+  ],
+  "peak_rms_ceiling": 0.0075,
+  "synthetic_instruments": false
+}

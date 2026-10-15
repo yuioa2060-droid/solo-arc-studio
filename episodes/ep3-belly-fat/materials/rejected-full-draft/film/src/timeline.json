@@ -1,0 +1,1351 @@
+{
+  "duration": 468.07,
+  "fps": 30,
+  "scenes": [
+    {
+      "phrase": "Your shirts fit better",
+      "kind": "hero",
+      "asset": "h-intro",
+      "lines": [
+        "Your shirts fit better."
+      ],
+      "side": "left",
+      "spoken": true,
+      "a": 0,
+      "wordIndex": 0,
+      "id": "s00",
+      "b": 3.45,
+      "duration": 3.45,
+      "lineTimes": [
+        0.55
+      ]
+    },
+    {
+      "phrase": "But you turn sideways",
+      "kind": "image",
+      "asset": "s-mirror",
+      "lines": [
+        "And the belly?"
+      ],
+      "imageW": 1100,
+      "a": 3.45,
+      "wordIndex": 8,
+      "id": "s01",
+      "b": 8.657,
+      "duration": 5.207,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "So you eat less",
+      "kind": "cycle",
+      "assets": [
+        "o-plate-empty",
+        "h-crunch",
+        "s-mirror"
+      ],
+      "lines": [
+        "Eat less.",
+        "More crunches.",
+        "Check again."
+      ],
+      "a": 8.657,
+      "wordIndex": 23,
+      "id": "s02",
+      "b": 13.790000000000001,
+      "duration": 5.133000000000001,
+      "lineTimes": [
+        0.9930000000000003,
+        2.245000000000001,
+        1.4500000000000002
+      ]
+    },
+    {
+      "phrase": "And now you're tired",
+      "kind": "hero",
+      "asset": "h-think",
+      "lines": [
+        "Tired. Hungry.",
+        "Still checking."
+      ],
+      "side": "right",
+      "a": 13.790000000000001,
+      "wordIndex": 35,
+      "id": "s03",
+      "b": 19.366000000000003,
+      "duration": 5.576000000000002,
+      "lineTimes": [
+        1.2530000000000001,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Here's the problem",
+      "kind": "text",
+      "lines": [
+        "Your belly is a terrible",
+        "daily scoreboard."
+      ],
+      "accent": 1,
+      "a": 19.366000000000003,
+      "wordIndex": 46,
+      "id": "s04",
+      "b": 24.310000000000002,
+      "duration": 4.943999999999999,
+      "lineTimes": [
+        1.663999999999998,
+        3.663999999999998
+      ]
+    },
+    {
+      "phrase": "You might be chasing",
+      "kind": "contrast",
+      "lines": [
+        "The wrong change",
+        "The wrong clock"
+      ],
+      "assets": [
+        "o-dumbbell",
+        "o-hourglass-full"
+      ],
+      "a": 24.310000000000002,
+      "wordIndex": 56,
+      "id": "s05",
+      "b": 30.017000000000003,
+      "duration": 5.707000000000001,
+      "lineTimes": [
+        1.379999999999999,
+        4.5
+      ]
+    },
+    {
+      "phrase": "By the end",
+      "kind": "hero",
+      "asset": "h-open",
+      "lines": [
+        "What to change.",
+        "When to change it."
+      ],
+      "side": "left",
+      "a": 30.017000000000003,
+      "wordIndex": 72,
+      "id": "s06",
+      "b": 37.11,
+      "duration": 7.092999999999996,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "No belly burner",
+      "kind": "text",
+      "lines": [
+        "No belly burner.",
+        "No punishment workout."
+      ],
+      "spoken": true,
+      "a": 37.11,
+      "wordIndex": 93,
+      "id": "s07",
+      "b": 43.202999999999996,
+      "duration": 6.092999999999996,
+      "lineTimes": [
+        0.0799999999999983,
+        1.6529999999999987
+      ]
+    },
+    {
+      "phrase": "Start with the most expensive",
+      "kind": "exercise",
+      "assets": [
+        "h-crunch",
+        "h-down"
+      ],
+      "lines": [
+        "Train the muscle."
+      ],
+      "motion": "crunch",
+      "a": 43.202999999999996,
+      "wordIndex": 107,
+      "id": "s08",
+      "b": 51.963,
+      "duration": 8.760000000000005,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Think of a crunch",
+      "kind": "mechanism",
+      "assets": [
+        "h-crunch",
+        "h-down"
+      ],
+      "lines": [
+        "A message to your abs:",
+        "Get stronger."
+      ],
+      "a": 51.963,
+      "wordIndex": 129,
+      "id": "s09",
+      "b": 56.283,
+      "duration": 4.32,
+      "lineTimes": [
+        1.5869999999999962,
+        3.1269999999999953
+      ]
+    },
+    {
+      "phrase": "It isn't a shipping address",
+      "kind": "text",
+      "lines": [
+        "Strength training",
+        "\u2260 targeted fat loss"
+      ],
+      "accent": 1,
+      "a": 56.283,
+      "wordIndex": 141,
+      "id": "s10",
+      "b": 59.03,
+      "duration": 2.747,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "In one small trial",
+      "kind": "study",
+      "asset": "h-crunch",
+      "lines": [
+        "24 adults",
+        "6 weeks"
+      ],
+      "caption": "Vispute et al. \u00b7 2011 \u00b7 small randomized trial",
+      "a": 59.03,
+      "wordIndex": 149,
+      "id": "s11",
+      "b": 66.323,
+      "duration": 7.292999999999992,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "After six weeks",
+      "kind": "studyResult",
+      "asset": "h-crunch",
+      "lines": [
+        "Abdominal endurance improved",
+        "No significant measured belly-fat reduction"
+      ],
+      "caption": "This trial, not a universal rule",
+      "a": 66.323,
+      "wordIndex": 166,
+      "id": "s12",
+      "b": 75.91,
+      "duration": 9.587000000000003,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "That doesn't make ab training",
+      "kind": "hero",
+      "asset": "h-open",
+      "lines": [
+        "Useful training.",
+        "A different job."
+      ],
+      "side": "right",
+      "a": 75.91,
+      "wordIndex": 187,
+      "id": "s13",
+      "b": 81.71,
+      "duration": 5.799999999999997,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "There are small studies",
+      "kind": "hero",
+      "asset": "h-profile",
+      "lines": [
+        "Some local effects reported.",
+        "Specialized protocols."
+      ],
+      "side": "left",
+      "a": 81.71,
+      "wordIndex": 201,
+      "id": "s14",
+      "b": 87.99,
+      "duration": 6.280000000000001,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "That's not proof",
+      "kind": "text",
+      "lines": [
+        "Not proof of a",
+        "10-minute belly burner."
+      ],
+      "accent": 1,
+      "a": 87.99,
+      "wordIndex": 213,
+      "id": "s15",
+      "b": 93.13,
+      "duration": 5.140000000000001,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "The practical move",
+      "kind": "triptych",
+      "assets": [
+        "o-dumbbell",
+        "p-walk",
+        "o-plate"
+      ],
+      "lines": [
+        "Train",
+        "Move",
+        "Eat sustainably"
+      ],
+      "a": 93.13,
+      "wordIndex": 228,
+      "id": "s16",
+      "b": 100.31,
+      "duration": 7.180000000000007,
+      "lineTimes": [
+        0.35,
+        1.1640000000000015,
+        1.4500000000000002
+      ]
+    },
+    {
+      "phrase": "Keep the crunches",
+      "kind": "hero",
+      "asset": "h-explain",
+      "lines": [
+        "Keep the crunches.",
+        "Change the expectation."
+      ],
+      "side": "left",
+      "a": 100.31,
+      "wordIndex": 244,
+      "id": "s17",
+      "b": 105.05,
+      "duration": 4.739999999999995,
+      "lineTimes": [
+        0.0799999999999983,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Now look at the thing",
+      "kind": "image",
+      "asset": "s-mirror",
+      "lines": [
+        "What are you measuring?"
+      ],
+      "imageW": 1140,
+      "a": 105.05,
+      "wordIndex": 260,
+      "id": "s18",
+      "b": 111.04599999999999,
+      "duration": 5.995999999999995,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Food and fluid are inside you",
+      "kind": "image",
+      "asset": "s-meal",
+      "lines": [
+        "Food. Fluid. Digestion."
+      ],
+      "imageW": 1200,
+      "a": 111.04599999999999,
+      "wordIndex": 278,
+      "id": "s19",
+      "b": 115.81,
+      "duration": 4.76400000000001,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "The way you stand",
+      "kind": "bodyconditions",
+      "asset": "b-w1",
+      "lines": [
+        "Stance",
+        "Water",
+        "Time of day"
+      ],
+      "a": 115.81,
+      "wordIndex": 289,
+      "id": "s20",
+      "b": 122.017,
+      "duration": 6.206999999999994,
+      "lineTimes": [
+        0.35,
+        3.0330000000000013,
+        1.4500000000000002
+      ]
+    },
+    {
+      "phrase": "So if your stomach looks different",
+      "kind": "contrast",
+      "assets": [
+        "b-w1",
+        "b-w1"
+      ],
+      "lines": [
+        "Morning",
+        "Evening"
+      ],
+      "caption": "The same whole image \u00b7 appearance alone is not a diagnosis",
+      "a": 122.017,
+      "wordIndex": 307,
+      "id": "s21",
+      "b": 127.91,
+      "duration": 5.893000000000001,
+      "lineTimes": [
+        2.742999999999995,
+        0.9
+      ]
+    },
+    {
+      "phrase": "You didn't suddenly undo",
+      "kind": "text",
+      "lines": [
+        "One evening isn't",
+        "weeks of progress."
+      ],
+      "accent": 1,
+      "a": 127.91,
+      "wordIndex": 328,
+      "id": "s22",
+      "b": 131.97,
+      "duration": 4.060000000000002,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "But don't diagnose yourself",
+      "kind": "hero",
+      "asset": "h-you",
+      "lines": [
+        "A mirror is not a diagnosis."
+      ],
+      "side": "right",
+      "a": 131.97,
+      "wordIndex": 339,
+      "id": "s23",
+      "b": 139.401,
+      "duration": 7.431000000000012,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Persistent swelling",
+      "kind": "text",
+      "lines": [
+        "Persistent swelling or pain?",
+        "Get clinical advice."
+      ],
+      "small": true,
+      "a": 139.401,
+      "wordIndex": 358,
+      "id": "s24",
+      "b": 148.31,
+      "duration": 8.908999999999992,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Once a week",
+      "kind": "measurement",
+      "asset": "h-tape",
+      "lines": [
+        "Once a week",
+        "Morning \u00b7 before breakfast",
+        "After the bathroom"
+      ],
+      "a": 148.31,
+      "wordIndex": 380,
+      "id": "s26",
+      "b": 157.00300000000001,
+      "duration": 8.693000000000012,
+      "lineTimes": [
+        1.5,
+        3.0,
+        5.0
+      ]
+    },
+    {
+      "phrase": "Stand relaxed",
+      "kind": "measureClose",
+      "asset": "h-tape",
+      "lines": [
+        "Relaxed. Horizontal.",
+        "Same spot. No pulling tight."
+      ],
+      "a": 157.00300000000001,
+      "wordIndex": 400,
+      "id": "s27",
+      "b": 167.174,
+      "duration": 10.170999999999992,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Then take a front and side photo",
+      "kind": "photo",
+      "assets": [
+        "b-w1",
+        "b-w1"
+      ],
+      "lines": [
+        "Same light.",
+        "Same stance."
+      ],
+      "caption": "Every few weeks \u00b7 compare like with like",
+      "a": 167.174,
+      "wordIndex": 424,
+      "id": "s28",
+      "b": 172.83,
+      "duration": 5.656000000000006,
+      "lineTimes": [
+        4.176000000000016,
+        0.9
+      ]
+    },
+    {
+      "phrase": "You're trying to compare your body",
+      "kind": "text",
+      "lines": [
+        "Your body",
+        "with your body."
+      ],
+      "accent": 1,
+      "a": 172.83,
+      "wordIndex": 440,
+      "id": "s29",
+      "b": 182.43,
+      "duration": 9.599999999999994,
+      "lineTimes": [
+        1.2719999999999914,
+        1.8319999999999936
+      ]
+    },
+    {
+      "phrase": "But there's a second trap",
+      "kind": "hero",
+      "asset": "h-think",
+      "lines": [
+        "Lighter",
+        "is not always better."
+      ],
+      "side": "left",
+      "a": 182.43,
+      "wordIndex": 465,
+      "id": "s30",
+      "b": 187.137,
+      "duration": 4.706999999999994,
+      "lineTimes": [
+        2.25,
+        0.9
+      ]
+    },
+    {
+      "phrase": "If your arms and legs",
+      "kind": "image",
+      "asset": "b-w1",
+      "lines": [
+        "Smaller \u2260 the shape you want."
+      ],
+      "imageW": 440,
+      "a": 187.137,
+      "wordIndex": 479,
+      "id": "s31",
+      "b": 193.51000000000002,
+      "duration": 6.373000000000019,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Low muscle mass",
+      "kind": "hero",
+      "asset": "h-explain",
+      "lines": [
+        "Muscle can change the picture.",
+        "Not every belly is a muscle problem."
+      ],
+      "side": "right",
+      "a": 193.51000000000002,
+      "wordIndex": 501,
+      "id": "s32",
+      "b": 201.77,
+      "duration": 8.259999999999991,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "The question is not",
+      "kind": "text",
+      "lines": [
+        "Not: how low can the scale go?",
+        "What am I building?"
+      ],
+      "accent": 1,
+      "a": 201.77,
+      "wordIndex": 525,
+      "id": "s33",
+      "b": 209.33,
+      "duration": 7.560000000000002,
+      "lineTimes": [
+        0.35,
+        4.812000000000012
+      ]
+    },
+    {
+      "phrase": "For an adult at a healthy weight",
+      "kind": "hero",
+      "asset": "h-open",
+      "lines": [
+        "Healthy weight + new to training?",
+        "Start by getting stronger."
+      ],
+      "side": "left",
+      "a": 209.33,
+      "wordIndex": 549,
+      "id": "s34",
+      "b": 218.977,
+      "duration": 9.646999999999991,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "If you're underweight",
+      "kind": "text",
+      "lines": [
+        "Underweight? Still growing? Unsure?",
+        "Get individual guidance."
+      ],
+      "small": true,
+      "a": 218.977,
+      "wordIndex": 578,
+      "id": "s35",
+      "b": 227.49,
+      "duration": 8.513000000000005,
+      "lineTimes": [
+        0.35,
+        4.17300000000003
+      ]
+    },
+    {
+      "phrase": "For adults with excess body fat",
+      "kind": "hero",
+      "asset": "h-plate",
+      "lines": [
+        "Excess body fat?",
+        "A modest deficit."
+      ],
+      "side": "right",
+      "a": 227.49,
+      "wordIndex": 599,
+      "id": "s36",
+      "b": 231.85,
+      "duration": 4.359999999999985,
+      "lineTimes": [
+        1.1170000000000186,
+        2.5400000000000205
+      ]
+    },
+    {
+      "phrase": "Modest means",
+      "kind": "triptych",
+      "assets": [
+        "o-dumbbell",
+        "o-hourglass-full",
+        "o-plate"
+      ],
+      "lines": [
+        "Train",
+        "Recover",
+        "Function"
+      ],
+      "a": 231.85,
+      "wordIndex": 610,
+      "id": "s37",
+      "b": 235.963,
+      "duration": 4.1129999999999995,
+      "lineTimes": [
+        1.6730000000000302,
+        2.450000000000017,
+        3.2420000000000186
+      ]
+    },
+    {
+      "phrase": "If every afternoon feels like survival",
+      "kind": "hero",
+      "asset": "h-think",
+      "lines": [
+        "Harder is not always smarter."
+      ],
+      "side": "left",
+      "a": 235.963,
+      "wordIndex": 619,
+      "id": "s38",
+      "b": 241.63,
+      "duration": 5.667000000000002,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "The previous video showed",
+      "kind": "image",
+      "asset": "s-meal",
+      "lines": [
+        "Make the food plan repeatable."
+      ],
+      "imageW": 1160,
+      "a": 241.63,
+      "wordIndex": 632,
+      "id": "s39",
+      "b": 251.93,
+      "duration": 10.300000000000011,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Let's make that work specific",
+      "kind": "session",
+      "lines": [
+        "3 full-body sessions / week"
+      ],
+      "caption": "A starting example, not a personal prescription",
+      "a": 251.93,
+      "wordIndex": 658,
+      "id": "s40",
+      "b": 257.55,
+      "duration": 5.6200000000000045,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "A push",
+      "kind": "exerciseMenu",
+      "assets": [
+        "x-push-a",
+        "x-row-a",
+        "x-squat-a",
+        "x-hinge-menu"
+      ],
+      "lines": [
+        "Push",
+        "Pull",
+        "Squat / split squat",
+        "Hip hinge"
+      ],
+      "a": 257.55,
+      "wordIndex": 673,
+      "id": "s41",
+      "b": 262.79,
+      "duration": 5.240000000000009,
+      "lineTimes": [
+        0.36000000000001364,
+        1.4159999999999968,
+        1.4500000000000002,
+        4.439999999999998
+      ]
+    },
+    {
+      "phrase": "Pick versions you can control",
+      "kind": "exercise",
+      "assets": [
+        "x-hinge-a",
+        "x-hinge-b"
+      ],
+      "lines": [
+        "Control the movement."
+      ],
+      "motion": "hinge",
+      "a": 262.79,
+      "wordIndex": 686,
+      "id": "s42",
+      "b": 265.177,
+      "duration": 2.3870000000000005,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "Start with two sets",
+      "kind": "exercise",
+      "assets": [
+        "x-push-a",
+        "x-push-b"
+      ],
+      "lines": [
+        "Start with 2 sets",
+        "Keep ~2 good reps available"
+      ],
+      "motion": "push",
+      "a": 265.177,
+      "wordIndex": 691,
+      "id": "s43",
+      "b": 272.65700000000004,
+      "duration": 7.480000000000018,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "When the top of your chosen range",
+      "kind": "logProgress",
+      "asset": "h-log",
+      "lines": [
+        "More controlled reps",
+        "Then a little more challenge"
+      ],
+      "caption": "Example progression \u00b7 no outcome guarantee",
+      "a": 272.65700000000004,
+      "wordIndex": 712,
+      "id": "s45",
+      "b": 280.742,
+      "duration": 8.08499999999998,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "That's progression",
+      "kind": "text",
+      "lines": [
+        "That's progression.",
+        "Not just repetition."
+      ],
+      "accent": 0,
+      "a": 280.742,
+      "wordIndex": 735,
+      "id": "s46",
+      "b": 288.53700000000003,
+      "duration": 7.795000000000016,
+      "lineTimes": [
+        0.07999999999998408,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Train your abs too",
+      "kind": "exercise",
+      "assets": [
+        "h-crunch",
+        "h-down"
+      ],
+      "lines": [
+        "Train your abs too."
+      ],
+      "motion": "crunch",
+      "a": 288.53700000000003,
+      "wordIndex": 752,
+      "id": "s47",
+      "b": 295.47,
+      "duration": 6.932999999999993,
+      "lineTimes": [
+        0.07999999999998408
+      ]
+    },
+    {
+      "phrase": "Two sets, twice a week",
+      "kind": "frequency",
+      "asset": "h-crunch",
+      "lines": [
+        "2 sets",
+        "2\u00d7 / week"
+      ],
+      "caption": "A simple starting point",
+      "a": 295.47,
+      "wordIndex": 766,
+      "id": "s48",
+      "b": 299.60200000000003,
+      "duration": 4.132000000000005,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Challenge the muscle",
+      "kind": "text",
+      "lines": [
+        "Challenge the muscle.",
+        "Burning \u2260 fat melting."
+      ],
+      "accent": 1,
+      "a": 299.60200000000003,
+      "wordIndex": 777,
+      "id": "s49",
+      "b": 306.39000000000004,
+      "duration": 6.788000000000011,
+      "lineTimes": [
+        0.07999999999998408,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Around one point six grams",
+      "kind": "protein",
+      "asset": "o-protein",
+      "lines": [
+        "~1.6 g / kg / day"
+      ],
+      "caption": "General target \u00b7 healthy adults \u00b7 resistance training",
+      "a": 306.39000000000004,
+      "wordIndex": 793,
+      "id": "s51",
+      "b": 317.88300000000004,
+      "duration": 11.492999999999995,
+      "lineTimes": [
+        2.35
+      ]
+    },
+    {
+      "phrase": "At seventy kilos",
+      "kind": "formula",
+      "lines": [
+        "70 kg \u00d7 1.6",
+        "\u2248 112 g protein / day"
+      ],
+      "caption": "Worked example, not a magic threshold",
+      "a": 317.88300000000004,
+      "wordIndex": 823,
+      "id": "s52",
+      "b": 321.53000000000003,
+      "duration": 3.6469999999999914,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Not a magic threshold",
+      "kind": "hero",
+      "asset": "h-open",
+      "lines": [
+        "A useful target.",
+        "Not a reason to panic."
+      ],
+      "side": "left",
+      "a": 321.53000000000003,
+      "wordIndex": 833,
+      "id": "s53",
+      "b": 326.26200000000006,
+      "duration": 4.732000000000028,
+      "lineTimes": [
+        0.35,
+        1.7199999999999704
+      ]
+    },
+    {
+      "phrase": "Eggs, yogurt, fish",
+      "kind": "image",
+      "asset": "o-protein",
+      "lines": [
+        "Food first.",
+        "Supplements optional."
+      ],
+      "imageW": 1140,
+      "a": 326.26200000000006,
+      "wordIndex": 845,
+      "id": "s54",
+      "b": 334.58200000000005,
+      "duration": 8.319999999999993,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Keep daily movement",
+      "kind": "image",
+      "asset": "p-walk",
+      "lines": [
+        "Make movement repeatable."
+      ],
+      "imageW": 1200,
+      "a": 334.58200000000005,
+      "wordIndex": 858,
+      "id": "s55",
+      "b": 343.51000000000005,
+      "duration": 8.927999999999997,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "And protect a regular sleep schedule",
+      "kind": "image",
+      "asset": "p-sleep",
+      "lines": [
+        "Protect your sleep."
+      ],
+      "imageW": 1100,
+      "a": 343.51000000000005,
+      "wordIndex": 880,
+      "id": "s56",
+      "b": 346.35800000000006,
+      "duration": 2.848000000000013,
+      "lineTimes": [
+        0.35
+      ]
+    },
+    {
+      "phrase": "None of these habits",
+      "kind": "text",
+      "lines": [
+        "No secret line to your belly.",
+        "A plan you can repeat."
+      ],
+      "accent": 1,
+      "a": 346.35800000000006,
+      "wordIndex": 886,
+      "id": "s57",
+      "b": 354.51000000000005,
+      "duration": 8.151999999999987,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Now the part that stops",
+      "kind": "hero",
+      "asset": "h-you",
+      "lines": [
+        "Keep going",
+        "or adjust?"
+      ],
+      "side": "right",
+      "a": 354.51000000000005,
+      "wordIndex": 907,
+      "id": "s58",
+      "b": 360.982,
+      "duration": 6.47199999999998,
+      "lineTimes": [
+        4.728000000000009,
+        5.479999999999961
+      ]
+    },
+    {
+      "phrase": "Look at three things together",
+      "kind": "evidence",
+      "assets": [
+        "o-tape",
+        "o-scale",
+        "h-log"
+      ],
+      "lines": [
+        "Waist",
+        "Weight trend",
+        "Training log"
+      ],
+      "a": 360.982,
+      "wordIndex": 926,
+      "id": "s59",
+      "b": 371.00300000000004,
+      "duration": 10.021000000000015,
+      "lineTimes": [
+        2.620999999999981,
+        5.362000000000023,
+        8.90100000000001
+      ]
+    },
+    {
+      "phrase": "No single number gets",
+      "kind": "text",
+      "lines": [
+        "One number is not",
+        "the whole plan."
+      ],
+      "accent": 1,
+      "a": 371.00300000000004,
+      "wordIndex": 947,
+      "id": "s60",
+      "b": 374.76300000000003,
+      "duration": 3.759999999999991,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "If your waist is gradually moving down",
+      "kind": "signals",
+      "lines": [
+        "Waist moving down",
+        "Strength holding"
+      ],
+      "caption": "Keep the plan \u00b7 do not react to one bad day",
+      "a": 374.76300000000003,
+      "wordIndex": 956,
+      "id": "s61",
+      "b": 382.95000000000005,
+      "duration": 8.187000000000012,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "If your weight stays similar",
+      "kind": "signals",
+      "lines": [
+        "Weight similar",
+        "Waist improving",
+        "Lifts improving"
+      ],
+      "caption": "Useful clues \u00b7 not proof of exact fat or muscle changes",
+      "a": 382.95000000000005,
+      "wordIndex": 975,
+      "id": "s62",
+      "b": 391.88300000000004,
+      "duration": 8.932999999999993,
+      "lineTimes": [
+        0.35,
+        0.9,
+        1.4500000000000002
+      ]
+    },
+    {
+      "phrase": "These are clues",
+      "kind": "text",
+      "lines": [
+        "Clues.",
+        "Not guarantees."
+      ],
+      "accent": 0,
+      "a": 391.88300000000004,
+      "wordIndex": 996,
+      "id": "s63",
+      "b": 398.07000000000005,
+      "duration": 6.187000000000012,
+      "lineTimes": [
+        1.093999999999994,
+        0.9
+      ]
+    },
+    {
+      "phrase": "If several weeks pass",
+      "kind": "hero",
+      "asset": "h-log",
+      "lines": [
+        "No change for several weeks?",
+        "Check the routine first."
+      ],
+      "side": "left",
+      "a": 398.07000000000005,
+      "wordIndex": 1010,
+      "id": "s64",
+      "b": 405.31000000000006,
+      "duration": 7.240000000000009,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Are the portions consistent",
+      "kind": "audit",
+      "assets": [
+        "o-plate",
+        "p-walk",
+        "o-dumbbell"
+      ],
+      "lines": [
+        "Portions consistent?",
+        "Daily movement kept?",
+        "Sets more challenging?"
+      ],
+      "a": 405.31000000000006,
+      "wordIndex": 1029,
+      "id": "s65",
+      "b": 415.46200000000005,
+      "duration": 10.151999999999987,
+      "lineTimes": [
+        0.8129999999999882,
+        0.9,
+        1.4500000000000002
+      ]
+    },
+    {
+      "phrase": "Find one thing you can improve",
+      "kind": "text",
+      "lines": [
+        "Change one thing.",
+        "Not your entire life."
+      ],
+      "accent": 0,
+      "a": 415.46200000000005,
+      "wordIndex": 1051,
+      "id": "s66",
+      "b": 422.91,
+      "duration": 7.447999999999979,
+      "lineTimes": [
+        0.35,
+        4.967999999999961
+      ]
+    },
+    {
+      "phrase": "For the next week",
+      "kind": "plan",
+      "assets": [
+        "h-tape",
+        "x-push-a",
+        "o-protein",
+        "h-log"
+      ],
+      "lines": [
+        "One consistent waist check",
+        "Three manageable sessions",
+        "Protein + filling foods",
+        "Record what you did"
+      ],
+      "a": 422.91,
+      "wordIndex": 1067,
+      "id": "s67",
+      "b": 437.42,
+      "duration": 14.509999999999991,
+      "lineTimes": [
+        0.35,
+        0.9,
+        1.4500000000000002,
+        12.908999999999992
+      ]
+    },
+    {
+      "phrase": "You're not trying to force",
+      "kind": "hero",
+      "asset": "h-open",
+      "lines": [
+        "Not by Friday.",
+        "A system that shows direction."
+      ],
+      "side": "right",
+      "a": 437.42,
+      "wordIndex": 1097,
+      "id": "s68",
+      "b": 445.07800000000003,
+      "duration": 7.6580000000000155,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Your belly is not a daily report card",
+      "kind": "text",
+      "lines": [
+        "Your belly is not",
+        "a daily report card."
+      ],
+      "accent": 1,
+      "a": 445.07800000000003,
+      "wordIndex": 1122,
+      "id": "s69",
+      "b": 448.2780000000001,
+      "duration": 3.2000000000000455,
+      "lineTimes": [
+        0.07999999999998408,
+        1.4720000000000368
+      ]
+    },
+    {
+      "phrase": "Stop testing it every hour",
+      "kind": "hero",
+      "asset": "h-intro",
+      "lines": [
+        "Give it time.",
+        "Measure honestly."
+      ],
+      "side": "left",
+      "a": 448.2780000000001,
+      "wordIndex": 1130,
+      "id": "s70",
+      "b": 455.88000000000005,
+      "duration": 7.601999999999975,
+      "lineTimes": [
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "phrase": "And when something needs changing",
+      "kind": "log",
+      "asset": "h-log",
+      "lines": [
+        "A reason.",
+        "Not a bad reflection."
+      ],
+      "a": 455.88000000000005,
+      "wordIndex": 1148,
+      "id": "s71",
+      "b": 461.16300000000007,
+      "duration": 5.2830000000000155,
+      "lineTimes": [
+        2.4699999999999704,
+        0.9
+      ]
+    },
+    {
+      "phrase": "Start with the measurement",
+      "kind": "ending",
+      "asset": "h-tape",
+      "lines": [
+        "Start with the measurement.",
+        "Earn the next line."
+      ],
+      "a": 461.16300000000007,
+      "wordIndex": 1162,
+      "id": "s72",
+      "b": 468.07,
+      "duration": 6.906999999999925,
+      "lineTimes": [
+        0.07999999999998408,
+        2.506999999999948
+      ]
+    }
+  ]
+}

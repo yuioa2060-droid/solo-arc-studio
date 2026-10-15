@@ -1,0 +1,7 @@
+# Scientific source notes
+
+- Vispute et al. (2011), *The Effect of Abdominal Exercise on Abdominal Fat*. 24 sedentary adults; six weeks, five days/week. Improved curl-up endurance, no significant effect on the tested abdominal-fat measurements. DOI: 10.1519/JSC.0b013e3181fb4a46. https://journals.lww.com/nsca-jscr/fulltext/2011/09000/the_effect_of_abdominal_exercise_on_abdominal_fat.27.aspx
+- Brobakken et al. (2023), *Abdominal aerobic endurance exercise reveals spot reduction exists*. 16 overweight men, specialized ten-week protocol. The episode acknowledges local effects under specialized protocols; it does not generalize this to a ten-minute crunch routine. DOI: 10.14814/phy2.15853. https://pubmed.ncbi.nlm.nih.gov/38010201/
+- Morton et al. (2018), systematic review/meta-analysis: 49 studies, 1863 participants. Estimated breakpoint near 1.62 g/kg/day for lean-mass gains during resistance training, with uncertainty. The script presents ~1.6 as a general target for healthy adults, not a magic threshold or medical prescription. https://bjsm.bmj.com/content/52/6/376
+
+The workout is explicitly a manageable starting example, not an individualized prescription. Maintenance/deficit advice is qualified by adult/healthy-weight/excess-fat context. Underweight, growing, uncertain viewers are referred for individual guidance; persistent swelling/pain or unexplained changes are referred to a clinician. Measurements/training are clues, not precise body-composition diagnosis.
