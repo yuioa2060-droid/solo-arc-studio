@@ -32,7 +32,7 @@ Rendo — рабочее имя, handle не проверен; SOLO ARC откл
 | Задача | Читать/использовать |
 |---|---|
 | Сценарий и режиссура | [Связь выпусков](references/episode-continuity-ru.md), [производство](references/episode-workflow-ru.md), [правила](references/current-rules-ru.md), [научные границы](references/science-source-notes-ru.md) |
-| Герой, поза, предмет, API | [Изображения](references/object-and-image-prompts-ru.md), [A6API](references/a6api-access.md), `scripts/a6api-reference.mjs`, [Windows-адаптер](scripts/a6api-windows.ps1), `assets/channel/` |
+| Герой, поза, предмет, API | [Изображения](references/object-and-image-prompts-ru.md), [текущий A6API helper](../a6-image/SKILL.md), [состояние API](../../context/API_STATUS_20261015_RU.md), [исторический GPT workflow](references/a6api-access.md), `assets/channel/` |
 | Монтаж и новая копия | [Remotion](references/remotion-production-ru.md), `../../episodes/ep1-v11/`, `scripts/new-episode.mjs` |
 | Анатомия и guides | [Anatomy](references/anatomy-and-instruction.md), [элементы](references/element-components.md), [focus](references/ryoga-focus-variants.md) |
 | Композиция, паузы, движение | [Direction](references/direction-and-tempo.md), [patterns](references/patterns.md), `references/production-pattern-catalog.json` |

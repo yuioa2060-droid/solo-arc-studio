@@ -8,7 +8,7 @@
   "unpublished_next_episode_draft_included": true,
   "plaintext_api_keys_included": false,
   "file_count": 982,
-  "total_bytes": 1853669423,
+  "total_bytes": 1853669898,
   "final_movies": [
     "episodes/ep1-v11/solo-arc-ep1-v11.mp4",
     "episodes/ep2-hunger/final/rendo-ep2-hunger-v6.mp4"
@@ -128,8 +128,8 @@
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 23317,
-      "sha256": "45d0fa3398fab4cc598200acdc6775eb8990a1b40f4916b66ebc30635659b4ed",
+      "bytes": 23724,
+      "sha256": "28d27cd54f519e3d04a057ba0bfc9b713f5337f971dbddde49ad34dd5970ae4b",
       "hash_source": "git_blob"
     },
     {
@@ -4880,8 +4880,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 13080,
-      "sha256": "1d3da44c6c5ba58936911bfedf171b507c476224b78952b6524475a235481a5c",
+      "bytes": 13148,
+      "sha256": "de82c3bec145b6479c8d7f3eebb76b0947e1d63acce9ea85a467b5c75fd57e41",
       "hash_source": "git_blob"
     },
     {
