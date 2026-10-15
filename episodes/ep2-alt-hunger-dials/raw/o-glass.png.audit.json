@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-12T00:23:37.950Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.00156,
+  "promptSha256": "7605bfbf68874e8001c4f04357251afc703bed66285ead59fcd2d541a955b19a",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    },
+    {
+      "name": "o-apple.png",
+      "sha256": "5445978d3df23d9d9f27d89c5d087427175e1c7547327aa9a06f5cd9733cf420"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-glass.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-glass.png",
+  "imageBytes": 1387952,
+  "imageSha256": "79a1cf5d5557aba959903da1f19044cc581a85e06b6571dbfb85a0f89bff224f",
+  "finishedAt": "2026-10-12T00:24:06.322Z",
+  "billedUnits": 780,
+  "billingSource": "token usage counter delta (500000 units = 1 USD); concurrent requests would blur this",
+  "promptFile": "episodes/ep2-hunger/prompts/o-glass.txt",
+  "size": "1024x1024"
+}

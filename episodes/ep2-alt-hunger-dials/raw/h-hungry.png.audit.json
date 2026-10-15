@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-12T00:04:08.624Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.002832,
+  "promptSha256": "8b2074a0f1615209ae4d8f94cdc076d6f1ed388c9a96d056db136cd4bcf6206f",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "APPROVED-h3-hero-waist.png",
+      "sha256": "4b0149a337be3ae103ab8dad57d93ec68fb9894486228f59aec9a2e14caa5ea2"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/h-hungry.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/h-hungry.png",
+  "imageBytes": 1136987,
+  "imageSha256": "40e725f159f83c513817672c9baa5f4094f687c7f2aa9036f362c4f916430102",
+  "finishedAt": "2026-10-12T00:04:42.565Z",
+  "billedUnits": 1416,
+  "billingSource": "token usage counter delta (500000 units = 1 USD); concurrent requests would blur this",
+  "promptFile": "episodes/ep2-hunger/prompts/h-hungry.txt",
+  "size": "1536x1024"
+}

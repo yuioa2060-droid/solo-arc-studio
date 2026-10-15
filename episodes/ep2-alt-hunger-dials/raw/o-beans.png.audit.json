@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-12T01:50:13.809Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": 0.0018,
+  "promptSha256": "6ca2cce99710f836baef37faf7e9ed70299a841da0b679f11d42a2bfe3239da9",
+  "references": [
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    },
+    {
+      "name": "o-apple.png",
+      "sha256": "5445978d3df23d9d9f27d89c5d087427175e1c7547327aa9a06f5cd9733cf420"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-beans.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep2-hunger/raw/o-beans.png",
+  "imageBytes": 1985297,
+  "imageSha256": "1b9bc3cdc02db9ad5cc8ae12844722aa9a8557c351b733294e826b4ee751503d",
+  "finishedAt": "2026-10-12T01:51:28.503Z",
+  "billedUnits": 900,
+  "billingSource": "token usage counter delta (500000 units = 1 USD); concurrent requests would blur this",
+  "promptFile": "episodes/ep2-hunger/prompts/o-beans.txt",
+  "size": "1024x1024"
+}

@@ -1,0 +1,32 @@
+{
+  "label": "master-ep2",
+  "duration_seconds": 308.09,
+  "sample_rate": 48000,
+  "sfx_events": 91,
+  "music": false,
+  "pass1": {
+    "input_i": "-18.00",
+    "input_tp": "-1.54",
+    "input_lra": "3.40",
+    "input_thresh": "-28.60",
+    "output_i": "-13.91",
+    "output_tp": "-1.50",
+    "output_lra": "3.20",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.09"
+  },
+  "pass2": {
+    "input_i": "-18.00",
+    "input_tp": "-1.54",
+    "input_lra": "3.40",
+    "input_thresh": "-28.60",
+    "output_i": "-13.99",
+    "output_tp": "-1.50",
+    "output_lra": "3.20",
+    "output_thresh": "-24.57",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "limits": "Technical mix and loudness measurement only; no claim of listening or artistic approval."
+}

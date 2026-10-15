@@ -1,0 +1,3897 @@
+[
+  {
+    "text": "You're",
+    "start": 0,
+    "end": 0.08
+  },
+  {
+    "text": "eating",
+    "start": 0.126,
+    "end": 0.4
+  },
+  {
+    "text": "a",
+    "start": 0.44,
+    "end": 0.48
+  },
+  {
+    "text": "little",
+    "start": 0.514,
+    "end": 0.72
+  },
+  {
+    "text": "less.",
+    "start": 0.8,
+    "end": 1.2
+  },
+  {
+    "text": "You're",
+    "start": 1.3,
+    "end": 1.68
+  },
+  {
+    "text": "doing",
+    "start": 1.733,
+    "end": 2
+  },
+  {
+    "text": "everything",
+    "start": 2.051,
+    "end": 2.56
+  },
+  {
+    "text": "right.",
+    "start": 2.613,
+    "end": 2.96
+  },
+  {
+    "text": "And",
+    "start": 3.06,
+    "end": 3.36
+  },
+  {
+    "text": "by",
+    "start": 3.44,
+    "end": 3.6
+  },
+  {
+    "text": "evening…",
+    "start": 3.66,
+    "end": 4.64
+  },
+  {
+    "text": "all",
+    "start": 4.7,
+    "end": 4.88
+  },
+  {
+    "text": "you",
+    "start": 4.92,
+    "end": 5.04
+  },
+  {
+    "text": "can",
+    "start": 5.08,
+    "end": 5.2
+  },
+  {
+    "text": "think",
+    "start": 5.24,
+    "end": 5.44
+  },
+  {
+    "text": "about",
+    "start": 5.493,
+    "end": 5.76
+  },
+  {
+    "text": "is",
+    "start": 5.867,
+    "end": 6.08
+  },
+  {
+    "text": "food.",
+    "start": 6.176,
+    "end": 6.72
+  },
+  {
+    "text": "That's",
+    "start": 6.88,
+    "end": 7.521
+  },
+  {
+    "text": "not",
+    "start": 7.58,
+    "end": 7.76
+  },
+  {
+    "text": "weakness.",
+    "start": 7.831,
+    "end": 8.68
+  },
+  {
+    "text": "It's",
+    "start": 8.773,
+    "end": 9.04
+  },
+  {
+    "text": "not",
+    "start": 9.08,
+    "end": 9.2
+  },
+  {
+    "text": "a",
+    "start": 9.24,
+    "end": 9.28
+  },
+  {
+    "text": "lack",
+    "start": 9.328,
+    "end": 9.52
+  },
+  {
+    "text": "of",
+    "start": 9.573,
+    "end": 9.68
+  },
+  {
+    "text": "discipline.",
+    "start": 9.738,
+    "end": 10.4
+  },
+  {
+    "text": "It's",
+    "start": 10.587,
+    "end": 11.04
+  },
+  {
+    "text": "your",
+    "start": 11.072,
+    "end": 11.2
+  },
+  {
+    "text": "body",
+    "start": 11.264,
+    "end": 11.52
+  },
+  {
+    "text": "doing",
+    "start": 11.573,
+    "end": 11.84
+  },
+  {
+    "text": "exactly",
+    "start": 11.94,
+    "end": 12.64
+  },
+  {
+    "text": "what",
+    "start": 12.672,
+    "end": 12.8
+  },
+  {
+    "text": "it",
+    "start": 12.827,
+    "end": 12.88
+  },
+  {
+    "text": "was",
+    "start": 12.92,
+    "end": 13.04
+  },
+  {
+    "text": "built",
+    "start": 13.107,
+    "end": 13.44
+  },
+  {
+    "text": "to",
+    "start": 13.52,
+    "end": 13.68
+  },
+  {
+    "text": "do.",
+    "start": 13.787,
+    "end": 14.24
+  },
+  {
+    "text": "When",
+    "start": 14.352,
+    "end": 14.8
+  },
+  {
+    "text": "you",
+    "start": 14.82,
+    "end": 14.88
+  },
+  {
+    "text": "eat",
+    "start": 14.96,
+    "end": 15.2
+  },
+  {
+    "text": "less,",
+    "start": 15.28,
+    "end": 15.84
+  },
+  {
+    "text": "it",
+    "start": 15.893,
+    "end": 16
+  },
+  {
+    "text": "turns",
+    "start": 16.067,
+    "end": 16.4
+  },
+  {
+    "text": "up",
+    "start": 16.48,
+    "end": 16.64
+  },
+  {
+    "text": "the",
+    "start": 16.66,
+    "end": 16.72
+  },
+  {
+    "text": "hunger",
+    "start": 16.766,
+    "end": 17.04
+  },
+  {
+    "text": "alarm.",
+    "start": 17.12,
+    "end": 17.68
+  },
+  {
+    "text": "The",
+    "start": 17.78,
+    "end": 18.08
+  },
+  {
+    "text": "good",
+    "start": 18.112,
+    "end": 18.24
+  },
+  {
+    "text": "news?",
+    "start": 18.32,
+    "end": 18.72
+  },
+  {
+    "text": "That",
+    "start": 18.848,
+    "end": 19.36
+  },
+  {
+    "text": "alarm",
+    "start": 19.44,
+    "end": 19.84
+  },
+  {
+    "text": "has",
+    "start": 19.94,
+    "end": 20.24
+  },
+  {
+    "text": "dials.",
+    "start": 20.32,
+    "end": 21.12
+  },
+  {
+    "text": "Four",
+    "start": 21.216,
+    "end": 21.6
+  },
+  {
+    "text": "of",
+    "start": 21.627,
+    "end": 21.68
+  },
+  {
+    "text": "them.",
+    "start": 21.744,
+    "end": 22.08
+  },
+  {
+    "text": "Today,",
+    "start": 22.227,
+    "end": 23.28
+  },
+  {
+    "text": "I'll",
+    "start": 23.32,
+    "end": 23.44
+  },
+  {
+    "text": "show",
+    "start": 23.488,
+    "end": 23.68
+  },
+  {
+    "text": "you",
+    "start": 23.7,
+    "end": 23.76
+  },
+  {
+    "text": "how",
+    "start": 23.8,
+    "end": 23.92
+  },
+  {
+    "text": "to",
+    "start": 23.947,
+    "end": 24
+  },
+  {
+    "text": "turn",
+    "start": 24.064,
+    "end": 24.32
+  },
+  {
+    "text": "each",
+    "start": 24.384,
+    "end": 24.64
+  },
+  {
+    "text": "one",
+    "start": 24.7,
+    "end": 24.88
+  },
+  {
+    "text": "down.",
+    "start": 24.976,
+    "end": 25.6
+  },
+  {
+    "text": "And",
+    "start": 25.68,
+    "end": 25.92
+  },
+  {
+    "text": "at",
+    "start": 25.973,
+    "end": 26.08
+  },
+  {
+    "text": "the",
+    "start": 26.12,
+    "end": 26.24
+  },
+  {
+    "text": "end,",
+    "start": 26.32,
+    "end": 26.88
+  },
+  {
+    "text": "you'll",
+    "start": 26.9,
+    "end": 27.04
+  },
+  {
+    "text": "get",
+    "start": 27.08,
+    "end": 27.2
+  },
+  {
+    "text": "one",
+    "start": 27.3,
+    "end": 27.6
+  },
+  {
+    "text": "full",
+    "start": 27.68,
+    "end": 28
+  },
+  {
+    "text": "day",
+    "start": 28.06,
+    "end": 28.24
+  },
+  {
+    "text": "of",
+    "start": 28.267,
+    "end": 28.32
+  },
+  {
+    "text": "eating",
+    "start": 28.389,
+    "end": 28.8
+  },
+  {
+    "text": "you",
+    "start": 28.88,
+    "end": 29.12
+  },
+  {
+    "text": "can",
+    "start": 29.18,
+    "end": 29.36
+  },
+  {
+    "text": "copy",
+    "start": 29.424,
+    "end": 29.68
+  },
+  {
+    "text": "tomorrow.",
+    "start": 29.733,
+    "end": 30.48
+  },
+  {
+    "text": "Let's",
+    "start": 30.58,
+    "end": 30.96
+  },
+  {
+    "text": "get",
+    "start": 31,
+    "end": 31.12
+  },
+  {
+    "text": "started.",
+    "start": 31.18,
+    "end": 31.72
+  },
+  {
+    "text": "First,",
+    "start": 32.013,
+    "end": 33.28
+  },
+  {
+    "text": "why",
+    "start": 33.32,
+    "end": 33.44
+  },
+  {
+    "text": "is",
+    "start": 33.52,
+    "end": 33.68
+  },
+  {
+    "text": "it",
+    "start": 33.707,
+    "end": 33.76
+  },
+  {
+    "text": "so",
+    "start": 33.867,
+    "end": 34.08
+  },
+  {
+    "text": "loud?",
+    "start": 34.176,
+    "end": 34.8
+  },
+  {
+    "text": "In",
+    "start": 34.987,
+    "end": 35.36
+  },
+  {
+    "text": "one",
+    "start": 35.42,
+    "end": 35.6
+  },
+  {
+    "text": "famous",
+    "start": 35.657,
+    "end": 36
+  },
+  {
+    "text": "study,",
+    "start": 36.067,
+    "end": 36.72
+  },
+  {
+    "text": "fifty",
+    "start": 36.787,
+    "end": 37.12
+  },
+  {
+    "text": "adults",
+    "start": 37.177,
+    "end": 37.52
+  },
+  {
+    "text": "lost",
+    "start": 37.6,
+    "end": 37.92
+  },
+  {
+    "text": "about",
+    "start": 37.973,
+    "end": 38.24
+  },
+  {
+    "text": "thirty",
+    "start": 38.274,
+    "end": 38.48
+  },
+  {
+    "text": "pounds",
+    "start": 38.56,
+    "end": 39.04
+  },
+  {
+    "text": "on",
+    "start": 39.093,
+    "end": 39.2
+  },
+  {
+    "text": "a",
+    "start": 39.28,
+    "end": 39.36
+  },
+  {
+    "text": "very",
+    "start": 39.408,
+    "end": 39.6
+  },
+  {
+    "text": "strict,",
+    "start": 39.68,
+    "end": 40.48
+  },
+  {
+    "text": "ten-week",
+    "start": 40.56,
+    "end": 41.04
+  },
+  {
+    "text": "diet.",
+    "start": 41.136,
+    "end": 42.08
+  },
+  {
+    "text": "A",
+    "start": 42.12,
+    "end": 42.16
+  },
+  {
+    "text": "year",
+    "start": 42.224,
+    "end": 42.48
+  },
+  {
+    "text": "later,",
+    "start": 42.533,
+    "end": 43.12
+  },
+  {
+    "text": "many",
+    "start": 43.168,
+    "end": 43.36
+  },
+  {
+    "text": "of",
+    "start": 43.413,
+    "end": 43.52
+  },
+  {
+    "text": "their",
+    "start": 43.547,
+    "end": 43.68
+  },
+  {
+    "text": "hunger",
+    "start": 43.726,
+    "end": 44
+  },
+  {
+    "text": "signals",
+    "start": 44.07,
+    "end": 44.56
+  },
+  {
+    "text": "still",
+    "start": 44.613,
+    "end": 44.88
+  },
+  {
+    "text": "hadn't",
+    "start": 44.928,
+    "end": 45.2
+  },
+  {
+    "text": "gone",
+    "start": 45.232,
+    "end": 45.36
+  },
+  {
+    "text": "back",
+    "start": 45.408,
+    "end": 45.6
+  },
+  {
+    "text": "to",
+    "start": 45.653,
+    "end": 45.76
+  },
+  {
+    "text": "normal.",
+    "start": 45.817,
+    "end": 46.4
+  },
+  {
+    "text": "Now,",
+    "start": 46.56,
+    "end": 47.36
+  },
+  {
+    "text": "that",
+    "start": 47.392,
+    "end": 47.52
+  },
+  {
+    "text": "diet",
+    "start": 47.584,
+    "end": 47.84
+  },
+  {
+    "text": "was",
+    "start": 47.88,
+    "end": 48
+  },
+  {
+    "text": "extreme.",
+    "start": 48.08,
+    "end": 48.96
+  },
+  {
+    "text": "You",
+    "start": 49.04,
+    "end": 49.28
+  },
+  {
+    "text": "don't",
+    "start": 49.3,
+    "end": 49.44
+  },
+  {
+    "text": "need",
+    "start": 49.472,
+    "end": 49.6
+  },
+  {
+    "text": "to",
+    "start": 49.627,
+    "end": 49.68
+  },
+  {
+    "text": "go",
+    "start": 49.76,
+    "end": 49.92
+  },
+  {
+    "text": "anywhere",
+    "start": 49.964,
+    "end": 50.32
+  },
+  {
+    "text": "near",
+    "start": 50.384,
+    "end": 50.64
+  },
+  {
+    "text": "it.",
+    "start": 50.693,
+    "end": 50.96
+  },
+  {
+    "text": "But",
+    "start": 51.08,
+    "end": 51.44
+  },
+  {
+    "text": "even",
+    "start": 51.488,
+    "end": 51.68
+  },
+  {
+    "text": "a",
+    "start": 51.76,
+    "end": 51.84
+  },
+  {
+    "text": "small",
+    "start": 51.907,
+    "end": 52.24
+  },
+  {
+    "text": "gap",
+    "start": 52.34,
+    "end": 52.64
+  },
+  {
+    "text": "gets",
+    "start": 52.688,
+    "end": 52.88
+  },
+  {
+    "text": "noticed.",
+    "start": 52.95,
+    "end": 53.6
+  },
+  {
+    "text": "So",
+    "start": 53.733,
+    "end": 54
+  },
+  {
+    "text": "you",
+    "start": 54.04,
+    "end": 54.16
+  },
+  {
+    "text": "can't",
+    "start": 54.22,
+    "end": 54.48
+  },
+  {
+    "text": "switch",
+    "start": 54.526,
+    "end": 54.8
+  },
+  {
+    "text": "hunger",
+    "start": 54.846,
+    "end": 55.12
+  },
+  {
+    "text": "off.",
+    "start": 55.22,
+    "end": 55.6
+  },
+  {
+    "text": "You",
+    "start": 55.7,
+    "end": 56
+  },
+  {
+    "text": "can",
+    "start": 56.04,
+    "end": 56.16
+  },
+  {
+    "text": "only",
+    "start": 56.24,
+    "end": 56.56
+  },
+  {
+    "text": "turn",
+    "start": 56.608,
+    "end": 56.8
+  },
+  {
+    "text": "it",
+    "start": 56.827,
+    "end": 56.88
+  },
+  {
+    "text": "down.",
+    "start": 56.976,
+    "end": 57.48
+  },
+  {
+    "text": "Dial",
+    "start": 57.744,
+    "end": 58.32
+  },
+  {
+    "text": "number",
+    "start": 58.354,
+    "end": 58.56
+  },
+  {
+    "text": "one.",
+    "start": 58.66,
+    "end": 59.04
+  },
+  {
+    "text": "Protein.",
+    "start": 59.16,
+    "end": 60.24
+  },
+  {
+    "text": "In",
+    "start": 60.373,
+    "end": 60.64
+  },
+  {
+    "text": "one",
+    "start": 60.7,
+    "end": 60.88
+  },
+  {
+    "text": "small",
+    "start": 60.933,
+    "end": 61.2
+  },
+  {
+    "text": "study,",
+    "start": 61.253,
+    "end": 61.92
+  },
+  {
+    "text": "nineteen",
+    "start": 61.982,
+    "end": 62.48
+  },
+  {
+    "text": "people",
+    "start": 62.549,
+    "end": 62.96
+  },
+  {
+    "text": "raised",
+    "start": 63.017,
+    "end": 63.36
+  },
+  {
+    "text": "their",
+    "start": 63.387,
+    "end": 63.52
+  },
+  {
+    "text": "protein",
+    "start": 63.59,
+    "end": 64.08
+  },
+  {
+    "text": "from",
+    "start": 64.128,
+    "end": 64.32
+  },
+  {
+    "text": "fifteen",
+    "start": 64.37,
+    "end": 64.72
+  },
+  {
+    "text": "percent",
+    "start": 64.77,
+    "end": 65.12
+  },
+  {
+    "text": "of",
+    "start": 65.147,
+    "end": 65.2
+  },
+  {
+    "text": "their",
+    "start": 65.227,
+    "end": 65.36
+  },
+  {
+    "text": "calories",
+    "start": 65.422,
+    "end": 65.92
+  },
+  {
+    "text": "to",
+    "start": 66.053,
+    "end": 66.32
+  },
+  {
+    "text": "thirty.",
+    "start": 66.377,
+    "end": 67.28
+  },
+  {
+    "text": "They",
+    "start": 67.312,
+    "end": 67.44
+  },
+  {
+    "text": "could",
+    "start": 67.467,
+    "end": 67.6
+  },
+  {
+    "text": "eat",
+    "start": 67.64,
+    "end": 67.76
+  },
+  {
+    "text": "as",
+    "start": 67.813,
+    "end": 67.92
+  },
+  {
+    "text": "much",
+    "start": 67.968,
+    "end": 68.16
+  },
+  {
+    "text": "as",
+    "start": 68.187,
+    "end": 68.24
+  },
+  {
+    "text": "they",
+    "start": 68.272,
+    "end": 68.4
+  },
+  {
+    "text": "wanted.",
+    "start": 68.48,
+    "end": 69.12
+  },
+  {
+    "text": "And",
+    "start": 69.24,
+    "end": 69.6
+  },
+  {
+    "text": "without",
+    "start": 69.64,
+    "end": 69.92
+  },
+  {
+    "text": "trying,",
+    "start": 69.989,
+    "end": 70.72
+  },
+  {
+    "text": "they",
+    "start": 70.752,
+    "end": 70.88
+  },
+  {
+    "text": "ate",
+    "start": 70.92,
+    "end": 71.04
+  },
+  {
+    "text": "about",
+    "start": 71.093,
+    "end": 71.36
+  },
+  {
+    "text": "four",
+    "start": 71.424,
+    "end": 71.68
+  },
+  {
+    "text": "hundred",
+    "start": 71.73,
+    "end": 72.08
+  },
+  {
+    "text": "and",
+    "start": 72.14,
+    "end": 72.32
+  },
+  {
+    "text": "forty",
+    "start": 72.36,
+    "end": 72.56
+  },
+  {
+    "text": "fewer",
+    "start": 72.64,
+    "end": 73.04
+  },
+  {
+    "text": "calories",
+    "start": 73.102,
+    "end": 73.6
+  },
+  {
+    "text": "a",
+    "start": 73.64,
+    "end": 73.68
+  },
+  {
+    "text": "day.",
+    "start": 73.76,
+    "end": 74.24
+  },
+  {
+    "text": "After",
+    "start": 74.36,
+    "end": 74.96
+  },
+  {
+    "text": "twelve",
+    "start": 75.006,
+    "end": 75.28
+  },
+  {
+    "text": "weeks,",
+    "start": 75.347,
+    "end": 76
+  },
+  {
+    "text": "they",
+    "start": 76.032,
+    "end": 76.16
+  },
+  {
+    "text": "were",
+    "start": 76.176,
+    "end": 76.24
+  },
+  {
+    "text": "almost",
+    "start": 76.309,
+    "end": 76.72
+  },
+  {
+    "text": "eleven",
+    "start": 76.789,
+    "end": 77.2
+  },
+  {
+    "text": "pounds",
+    "start": 77.28,
+    "end": 77.76
+  },
+  {
+    "text": "lighter.",
+    "start": 77.81,
+    "end": 78.32
+  },
+  {
+    "text": "So",
+    "start": 78.48,
+    "end": 78.8
+  },
+  {
+    "text": "plan",
+    "start": 78.88,
+    "end": 79.2
+  },
+  {
+    "text": "your",
+    "start": 79.232,
+    "end": 79.36
+  },
+  {
+    "text": "protein",
+    "start": 79.42,
+    "end": 79.84
+  },
+  {
+    "text": "first.",
+    "start": 79.933,
+    "end": 80.48
+  },
+  {
+    "text": "Eggs.",
+    "start": 80.672,
+    "end": 81.6
+  },
+  {
+    "text": "Greek",
+    "start": 81.68,
+    "end": 82.08
+  },
+  {
+    "text": "yogurt.",
+    "start": 82.137,
+    "end": 82.64
+  },
+  {
+    "text": "Chicken.",
+    "start": 82.72,
+    "end": 83.36
+  },
+  {
+    "text": "A",
+    "start": 83.56,
+    "end": 83.76
+  },
+  {
+    "text": "palm-sized",
+    "start": 83.84,
+    "end": 84.56
+  },
+  {
+    "text": "portion",
+    "start": 84.62,
+    "end": 85.04
+  },
+  {
+    "text": "at",
+    "start": 85.093,
+    "end": 85.2
+  },
+  {
+    "text": "every",
+    "start": 85.267,
+    "end": 85.6
+  },
+  {
+    "text": "meal.",
+    "start": 85.696,
+    "end": 86.32
+  },
+  {
+    "text": "And",
+    "start": 86.38,
+    "end": 86.56
+  },
+  {
+    "text": "start",
+    "start": 86.627,
+    "end": 86.96
+  },
+  {
+    "text": "with",
+    "start": 86.992,
+    "end": 87.12
+  },
+  {
+    "text": "breakfast.",
+    "start": 87.176,
+    "end": 87.76
+  },
+  {
+    "text": "Dial",
+    "start": 87.984,
+    "end": 88.88
+  },
+  {
+    "text": "number",
+    "start": 88.914,
+    "end": 89.12
+  },
+  {
+    "text": "two.",
+    "start": 89.22,
+    "end": 89.6
+  },
+  {
+    "text": "Volume.",
+    "start": 89.737,
+    "end": 90.64
+  },
+  {
+    "text": "Your",
+    "start": 90.784,
+    "end": 91.36
+  },
+  {
+    "text": "stomach",
+    "start": 91.41,
+    "end": 91.76
+  },
+  {
+    "text": "doesn't",
+    "start": 91.8,
+    "end": 92.08
+  },
+  {
+    "text": "count",
+    "start": 92.12,
+    "end": 92.32
+  },
+  {
+    "text": "calories.",
+    "start": 92.391,
+    "end": 93.04
+  },
+  {
+    "text": "It",
+    "start": 93.2,
+    "end": 93.52
+  },
+  {
+    "text": "reacts",
+    "start": 93.589,
+    "end": 94
+  },
+  {
+    "text": "to",
+    "start": 94.053,
+    "end": 94.16
+  },
+  {
+    "text": "how",
+    "start": 94.2,
+    "end": 94.32
+  },
+  {
+    "text": "much",
+    "start": 94.352,
+    "end": 94.48
+  },
+  {
+    "text": "food",
+    "start": 94.544,
+    "end": 94.8
+  },
+  {
+    "text": "is",
+    "start": 94.853,
+    "end": 94.96
+  },
+  {
+    "text": "in",
+    "start": 94.987,
+    "end": 95.04
+  },
+  {
+    "text": "it.",
+    "start": 95.12,
+    "end": 95.44
+  },
+  {
+    "text": "In",
+    "start": 95.627,
+    "end": 96
+  },
+  {
+    "text": "one",
+    "start": 96.04,
+    "end": 96.16
+  },
+  {
+    "text": "lab",
+    "start": 96.24,
+    "end": 96.48
+  },
+  {
+    "text": "study,",
+    "start": 96.547,
+    "end": 97.2
+  },
+  {
+    "text": "fifty-eight",
+    "start": 97.267,
+    "end": 97.76
+  },
+  {
+    "text": "adults",
+    "start": 97.829,
+    "end": 98.24
+  },
+  {
+    "text": "had",
+    "start": 98.28,
+    "end": 98.4
+  },
+  {
+    "text": "a",
+    "start": 98.44,
+    "end": 98.48
+  },
+  {
+    "text": "whole",
+    "start": 98.533,
+    "end": 98.8
+  },
+  {
+    "text": "apple,",
+    "start": 98.867,
+    "end": 99.68
+  },
+  {
+    "text": "applesauce,",
+    "start": 99.737,
+    "end": 100.72
+  },
+  {
+    "text": "or",
+    "start": 100.773,
+    "end": 100.88
+  },
+  {
+    "text": "apple",
+    "start": 100.933,
+    "end": 101.2
+  },
+  {
+    "text": "juice",
+    "start": 101.24,
+    "end": 101.44
+  },
+  {
+    "text": "before",
+    "start": 101.486,
+    "end": 101.76
+  },
+  {
+    "text": "lunch.",
+    "start": 101.84,
+    "end": 102.4
+  },
+  {
+    "text": "Same",
+    "start": 102.528,
+    "end": 103.04
+  },
+  {
+    "text": "fruit.",
+    "start": 103.107,
+    "end": 103.52
+  },
+  {
+    "text": "About",
+    "start": 103.613,
+    "end": 104.08
+  },
+  {
+    "text": "the",
+    "start": 104.12,
+    "end": 104.24
+  },
+  {
+    "text": "same",
+    "start": 104.272,
+    "end": 104.4
+  },
+  {
+    "text": "calories.",
+    "start": 104.48,
+    "end": 105.28
+  },
+  {
+    "text": "The",
+    "start": 105.38,
+    "end": 105.68
+  },
+  {
+    "text": "whole",
+    "start": 105.72,
+    "end": 105.92
+  },
+  {
+    "text": "apple",
+    "start": 105.987,
+    "end": 106.32
+  },
+  {
+    "text": "left",
+    "start": 106.384,
+    "end": 106.64
+  },
+  {
+    "text": "them",
+    "start": 106.672,
+    "end": 106.8
+  },
+  {
+    "text": "the",
+    "start": 106.82,
+    "end": 106.88
+  },
+  {
+    "text": "fullest.",
+    "start": 106.95,
+    "end": 107.92
+  },
+  {
+    "text": "And",
+    "start": 107.96,
+    "end": 108.08
+  },
+  {
+    "text": "even",
+    "start": 108.128,
+    "end": 108.32
+  },
+  {
+    "text": "after",
+    "start": 108.373,
+    "end": 108.64
+  },
+  {
+    "text": "counting",
+    "start": 108.676,
+    "end": 108.96
+  },
+  {
+    "text": "the",
+    "start": 109,
+    "end": 109.12
+  },
+  {
+    "text": "apple",
+    "start": 109.16,
+    "end": 109.36
+  },
+  {
+    "text": "itself,",
+    "start": 109.44,
+    "end": 110.32
+  },
+  {
+    "text": "they",
+    "start": 110.352,
+    "end": 110.48
+  },
+  {
+    "text": "ate",
+    "start": 110.52,
+    "end": 110.64
+  },
+  {
+    "text": "about",
+    "start": 110.693,
+    "end": 110.96
+  },
+  {
+    "text": "fifteen",
+    "start": 111.02,
+    "end": 111.44
+  },
+  {
+    "text": "percent",
+    "start": 111.5,
+    "end": 111.92
+  },
+  {
+    "text": "less",
+    "start": 112,
+    "end": 112.32
+  },
+  {
+    "text": "at",
+    "start": 112.373,
+    "end": 112.48
+  },
+  {
+    "text": "lunch.",
+    "start": 112.56,
+    "end": 113.12
+  },
+  {
+    "text": "The",
+    "start": 113.22,
+    "end": 113.52
+  },
+  {
+    "text": "juice?",
+    "start": 113.6,
+    "end": 114.08
+  },
+  {
+    "text": "It",
+    "start": 114.213,
+    "end": 114.48
+  },
+  {
+    "text": "barely",
+    "start": 114.549,
+    "end": 114.96
+  },
+  {
+    "text": "helped.",
+    "start": 115.029,
+    "end": 115.52
+  },
+  {
+    "text": "So",
+    "start": 115.707,
+    "end": 116.08
+  },
+  {
+    "text": "eat",
+    "start": 116.14,
+    "end": 116.32
+  },
+  {
+    "text": "your",
+    "start": 116.352,
+    "end": 116.48
+  },
+  {
+    "text": "food.",
+    "start": 116.56,
+    "end": 116.96
+  },
+  {
+    "text": "Don't",
+    "start": 117.06,
+    "end": 117.44
+  },
+  {
+    "text": "drink",
+    "start": 117.493,
+    "end": 117.76
+  },
+  {
+    "text": "it.",
+    "start": 117.813,
+    "end": 118.08
+  },
+  {
+    "text": "And",
+    "start": 118.2,
+    "end": 118.56
+  },
+  {
+    "text": "open",
+    "start": 118.624,
+    "end": 118.88
+  },
+  {
+    "text": "your",
+    "start": 118.912,
+    "end": 119.04
+  },
+  {
+    "text": "biggest",
+    "start": 119.1,
+    "end": 119.52
+  },
+  {
+    "text": "meals",
+    "start": 119.587,
+    "end": 119.92
+  },
+  {
+    "text": "with",
+    "start": 119.968,
+    "end": 120.16
+  },
+  {
+    "text": "a",
+    "start": 120.2,
+    "end": 120.24
+  },
+  {
+    "text": "big",
+    "start": 120.32,
+    "end": 120.56
+  },
+  {
+    "text": "bowl",
+    "start": 120.608,
+    "end": 120.8
+  },
+  {
+    "text": "of",
+    "start": 120.853,
+    "end": 120.96
+  },
+  {
+    "text": "vegetables,",
+    "start": 121.018,
+    "end": 121.84
+  },
+  {
+    "text": "or",
+    "start": 121.893,
+    "end": 122
+  },
+  {
+    "text": "a",
+    "start": 122.04,
+    "end": 122.08
+  },
+  {
+    "text": "soup.",
+    "start": 122.16,
+    "end": 122.56
+  },
+  {
+    "text": "In",
+    "start": 122.8,
+    "end": 123.28
+  },
+  {
+    "text": "a",
+    "start": 123.32,
+    "end": 123.36
+  },
+  {
+    "text": "year-long",
+    "start": 123.408,
+    "end": 123.92
+  },
+  {
+    "text": "study",
+    "start": 124,
+    "end": 124.4
+  },
+  {
+    "text": "of",
+    "start": 124.453,
+    "end": 124.56
+  },
+  {
+    "text": "ninety-seven",
+    "start": 124.617,
+    "end": 125.28
+  },
+  {
+    "text": "women",
+    "start": 125.333,
+    "end": 125.6
+  },
+  {
+    "text": "with",
+    "start": 125.648,
+    "end": 125.84
+  },
+  {
+    "text": "obesity,",
+    "start": 125.91,
+    "end": 126.56
+  },
+  {
+    "text": "the",
+    "start": 126.66,
+    "end": 126.96
+  },
+  {
+    "text": "group",
+    "start": 127.013,
+    "end": 127.28
+  },
+  {
+    "text": "asked",
+    "start": 127.347,
+    "end": 127.68
+  },
+  {
+    "text": "to",
+    "start": 127.707,
+    "end": 127.76
+  },
+  {
+    "text": "eat",
+    "start": 127.84,
+    "end": 128.08
+  },
+  {
+    "text": "more",
+    "start": 128.144,
+    "end": 128.4
+  },
+  {
+    "text": "of",
+    "start": 128.427,
+    "end": 128.48
+  },
+  {
+    "text": "these",
+    "start": 128.52,
+    "end": 128.72
+  },
+  {
+    "text": "foods",
+    "start": 128.8,
+    "end": 129.2
+  },
+  {
+    "text": "ate",
+    "start": 129.32,
+    "end": 129.68
+  },
+  {
+    "text": "a",
+    "start": 129.72,
+    "end": 129.76
+  },
+  {
+    "text": "bigger",
+    "start": 129.806,
+    "end": 130.08
+  },
+  {
+    "text": "volume,",
+    "start": 130.16,
+    "end": 130.96
+  },
+  {
+    "text": "felt",
+    "start": 131.024,
+    "end": 131.28
+  },
+  {
+    "text": "less",
+    "start": 131.328,
+    "end": 131.52
+  },
+  {
+    "text": "hungry…",
+    "start": 131.589,
+    "end": 132.4
+  },
+  {
+    "text": "and",
+    "start": 132.44,
+    "end": 132.56
+  },
+  {
+    "text": "lost",
+    "start": 132.656,
+    "end": 133.04
+  },
+  {
+    "text": "more",
+    "start": 133.088,
+    "end": 133.28
+  },
+  {
+    "text": "weight.",
+    "start": 133.337,
+    "end": 133.76
+  },
+  {
+    "text": "Dial",
+    "start": 134.016,
+    "end": 134.72
+  },
+  {
+    "text": "number",
+    "start": 134.754,
+    "end": 134.96
+  },
+  {
+    "text": "three.",
+    "start": 135.04,
+    "end": 135.52
+  },
+  {
+    "text": "And",
+    "start": 135.66,
+    "end": 136.08
+  },
+  {
+    "text": "this",
+    "start": 136.112,
+    "end": 136.24
+  },
+  {
+    "text": "one",
+    "start": 136.28,
+    "end": 136.4
+  },
+  {
+    "text": "might",
+    "start": 136.44,
+    "end": 136.64
+  },
+  {
+    "text": "surprise",
+    "start": 136.693,
+    "end": 137.12
+  },
+  {
+    "text": "you.",
+    "start": 137.16,
+    "end": 137.52
+  },
+  {
+    "text": "It",
+    "start": 137.653,
+    "end": 137.92
+  },
+  {
+    "text": "isn't",
+    "start": 137.96,
+    "end": 138.16
+  },
+  {
+    "text": "just",
+    "start": 138.192,
+    "end": 138.32
+  },
+  {
+    "text": "about",
+    "start": 138.36,
+    "end": 138.56
+  },
+  {
+    "text": "carbs",
+    "start": 138.653,
+    "end": 139.12
+  },
+  {
+    "text": "or",
+    "start": 139.147,
+    "end": 139.2
+  },
+  {
+    "text": "fat.",
+    "start": 139.32,
+    "end": 139.76
+  },
+  {
+    "text": "It's",
+    "start": 139.893,
+    "end": 140.24
+  },
+  {
+    "text": "about",
+    "start": 140.28,
+    "end": 140.48
+  },
+  {
+    "text": "how",
+    "start": 140.54,
+    "end": 140.72
+  },
+  {
+    "text": "your",
+    "start": 140.768,
+    "end": 140.96
+  },
+  {
+    "text": "food",
+    "start": 141.008,
+    "end": 141.2
+  },
+  {
+    "text": "is",
+    "start": 141.253,
+    "end": 141.36
+  },
+  {
+    "text": "made.",
+    "start": 141.44,
+    "end": 142
+  },
+  {
+    "text": "In",
+    "start": 142.187,
+    "end": 142.56
+  },
+  {
+    "text": "one",
+    "start": 142.62,
+    "end": 142.8
+  },
+  {
+    "text": "hospital",
+    "start": 142.853,
+    "end": 143.28
+  },
+  {
+    "text": "study,",
+    "start": 143.333,
+    "end": 144
+  },
+  {
+    "text": "twenty",
+    "start": 144.057,
+    "end": 144.4
+  },
+  {
+    "text": "adults",
+    "start": 144.469,
+    "end": 144.88
+  },
+  {
+    "text": "ate",
+    "start": 144.94,
+    "end": 145.12
+  },
+  {
+    "text": "two",
+    "start": 145.18,
+    "end": 145.36
+  },
+  {
+    "text": "different",
+    "start": 145.392,
+    "end": 145.68
+  },
+  {
+    "text": "menus,",
+    "start": 145.773,
+    "end": 146.48
+  },
+  {
+    "text": "two",
+    "start": 146.54,
+    "end": 146.72
+  },
+  {
+    "text": "weeks",
+    "start": 146.773,
+    "end": 147.04
+  },
+  {
+    "text": "each.",
+    "start": 147.12,
+    "end": 147.6
+  },
+  {
+    "text": "The",
+    "start": 147.74,
+    "end": 148.16
+  },
+  {
+    "text": "calories",
+    "start": 148.204,
+    "end": 148.56
+  },
+  {
+    "text": "on",
+    "start": 148.613,
+    "end": 148.72
+  },
+  {
+    "text": "the",
+    "start": 148.74,
+    "end": 148.8
+  },
+  {
+    "text": "plate",
+    "start": 148.84,
+    "end": 149.04
+  },
+  {
+    "text": "matched.",
+    "start": 149.11,
+    "end": 149.92
+  },
+  {
+    "text": "So",
+    "start": 150.027,
+    "end": 150.24
+  },
+  {
+    "text": "did",
+    "start": 150.28,
+    "end": 150.4
+  },
+  {
+    "text": "the",
+    "start": 150.42,
+    "end": 150.48
+  },
+  {
+    "text": "sugar,",
+    "start": 150.56,
+    "end": 151.36
+  },
+  {
+    "text": "fat,",
+    "start": 151.46,
+    "end": 152
+  },
+  {
+    "text": "and",
+    "start": 152.04,
+    "end": 152.16
+  },
+  {
+    "text": "fiber.",
+    "start": 152.253,
+    "end": 152.88
+  },
+  {
+    "text": "But",
+    "start": 153.02,
+    "end": 153.44
+  },
+  {
+    "text": "one",
+    "start": 153.52,
+    "end": 153.76
+  },
+  {
+    "text": "menu",
+    "start": 153.84,
+    "end": 154.16
+  },
+  {
+    "text": "was",
+    "start": 154.22,
+    "end": 154.4
+  },
+  {
+    "text": "mostly",
+    "start": 154.48,
+    "end": 154.96
+  },
+  {
+    "text": "real",
+    "start": 155.04,
+    "end": 155.36
+  },
+  {
+    "text": "food.",
+    "start": 155.472,
+    "end": 156.08
+  },
+  {
+    "text": "The",
+    "start": 156.2,
+    "end": 156.56
+  },
+  {
+    "text": "other",
+    "start": 156.613,
+    "end": 156.88
+  },
+  {
+    "text": "was",
+    "start": 156.92,
+    "end": 157.04
+  },
+  {
+    "text": "mostly",
+    "start": 157.097,
+    "end": 157.44
+  },
+  {
+    "text": "ultra-processed.",
+    "start": 157.507,
+    "end": 158.72
+  },
+  {
+    "text": "On",
+    "start": 158.88,
+    "end": 159.2
+  },
+  {
+    "text": "the",
+    "start": 159.22,
+    "end": 159.28
+  },
+  {
+    "text": "processed",
+    "start": 159.336,
+    "end": 159.84
+  },
+  {
+    "text": "menu,",
+    "start": 159.92,
+    "end": 160.32
+  },
+  {
+    "text": "they",
+    "start": 160.4,
+    "end": 160.72
+  },
+  {
+    "text": "ate",
+    "start": 160.76,
+    "end": 160.88
+  },
+  {
+    "text": "about",
+    "start": 160.933,
+    "end": 161.2
+  },
+  {
+    "text": "five",
+    "start": 161.28,
+    "end": 161.6
+  },
+  {
+    "text": "hundred",
+    "start": 161.64,
+    "end": 161.92
+  },
+  {
+    "text": "more",
+    "start": 161.968,
+    "end": 162.16
+  },
+  {
+    "text": "calories",
+    "start": 162.213,
+    "end": 162.64
+  },
+  {
+    "text": "a",
+    "start": 162.68,
+    "end": 162.72
+  },
+  {
+    "text": "day…",
+    "start": 162.82,
+    "end": 163.6
+  },
+  {
+    "text": "and",
+    "start": 163.62,
+    "end": 163.68
+  },
+  {
+    "text": "gained",
+    "start": 163.726,
+    "end": 164
+  },
+  {
+    "text": "about",
+    "start": 164.053,
+    "end": 164.32
+  },
+  {
+    "text": "two",
+    "start": 164.36,
+    "end": 164.48
+  },
+  {
+    "text": "pounds.",
+    "start": 164.571,
+    "end": 165.28
+  },
+  {
+    "text": "On",
+    "start": 165.467,
+    "end": 165.84
+  },
+  {
+    "text": "real",
+    "start": 165.904,
+    "end": 166.16
+  },
+  {
+    "text": "food,",
+    "start": 166.24,
+    "end": 166.96
+  },
+  {
+    "text": "they",
+    "start": 166.976,
+    "end": 167.04
+  },
+  {
+    "text": "lost",
+    "start": 167.12,
+    "end": 167.44
+  },
+  {
+    "text": "about",
+    "start": 167.48,
+    "end": 167.68
+  },
+  {
+    "text": "two",
+    "start": 167.74,
+    "end": 167.92
+  },
+  {
+    "text": "pounds.",
+    "start": 167.989,
+    "end": 168.48
+  },
+  {
+    "text": "They",
+    "start": 168.576,
+    "end": 168.96
+  },
+  {
+    "text": "also",
+    "start": 169.024,
+    "end": 169.28
+  },
+  {
+    "text": "ate",
+    "start": 169.32,
+    "end": 169.44
+  },
+  {
+    "text": "faster.",
+    "start": 169.52,
+    "end": 170.08
+  },
+  {
+    "text": "So",
+    "start": 170.267,
+    "end": 170.64
+  },
+  {
+    "text": "build",
+    "start": 170.693,
+    "end": 170.96
+  },
+  {
+    "text": "most",
+    "start": 171.008,
+    "end": 171.2
+  },
+  {
+    "text": "of",
+    "start": 171.253,
+    "end": 171.36
+  },
+  {
+    "text": "your",
+    "start": 171.376,
+    "end": 171.44
+  },
+  {
+    "text": "meals",
+    "start": 171.507,
+    "end": 171.84
+  },
+  {
+    "text": "from",
+    "start": 171.872,
+    "end": 172
+  },
+  {
+    "text": "food",
+    "start": 172.064,
+    "end": 172.32
+  },
+  {
+    "text": "that",
+    "start": 172.352,
+    "end": 172.48
+  },
+  {
+    "text": "still",
+    "start": 172.533,
+    "end": 172.8
+  },
+  {
+    "text": "looks",
+    "start": 172.853,
+    "end": 173.12
+  },
+  {
+    "text": "like",
+    "start": 173.152,
+    "end": 173.28
+  },
+  {
+    "text": "where",
+    "start": 173.307,
+    "end": 173.44
+  },
+  {
+    "text": "it",
+    "start": 173.467,
+    "end": 173.52
+  },
+  {
+    "text": "came",
+    "start": 173.584,
+    "end": 173.84
+  },
+  {
+    "text": "from.",
+    "start": 173.904,
+    "end": 174.24
+  },
+  {
+    "text": "Potatoes.",
+    "start": 174.4,
+    "end": 175.44
+  },
+  {
+    "text": "Rice.",
+    "start": 175.6,
+    "end": 176.32
+  },
+  {
+    "text": "Eggs.",
+    "start": 176.496,
+    "end": 177.28
+  },
+  {
+    "text": "Meat.",
+    "start": 177.424,
+    "end": 178.16
+  },
+  {
+    "text": "Fruit.",
+    "start": 178.28,
+    "end": 178.96
+  },
+  {
+    "text": "Oats.",
+    "start": 179.2,
+    "end": 179.92
+  },
+  {
+    "text": "In",
+    "start": 180.133,
+    "end": 180.56
+  },
+  {
+    "text": "a",
+    "start": 180.6,
+    "end": 180.64
+  },
+  {
+    "text": "classic",
+    "start": 180.7,
+    "end": 181.12
+  },
+  {
+    "text": "test",
+    "start": 181.184,
+    "end": 181.44
+  },
+  {
+    "text": "of",
+    "start": 181.467,
+    "end": 181.52
+  },
+  {
+    "text": "thirty-eight",
+    "start": 181.566,
+    "end": 182
+  },
+  {
+    "text": "foods,",
+    "start": 182.093,
+    "end": 182.88
+  },
+  {
+    "text": "each",
+    "start": 182.928,
+    "end": 183.12
+  },
+  {
+    "text": "with",
+    "start": 183.136,
+    "end": 183.2
+  },
+  {
+    "text": "the",
+    "start": 183.24,
+    "end": 183.36
+  },
+  {
+    "text": "same",
+    "start": 183.408,
+    "end": 183.6
+  },
+  {
+    "text": "calories,",
+    "start": 183.68,
+    "end": 184.72
+  },
+  {
+    "text": "boiled",
+    "start": 184.777,
+    "end": 185.12
+  },
+  {
+    "text": "potatoes",
+    "start": 185.191,
+    "end": 185.76
+  },
+  {
+    "text": "filled",
+    "start": 185.806,
+    "end": 186.08
+  },
+  {
+    "text": "people",
+    "start": 186.126,
+    "end": 186.4
+  },
+  {
+    "text": "up",
+    "start": 186.453,
+    "end": 186.56
+  },
+  {
+    "text": "the",
+    "start": 186.58,
+    "end": 186.64
+  },
+  {
+    "text": "most.",
+    "start": 186.736,
+    "end": 187.28
+  },
+  {
+    "text": "A",
+    "start": 187.48,
+    "end": 187.68
+  },
+  {
+    "text": "croissant,",
+    "start": 187.72,
+    "end": 188.32
+  },
+  {
+    "text": "the",
+    "start": 188.38,
+    "end": 188.56
+  },
+  {
+    "text": "least.",
+    "start": 188.64,
+    "end": 189.12
+  },
+  {
+    "text": "And",
+    "start": 189.3,
+    "end": 189.84
+  },
+  {
+    "text": "in",
+    "start": 189.867,
+    "end": 189.92
+  },
+  {
+    "text": "a",
+    "start": 189.96,
+    "end": 190
+  },
+  {
+    "text": "review",
+    "start": 190.046,
+    "end": 190.32
+  },
+  {
+    "text": "of",
+    "start": 190.373,
+    "end": 190.48
+  },
+  {
+    "text": "experiments,",
+    "start": 190.54,
+    "end": 191.6
+  },
+  {
+    "text": "people",
+    "start": 191.646,
+    "end": 191.92
+  },
+  {
+    "text": "who",
+    "start": 191.98,
+    "end": 192.16
+  },
+  {
+    "text": "ate",
+    "start": 192.22,
+    "end": 192.4
+  },
+  {
+    "text": "while",
+    "start": 192.44,
+    "end": 192.64
+  },
+  {
+    "text": "distracted",
+    "start": 192.705,
+    "end": 193.36
+  },
+  {
+    "text": "ate",
+    "start": 193.44,
+    "end": 193.68
+  },
+  {
+    "text": "more",
+    "start": 193.728,
+    "end": 193.92
+  },
+  {
+    "text": "later.",
+    "start": 194,
+    "end": 194.72
+  },
+  {
+    "text": "So",
+    "start": 194.827,
+    "end": 195.04
+  },
+  {
+    "text": "put",
+    "start": 195.1,
+    "end": 195.28
+  },
+  {
+    "text": "the",
+    "start": 195.3,
+    "end": 195.36
+  },
+  {
+    "text": "phone",
+    "start": 195.427,
+    "end": 195.76
+  },
+  {
+    "text": "down.",
+    "start": 195.84,
+    "end": 196.24
+  },
+  {
+    "text": "Dial",
+    "start": 196.512,
+    "end": 197.28
+  },
+  {
+    "text": "number",
+    "start": 197.314,
+    "end": 197.52
+  },
+  {
+    "text": "four.",
+    "start": 197.616,
+    "end": 198.32
+  },
+  {
+    "text": "Your",
+    "start": 198.384,
+    "end": 198.64
+  },
+  {
+    "text": "evening.",
+    "start": 198.72,
+    "end": 199.44
+  },
+  {
+    "text": "In",
+    "start": 199.653,
+    "end": 200.08
+  },
+  {
+    "text": "one",
+    "start": 200.14,
+    "end": 200.32
+  },
+  {
+    "text": "study,",
+    "start": 200.387,
+    "end": 201.12
+  },
+  {
+    "text": "twelve",
+    "start": 201.177,
+    "end": 201.52
+  },
+  {
+    "text": "young",
+    "start": 201.573,
+    "end": 201.84
+  },
+  {
+    "text": "men",
+    "start": 201.92,
+    "end": 202.16
+  },
+  {
+    "text": "slept",
+    "start": 202.24,
+    "end": 202.64
+  },
+  {
+    "text": "less",
+    "start": 202.704,
+    "end": 202.96
+  },
+  {
+    "text": "for",
+    "start": 203,
+    "end": 203.12
+  },
+  {
+    "text": "just",
+    "start": 203.168,
+    "end": 203.36
+  },
+  {
+    "text": "two",
+    "start": 203.44,
+    "end": 203.68
+  },
+  {
+    "text": "nights.",
+    "start": 203.76,
+    "end": 204.4
+  },
+  {
+    "text": "They",
+    "start": 204.48,
+    "end": 204.8
+  },
+  {
+    "text": "rated",
+    "start": 204.867,
+    "end": 205.2
+  },
+  {
+    "text": "their",
+    "start": 205.213,
+    "end": 205.28
+  },
+  {
+    "text": "hunger",
+    "start": 205.337,
+    "end": 205.68
+  },
+  {
+    "text": "almost",
+    "start": 205.737,
+    "end": 206.08
+  },
+  {
+    "text": "a",
+    "start": 206.16,
+    "end": 206.24
+  },
+  {
+    "text": "quarter",
+    "start": 206.28,
+    "end": 206.56
+  },
+  {
+    "text": "higher…",
+    "start": 206.64,
+    "end": 207.52
+  },
+  {
+    "text": "and",
+    "start": 207.54,
+    "end": 207.6
+  },
+  {
+    "text": "wanted",
+    "start": 207.657,
+    "end": 208
+  },
+  {
+    "text": "calorie-dense,",
+    "start": 208.07,
+    "end": 209.2
+  },
+  {
+    "text": "starchy",
+    "start": 209.253,
+    "end": 209.76
+  },
+  {
+    "text": "food",
+    "start": 209.824,
+    "end": 210.08
+  },
+  {
+    "text": "the",
+    "start": 210.12,
+    "end": 210.24
+  },
+  {
+    "text": "most.",
+    "start": 210.336,
+    "end": 210.88
+  },
+  {
+    "text": "In",
+    "start": 211.067,
+    "end": 211.44
+  },
+  {
+    "text": "another",
+    "start": 211.48,
+    "end": 211.76
+  },
+  {
+    "text": "trial,",
+    "start": 211.84,
+    "end": 212.72
+  },
+  {
+    "text": "eighty",
+    "start": 212.754,
+    "end": 212.96
+  },
+  {
+    "text": "adults",
+    "start": 213.029,
+    "end": 213.44
+  },
+  {
+    "text": "who",
+    "start": 213.46,
+    "end": 213.52
+  },
+  {
+    "text": "slept",
+    "start": 213.587,
+    "end": 213.92
+  },
+  {
+    "text": "too",
+    "start": 214,
+    "end": 214.24
+  },
+  {
+    "text": "little",
+    "start": 214.297,
+    "end": 214.64
+  },
+  {
+    "text": "added",
+    "start": 214.747,
+    "end": 215.28
+  },
+  {
+    "text": "about",
+    "start": 215.32,
+    "end": 215.52
+  },
+  {
+    "text": "an",
+    "start": 215.573,
+    "end": 215.68
+  },
+  {
+    "text": "hour",
+    "start": 215.76,
+    "end": 216.08
+  },
+  {
+    "text": "a",
+    "start": 216.16,
+    "end": 216.24
+  },
+  {
+    "text": "night.",
+    "start": 216.293,
+    "end": 216.64
+  },
+  {
+    "text": "And",
+    "start": 216.8,
+    "end": 217.28
+  },
+  {
+    "text": "within",
+    "start": 217.337,
+    "end": 217.68
+  },
+  {
+    "text": "two",
+    "start": 217.72,
+    "end": 217.84
+  },
+  {
+    "text": "weeks,",
+    "start": 217.907,
+    "end": 218.64
+  },
+  {
+    "text": "they",
+    "start": 218.656,
+    "end": 218.72
+  },
+  {
+    "text": "were",
+    "start": 218.752,
+    "end": 218.88
+  },
+  {
+    "text": "eating",
+    "start": 218.926,
+    "end": 219.2
+  },
+  {
+    "text": "roughly",
+    "start": 219.25,
+    "end": 219.6
+  },
+  {
+    "text": "two",
+    "start": 219.68,
+    "end": 219.92
+  },
+  {
+    "text": "hundred",
+    "start": 219.96,
+    "end": 220.24
+  },
+  {
+    "text": "and",
+    "start": 220.34,
+    "end": 220.64
+  },
+  {
+    "text": "seventy",
+    "start": 220.69,
+    "end": 221.04
+  },
+  {
+    "text": "fewer",
+    "start": 221.12,
+    "end": 221.52
+  },
+  {
+    "text": "calories",
+    "start": 221.582,
+    "end": 222.08
+  },
+  {
+    "text": "a",
+    "start": 222.12,
+    "end": 222.16
+  },
+  {
+    "text": "day.",
+    "start": 222.24,
+    "end": 222.64
+  },
+  {
+    "text": "Now",
+    "start": 222.84,
+    "end": 223.44
+  },
+  {
+    "text": "here's",
+    "start": 223.568,
+    "end": 224.16
+  },
+  {
+    "text": "what",
+    "start": 224.192,
+    "end": 224.32
+  },
+  {
+    "text": "almost",
+    "start": 224.377,
+    "end": 224.72
+  },
+  {
+    "text": "nobody",
+    "start": 224.789,
+    "end": 225.2
+  },
+  {
+    "text": "tells",
+    "start": 225.267,
+    "end": 225.6
+  },
+  {
+    "text": "you.",
+    "start": 225.66,
+    "end": 226.2
+  },
+  {
+    "text": "In",
+    "start": 226.32,
+    "end": 226.56
+  },
+  {
+    "text": "a",
+    "start": 226.64,
+    "end": 226.72
+  },
+  {
+    "text": "lab",
+    "start": 226.76,
+    "end": 226.88
+  },
+  {
+    "text": "study",
+    "start": 226.947,
+    "end": 227.28
+  },
+  {
+    "text": "of",
+    "start": 227.307,
+    "end": 227.36
+  },
+  {
+    "text": "twelve",
+    "start": 227.406,
+    "end": 227.68
+  },
+  {
+    "text": "adults,",
+    "start": 227.749,
+    "end": 228.56
+  },
+  {
+    "text": "hunger",
+    "start": 228.606,
+    "end": 228.88
+  },
+  {
+    "text": "peaked",
+    "start": 228.937,
+    "end": 229.28
+  },
+  {
+    "text": "around",
+    "start": 229.337,
+    "end": 229.68
+  },
+  {
+    "text": "eight",
+    "start": 229.733,
+    "end": 230
+  },
+  {
+    "text": "in",
+    "start": 230.053,
+    "end": 230.16
+  },
+  {
+    "text": "the",
+    "start": 230.18,
+    "end": 230.24
+  },
+  {
+    "text": "evening…",
+    "start": 230.3,
+    "end": 231.28
+  },
+  {
+    "text": "even",
+    "start": 231.328,
+    "end": 231.52
+  },
+  {
+    "text": "though",
+    "start": 231.554,
+    "end": 231.76
+  },
+  {
+    "text": "sleep",
+    "start": 231.84,
+    "end": 232.24
+  },
+  {
+    "text": "and",
+    "start": 232.28,
+    "end": 232.4
+  },
+  {
+    "text": "meals",
+    "start": 232.467,
+    "end": 232.8
+  },
+  {
+    "text": "were",
+    "start": 232.848,
+    "end": 233.04
+  },
+  {
+    "text": "perfectly",
+    "start": 233.088,
+    "end": 233.52
+  },
+  {
+    "text": "regular.",
+    "start": 233.59,
+    "end": 234.24
+  },
+  {
+    "text": "That's",
+    "start": 234.384,
+    "end": 235.04
+  },
+  {
+    "text": "your",
+    "start": 235.072,
+    "end": 235.2
+  },
+  {
+    "text": "body",
+    "start": 235.264,
+    "end": 235.52
+  },
+  {
+    "text": "clock.",
+    "start": 235.6,
+    "end": 236.32
+  },
+  {
+    "text": "So",
+    "start": 236.427,
+    "end": 236.64
+  },
+  {
+    "text": "don't",
+    "start": 236.7,
+    "end": 236.96
+  },
+  {
+    "text": "fight",
+    "start": 237,
+    "end": 237.2
+  },
+  {
+    "text": "it",
+    "start": 237.227,
+    "end": 237.28
+  },
+  {
+    "text": "with",
+    "start": 237.328,
+    "end": 237.52
+  },
+  {
+    "text": "willpower.",
+    "start": 237.568,
+    "end": 238.52
+  },
+  {
+    "text": "Plan",
+    "start": 238.592,
+    "end": 238.88
+  },
+  {
+    "text": "for",
+    "start": 238.94,
+    "end": 239.12
+  },
+  {
+    "text": "it.",
+    "start": 239.173,
+    "end": 239.44
+  },
+  {
+    "text": "Make",
+    "start": 239.568,
+    "end": 240.08
+  },
+  {
+    "text": "dinner",
+    "start": 240.126,
+    "end": 240.4
+  },
+  {
+    "text": "your",
+    "start": 240.432,
+    "end": 240.56
+  },
+  {
+    "text": "biggest",
+    "start": 240.62,
+    "end": 241.04
+  },
+  {
+    "text": "protein",
+    "start": 241.1,
+    "end": 241.52
+  },
+  {
+    "text": "meal.",
+    "start": 241.6,
+    "end": 242
+  },
+  {
+    "text": "Keep",
+    "start": 242.128,
+    "end": 242.64
+  },
+  {
+    "text": "one",
+    "start": 242.72,
+    "end": 242.96
+  },
+  {
+    "text": "planned",
+    "start": 243.02,
+    "end": 243.44
+  },
+  {
+    "text": "snack",
+    "start": 243.533,
+    "end": 244
+  },
+  {
+    "text": "with",
+    "start": 244.016,
+    "end": 244.08
+  },
+  {
+    "text": "some",
+    "start": 244.128,
+    "end": 244.32
+  },
+  {
+    "text": "volume…",
+    "start": 244.4,
+    "end": 245.28
+  },
+  {
+    "text": "like",
+    "start": 245.328,
+    "end": 245.52
+  },
+  {
+    "text": "yogurt",
+    "start": 245.589,
+    "end": 246
+  },
+  {
+    "text": "and",
+    "start": 246.02,
+    "end": 246.08
+  },
+  {
+    "text": "berries.",
+    "start": 246.16,
+    "end": 246.721
+  },
+  {
+    "text": "Then",
+    "start": 246.848,
+    "end": 247.36
+  },
+  {
+    "text": "close",
+    "start": 247.413,
+    "end": 247.68
+  },
+  {
+    "text": "the",
+    "start": 247.7,
+    "end": 247.76
+  },
+  {
+    "text": "kitchen.",
+    "start": 247.82,
+    "end": 248.32
+  },
+  {
+    "text": "One",
+    "start": 248.56,
+    "end": 249.04
+  },
+  {
+    "text": "last",
+    "start": 249.12,
+    "end": 249.44
+  },
+  {
+    "text": "trick.",
+    "start": 249.507,
+    "end": 250.12
+  },
+  {
+    "text": "A",
+    "start": 250.26,
+    "end": 250.4
+  },
+  {
+    "text": "big",
+    "start": 250.5,
+    "end": 250.8
+  },
+  {
+    "text": "glass",
+    "start": 250.867,
+    "end": 251.2
+  },
+  {
+    "text": "of",
+    "start": 251.227,
+    "end": 251.28
+  },
+  {
+    "text": "water",
+    "start": 251.347,
+    "end": 251.68
+  },
+  {
+    "text": "before",
+    "start": 251.737,
+    "end": 252.08
+  },
+  {
+    "text": "your",
+    "start": 252.112,
+    "end": 252.24
+  },
+  {
+    "text": "main",
+    "start": 252.288,
+    "end": 252.48
+  },
+  {
+    "text": "meals.",
+    "start": 252.573,
+    "end": 253.2
+  },
+  {
+    "text": "In",
+    "start": 253.387,
+    "end": 253.76
+  },
+  {
+    "text": "one",
+    "start": 253.82,
+    "end": 254
+  },
+  {
+    "text": "twelve-week",
+    "start": 254.057,
+    "end": 254.72
+  },
+  {
+    "text": "trial",
+    "start": 254.787,
+    "end": 255.12
+  },
+  {
+    "text": "of",
+    "start": 255.173,
+    "end": 255.28
+  },
+  {
+    "text": "eighty-four",
+    "start": 255.314,
+    "end": 255.76
+  },
+  {
+    "text": "adults,",
+    "start": 255.829,
+    "end": 256.72
+  },
+  {
+    "text": "that",
+    "start": 256.768,
+    "end": 256.96
+  },
+  {
+    "text": "group",
+    "start": 257.013,
+    "end": 257.28
+  },
+  {
+    "text": "lost",
+    "start": 257.344,
+    "end": 257.6
+  },
+  {
+    "text": "about",
+    "start": 257.653,
+    "end": 257.92
+  },
+  {
+    "text": "three",
+    "start": 257.973,
+    "end": 258.24
+  },
+  {
+    "text": "pounds",
+    "start": 258.32,
+    "end": 258.8
+  },
+  {
+    "text": "more.",
+    "start": 258.88,
+    "end": 259.36
+  },
+  {
+    "text": "The",
+    "start": 259.48,
+    "end": 259.84
+  },
+  {
+    "text": "authors",
+    "start": 259.89,
+    "end": 260.24
+  },
+  {
+    "text": "called",
+    "start": 260.274,
+    "end": 260.48
+  },
+  {
+    "text": "it",
+    "start": 260.507,
+    "end": 260.56
+  },
+  {
+    "text": "preliminary…",
+    "start": 260.633,
+    "end": 261.76
+  },
+  {
+    "text": "but",
+    "start": 261.78,
+    "end": 261.84
+  },
+  {
+    "text": "it",
+    "start": 261.867,
+    "end": 261.92
+  },
+  {
+    "text": "costs",
+    "start": 261.987,
+    "end": 262.32
+  },
+  {
+    "text": "nothing.",
+    "start": 262.38,
+    "end": 262.88
+  },
+  {
+    "text": "So",
+    "start": 263.2,
+    "end": 263.68
+  },
+  {
+    "text": "here's",
+    "start": 263.728,
+    "end": 264
+  },
+  {
+    "text": "your",
+    "start": 264.032,
+    "end": 264.16
+  },
+  {
+    "text": "day.",
+    "start": 264.24,
+    "end": 264.56
+  },
+  {
+    "text": "Breakfast:",
+    "start": 264.68,
+    "end": 266.16
+  },
+  {
+    "text": "protein",
+    "start": 266.23,
+    "end": 266.72
+  },
+  {
+    "text": "first.",
+    "start": 266.813,
+    "end": 267.36
+  },
+  {
+    "text": "Lunch:",
+    "start": 267.507,
+    "end": 268.32
+  },
+  {
+    "text": "a",
+    "start": 268.52,
+    "end": 268.72
+  },
+  {
+    "text": "big",
+    "start": 268.8,
+    "end": 269.04
+  },
+  {
+    "text": "bowl",
+    "start": 269.088,
+    "end": 269.28
+  },
+  {
+    "text": "of",
+    "start": 269.307,
+    "end": 269.36
+  },
+  {
+    "text": "vegetables",
+    "start": 269.411,
+    "end": 269.92
+  },
+  {
+    "text": "before",
+    "start": 269.977,
+    "end": 270.32
+  },
+  {
+    "text": "anything",
+    "start": 270.373,
+    "end": 270.8
+  },
+  {
+    "text": "else.",
+    "start": 270.88,
+    "end": 271.28
+  },
+  {
+    "text": "Dinner:",
+    "start": 271.394,
+    "end": 272.16
+  },
+  {
+    "text": "real",
+    "start": 272.32,
+    "end": 272.96
+  },
+  {
+    "text": "food,",
+    "start": 273.072,
+    "end": 273.72
+  },
+  {
+    "text": "with",
+    "start": 273.76,
+    "end": 273.92
+  },
+  {
+    "text": "protein,",
+    "start": 274,
+    "end": 274.64
+  },
+  {
+    "text": "and",
+    "start": 274.74,
+    "end": 275.04
+  },
+  {
+    "text": "no",
+    "start": 275.12,
+    "end": 275.28
+  },
+  {
+    "text": "screen.",
+    "start": 275.36,
+    "end": 275.92
+  },
+  {
+    "text": "Evening:",
+    "start": 276.06,
+    "end": 277.52
+  },
+  {
+    "text": "one",
+    "start": 277.58,
+    "end": 277.76
+  },
+  {
+    "text": "planned",
+    "start": 277.82,
+    "end": 278.24
+  },
+  {
+    "text": "snack…",
+    "start": 278.32,
+    "end": 278.8
+  },
+  {
+    "text": "then",
+    "start": 278.896,
+    "end": 279.28
+  },
+  {
+    "text": "a",
+    "start": 279.32,
+    "end": 279.36
+  },
+  {
+    "text": "short",
+    "start": 279.413,
+    "end": 279.68
+  },
+  {
+    "text": "walk.",
+    "start": 279.76,
+    "end": 280.16
+  },
+  {
+    "text": "And",
+    "start": 280.3,
+    "end": 280.72
+  },
+  {
+    "text": "bed,",
+    "start": 280.82,
+    "end": 281.36
+  },
+  {
+    "text": "at",
+    "start": 281.44,
+    "end": 281.6
+  },
+  {
+    "text": "the",
+    "start": 281.62,
+    "end": 281.68
+  },
+  {
+    "text": "same",
+    "start": 281.744,
+    "end": 282
+  },
+  {
+    "text": "time",
+    "start": 282.08,
+    "end": 282.4
+  },
+  {
+    "text": "every",
+    "start": 282.467,
+    "end": 282.8
+  },
+  {
+    "text": "night.",
+    "start": 282.853,
+    "end": 283.2
+  },
+  {
+    "text": "Screenshot",
+    "start": 283.44,
+    "end": 284.24
+  },
+  {
+    "text": "it.",
+    "start": 284.293,
+    "end": 284.48
+  },
+  {
+    "text": "One",
+    "start": 284.74,
+    "end": 285.28
+  },
+  {
+    "text": "honest",
+    "start": 285.337,
+    "end": 285.68
+  },
+  {
+    "text": "warning.",
+    "start": 285.74,
+    "end": 286.48
+  },
+  {
+    "text": "A",
+    "start": 286.64,
+    "end": 286.8
+  },
+  {
+    "text": "little",
+    "start": 286.834,
+    "end": 287.04
+  },
+  {
+    "text": "hunger",
+    "start": 287.109,
+    "end": 287.52
+  },
+  {
+    "text": "is",
+    "start": 287.573,
+    "end": 287.68
+  },
+  {
+    "text": "normal.",
+    "start": 287.749,
+    "end": 288.24
+  },
+  {
+    "text": "Mild",
+    "start": 288.432,
+    "end": 289.2
+  },
+  {
+    "text": "hunger",
+    "start": 289.246,
+    "end": 289.52
+  },
+  {
+    "text": "before",
+    "start": 289.566,
+    "end": 289.84
+  },
+  {
+    "text": "a",
+    "start": 289.88,
+    "end": 289.92
+  },
+  {
+    "text": "meal",
+    "start": 289.984,
+    "end": 290.24
+  },
+  {
+    "text": "is",
+    "start": 290.293,
+    "end": 290.4
+  },
+  {
+    "text": "a",
+    "start": 290.44,
+    "end": 290.48
+  },
+  {
+    "text": "signal,",
+    "start": 290.56,
+    "end": 291.36
+  },
+  {
+    "text": "not",
+    "start": 291.44,
+    "end": 291.68
+  },
+  {
+    "text": "an",
+    "start": 291.733,
+    "end": 291.84
+  },
+  {
+    "text": "emergency.",
+    "start": 291.912,
+    "end": 292.72
+  },
+  {
+    "text": "But",
+    "start": 292.86,
+    "end": 293.28
+  },
+  {
+    "text": "if",
+    "start": 293.307,
+    "end": 293.36
+  },
+  {
+    "text": "you",
+    "start": 293.4,
+    "end": 293.52
+  },
+  {
+    "text": "feel",
+    "start": 293.552,
+    "end": 293.68
+  },
+  {
+    "text": "dizzy",
+    "start": 293.773,
+    "end": 294.24
+  },
+  {
+    "text": "or",
+    "start": 294.32,
+    "end": 294.48
+  },
+  {
+    "text": "weak,",
+    "start": 294.56,
+    "end": 295.28
+  },
+  {
+    "text": "or",
+    "start": 295.307,
+    "end": 295.36
+  },
+  {
+    "text": "you",
+    "start": 295.4,
+    "end": 295.52
+  },
+  {
+    "text": "can't",
+    "start": 295.58,
+    "end": 295.84
+  },
+  {
+    "text": "stop",
+    "start": 295.888,
+    "end": 296.08
+  },
+  {
+    "text": "thinking",
+    "start": 296.124,
+    "end": 296.48
+  },
+  {
+    "text": "about",
+    "start": 296.52,
+    "end": 296.72
+  },
+  {
+    "text": "food,",
+    "start": 296.8,
+    "end": 297.6
+  },
+  {
+    "text": "your",
+    "start": 297.616,
+    "end": 297.68
+  },
+  {
+    "text": "gap",
+    "start": 297.78,
+    "end": 298.08
+  },
+  {
+    "text": "is",
+    "start": 298.16,
+    "end": 298.32
+  },
+  {
+    "text": "too",
+    "start": 298.4,
+    "end": 298.64
+  },
+  {
+    "text": "big.",
+    "start": 298.74,
+    "end": 299.36
+  },
+  {
+    "text": "Eat",
+    "start": 299.44,
+    "end": 299.68
+  },
+  {
+    "text": "a",
+    "start": 299.72,
+    "end": 299.76
+  },
+  {
+    "text": "little",
+    "start": 299.794,
+    "end": 300
+  },
+  {
+    "text": "more.",
+    "start": 300.08,
+    "end": 300.76
+  },
+  {
+    "text": "And",
+    "start": 300.85,
+    "end": 301.12
+  },
+  {
+    "text": "if",
+    "start": 301.147,
+    "end": 301.2
+  },
+  {
+    "text": "you",
+    "start": 301.24,
+    "end": 301.36
+  },
+  {
+    "text": "have",
+    "start": 301.392,
+    "end": 301.52
+  },
+  {
+    "text": "a",
+    "start": 301.56,
+    "end": 301.6
+  },
+  {
+    "text": "medical",
+    "start": 301.65,
+    "end": 302
+  },
+  {
+    "text": "condition,",
+    "start": 302.048,
+    "end": 302.96
+  },
+  {
+    "text": "talk",
+    "start": 303.008,
+    "end": 303.2
+  },
+  {
+    "text": "to",
+    "start": 303.253,
+    "end": 303.36
+  },
+  {
+    "text": "your",
+    "start": 303.376,
+    "end": 303.44
+  },
+  {
+    "text": "doctor",
+    "start": 303.497,
+    "end": 303.84
+  },
+  {
+    "text": "before",
+    "start": 303.886,
+    "end": 304.16
+  },
+  {
+    "text": "you",
+    "start": 304.2,
+    "end": 304.32
+  },
+  {
+    "text": "change",
+    "start": 304.377,
+    "end": 304.72
+  },
+  {
+    "text": "how",
+    "start": 304.76,
+    "end": 304.88
+  },
+  {
+    "text": "you",
+    "start": 304.94,
+    "end": 305.12
+  },
+  {
+    "text": "eat.",
+    "start": 305.18,
+    "end": 305.44
+  },
+  {
+    "text": "Now…",
+    "start": 305.66,
+    "end": 306.76
+  },
+  {
+    "text": "tonight,",
+    "start": 306.815,
+    "end": 307.44
+  },
+  {
+    "text": "do",
+    "start": 307.52,
+    "end": 307.68
+  },
+  {
+    "text": "just",
+    "start": 307.744,
+    "end": 308
+  },
+  {
+    "text": "one",
+    "start": 308.08,
+    "end": 308.32
+  },
+  {
+    "text": "thing.",
+    "start": 308.387,
+    "end": 308.8
+  },
+  {
+    "text": "Decide",
+    "start": 308.949,
+    "end": 309.84
+  },
+  {
+    "text": "tomorrow's",
+    "start": 309.884,
+    "end": 310.32
+  },
+  {
+    "text": "breakfast.",
+    "start": 310.384,
+    "end": 311.04
+  },
+  {
+    "text": "Protein",
+    "start": 311.15,
+    "end": 311.92
+  },
+  {
+    "text": "first.",
+    "start": 312.013,
+    "end": 312.84
+  },
+  {
+    "text": "That's",
+    "start": 312.912,
+    "end": 313.28
+  },
+  {
+    "text": "dial",
+    "start": 313.344,
+    "end": 313.6
+  },
+  {
+    "text": "number",
+    "start": 313.646,
+    "end": 313.92
+  },
+  {
+    "text": "one.",
+    "start": 314.02,
+    "end": 314.56
+  },
+  {
+    "text": "The",
+    "start": 314.62,
+    "end": 314.8
+  },
+  {
+    "text": "rest",
+    "start": 314.88,
+    "end": 315.2
+  },
+  {
+    "text": "can",
+    "start": 315.26,
+    "end": 315.44
+  },
+  {
+    "text": "wait.",
+    "start": 315.52,
+    "end": 315.92
+  }
+]

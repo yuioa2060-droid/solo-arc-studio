@@ -15,6 +15,8 @@
 
 Текущие материалы EP2: [описание с восемью главами, без ссылок на исследования](episodes/ep2-hunger/description.txt), [теги на 500 символов](episodes/ep2-hunger/tags.txt), [два последних варианта превью](episodes/ep2-hunger/thumbnail/deliver/title-match-overview.jpg). Название выбрано владельцем; финальное превью из двух ещё не выбрано. Ни эти поля, ни видео этой передачей в YouTube не публиковались.
 
+Альтернативный черновик EP2, собранный ассистентом (не финал владельца): [`episodes/ep2-alt-hunger-dials/`](episodes/ep2-alt-hunger-dials/README_EP2_RU.md) — другой сценарий и монтаж на ту же тему («Why You're Always Hungry on a Diet (And How to Turn It Down)»), основной MP4 и вариант с музыкой по 5:08. Название и описание не утверждены, публикации не было.
+
 ## Получить медиа и запустить
 
 PNG, шрифты, звук и MP4 хранятся в Git LFS. Нужны Git LFS, Node.js 22.4+ (рекомендуется 24), Python 3.11+, FFmpeg/FFprobe; зависимости Remotion закреплены lockfile.
