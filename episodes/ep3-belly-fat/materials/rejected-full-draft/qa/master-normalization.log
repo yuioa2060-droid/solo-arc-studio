@@ -1,0 +1,75 @@
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+[aist#0:0/pcm_s16le @ 0x6947840] Guessed Channel Layout: stereo
+Input #0, wav, from '/data/rendo-ep3-studio/episodes/ep3-belly/film/public/audio/premix.wav':
+  Duration: 00:07:48.07, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/data/rendo-ep3-studio/episodes/ep3-belly/film/public/audio/master.wav':
+  Metadata:
+    ISFT            : Lavf61.1.100
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+      Metadata:
+        encoder         : Lavc61.3.100 pcm_s24le
+size=    2304KiB time=00:00:08.99 bitrate=2097.2kbits/s speed=  18x    
+size=    5888KiB time=00:00:21.79 bitrate=2212.6kbits/s speed=21.8x    
+size=    9728KiB time=00:00:34.69 bitrate=2296.6kbits/s speed=23.1x    
+size=   13312KiB time=00:00:47.79 bitrate=2281.4kbits/s speed=23.9x    
+size=   16896KiB time=00:01:00.89 bitrate=2272.8kbits/s speed=24.4x    
+size=   20480KiB time=00:01:13.69 bitrate=2276.4kbits/s speed=24.6x    
+size=   24064KiB time=00:01:26.49 bitrate=2279.0kbits/s speed=24.7x    
+size=   27904KiB time=00:01:39.39 bitrate=2299.7kbits/s speed=24.8x    
+size=   31488KiB time=00:01:52.19 bitrate=2299.0kbits/s speed=24.9x    
+size=   34816KiB time=00:02:04.69 bitrate=2287.2kbits/s speed=24.9x    
+size=   38656KiB time=00:02:17.79 bitrate=2298.0kbits/s speed=  25x    
+size=   41984KiB time=00:02:29.99 bitrate=2292.9kbits/s speed=  25x    
+size=   45824KiB time=00:02:43.09 bitrate=2301.6kbits/s speed=25.1x    
+size=   49408KiB time=00:02:55.89 bitrate=2301.0kbits/s speed=25.1x    
+size=   52992KiB time=00:03:08.79 bitrate=2299.3kbits/s speed=25.2x    
+size=   56576KiB time=00:03:21.29 bitrate=2302.4kbits/s speed=25.2x    
+size=   60160KiB time=00:03:34.19 bitrate=2300.8kbits/s speed=25.2x    
+size=   63744KiB time=00:03:47.49 bitrate=2295.3kbits/s speed=25.3x    
+size=   67584KiB time=00:04:00.49 bitrate=2302.1kbits/s speed=25.3x    
+size=   71168KiB time=00:04:13.69 bitrate=2298.0kbits/s speed=25.4x    
+size=   75008KiB time=00:04:26.79 bitrate=2303.1kbits/s speed=25.4x    
+size=   78592KiB time=00:04:39.59 bitrate=2302.7kbits/s speed=25.4x    
+size=   82176KiB time=00:04:52.49 bitrate=2301.5kbits/s speed=25.4x    
+size=   85760KiB time=00:05:05.49 bitrate=2299.7kbits/s speed=25.5x    
+size=   89344KiB time=00:05:18.49 bitrate=2298.0kbits/s speed=25.5x    
+size=   93184KiB time=00:05:31.79 bitrate=2300.7kbits/s speed=25.5x    
+size=   96768KiB time=00:05:44.89 bitrate=2298.4kbits/s speed=25.5x    
+size=  100352KiB time=00:05:57.59 bitrate=2298.9kbits/s speed=25.5x    
+size=  103936KiB time=00:06:09.99 bitrate=2301.2kbits/s speed=25.5x    
+size=  107520KiB time=00:06:22.69 bitrate=2301.6kbits/s speed=25.5x    
+size=  111104KiB time=00:06:35.29 bitrate=2302.5kbits/s speed=25.5x    
+size=  114688KiB time=00:06:48.19 bitrate=2301.6kbits/s speed=25.5x    
+size=  118272KiB time=00:07:01.29 bitrate=2299.8kbits/s speed=25.5x    
+size=  122112KiB time=00:07:14.39 bitrate=2302.8kbits/s speed=25.5x    
+size=  125696KiB time=00:07:27.39 bitrate=2301.5kbits/s speed=25.6x    
+size=  129280KiB time=00:07:40.29 bitrate=2300.8kbits/s speed=25.6x    
+[Parsed_loudnorm_0 @ 0x7f0358002e80] 
+{
+	"input_i" : "-19.78",
+	"input_tp" : "-2.12",
+	"input_lra" : "2.70",
+	"input_thresh" : "-30.55",
+	"output_i" : "-14.01",
+	"output_tp" : "-1.60",
+	"output_lra" : "2.50",
+	"output_thresh" : "-24.75",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.01"
+}
+[out#0/wav @ 0x6949a80] video:0KiB audio:131645KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000076%
+size=  131645KiB time=00:07:48.10 bitrate=2303.9kbits/s speed=25.6x    

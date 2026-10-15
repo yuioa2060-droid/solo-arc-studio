@@ -1,0 +1,338 @@
+[
+  {
+    "name": "h-intro",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-intro.png",
+    "width": 649,
+    "height": 1024,
+    "sha256": "0f10a12e368db03bda6a32e894cc76907ccf67183dc2eed84e405f9ab41ee3bf",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "h-open",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-open.png",
+    "width": 982,
+    "height": 940,
+    "sha256": "901a6afe0798d248daca2477b5e48fad21f3cfee017e8404f30fb2c09b50014c",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "h-tape",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-tape.png",
+    "width": 632,
+    "height": 1022,
+    "sha256": "69145c61ae69aaacc19a159ec415ef8efdffc8a2346916396815e7d56508c436",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "h-think",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-think.png",
+    "width": 584,
+    "height": 1024,
+    "sha256": "d5e1485229bafaa38b9bd033209b7485cf79735e7703ac6cf19b40b7a4369f25",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "o-hourglass-full",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o-hourglass-full.png",
+    "width": 526,
+    "height": 1146,
+    "sha256": "d2c8ab966e5aa55ed956f716392b0e9ad62a7996403a2bbd4369b676fa04c427",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "o2-plate-empty",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o2-plate-empty.png",
+    "width": 1252,
+    "height": 872,
+    "sha256": "ec48f2c1afd16744bf69af7037c608552cf014684aace3b51b6e4936fccc267c",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "o2-plate-potato",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o2-plate-potato.png",
+    "width": 1252,
+    "height": 872,
+    "sha256": "a7b00bfe9a80f6b16c2791648487835caa99ed31d6039da9b85a168c3b511856",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "s-mirror",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/s-mirror.png",
+    "width": 672,
+    "height": 1007,
+    "sha256": "f9aad30f68dc50587814fa0e7c1f2b95e62c19f563530bc22df76bec31f09400",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "x-crunch-high",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/x-crunch-high.png",
+    "width": 1800,
+    "height": 1100,
+    "sha256": "f6f81f1d1aa78792ffe1aeb14175a7859cf6944e576a54c9a30096536966cb2e",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "x-crunch-low",
+    "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/x-crunch-low.png",
+    "width": 1800,
+    "height": 1100,
+    "sha256": "a55476a7e10db031cab0acc25da9cc3beb0ac4de2019af5d950f94af93cc7634",
+    "status": "active-approved-direction"
+  },
+  {
+    "name": "b-w1",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/b-w1.png",
+    "width": 640,
+    "height": 1024,
+    "sha256": "1afef6ddb8db5e798e0fc4fceb6160bbcfc67803af494a22fb101f4f7d8564a7",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-crunch",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-crunch.png",
+    "width": 1536,
+    "height": 772,
+    "sha256": "2ba241a4b24d9f688168720c9e28c6882c66be13058e838154be54e53bb96f33",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-down",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-down.png",
+    "width": 733,
+    "height": 1024,
+    "sha256": "9531f9750c723adbe56f6e5ea359293dcf0ca6b65a14cf9ac96d6f2a07771fa3",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-explain",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-explain.png",
+    "width": 698,
+    "height": 1024,
+    "sha256": "e93fcac7e77642c05bf78ba40a8046f46b4b4700f8b1c3f736e39ab3e2762bac",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-intro",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-intro.png",
+    "width": 649,
+    "height": 1024,
+    "sha256": "0f10a12e368db03bda6a32e894cc76907ccf67183dc2eed84e405f9ab41ee3bf",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-log",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-log.png",
+    "width": 596,
+    "height": 1024,
+    "sha256": "eace86028c0b30aedab16aa5485a46dfc80f544f18eea79f57c8d0980d14fb7f",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-open",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-open.png",
+    "width": 982,
+    "height": 940,
+    "sha256": "901a6afe0798d248daca2477b5e48fad21f3cfee017e8404f30fb2c09b50014c",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-plate",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-plate.png",
+    "width": 722,
+    "height": 1024,
+    "sha256": "f2884e2abdf14cdd122b3faee97c5b40788f298168c84ddf0f2edb35527b0dec",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-profile",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-profile.png",
+    "width": 630,
+    "height": 1024,
+    "sha256": "02d4b88c22ff1feb3501ff732e139fca35c7c05cac7c392ff3aae766ac239b3f",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-tape",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-tape.png",
+    "width": 632,
+    "height": 1022,
+    "sha256": "69145c61ae69aaacc19a159ec415ef8efdffc8a2346916396815e7d56508c436",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-think",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-think.png",
+    "width": 584,
+    "height": 1024,
+    "sha256": "d5e1485229bafaa38b9bd033209b7485cf79735e7703ac6cf19b40b7a4369f25",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "h-you",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-you.png",
+    "width": 637,
+    "height": 1024,
+    "sha256": "a7d8844c8fd4c0632c254523b92257930d3ec5ac8798e3f12da059fbf39a4158",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-dumbbell",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-dumbbell.png",
+    "width": 1183,
+    "height": 805,
+    "sha256": "61f7e94c80e41c92fdabeb08c398c3bfd134bcc7541b2d43f7222cb01f1115df",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-hourglass-full",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-hourglass-full.png",
+    "width": 526,
+    "height": 1146,
+    "sha256": "d2c8ab966e5aa55ed956f716392b0e9ad62a7996403a2bbd4369b676fa04c427",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-plate-empty",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-plate-empty.png",
+    "width": 1001,
+    "height": 1209,
+    "sha256": "84c81d1ac1150c255dc4c04cb19e55c7ca05f1735423d91d953cf68a8b26447b",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-plate",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-plate.png",
+    "width": 1070,
+    "height": 1050,
+    "sha256": "1e0b6843cfe2f6c69569bf822196d451a8685b5ecb39e45aacd391b47483c119",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-protein",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-protein.png",
+    "width": 1228,
+    "height": 956,
+    "sha256": "693778123d31a8ea41cb05f92e12fde2e23db1b5f86edad1bbe9e5b3488af217",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-scale",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-scale.png",
+    "width": 1112,
+    "height": 1023,
+    "sha256": "460220a0b9c56ee1a63254286914adbbf0703f9cfea4c542e783a8bac2f6bfdb",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "o-tape",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-tape.png",
+    "width": 1011,
+    "height": 987,
+    "sha256": "296335efd3b206d73b3d8732313db4969210ff2e19a9a45bda2a782dcfb01ca8",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "p-sleep",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/p-sleep.png",
+    "width": 1521,
+    "height": 1012,
+    "sha256": "b6f5c9c146aff645f3376a89f4cd2f1fa0e07e6e7b66bba1dabad5aad4b7bba1",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "p-walk",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/p-walk.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "1c289feef610a5d1156d53022a895221e1dee5b8289f423c5066ddfc8a95beb0",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "s-meal",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/s-meal.png",
+    "width": 737,
+    "height": 940,
+    "sha256": "44a1c3ffea14d21fdab92ebf65a220d1179c9708e2c11449798c9be2e14b7477",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "s-mirror",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/s-mirror.png",
+    "width": 672,
+    "height": 1007,
+    "sha256": "f9aad30f68dc50587814fa0e7c1f2b95e62c19f563530bc22df76bec31f09400",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-crunch-high",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-crunch-high.png",
+    "width": 1800,
+    "height": 1100,
+    "sha256": "f6f81f1d1aa78792ffe1aeb14175a7859cf6944e576a54c9a30096536966cb2e",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-crunch-low",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-crunch-low.png",
+    "width": 1800,
+    "height": 1100,
+    "sha256": "a55476a7e10db031cab0acc25da9cc3beb0ac4de2019af5d950f94af93cc7634",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-hinge-a",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-a.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5de90c7ca2c3970b4229d79c6b0e8731a24606c0a2281c2ecaa602426c90a336",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-hinge-b",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-b.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "46203f95f674dbf27cade6d0096ae9ca7c1515fea7ce65264b1abeee65b8223d",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-hinge-menu",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-menu.png",
+    "width": 424,
+    "height": 889,
+    "sha256": "e7cb6dbf4e1dd70394f3ead6ed8f1eb4b34984caa9ae10824d6bb5a32f3f6d61",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-push-a",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-push-a.png",
+    "width": 1428,
+    "height": 1020,
+    "sha256": "eba08e1e3fd9c213f80e31e26ac6ea9eed688125a86cff8f5a2beee5715079c4",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-push-b",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-push-b.png",
+    "width": 1536,
+    "height": 886,
+    "sha256": "34358496b305eb2382bcab26e7a5a9e35c890339c8fe633f1a201504a922680c",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-row-a",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-row-a.png",
+    "width": 544,
+    "height": 1024,
+    "sha256": "34cddb9b9aa5295db95a92d47e1ea369523b88d7810a8d63a983140d7a045473",
+    "status": "reusable-art-from-rejected-layout"
+  },
+  {
+    "name": "x-squat-a",
+    "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-squat-a.png",
+    "width": 790,
+    "height": 1015,
+    "sha256": "72758ffd450bd008ed3ae4773607ece0dbceaf732a77b2459872f9ce229ffee0",
+    "status": "reusable-art-from-rejected-layout"
+  }
+]

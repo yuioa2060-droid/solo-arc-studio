@@ -1,0 +1,62 @@
+{
+  "verified_date": "2026-10-15",
+  "base_url": "https://a6.a6api.com/v1",
+  "credential_file": "~/.codex/secrets/a6api.env",
+  "default_model": "nano-banana-2.1",
+  "models": {
+    "gpt-image-2.5": {
+      "alias": "gpt",
+      "channel_id": 4928,
+      "merchant": "sodaro",
+      "api_format": "images",
+      "listed_usd_per_request": null,
+      "strict_pin": false,
+      "automatic_pool": false,
+      "automatic_fallback": false,
+      "route_is_active": false,
+      "routing_mode": "Preserved historical manual pool with inactive channel 4928 only. Failed temporary pins cleared. Server fallback disabled.",
+      "verification": {
+        "status": "unavailable",
+        "test_date": "2026-10-15",
+        "successful_setup_images": 0,
+        "failure": "Tested active merchants failed or timed out; historical 4928 is inactive; standard server routing returned a charged upstream error."
+      },
+      "historical_success": {
+        "date": "2026-10-14",
+        "channel": 4928,
+        "cost_usd": 0.00036,
+        "generation_seconds_in_ledger": 29,
+        "current_availability": "inactive"
+      },
+      "last_server_fallback_test": {
+        "channel": 5656,
+        "cost_usd": 0.003,
+        "status": "upstream_error",
+        "image_received": false
+      }
+    },
+    "nano-banana-2.1": {
+      "alias": "nano",
+      "channel_id": 624,
+      "merchant": "4K生图",
+      "api_format": "chat",
+      "listed_usd_per_request": 0.01044,
+      "success_24h_percent_observed": 98.2,
+      "time_to_first_byte_seconds_observed": 0.8,
+      "strict_pin": true,
+      "automatic_fallback": false,
+      "verification": {
+        "status": "image-generated-and-visually-reviewed",
+        "test_date": "2026-10-14",
+        "response_seconds": 61.94,
+        "total_seconds": 73.7,
+        "actual_cost_usd": 0.01044,
+        "actual_channel": 624,
+        "returned_width": 4096,
+        "returned_height": 4096,
+        "sample_count": 1
+      }
+    }
+  },
+  "notes": "Actual A6API model IDs. Dated observations are not guarantees. Nano is verified; GPT is unavailable as of the setup date. The helper does not retry paid requests. No credentials in this profile."
+}

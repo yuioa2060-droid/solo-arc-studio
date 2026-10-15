@@ -2,6 +2,13 @@ name: Generate A6 image
 on:
   workflow_dispatch:
     inputs:
+      model:
+        description: Exact A6API model (Nano verified; GPT routes require repair/check)
+        type: choice
+        default: nano-banana-2.1
+        options:
+          - nano-banana-2.1
+          - gpt-image-2.5
       prompt_path:
         description: English prompt file inside this repository
         required: true
@@ -45,6 +52,7 @@ jobs:
           PROMPT_PATH: ${{ inputs.prompt_path }}
           REFERENCE_PATH: ${{ inputs.reference_path }}
           SEND_PAID_REQUEST: ${{ inputs.send_paid_request }}
+          IMAGE_MODEL: ${{ inputs.model }}
         run: |
           New-Item -ItemType Directory -Path outputs/images -Force | Out-Null
           $taskSend=$env:SEND_PAID_REQUEST -eq 'true'
@@ -54,9 +62,10 @@ jobs:
           catch {throw 'A6API read-only authentication check failed; transport details suppressed'}
           if(!$taskLedger.success){throw 'A6API read-only authentication check failed'}
           Write-Output 'A6API_KEY authenticated; no paid request made by this check.'
-          & ./scripts/image.ps1 -PromptFile $env:PROMPT_PATH -ReferenceFile $env:REFERENCE_PATH -OutputFile outputs/images/generated.png -Send:$taskSend | Set-Content -LiteralPath outputs/images/request-result.json -Encoding utf8
+          & ./skills/a6-image/scripts/generate.ps1 -Model $env:IMAGE_MODEL -PromptFile $env:PROMPT_PATH -ReferenceFiles $env:REFERENCE_PATH -OutputFile outputs/images/generated.png -Send:$taskSend | Set-Content -LiteralPath outputs/images/request-result.json -Encoding utf8
           if($LASTEXITCODE -ne 0){throw 'Image request failed; inspect sanitized audit and reconcile billing before retry'}
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: a6-image-or-plan
           path: outputs/images/

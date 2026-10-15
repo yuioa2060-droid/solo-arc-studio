@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "sw",
+    "time": 30.25,
+    "gain": 0.045
+  },
+  {
+    "asset": "shutter",
+    "time": 149.8,
+    "gain": 0.11
+  },
+  {
+    "asset": "tech",
+    "time": 252.5,
+    "gain": 0.08
+  },
+  {
+    "asset": "shutter",
+    "time": 273.0,
+    "gain": 0.08
+  },
+  {
+    "asset": "sw",
+    "time": 355.0,
+    "gain": 0.035
+  },
+  {
+    "asset": "swf",
+    "time": 423.7,
+    "gain": 0.025
+  }
+]

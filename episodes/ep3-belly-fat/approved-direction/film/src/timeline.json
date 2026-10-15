@@ -1,0 +1,105 @@
+{
+  "duration": 60.3,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "Opening",
+      "a": 0,
+      "b": 3.48,
+      "duration": 3.48,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Mirror",
+      "a": 3.48,
+      "b": 8.66,
+      "duration": 5.18,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Loop",
+      "a": 8.66,
+      "b": 13.8,
+      "duration": 5.140000000000001,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Fatigue",
+      "a": 13.8,
+      "b": 19.45,
+      "duration": 5.649999999999999,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Scoreboard",
+      "a": 19.45,
+      "b": 24.39,
+      "duration": 4.940000000000001,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "TwoProblems",
+      "a": 24.39,
+      "b": 30.09,
+      "duration": 5.699999999999999,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Promise",
+      "a": 30.09,
+      "b": 37.19,
+      "duration": 7.099999999999998,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Myths",
+      "a": 37.19,
+      "b": 40.246,
+      "duration": 3.0560000000000045,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "ReadSignal",
+      "a": 40.246,
+      "b": 43.28,
+      "duration": 3.033999999999999,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Training",
+      "a": 43.28,
+      "b": 56.363,
+      "duration": 13.082999999999998,
+      "lineTimes": [
+        0.2
+      ]
+    },
+    {
+      "id": "Close",
+      "a": 56.363,
+      "b": 60.3,
+      "duration": 3.9369999999999976,
+      "lineTimes": [
+        0.2
+      ]
+    }
+  ]
+}

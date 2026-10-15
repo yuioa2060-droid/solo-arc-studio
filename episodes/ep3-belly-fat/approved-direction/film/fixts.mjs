@@ -1,0 +1,1 @@
+export const fixTs = (c) => { const walk = (r) => { for (const x of r || []) { if (x.use) for (const u of [].concat(x.use)) if (u && u.loader && String(u.loader).includes('esbuild')) u.options = {...u.options, tsconfigRaw: {}}; if (x.oneOf) walk(x.oneOf); if (x.rules) walk(x.rules);} }; walk(c.module?.rules); return c; };
