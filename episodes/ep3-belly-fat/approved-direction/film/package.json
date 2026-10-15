@@ -1,0 +1,24 @@
+{
+  "name": "rendo-ep3-redo-direction-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --public-dir=public",
+    "render": "node render-redo.mjs",
+    "stills": "node render-redo.mjs --stills",
+    "mix": "python ../build/mix-preview.py",
+    "export": "node export-preview.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.454",
+    "@remotion/cli": "4.0.454",
+    "@remotion/renderer": "4.0.454",
+    "remotion": "4.0.454",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0"
+  }
+}

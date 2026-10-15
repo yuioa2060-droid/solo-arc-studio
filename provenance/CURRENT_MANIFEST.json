@@ -1,18 +1,35 @@
 {
-  "snapshot": "Current Rendo production kit: completed EP1 v11 + EP2, current skills and publishing assets.",
-  "date": "2026-10-14",
-  "hash_format": "Committed Git blob bytes for text/code; full LFS object bytes for media. This manifest excludes itself.",
-  "historical_builds_included": false,
+  "snapshot": "Current Rendo production kit: completed EP1/EP2 plus owner-approved EP3 style sample, complete received sources/dialogue and continuation prompt.",
+  "date": "2026-10-15",
+  "hash_format": "Committed Git blob bytes for text/code; complete LFS object bytes for media. This manifest excludes itself.",
+  "historical_builds_included": true,
+  "historical_scope_exception": "Only the explicitly requested rejected EP3 full draft and its source materials; status-labelled, not a ready final.",
   "completed_episode_scripts_included": true,
-  "unpublished_next_episode_draft_included": false,
+  "unpublished_next_episode_draft_included": true,
   "plaintext_api_keys_included": false,
-  "file_count": 757,
-  "total_bytes": 1019331962,
+  "file_count": 982,
+  "total_bytes": 1853669423,
   "final_movies": [
     "episodes/ep1-v11/solo-arc-ep1-v11.mp4",
     "episodes/ep2-hunger/final/rendo-ep2-hunger-v6.mp4"
   ],
+  "accepted_style_samples": [
+    "episodes/ep3-belly-fat/approved-direction/film/out/redo/Rendo-EP3-New-Direction-60s.mp4"
+  ],
+  "rejected_reference_movies": [
+    "episodes/ep3-belly-fat/reference-only/Rendo-EP3-Why-Your-Belly-Still-Looks-the-Same.mp4"
+  ],
+  "ep3_status": "Accepted 60.3s style; finish full 468.07s narration with red rough strikes and exercise guides. Full new version not built.",
+  "ep3_source_map": "provenance/EP3_INTAKE.json",
+  "ep3_zero_session_prompt": "START_CLAUDE_EP3_RU.md",
+  "new_supplied_original_files_staged_and_hash_verified": 207,
   "files": [
+    {
+      "path": ".claude/skills/a6-image/SKILL.md",
+      "bytes": 645,
+      "sha256": "f25155d6a35b3f98267d405e0b54cc4bb1d14e6b8e4d0049a2ad8a7d8b4f986e",
+      "hash_source": "git_blob"
+    },
     {
       "path": ".claude/skills/motion-graphics/SKILL.md",
       "bytes": 978,
@@ -21,8 +38,8 @@
     },
     {
       "path": ".claude/skills/solo-arc-motion/SKILL.md",
-      "bytes": 1348,
-      "sha256": "7fd38d91a49d078fe42882de9424481f61c1d64d489a83339464484fea533261",
+      "bytes": 1774,
+      "sha256": "ff5b300deed7c8b41f202881d243225cd930b8d9f73efbefb1685a22bc7d9e75",
       "hash_source": "git_blob"
     },
     {
@@ -51,14 +68,14 @@
     },
     {
       "path": ".gitattributes",
-      "bytes": 1096,
-      "sha256": "a85fcaf902b02032d4b523916bd8d7431729074f931b942c7afc20157761d414",
+      "bytes": 1204,
+      "sha256": "0b6956c337fce9b0c4f887c0108dd40dd5498b30c5dc0df405e6f6e209259a48",
       "hash_source": "git_blob"
     },
     {
       "path": ".github/workflows/generate-a6-image.yml",
-      "bytes": 3324,
-      "sha256": "84f980d11df2ebd67ec3554e818cc6b42c7a674604e52f5a146e8cfa183fa880",
+      "bytes": 3658,
+      "sha256": "d668956a307409adac6262f729f8fb3fa8cd3fd0dace8b5a499646949c98d06b",
       "hash_source": "git_blob"
     },
     {
@@ -81,14 +98,14 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5520,
-      "sha256": "cedf57b00911a84a22c00da2a9a9600a97e4b8e6bdbdd0f9f61c1e4a299e1343",
+      "bytes": 6935,
+      "sha256": "3f2bff13d054f2e06253791a91dab070d399ec29bea3007edfb19c8c537ddbee",
       "hash_source": "git_blob"
     },
     {
       "path": "CLAUDE.md",
-      "bytes": 2581,
-      "sha256": "c1a397964d38835e3d1b8315441a069b56bf46edea057d4ae0713e0cc2db9ab9",
+      "bytes": 3843,
+      "sha256": "7d65a0528744f6cabd8a6c71bf26bb4ba2a6a6f495306d2cd0a63f4d5ea7e246",
       "hash_source": "git_blob"
     },
     {
@@ -99,14 +116,20 @@
     },
     {
       "path": "README.md",
-      "bytes": 5851,
-      "sha256": "b5f7ac656f432f9b4832939bc5e26c0365e9d0fbf1403420a3bbca6cb4570bfa",
+      "bytes": 7558,
+      "sha256": "acfff6867b4e6bdeaa2de2a12b4c97fa07aa625f128e577f839796bef42e97db",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "START_CLAUDE_EP3_RU.md",
+      "bytes": 19934,
+      "sha256": "3c7da19b346debfa87c943df46948d6e1f322580eace5557993f712e580e6378",
       "hash_source": "git_blob"
     },
     {
       "path": "START_CLAUDE_RU.md",
-      "bytes": 21143,
-      "sha256": "74fb8b3dec239c2e4a5f5eb4ca69012a9b4819b6965c64f0920b61b65a66544b",
+      "bytes": 23317,
+      "sha256": "45d0fa3398fab4cc598200acdc6775eb8990a1b40f4916b66ebc30635659b4ed",
       "hash_source": "git_blob"
     },
     {
@@ -746,21 +769,33 @@
       "hash_source": "lfs_object"
     },
     {
+      "path": "context/API_STATUS_20261015_RU.md",
+      "bytes": 3438,
+      "sha256": "e1f322cbd61d88d85efb8bef929f3c300babcc61feba80bee081a1a71aff9272",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "context/EP3_CURRENT_RU.md",
+      "bytes": 9860,
+      "sha256": "38db9e55cd3341c24832d40b61f71d584539c6b33f3d337adc72d08a523168f0",
+      "hash_source": "git_blob"
+    },
+    {
       "path": "context/SOURCE_SCOPE_RU.md",
-      "bytes": 4716,
-      "sha256": "817911bffa785a01be644cc62fa8477ca37d843f2c34eebc2fbf91bea45b89bd",
+      "bytes": 6290,
+      "sha256": "0e2dc0a3251a19ed453d014002e84b8254c6031e7d8e4134d5a51b2406284f38",
       "hash_source": "git_blob"
     },
     {
       "path": "context/START_HERE_RU.md",
-      "bytes": 3223,
-      "sha256": "e0ce7e09520b7858ec6f4df1dde4fd6d88f4f4bf50adf97d81fdb375f72a1ac1",
+      "bytes": 3990,
+      "sha256": "ae44edb7ac06c554bfec6d2d8c3c55ab774e9c39e41592f66c3a54db2f4b497a",
       "hash_source": "git_blob"
     },
     {
       "path": "context/USER_FEEDBACK_RU.md",
-      "bytes": 9013,
-      "sha256": "37a96b85c49e7462829b5fa08b4da11320f0252bc19e60ed131a2a4bf20391f0",
+      "bytes": 10665,
+      "sha256": "f82fa6ed60f9e33e3fa37c4af59a74fc8ef0c384676e7f80773a2d94d8f42db1",
       "hash_source": "git_blob"
     },
     {
@@ -2972,6 +3007,1284 @@
       "hash_source": "git_blob"
     },
     {
+      "path": "episodes/ep3-belly-fat/README_RU.md",
+      "bytes": 8967,
+      "sha256": "036aaf616d5adb8f2ef05118d76e5b61e75d09efcca5a629520f59f44160fa3f",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/DIRECTION_RU.md",
+      "bytes": 9612,
+      "sha256": "b21adcc7e25ebdbac8eff0bd96192f3f9ea0875f5d55ab23c029c0e10c3be75f",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/README_RU.md",
+      "bytes": 4468,
+      "sha256": "0e37ee0829711f36393ee112a6b99c05fcbdeed47c15fa10af64a04c53e1eae0",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/build/mix-preview.py",
+      "bytes": 2923,
+      "sha256": "c725a4564db0e93818848a8b76df3222d8d57d34ceb53fbe425faa95eb44f922",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/export-preview.mjs",
+      "bytes": 605,
+      "sha256": "6ecf0d59978eab24938b3e1910033807001cfcfb9242a945fda8135203413e1d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/fixts.mjs",
+      "bytes": 324,
+      "sha256": "403542e2d84adf99ead7745cced3c3a08dba56558a4a3b5410a8b99aacf34abf",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/out/redo/Rendo-EP3-New-Direction-60s.mp4",
+      "bytes": 14883939,
+      "sha256": "53f511cdfa8d9fac7b40e8991a6e51c4430bac6b3455f8e06548c74201b1a474",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/package.json",
+      "bytes": 634,
+      "sha256": "e465bdb41a0391f0b518076eed6672e56f25ab889f6f32fddcca51bd66c40b27",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-intro.png",
+      "bytes": 880766,
+      "sha256": "0f10a12e368db03bda6a32e894cc76907ccf67183dc2eed84e405f9ab41ee3bf",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-open.png",
+      "bytes": 868849,
+      "sha256": "901a6afe0798d248daca2477b5e48fad21f3cfee017e8404f30fb2c09b50014c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-tape.png",
+      "bytes": 741384,
+      "sha256": "69145c61ae69aaacc19a159ec415ef8efdffc8a2346916396815e7d56508c436",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/h-think.png",
+      "bytes": 742949,
+      "sha256": "d5e1485229bafaa38b9bd033209b7485cf79735e7703ac6cf19b40b7a4369f25",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/meta.json",
+      "bytes": 607,
+      "sha256": "1006bcf342f849ac07fc43a1590efaefce3f9fae8ce863ad104332da36a901ca",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o-hourglass-full.png",
+      "bytes": 1116843,
+      "sha256": "d2c8ab966e5aa55ed956f716392b0e9ad62a7996403a2bbd4369b676fa04c427",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o2-plate-empty.png",
+      "bytes": 1978204,
+      "sha256": "ec48f2c1afd16744bf69af7037c608552cf014684aace3b51b6e4936fccc267c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/o2-plate-potato.png",
+      "bytes": 2125610,
+      "sha256": "a7b00bfe9a80f6b16c2791648487835caa99ed31d6039da9b85a168c3b511856",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/s-mirror.png",
+      "bytes": 680254,
+      "sha256": "f9aad30f68dc50587814fa0e7c1f2b95e62c19f563530bc22df76bec31f09400",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/x-crunch-high.png",
+      "bytes": 1082298,
+      "sha256": "f6f81f1d1aa78792ffe1aeb14175a7859cf6944e576a54c9a30096536966cb2e",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/art/x-crunch-low.png",
+      "bytes": 1111424,
+      "sha256": "a55476a7e10db031cab0acc25da9cc3beb0ac4de2019af5d950f94af93cc7634",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/approved-ep2-ambient.mp3",
+      "bytes": 2880828,
+      "sha256": "f21f55b5041af3c080526cd088b97dfc652b207f8bce2befa7438e33c5b655c6",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/preview-master.wav",
+      "bytes": 17366502,
+      "sha256": "3d44487845e778cf6f214e559e322e428dcab820505068a9c2d8244ab29c69fb",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/preview-music.wav",
+      "bytes": 11577644,
+      "sha256": "4a5dd7646ab74542762e69739d0e7d56e24d8e4eb3ad385d5de4df57ed1c44f3",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/preview-sfx.wav",
+      "bytes": 11577644,
+      "sha256": "31021e574ab54088b997a8e6dc3dcce69a699691feb47ec5def04669e90a044a",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/preview-voice.wav",
+      "bytes": 11577644,
+      "sha256": "21d977cb5be48d2ecdf422ba6979af97221fbb1354b589cb3cdda33aefa94a6c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/sfx/shutter.wav",
+      "bytes": 62562,
+      "sha256": "0a38265f932837141d9fc6a1da560a919139ed621d330418090d4ddf6cb8e824",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/sfx/sw.wav",
+      "bytes": 89832,
+      "sha256": "ce25120438c65fcf5ef656db1162a9c74ba30d58815dd065a4c47175a8c2c19f",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/voice-full.wav",
+      "bytes": 89869484,
+      "sha256": "bcaa02a50fef087874af0527cfa6da3a737882dce2da96ebfb1cfedf1fe81893",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/fonts/Jost.ttf",
+      "bytes": 134996,
+      "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/public/fonts/OFL-Jost.txt",
+      "bytes": 4384,
+      "sha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/render-redo.mjs",
+      "bytes": 2941,
+      "sha256": "9a490c5faf43b566c77958a4ae57e11943bd6b034e9832a027941ed5d1e11946",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/src/Redo.tsx",
+      "bytes": 11284,
+      "sha256": "7a1b15b5ff723e229a6138f720ac080bdee58747f908f3e11ca016365d27015d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/src/Root.tsx",
+      "bytes": 515,
+      "sha256": "db447d7f1e10962cdc706a9d468d32f9297134d9f8dd6879a7e51fd8544e336b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/src/index.ts",
+      "bytes": 88,
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/src/timeline.json",
+      "bytes": 1676,
+      "sha256": "22cede1c540a18458ded38db3b8eb49270c3b24e5a58c87dd9b8bf100f7bdd63",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/film/tsconfig.json",
+      "bytes": 206,
+      "sha256": "d8d1f713dd6d303a606ef339cb4f0d627f79c0c1f2ec2cff58388d058ab2f552",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/manifest.json",
+      "bytes": 10562,
+      "sha256": "c2b83eefea621ec5acb9ed9956868aa6913f9c60775b25064b2b5805b1e7f401",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/decode-final.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/final-42.8.png",
+      "bytes": 660729,
+      "sha256": "a9d55b1ea966b22a1d6f232fd33863b3741e269e29c264009d7ee9a3e38993c8",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/final-47.5.png",
+      "bytes": 409965,
+      "sha256": "9449e067ba574d8f6822bad804b90e2c36b4912dfa2eaf06c19653d6f6ffba26",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/final-aac-metrics.json",
+      "bytes": 263,
+      "sha256": "3ea5dbd5563a2b9c2ce3856224151a0278cf953c06df771fda8ac2ef2930bbf3",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/final-aac-metrics.log",
+      "bytes": 3280,
+      "sha256": "367a0b37da81546137117153294d0100a9735b66c82511abd7aad8af229725c9",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/final-probe.json",
+      "bytes": 561,
+      "sha256": "bc6cef5e74e158792b5cb84584372c46d867c18aa5711b1bcb37a5ecf4040552",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/master-metrics.log",
+      "bytes": 1347,
+      "sha256": "3f8f18eea5abb36a24c09d6b7cfe9c1cd5fd84a0e1aa4861aa2b4686380bab5a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/master-normalization.log",
+      "bytes": 2921,
+      "sha256": "cee788247e53bccf65a92261e99ea7e111cde71dff24d2bc786aa069a9fccc9a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/music-preview.json",
+      "bytes": 783,
+      "sha256": "35a2dfa1e13478cea67a20354f2c72725d3a980d8a46f948ca74ae74f0dc6ab4",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/report_RU.md",
+      "bytes": 3843,
+      "sha256": "5b1bba5a0f2a27f19cce0b8e11bf01afeab4875787f2e9c96ee170719a6b89cd",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/1.65.png",
+      "bytes": 853500,
+      "sha256": "186199f167e6c802340c69c469489cb52506fcef68cc035f2bc22aa858b3c3be",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/10.1.png",
+      "bytes": 1033059,
+      "sha256": "505bfe5d75563d69f7a63a5f68f34616e202b912fb6b7248d6aeee2ab196f155",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/11.4.png",
+      "bytes": 383216,
+      "sha256": "dc022b185bab52438fa57c9ab807e8b22df2cef60a2a5b0504d09492e7f0664b",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/13.3.png",
+      "bytes": 390862,
+      "sha256": "cbb21eb04aea43e3d2fc7ff3d4e87055f997aa2a135e6f184d7ba6051d01285f",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/16.6.png",
+      "bytes": 769167,
+      "sha256": "5bb849f23dc2f3dd7fd7fc39935fa1572f3d4584290b6d8420516320c9a84422",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/18.8.png",
+      "bytes": 51403,
+      "sha256": "71cdf977cdcf8e1ba94afbc7b84f35574db453041fc11fe862c6a538a4c88a72",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/23.8.png",
+      "bytes": 490385,
+      "sha256": "80d01a69f55646c828f33dc49fe161811e6640c14702a646f8a6e5da1585aeb3",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/26.8.png",
+      "bytes": 381445,
+      "sha256": "fff070d2b44613bbbff50a9029fa8f68b0ceefbf1fac7717c860fed4ce816eaf",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/29.65.png",
+      "bytes": 591952,
+      "sha256": "92156270219fe8cfad096c1269f150b29928140a2de1f8888d4172b2e6eccf8c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/3.1.png",
+      "bytes": 863223,
+      "sha256": "e01b585cd07b4913383feb9aa29b25358922c232e6995862b12c340caef891c5",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/36.png",
+      "bytes": 680564,
+      "sha256": "b18e1b3a7881ae1a72b389fa1441c0fafd2c8359403bfb1d0d081c502b8f27fd",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/38.3.png",
+      "bytes": 43811,
+      "sha256": "56b2daa68da310b9c31ffceea9c4648db8e2d838b0097ebf0180627516e6e080",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/39.9.png",
+      "bytes": 49692,
+      "sha256": "4d7b7328ab54c1408dcb633ec9814ddce46c4c93926c8db6aab327ad19a3def9",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/42.8.png",
+      "bytes": 764962,
+      "sha256": "f1c629d4326e4a2f2ed1d6c67ec356ab6621203342faf7338798fa63218e1561",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/45.8.png",
+      "bytes": 413999,
+      "sha256": "89c9b5c39e2ce46aa6d6b1542cc5e4f8637775fc43f2c421525f0dd0a0fec72a",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/47.51.png",
+      "bytes": 435681,
+      "sha256": "550743f7a3c3bc29929f048bc8e384a2a0648ff2a72ca669b478ccc4c7d679b6",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/49.2.png",
+      "bytes": 454197,
+      "sha256": "06e395ab7d2e6adc1fd3d6b61881fb6d7c0965e58678eb71d325434424201638",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/54.8.png",
+      "bytes": 436377,
+      "sha256": "b21d82a4c56e48ff738de970039b363ca1bc24aa53acaf250a555a6bdb506412",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/55.9.png",
+      "bytes": 437842,
+      "sha256": "6cf8da61760bd3fe9b6379681e8c9e4fd4c73628defbd9ec7d065f7c90924921",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/59.3.png",
+      "bytes": 65386,
+      "sha256": "f8a95cf48003981500b61c684984e49bd8c1233ee0c18abdd9aea5a336475f02",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/60.2.png",
+      "bytes": 34422,
+      "sha256": "482399c3b34c2a0d821890489598982f708eda569e163839e2c85a9e0febc577",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/stills/7.7.png",
+      "bytes": 610728,
+      "sha256": "38e4ce0a52791d604ce440e892d0a21c40e1b506dfc63578c24f28c61c178da2",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/qa/video-text-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/references.md",
+      "bytes": 1486,
+      "sha256": "8fe655773be977ff09ad0cdaae63ee5e74ccfd0eeaa29033d8acb32f707d019a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/voice/assembly.json",
+      "bytes": 369,
+      "sha256": "f044da20035eae4ca9a6222d6a478b104ee0fc4ca03d4b3ffc8767c31ba74612",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/voice/full.txt",
+      "bytes": 6953,
+      "sha256": "a25e130509033a624503da71d74007a41e52b54a8b1e54f31b85807c3f8878b4",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/approved-direction/voice/words.json",
+      "bytes": 81055,
+      "sha256": "9a71a69c985385d05a62d19197049e9322b62d03d9d185d9149dc499be8f9a34",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/conversation/2026-10-14-ep3-full-dialogue-ru.txt",
+      "bytes": 19119,
+      "sha256": "c26603da9e2e65456af5e7ad316ddf903c53fd08112c09d5e1e1e4ba94d6945d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/README_RU.md",
+      "bytes": 3897,
+      "sha256": "a63ab0353c3e51b149903f157a2223dd8ef890602c22904eb4f038bc2db7aac7",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/build/assemble-voice.py",
+      "bytes": 1350,
+      "sha256": "2d4f16ac009f9b0f205b1a4ba76de16a214fa22d9ed4cc1c7df985cd32a58418",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/build/make-timeline.py",
+      "bytes": 10253,
+      "sha256": "9f1428929ba4c6e20b3a34cc1c036f18c7b6596e0e1cce87fa4a4dd77e0c6e9f",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/build/mix.py",
+      "bytes": 3804,
+      "sha256": "6dd8c1a86aab0156e8307618db81e1dfa2f02c7c60871739d2f9e35c2b255adf",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/build/prepare-art.py",
+      "bytes": 1795,
+      "sha256": "94f24b82b0888b78647d19fd720a9cee1aac7be2caeec9406085ea8fc792a370",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/build/register-poses.py",
+      "bytes": 2787,
+      "sha256": "c80d4e89972ba009d3c7ad6f5e175cbb6dfc755b04f9fb59753653d8b58071a0",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-context/START_HERE_RU.md",
+      "bytes": 3779,
+      "sha256": "6d78134e2140a69ef0dce7d03f7d734609fc69905d38d1f265dc46bfc8e5c750",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-context/USER_FEEDBACK_RU.md",
+      "bytes": 5745,
+      "sha256": "788a90461dadb618ec8f6bf6954ee2e24d4352f7443b1790d997ae0d840309ac",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/SKILL.md",
+      "bytes": 9248,
+      "sha256": "9c4f3d416bf7a0106fbca87a4e5d1968aa401792f1e36755a4d94c66677735eb",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/a6api-access.md",
+      "bytes": 4628,
+      "sha256": "7ed28ec3868316003406c375e0058b8e989bad8cdc094fa8fc1dc9cd3df21b5d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/anatomy-and-instruction.md",
+      "bytes": 8647,
+      "sha256": "aaef6228b2b607cab09bdd08b87ce7faf0bc31cc015ec4f157a1b2d15157ee42",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/asset-direction.md",
+      "bytes": 8978,
+      "sha256": "3b2227fc925bd5620e34432a7d0408e82add6a426be3d951f1293793108d001d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/current-rules-ru.md",
+      "bytes": 27583,
+      "sha256": "18e5782baf9177a4efe602519a49aeef2d34a84b844509458020bf914abb3478",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/direction-and-tempo.md",
+      "bytes": 9430,
+      "sha256": "6408ae0563473158300ef40bc9dd6fc87754f199e8fb0157ba0160f76680c29c",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/element-components.md",
+      "bytes": 6695,
+      "sha256": "e9403b485b489c37a2e06f47f35c3222c17e8faf837e15d85af37679b117363b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/episode-workflow-ru.md",
+      "bytes": 9115,
+      "sha256": "9d122628d5d258234adf90f4423a5530900b5d9f65e14b7569d5117af572fa0b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/object-and-image-prompts-ru.md",
+      "bytes": 5995,
+      "sha256": "10d6be4b54392307d0e9b79307ac62083fe978533429c9e064efd39cf3ce0692",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/original-demo.json",
+      "bytes": 9585,
+      "sha256": "43b4a5748350ef34c37430eb2ae9475df0ce3822cec6812774ad76c23e72168e",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/patterns.md",
+      "bytes": 10298,
+      "sha256": "3b59749f8eb6b131c44f22c5e4c06bfc0442c291d2ca58a7b53d2b9625ac001e",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/portable-fonts.md",
+      "bytes": 1271,
+      "sha256": "32b0bf8405bb8a51c000cf3940bb1a0a0afaf59da591d158e9ce5dfabce85f34",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/presence-and-cards.md",
+      "bytes": 8790,
+      "sha256": "1595ffaa25c9a80d92f3a55ade0cd81b4e91204fbac21279b9f60b1e84aab2a6",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/production-pattern-catalog.json",
+      "bytes": 50052,
+      "sha256": "e458829f1ea5044721fd182f307ba77d0e9daa665ca943c6ce376b40b32cce8a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/qa-and-handoff-ru.md",
+      "bytes": 5641,
+      "sha256": "b9ddccb06fe0218ccebff6a7b93a9201d21289886364781aa96ea947a0f6cb3d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/remotion-production-ru.md",
+      "bytes": 3586,
+      "sha256": "23bd71eb4c22cf171885d0512bd3c04b8aab554d94c62f80ba8c25f651d8e36b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/runtime-and-json.md",
+      "bytes": 8406,
+      "sha256": "652c2fe39f58d62c531a61354201fe5483ffca96c0d13b3edf036ee231ed8e5b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/ryoga-focus-variants.md",
+      "bytes": 17001,
+      "sha256": "afa18a142203b8c39e2917cd21875535f8e48d098b9c9753f93214187e91b31d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/science-source-notes-ru.md",
+      "bytes": 4028,
+      "sha256": "a0f8fae7a06eaab9654654f6219e73841c6faef4b8bb6d1f4ac5a9bda1ad47cc",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/sound-and-review.md",
+      "bytes": 6919,
+      "sha256": "8f8675d54d7b727f3d3811442194eab98faee593ea4df5be6e4cca8a659c8d9f",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/channel-skill/references/validation.md",
+      "bytes": 12232,
+      "sha256": "419fb91b815830f8d575be4a3374ea2db986002ca5e329b02aaa40b84d9837c8",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/export-final.mjs",
+      "bytes": 468,
+      "sha256": "097879d37a234f1b8a3f14cd2abb82042585b3d7230b9feffbd023cdeceba5c0",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/fixts.mjs",
+      "bytes": 324,
+      "sha256": "403542e2d84adf99ead7745cced3c3a08dba56558a4a3b5410a8b99aacf34abf",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/package.json",
+      "bytes": 575,
+      "sha256": "b3990fec1c7909f6ad5f4b3cb671176bd39201534248d222e54f814787dd200a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/b-w1.png",
+      "bytes": 344303,
+      "sha256": "1afef6ddb8db5e798e0fc4fceb6160bbcfc67803af494a22fb101f4f7d8564a7",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-crunch.png",
+      "bytes": 1242312,
+      "sha256": "2ba241a4b24d9f688168720c9e28c6882c66be13058e838154be54e53bb96f33",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-down.png",
+      "bytes": 977399,
+      "sha256": "9531f9750c723adbe56f6e5ea359293dcf0ca6b65a14cf9ac96d6f2a07771fa3",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-explain.png",
+      "bytes": 854906,
+      "sha256": "e93fcac7e77642c05bf78ba40a8046f46b4b4700f8b1c3f736e39ab3e2762bac",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-intro.png",
+      "bytes": 880766,
+      "sha256": "0f10a12e368db03bda6a32e894cc76907ccf67183dc2eed84e405f9ab41ee3bf",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-log.png",
+      "bytes": 818434,
+      "sha256": "eace86028c0b30aedab16aa5485a46dfc80f544f18eea79f57c8d0980d14fb7f",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-open.png",
+      "bytes": 868849,
+      "sha256": "901a6afe0798d248daca2477b5e48fad21f3cfee017e8404f30fb2c09b50014c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-plate.png",
+      "bytes": 915877,
+      "sha256": "f2884e2abdf14cdd122b3faee97c5b40788f298168c84ddf0f2edb35527b0dec",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-profile.png",
+      "bytes": 806702,
+      "sha256": "02d4b88c22ff1feb3501ff732e139fca35c7c05cac7c392ff3aae766ac239b3f",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-tape.png",
+      "bytes": 741384,
+      "sha256": "69145c61ae69aaacc19a159ec415ef8efdffc8a2346916396815e7d56508c436",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-think.png",
+      "bytes": 742949,
+      "sha256": "d5e1485229bafaa38b9bd033209b7485cf79735e7703ac6cf19b40b7a4369f25",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/h-you.png",
+      "bytes": 854196,
+      "sha256": "a7d8844c8fd4c0632c254523b92257930d3ec5ac8798e3f12da059fbf39a4158",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/meta.json",
+      "bytes": 5015,
+      "sha256": "3cce6425526a15d495a28ea200faf0c3e68dc8b0d014922a6ec2bbe1b59bb6c8",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-dumbbell.png",
+      "bytes": 1414979,
+      "sha256": "61f7e94c80e41c92fdabeb08c398c3bfd134bcc7541b2d43f7222cb01f1115df",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-hourglass-full.png",
+      "bytes": 1116843,
+      "sha256": "d2c8ab966e5aa55ed956f716392b0e9ad62a7996403a2bbd4369b676fa04c427",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-plate-empty.png",
+      "bytes": 1948991,
+      "sha256": "84c81d1ac1150c255dc4c04cb19e55c7ca05f1735423d91d953cf68a8b26447b",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-plate.png",
+      "bytes": 2103367,
+      "sha256": "1e0b6843cfe2f6c69569bf822196d451a8685b5ecb39e45aacd391b47483c119",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-protein.png",
+      "bytes": 2145867,
+      "sha256": "693778123d31a8ea41cb05f92e12fde2e23db1b5f86edad1bbe9e5b3488af217",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-scale.png",
+      "bytes": 1739482,
+      "sha256": "460220a0b9c56ee1a63254286914adbbf0703f9cfea4c542e783a8bac2f6bfdb",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/o-tape.png",
+      "bytes": 1890793,
+      "sha256": "296335efd3b206d73b3d8732313db4969210ff2e19a9a45bda2a782dcfb01ca8",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/p-sleep.png",
+      "bytes": 2889001,
+      "sha256": "b6f5c9c146aff645f3376a89f4cd2f1fa0e07e6e7b66bba1dabad5aad4b7bba1",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/p-walk.png",
+      "bytes": 3275380,
+      "sha256": "1c289feef610a5d1156d53022a895221e1dee5b8289f423c5066ddfc8a95beb0",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/s-meal.png",
+      "bytes": 814938,
+      "sha256": "44a1c3ffea14d21fdab92ebf65a220d1179c9708e2c11449798c9be2e14b7477",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/s-mirror.png",
+      "bytes": 680254,
+      "sha256": "f9aad30f68dc50587814fa0e7c1f2b95e62c19f563530bc22df76bec31f09400",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-crunch-high.png",
+      "bytes": 1082298,
+      "sha256": "f6f81f1d1aa78792ffe1aeb14175a7859cf6944e576a54c9a30096536966cb2e",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-crunch-low.png",
+      "bytes": 1111424,
+      "sha256": "a55476a7e10db031cab0acc25da9cc3beb0ac4de2019af5d950f94af93cc7634",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-a.png",
+      "bytes": 496083,
+      "sha256": "5de90c7ca2c3970b4229d79c6b0e8731a24606c0a2281c2ecaa602426c90a336",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-b.png",
+      "bytes": 231452,
+      "sha256": "46203f95f674dbf27cade6d0096ae9ca7c1515fea7ce65264b1abeee65b8223d",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-hinge-menu.png",
+      "bytes": 210068,
+      "sha256": "e7cb6dbf4e1dd70394f3ead6ed8f1eb4b34984caa9ae10824d6bb5a32f3f6d61",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-push-a.png",
+      "bytes": 993317,
+      "sha256": "eba08e1e3fd9c213f80e31e26ac6ea9eed688125a86cff8f5a2beee5715079c4",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-push-b.png",
+      "bytes": 1093992,
+      "sha256": "34358496b305eb2382bcab26e7a5a9e35c890339c8fe633f1a201504a922680c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-row-a.png",
+      "bytes": 634261,
+      "sha256": "34cddb9b9aa5295db95a92d47e1ea369523b88d7810a8d63a983140d7a045473",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/art/x-squat-a.png",
+      "bytes": 609075,
+      "sha256": "72758ffd450bd008ed3ae4773607ece0dbceaf732a77b2459872f9ce229ffee0",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/master.wav",
+      "bytes": 134804262,
+      "sha256": "ae64eede9d37d84c93e79eb5da6eed6fdc1542c954b0019316bf33b1c71017c3",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/stem-music.wav",
+      "bytes": 89869484,
+      "sha256": "bb2190811fe141d7921e692d929b6e55af210b18b5a012ffdffd30e08733332a",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/stem-sfx.wav",
+      "bytes": 89869484,
+      "sha256": "4f0f4426d0d77ca505d7485e9cf23fab3f04a3f89eb51942b79d4324fd4968dd",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/stem-voice.wav",
+      "bytes": 89869484,
+      "sha256": "2704eb0fa2b90632b92c40c144b33ca331a6a5542f8d438407056f73cf21bf97",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/voice.wav",
+      "bytes": 89869484,
+      "sha256": "bcaa02a50fef087874af0527cfa6da3a737882dce2da96ebfb1cfedf1fe81893",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/fonts/Jost.ttf",
+      "bytes": 134996,
+      "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/fonts/OFL-Jost.txt",
+      "bytes": 4384,
+      "sha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/render-ep3.mjs",
+      "bytes": 2814,
+      "sha256": "5f56bc80d8b047769db5be8eb1b8cd18d84e858d312786885f945dd8b0ba1b42",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/src/Episode3.tsx",
+      "bytes": 12781,
+      "sha256": "5d177f1560acc1ffff5adce0f4c1d30056b55b262702bffa30c648277e7b027d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/src/Root.tsx",
+      "bytes": 296,
+      "sha256": "07057f25020ffc4f226a68a2064a6891fc97fa567b8f2b801d613ef4aedd4417",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/src/index.ts",
+      "bytes": 86,
+      "sha256": "309d14a1bb4ad80b7b4752f3ff7ec95a13e7752379cf261776a099c5c0f39002",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/src/timeline.json",
+      "bytes": 28808,
+      "sha256": "af7483f5ca8f3ac5bfa73b592bdd48684ddde0655e20e584a3e76f39ccd3e95a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/tsconfig.json",
+      "bytes": 206,
+      "sha256": "d8d1f713dd6d303a606ef339cb4f0d627f79c0c1f2ec2cff58388d058ab2f552",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/manifest.json",
+      "bytes": 22823,
+      "sha256": "f6dae413797c65e913a6e34056d887019bf439ddd24a0885dcf1d97162557121",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/active-art.json",
+      "bytes": 455,
+      "sha256": "dd702892b2c3778354e21282d41df5ae07a755a957ee95fb2eef4b9a1661fc5e",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-0.9.png",
+      "bytes": 603960,
+      "sha256": "682498cfbbbcc1e49fbbb55a1508f0e35383ef1737b238fdc1db35f467264aa2",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-262.44.png",
+      "bytes": 510893,
+      "sha256": "ca14c5f1a0a228632f4f4b240a66e925dc398a6e8c88327f8abf884ff7e19b30",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-412.213.png",
+      "bytes": 854084,
+      "sha256": "608cdb5520db6efd18ab5db8d208f2311f518302ed9d1ae6959cead6c931a75d",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-467.95.png",
+      "bytes": 9131,
+      "sha256": "806285fadce71706d01f4ce2e2053ac398fd508e2ab02bd349d9c4c7451529d9",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-aac-loudness.log",
+      "bytes": 3680,
+      "sha256": "5d8ac06f6c812c1f9745e1942ff2f8df7324cfa71a9762af727f17922cc7902b",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-metrics.json",
+      "bytes": 229,
+      "sha256": "e00cf4e806f18211ab285d30dacc6166dcc0de53c26d72da5ba993f248e8ffd6",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/final-probe.json",
+      "bytes": 4509,
+      "sha256": "d4c6351bf79b4eabe97d5fbcac85ef7a17a3c0ce2d35c1c0b81920b0d2ef2d0e",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/master-normalization.log",
+      "bytes": 5035,
+      "sha256": "cb00435967d8e4292aa2d727745bf1a0e575d001f0424134afdbf152937fdce2",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/music-envelope.json",
+      "bytes": 317,
+      "sha256": "6e0c146a17b908d4a1c1bff4f244bf147701c5e25051ed6149b3d9718db99c70",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/patch-a-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/patch-b-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/patch-c-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/patch-d-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/pose-registration.json",
+      "bytes": 362,
+      "sha256": "f6cc1f6426703b987fbbe3481dcc67ba4ace00ceeb1c3d7e56dc6f9012b931a8",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/premix-loudness.json",
+      "bytes": 262,
+      "sha256": "bb71789b4d5e5f9f98f91eb1aafbaec271fab2fe3e3186b7336b3f56985c847d",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/recovery-status.json",
+      "bytes": 396,
+      "sha256": "c1d0660545e7270a095faadfbf4eb312b6b4e2e76791c87efb48e9c56ede68f1",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/report.md",
+      "bytes": 2988,
+      "sha256": "eb22ec92ce810d478a3d62f9e12bc0b7240885d493eebbc6e9de5c5ea95bca94",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/scene-map.json",
+      "bytes": 26065,
+      "sha256": "5c5e41c5d20c15a3c469ea51bfe5c30a6cea58ea7ed73dbe4fed3bdced1bc517",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/sfx-events.json",
+      "bytes": 402,
+      "sha256": "583e4d141085c2594754b858054a048ff241868d73e684d8692595dc75c54c13",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/video-text-audit.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-crunch-blend-0.25.png",
+      "bytes": 1055479,
+      "sha256": "e89904dc40bf09dfec2f70ef6a5b2f20fc34270a723786dcd2901da6011fae6a",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-crunch-blend-0.5.png",
+      "bytes": 1069353,
+      "sha256": "29f57c9265a3daddd58c8b93b94decdd7a8fa7c802af892d38d7fc805fb9cac0",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-crunch-blend-0.75.png",
+      "bytes": 1028540,
+      "sha256": "ec0f287693abb97bd58793f0d9da0621cc09654de9bbcd4ca77d34b30aa6cc4a",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-hinge-blend-0.25.png",
+      "bytes": 208537,
+      "sha256": "9f6d07222fa17b37a5ae03d9f74b5d75f5e896dbe1aefdec53d8d0b7100fa83c",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-hinge-blend-0.5.png",
+      "bytes": 217999,
+      "sha256": "4cd6bf8c0f80fe1a2b9d38653c62af2e4dcd11fc90cc31bb14cae5da39e8741e",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/qa/x-hinge-blend-0.75.png",
+      "bytes": 211711,
+      "sha256": "2d69c3d2b54936355f1297243fdc06e09ba8d2a814f8980f908b8a2d45094bc1",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/ambient-ep3.mp3",
+      "bytes": 1920566,
+      "sha256": "4d8edbd602429ca4dd42d3011f910a7f452ff3e956f3403e135d74c018de4b69",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/h-log.png",
+      "bytes": 1058788,
+      "sha256": "a20839a8b03d4aa9a45ca7245404b084d3020a070033e24626339f115d39513e",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/h-open.png",
+      "bytes": 995216,
+      "sha256": "cce9d70634b35b684507d7dc70b4f3f94ade6ad98812a78746352b415329afad",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/h-tape-refined.png",
+      "bytes": 980712,
+      "sha256": "1fe1eca629320c33dc535f90f2321b98c326e12e92b6e539cfbf3e7db825e788",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/o-protein.png",
+      "bytes": 2132307,
+      "sha256": "69e8cdae8d2aec79f1f6706137fd623eb8871f708e3b4816c4defc3a03eeae57",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/s-meal.png",
+      "bytes": 992902,
+      "sha256": "efde32f84a6e3ca3c084b59c4e3a97bb5b2e80e233d499306b12eb67abd94137",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/s-mirror.png",
+      "bytes": 881603,
+      "sha256": "a46ae62b91a2ea9b21e4e6e3d3c14c606be9c7962ce9feb4c4f867ab07b69345",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/x-crunch-low.png",
+      "bytes": 1789259,
+      "sha256": "f43e45efc7ca7e226bccf828a83c8fff04b5dfea378b1f36773b32a4472fc8ec",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/x-hinge-a.png",
+      "bytes": 508185,
+      "sha256": "4ccb7e72988e1ffdd21550786d42f4e4a98941cc91cf220c84a2fd4aea1cd7a9",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/raw/x-hinge-b.png",
+      "bytes": 1348490,
+      "sha256": "f64f12c5dafd740d32c7c0a4d2394137f9c3ae314bd6866ad8eead6cb7ac663e",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/references.md",
+      "bytes": 1486,
+      "sha256": "8fe655773be977ff09ad0cdaae63ee5e74ccfd0eeaa29033d8acb32f707d019a",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/assembly.json",
+      "bytes": 369,
+      "sha256": "f044da20035eae4ca9a6222d6a478b104ee0fc4ca03d4b3ffc8767c31ba74612",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/full.txt",
+      "bytes": 6953,
+      "sha256": "a25e130509033a624503da71d74007a41e52b54a8b1e54f31b85807c3f8878b4",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/part1.txt",
+      "bytes": 2225,
+      "sha256": "e6c9bc422ffdc47a5121ac6c99bb49a29a558ba1fb28ea6b103bd6bb40d74ca0",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/part2.txt",
+      "bytes": 2434,
+      "sha256": "cc6335102406d3d9b5c170b1bd338936bab1a9da8619e0106d015bac67ec4a65",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/part3.txt",
+      "bytes": 2289,
+      "sha256": "a0d60c0c19e9987a5bc94818f2414fd7b3f4878fc0e1db90973854b80955ca3f",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take1.alignment.json",
+      "bytes": 36021,
+      "sha256": "124cbc8c5620a833e9807047df95841bbb9eabcd0f06295767f622016d7dde65",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take1.mp3",
+      "bytes": 2377151,
+      "sha256": "d128d3a470f7f0328a05a3dc7dc159e56ae02b89f8d7afb39b65ad172831f2b2",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take1.words.json",
+      "bytes": 16348,
+      "sha256": "a4d776841ff04e37659fb71ea0d2be9b3cc4b0a79ef121deff6cde05a61df841",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take2.alignment.json",
+      "bytes": 39469,
+      "sha256": "5e646ad79c873b94069a09cd8a351f34cf78443d02e89b126b14b564ca5692d0",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take2.mp3",
+      "bytes": 2540991,
+      "sha256": "7c35e66da9234bc0458a95ca9742aeb379d03e64e683f640d7931c00114a0c72",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take2.words.json",
+      "bytes": 17784,
+      "sha256": "63852f6bd7ca0f4b71fb1a92dae43c74f3fca18f9c3a223a34e931c8de155675",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take3.alignment.json",
+      "bytes": 37232,
+      "sha256": "e229a6d577500656ddf5de7241254e951065cec8f10171f0cdb377ae4fb524f3",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take3.mp3",
+      "bytes": 2571502,
+      "sha256": "75d64a1388f9cb6dbe9a289bf00900af2638167db6e5b71a36f6a3161c752404",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/take3.words.json",
+      "bytes": 16504,
+      "sha256": "313a7aaef52907e6d3ccb5bb42bac636bb4602042047cfab049a826fb29caa19",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/voice/words.json",
+      "bytes": 95059,
+      "sha256": "eb1b0498eab9e2179728e732622f0cd5e475c8759c98331d96b9ecfa73c1026e",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/qa/HANDOFF_REPORT_20261015_RU.md",
+      "bytes": 5623,
+      "sha256": "289a038f12ee04a51f146ff1556bf1c0f4d84682dda2576aad62adaed785a6b8",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/qa/available-art-index.json",
+      "bytes": 12479,
+      "sha256": "bddc94b03a0363c1d9cecf5e8aa32394ade1469552648d685621565743cce948",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/qa/handoff-verification-20261015.json",
+      "bytes": 3746,
+      "sha256": "8f2c83f6b3a28e8b585b57d536583ac7cb2fe73942401b374243c9815654c4d4",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/qa/received-approved-preview-contact.jpg",
+      "bytes": 82640,
+      "sha256": "0308f349541041fdfcce2b1244299cdf5f2750d444a9679ed50414495014b1b0",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/reference-only/Rendo-EP3-Why-Your-Belly-Still-Looks-the-Same.mp4",
+      "bytes": 93749867,
+      "sha256": "efd79293e9cc250a003a2d470c308f78cf6d84f0a114ed6f4ec996ac957427c0",
+      "hash_source": "lfs_object"
+    },
+    {
+      "path": "episodes/ep3-belly-fat/render.mjs",
+      "bytes": 5870,
+      "sha256": "79ee802c04a6b62b9345f253c0e5f7dde8e06ab6924411d2c71d384fcad0513b",
+      "hash_source": "git_blob"
+    },
+    {
       "path": "package-lock.json",
       "bytes": 104696,
       "sha256": "9093a5435b4fa900bc59b5d95bce51cecb3099fd0fbfa7e051cf700f400c4a3b",
@@ -2979,14 +4292,20 @@
     },
     {
       "path": "package.json",
-      "bytes": 988,
-      "sha256": "6a6dfc93572b604f382e2595383521535d882d9b568ca12a4d6e984b57b67c22",
+      "bytes": 1140,
+      "sha256": "3043d187f04fb16a55fbef1d831c92c33d68d69d6748e188a4cfe94f69d693b3",
       "hash_source": "git_blob"
     },
     {
       "path": "provenance/EP2_INTAKE.json",
       "bytes": 7535,
       "sha256": "3104a3e27086a7e0b0c488b4542251d2f98c32eb45b6d007fcd249d6988c6baa",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "provenance/EP3_INTAKE.json",
+      "bytes": 79741,
+      "sha256": "a769a6e6acef03cd750e614f23140a6c4b1ef756ccfbdac4f7509f24267e1244",
       "hash_source": "git_blob"
     },
     {
@@ -3017,6 +4336,12 @@
       "path": "provenance/UPDATE_20261014.json",
       "bytes": 4400,
       "sha256": "33edfda52aeb0e923b92935d05e1f26f337c9aacc0ded49b192af228c6db4235",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "provenance/UPDATE_20261015.json",
+      "bytes": 4652,
+      "sha256": "2e73f380e74eb164ae043d641155c1e2cef95c1de532d2f3b77bd5344e273308",
       "hash_source": "git_blob"
     },
     {
@@ -3062,6 +4387,12 @@
       "hash_source": "git_blob"
     },
     {
+      "path": "scripts/ep3.mjs",
+      "bytes": 1092,
+      "sha256": "8159307fef58e6b747e5cf260a4ac660aecd02a05f96e1926e62a62bee687b41",
+      "hash_source": "git_blob"
+    },
+    {
       "path": "scripts/image.ps1",
       "bytes": 845,
       "sha256": "ea6c66213e3cdf61a3f698df07266a383f89ed6e6863784f661a720e060db038",
@@ -3075,14 +4406,44 @@
     },
     {
       "path": "scripts/verify-context.mjs",
-      "bytes": 2774,
-      "sha256": "4750456d616a0351c494e1623665d96a568431110d9a32053f0641ac9ef37f0a",
+      "bytes": 4005,
+      "sha256": "0820323d25705de83d3bfb8b5d8d67647aacf3442255a284992aca25bc823e85",
       "hash_source": "git_blob"
     },
     {
       "path": "scripts/voice.mjs",
       "bytes": 3419,
       "sha256": "c2b26c5fa069a5be794865c759d36201b339b3c4b91c4b14ccbfa206c158cb0c",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "skills/a6-image/SKILL.md",
+      "bytes": 3251,
+      "sha256": "a2ca179644ae8a0f680516ab339fae922c65add0511af5e3133bf1a36ef48e67",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "skills/a6-image/agents/openai.yaml",
+      "bytes": 235,
+      "sha256": "772c9ff56fadde6dbc56f1b29cc223e3a83adc816aaf6e546dd30a7f895bf048",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "skills/a6-image/references/profile.json",
+      "bytes": 2192,
+      "sha256": "ac8c0e96b7263faece6c7d40cb74054f107981d3aa40985e1ab0e13199e9be00",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "skills/a6-image/scripts/generate.mjs",
+      "bytes": 9721,
+      "sha256": "eea53a78fad977304635b07e278b9676e974296e5413296668808dbaab04537c",
+      "hash_source": "git_blob"
+    },
+    {
+      "path": "skills/a6-image/scripts/generate.ps1",
+      "bytes": 11019,
+      "sha256": "e42bf2040b7b6faadeb32ed0a1e1c8b494a10abce43d0f5929bf80590371f92e",
       "hash_source": "git_blob"
     },
     {
@@ -3519,8 +4880,8 @@
     },
     {
       "path": "skills/solo-arc-motion/SKILL.md",
-      "bytes": 10885,
-      "sha256": "b0e4e9cc472e15611f5cb63da5a4b9352772dc58ba8c2e27fa59e9406f81e9f9",
+      "bytes": 13080,
+      "sha256": "1d3da44c6c5ba58936911bfedf171b507c476224b78952b6524475a235481a5c",
       "hash_source": "git_blob"
     },
     {
@@ -4293,8 +5654,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/a6api-access.md",
-      "bytes": 6002,
-      "sha256": "14739955771f7e95aeddea0bd8fc997d9b43a62971fdcc545116517763b89692",
+      "bytes": 6571,
+      "sha256": "10c655703fbc548b55c02584e886b46dca7f723fe1d9187193684aa0b9eb65e1",
       "hash_source": "git_blob"
     },
     {
@@ -4311,8 +5672,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/current-rules-ru.md",
-      "bytes": 42571,
-      "sha256": "04bed1e96694c38aadd7d73d6391ba3c3010fa8ea0db75319b51d1a1655c33b6",
+      "bytes": 46114,
+      "sha256": "cf41c820a1550f20ea5fc30140fd22722565c0ff14da2f20b665dba3b3e0e82f",
       "hash_source": "git_blob"
     },
     {
@@ -4329,8 +5690,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/episode-continuity-ru.md",
-      "bytes": 5101,
-      "sha256": "16241f2fa1a311917543684f8ce37fdab3bb75e6b68edad575e32ab9fde674ac",
+      "bytes": 5387,
+      "sha256": "748db7ccbe4b7e6d8c54271aed1a122972afd54e39d7e86a3fbbccf2e8310a10",
       "hash_source": "git_blob"
     },
     {
@@ -4377,8 +5738,8 @@
     },
     {
       "path": "skills/solo-arc-motion/references/qa-and-handoff-ru.md",
-      "bytes": 6102,
-      "sha256": "919453ae997183104c0bbb3b1ec5809e2b8d27d78077750957214568f9ee9cac",
+      "bytes": 6666,
+      "sha256": "1b640efa27f24a054620a61d34fc858a61863717c9cb9b1a0f31b873d28eb2a0",
       "hash_source": "git_blob"
     },
     {

@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-15",
+  "base_commit": "b79db67d4722d3764ab5b61b0466feb7e0224c1d",
+  "scope": "Complete newly supplied EP3 sources, dialogue and both supplied video versions; accepted direction distinct from rejected full draft.",
+  "archive_files": 205,
+  "imported_originals": 207,
+  "new_full_EP3_built": false,
+  "pending_owner_changes": [
+    "red rough brush strike-throughs",
+    "exercise direction guides"
+  ],
+  "local_checks": {
+    "date": "2026-10-15",
+    "imported_files_hash_verified": 207,
+    "source_archives_crc_verified": true,
+    "png_decode_verified": 85,
+    "json_parse_verified": 40,
+    "movies": [
+      {
+        "path": "episodes/ep3-belly-fat/approved-direction/film/out/redo/Rendo-EP3-New-Direction-60s.mp4",
+        "role": "owner-approved-style-sample",
+        "duration_seconds": 60.3,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "60.300000",
+            "nb_frames": "1809"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "duration": "60.300000",
+            "nb_frames": "2828",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "full_decode_exit_code": 0,
+        "decode_error_bytes": 0
+      },
+      {
+        "path": "episodes/ep3-belly-fat/reference-only/Rendo-EP3-Why-Your-Belly-Still-Looks-the-Same.mp4",
+        "role": "rejected-full-draft",
+        "duration_seconds": 468.1,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "468.100000",
+            "nb_frames": "14043"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "duration": "468.100000",
+            "nb_frames": "21944",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "full_decode_exit_code": 0,
+        "decode_error_bytes": 8643762
+      }
+    ],
+    "received_sample_final_aac_meter": {
+      "input_i": "-14.06",
+      "input_tp": "-1.30",
+      "input_lra": "2.80",
+      "input_thresh": "-25.03",
+      "output_i": "-13.98",
+      "output_tp": "-1.50",
+      "output_lra": "2.30",
+      "output_thresh": "-24.86",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.02"
+    },
+    "corrected_word_count": 1175,
+    "negative_corrected_intervals": 0,
+    "full_voice": [
+      {
+        "path": "episodes/ep3-belly-fat/approved-direction/film/public/audio/voice-full.wav",
+        "duration_seconds": 468.07,
+        "sha256": "bcaa02a50fef087874af0527cfa6da3a737882dce2da96ebfb1cfedf1fe81893"
+      },
+      {
+        "path": "episodes/ep3-belly-fat/materials/rejected-full-draft/film/public/audio/voice.wav",
+        "duration_seconds": 468.07,
+        "sha256": "bcaa02a50fef087874af0527cfa6da3a737882dce2da96ebfb1cfedf1fe81893"
+      }
+    ],
+    "identical_original_full_voice": true,
+    "full_script_equal_between_archives": true,
+    "approved_music_duration_seconds": 120.032625,
+    "extracted_actual_sample_frames_seconds": [
+      1.65,
+      7.7,
+      10.1,
+      23.8,
+      38.3,
+      47.5,
+      55.9,
+      59.3
+    ],
+    "contact_sheet": "episodes/ep3-belly-fat/qa/received-approved-preview-contact.jpg",
+    "visual_review": "Viewed one contact sheet with eight extracted actual sample frames; no continuous full video/audio review.",
+    "full_continuous_viewing_performed": false,
+    "full_listening_performed": false,
+    "paid_api_requests": 0,
+    "new_full_EP3_built": false,
+    "new_requested_brush_and_direction_edits": "pending; not implemented in received sample",
+    "runtime_build_check": {
+      "composition": "EP3-REDO-TEST",
+      "frames_seconds": [
+        1.65,
+        23.8,
+        47.5
+      ],
+      "text_failures": 0,
+      "paid_api_requests": 0
+    },
+    "short_rebuild_check": {
+      "range_seconds": [
+        46.9,
+        48.4
+      ],
+      "duration_seconds": 1.5,
+      "video_frames": 45,
+      "has_audio": true,
+      "text_failures": 0,
+      "output_path_resolution_verified_from_root": true,
+      "full_decode_exit_code": 0
+    }
+  },
+  "plaintext_keys_included": false,
+  "paid_generation_requests_for_this_handoff": 0,
+  "remote_publish_verification": "Performed separately after commit; see GitHub commit and local publisher audit."
+}

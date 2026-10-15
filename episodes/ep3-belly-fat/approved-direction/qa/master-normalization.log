@@ -1,0 +1,46 @@
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+[aist#0:0/pcm_s16le @ 0xf797800] Guessed Channel Layout: stereo
+Input #0, wav, from '/data/rendo-ep3-redo/film/public/audio/preview-premix.wav':
+  Duration: 00:01:00.30, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/data/rendo-ep3-redo/film/public/audio/preview-master.wav':
+  Metadata:
+    ISFT            : Lavf61.1.100
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+      Metadata:
+        encoder         : Lavc61.3.100 pcm_s24le
+size=    2048KiB time=00:00:07.59 bitrate=2207.6kbits/s speed=15.2x    
+size=    4352KiB time=00:00:15.69 bitrate=2270.8kbits/s speed=15.7x    
+size=    6400KiB time=00:00:23.49 bitrate=2231.0kbits/s speed=15.7x    
+size=    8704KiB time=00:00:31.49 bitrate=2263.6kbits/s speed=15.7x    
+size=   11008KiB time=00:00:39.49 bitrate=2283.0kbits/s speed=15.8x    
+size=   13056KiB time=00:00:46.99 bitrate=2275.6kbits/s speed=15.7x    
+size=   14848KiB time=00:00:53.49 bitrate=2273.6kbits/s speed=15.3x    
+[Parsed_loudnorm_0 @ 0x7f27e8002e80] 
+{
+	"input_i" : "-21.56",
+	"input_tp" : "-5.01",
+	"input_lra" : "3.10",
+	"input_thresh" : "-32.53",
+	"output_i" : "-13.98",
+	"output_tp" : "-1.50",
+	"output_lra" : "2.30",
+	"output_thresh" : "-24.89",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.02"
+}
+[out#0/wav @ 0xf799a40] video:0KiB audio:16959KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000587%
+size=   16959KiB time=00:01:00.30 bitrate=2304.0kbits/s speed=15.2x    

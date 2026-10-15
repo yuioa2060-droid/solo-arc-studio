@@ -1,0 +1,44 @@
+{
+  "source": "approved EP2 organic ambient, raw 22..82.3 seconds",
+  "temporary_for_direction_test": true,
+  "rejected_EP3_track_used": false,
+  "base_music_rms": 0.0038,
+  "swells": [
+    19.65,
+    29.95,
+    43.05,
+    59.45
+  ],
+  "voice_speed": 1.0,
+  "last_word_end": 58.87,
+  "voice_trim": 58.97,
+  "sfx": [
+    [
+      "sw",
+      3.48,
+      0.018
+    ],
+    [
+      "shutter",
+      11.857,
+      0.035
+    ],
+    [
+      "sw",
+      30.09,
+      0.018
+    ]
+  ],
+  "premix_loudness": {
+    "input_i": "-21.56",
+    "input_tp": "-5.01",
+    "input_lra": "3.10",
+    "input_thresh": "-32.53",
+    "output_i": "-13.93",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-24.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  }
+}

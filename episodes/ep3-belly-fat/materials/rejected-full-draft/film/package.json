@@ -1,0 +1,23 @@
+{
+  "name": "rendo-ep3-belly",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --public-dir=public",
+    "render": "node render-ep3.mjs",
+    "stills": "node render-ep3.mjs --all-scenes",
+    "export": "node export-final.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.454",
+    "@remotion/cli": "4.0.454",
+    "@remotion/renderer": "4.0.454",
+    "remotion": "4.0.454",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0"
+  }
+}

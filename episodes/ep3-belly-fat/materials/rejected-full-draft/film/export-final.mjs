@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';
+const render=spawnSync(process.execPath,['render-ep3.mjs'],{stdio:'inherit'});if(render.status!==0)process.exit(render.status||1);const mux=spawnSync('ffmpeg',['-y','-i','out/ep3/ep3-silent.mp4','-i','public/audio/master.wav','-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','256k','-af','apad','-t','468.1','-movflags','+faststart','../rendo-ep3-belly.mp4'],{stdio:'inherit'});process.exit(mux.status||0);

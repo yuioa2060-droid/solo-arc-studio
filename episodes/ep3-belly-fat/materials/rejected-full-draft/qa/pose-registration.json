@@ -1,0 +1,23 @@
+{
+  "crunch": {
+    "scale": 0.99,
+    "translation": [
+      -7,
+      -39
+    ],
+    "template_match_score": 0.9132641553878784,
+    "canvas": [
+      1800,
+      1100
+    ],
+    "whole_image_only": true
+  },
+  "hinge_B": {
+    "translation": [
+      -18,
+      4
+    ],
+    "whole_image_only": true,
+    "residual_registration_not_pixel_identical": true
+  }
+}

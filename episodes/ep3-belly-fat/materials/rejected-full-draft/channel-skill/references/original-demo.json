@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "fps": 60,
+  "duration": 32,
+  "title": "The pause is part of the rep — silent original montage study",
+  "audio": null,
+  "reviewTimes": [
+    0.4,
+    1.7,
+    3.4,
+    5.5,
+    6.4,
+    7.6,
+    8.12,
+    8.5,
+    9.2,
+    10.22,
+    11.4,
+    13.7,
+    15.7,
+    17,
+    18.8,
+    20.2,
+    21.5,
+    23.2,
+    24.8,
+    26.2,
+    28.5,
+    30.7,
+    31.8
+  ],
+  "persistent": [
+    {
+      "id": "chapter-context",
+      "type": "badge",
+      "a": 16,
+      "b": 31.5,
+      "n": 1,
+      "size": 125,
+      "x": 1790,
+      "y": 62,
+      "color": "#D9D9D9"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "personal-promise",
+      "a": 0,
+      "b": 5,
+      "purpose": "A large presenter introduces the original idea; emphasis follows his body rather than a permanent dashboard.",
+      "layers": [
+        {
+          "id": "promise-figure",
+          "type": "sprite",
+          "a": 0,
+          "b": 5,
+          "asset": "presenter-torso",
+          "x": 535,
+          "y": -40,
+          "w": 565,
+          "slideX": 380,
+          "rise": 0,
+          "entryDuration": 1.3,
+          "idleMotion": false
+        },
+        {
+          "id": "promise-copy",
+          "type": "text",
+          "a": 0.7,
+          "b": 4.85,
+          "text": "The pause is\npart of the rep",
+          "x": 1295,
+          "y": 270,
+          "w": 820,
+          "size": 64,
+          "wrap": true,
+          "bold": true,
+          "rise": 18
+        },
+        {
+          "id": "control-label",
+          "type": "text",
+          "a": 2,
+          "b": 4.8,
+          "text": "Control",
+          "x": 1300,
+          "y": 610,
+          "w": 420,
+          "size": 50
+        },
+        {
+          "id": "control-leader",
+          "type": "guide",
+          "a": 2.3,
+          "b": 4.8,
+          "target": "promise-figure",
+          "anchor": [
+            0.49,
+            0.56
+          ],
+          "labelPoint": [
+            1050,
+            642
+          ],
+          "lineAt": 2.5,
+          "drawDuration": 0.95
+        }
+      ]
+    },
+    {
+      "id": "pause-before-action",
+      "a": 5,
+      "b": 6,
+      "purpose": "Authored empty interval: do not fill it with more speech or incidental animation.",
+      "layers": []
+    },
+    {
+      "id": "starting-position",
+      "a": 6,
+      "b": 12,
+      "purpose": "Settle a complete starting pose, curl, hold, then lower; the local cue follows the same whole-image wrapper.",
+      "layers": [
+        {
+          "id": "controlled-pair",
+          "type": "sprite",
+          "a": 6,
+          "b": 12,
+          "asset": "crunch-low-v14",
+          "x": 995,
+          "y": 398,
+          "w": 1330,
+          "rise": 180,
+          "entryDuration": 0.9,
+          "idleMotion": false,
+          "states": [
+            [
+              8,
+              "crunch-new-up"
+            ],
+            [
+              10.15,
+              "crunch-low-v14"
+            ]
+          ],
+          "poseBlend": 0.24
+        },
+        {
+          "id": "settle-label",
+          "type": "text",
+          "a": 6.6,
+          "b": 7.8,
+          "text": "First, settle.",
+          "x": 960,
+          "y": 225,
+          "w": 700,
+          "size": 56
+        },
+        {
+          "id": "hold-label",
+          "type": "localCue",
+          "cueKind": "label",
+          "a": 8.45,
+          "b": 9.85,
+          "target": "controlled-pair",
+          "point": [
+            0.44,
+            0.29
+          ],
+          "text": "Hold",
+          "color": "#EEE",
+          "fontSize": 48
+        },
+        {
+          "id": "lower-label",
+          "type": "text",
+          "a": 10.35,
+          "b": 11.8,
+          "text": "Then return.",
+          "x": 960,
+          "y": 225,
+          "w": 700,
+          "size": 56
+        }
+      ]
+    },
+    {
+      "id": "detail-cutaway",
+      "a": 12,
+      "b": 15.2,
+      "purpose": "A brief different framing points attention to the hands instead of repeating the full floor composition.",
+      "layers": [
+        {
+          "id": "hands-detail",
+          "type": "sprite",
+          "a": 12,
+          "b": 15.2,
+          "asset": "hands-head-v14",
+          "x": 940,
+          "y": 325,
+          "w": 1160,
+          "rise": 0,
+          "slideX": -230,
+          "entryDuration": 1.05,
+          "idleMotion": false
+        },
+        {
+          "id": "detail-copy",
+          "type": "text",
+          "a": 12.4,
+          "b": 15,
+          "text": "Remove the distraction.",
+          "x": 960,
+          "y": 155,
+          "w": 1120,
+          "size": 58
+        }
+      ]
+    },
+    {
+      "id": "quiet-emphasis",
+      "a": 15.2,
+      "b": 18,
+      "purpose": "A short original visual emphasis; this silent study makes no claim that the words are aligned to recorded speech.",
+      "layers": [
+        {
+          "id": "emphasis-copy",
+          "type": "text",
+          "a": 15.5,
+          "b": 17.75,
+          "text": "More movement ≠ more control",
+          "x": 960,
+          "y": 495,
+          "w": 1550,
+          "size": 60,
+          "bold": true,
+          "fadeIn": 0.25,
+          "fadeOut": 0.3
+        }
+      ]
+    },
+    {
+      "id": "established-state",
+      "a": 18,
+      "b": 21,
+      "purpose": "The gauge is already established when it appears; no invented increase from zero.",
+      "layers": [
+        {
+          "id": "returning-presenter",
+          "type": "sprite",
+          "a": 18,
+          "b": 21,
+          "asset": "point-viewer",
+          "x": 430,
+          "y": 90,
+          "w": 450,
+          "slideX": -280,
+          "rise": 0,
+          "entryDuration": 1.05,
+          "idleMotion": false
+        },
+        {
+          "id": "gauge-copy",
+          "type": "text",
+          "a": 18.3,
+          "b": 20.8,
+          "text": "An established state",
+          "x": 1260,
+          "y": 425,
+          "w": 1000,
+          "size": 50
+        },
+        {
+          "id": "fixed-gauge",
+          "type": "gauge",
+          "a": 18.3,
+          "b": 21,
+          "x": 1260,
+          "y": 530,
+          "w": 660,
+          "fill": 0.5,
+          "initiallyFilled": true,
+          "color": "#74BD69"
+        }
+      ]
+    },
+    {
+      "id": "chapter-breath",
+      "a": 21,
+      "b": 22,
+      "purpose": "The small chapter context survives a full visual pause.",
+      "layers": []
+    },
+    {
+      "id": "hidden-payoff",
+      "a": 22,
+      "b": 26.5,
+      "purpose": "Tease three own practical beats using genuinely reduced-resolution rasters; stagger and hold before reveal.",
+      "layers": [
+        {
+          "id": "hidden-sequence",
+          "type": "plan",
+          "a": 22,
+          "b": 26.5,
+          "x": 760,
+          "y": 180,
+          "w": 820,
+          "rowHeight": 198,
+          "pitch": 235,
+          "rowRise": 130,
+          "rowEntry": 0.9,
+          "hidden": true,
+          "rows": [
+            {
+              "asset": "crunch-low-v14",
+              "title": "Settle",
+              "detail": "Find the starting position",
+              "at": 22.15,
+              "fontSize": 42
+            },
+            {
+              "asset": "crunch-new-up",
+              "title": "Move",
+              "detail": "Make the action deliberate",
+              "at": 22.65,
+              "fontSize": 42
+            },
+            {
+              "asset": "point-viewer",
+              "title": "Pause",
+              "detail": "Let the idea land",
+              "at": 23.15,
+              "fontSize": 42
+            }
+          ]
+        },
+        {
+          "id": "teaser-presenter",
+          "type": "sprite",
+          "a": 22,
+          "b": 26.5,
+          "asset": "point-viewer",
+          "x": 1530,
+          "y": 160,
+          "w": 440,
+          "slideX": 320,
+          "rise": 0,
+          "entryDuration": 1.2,
+          "idleMotion": false
+        }
+      ]
+    },
+    {
+      "id": "clear-payoff",
+      "a": 26.5,
+      "b": 32,
+      "purpose": "Reveal the same own card structure clearly, keeping a settled ending rather than cutting off the last reveal.",
+      "layers": [
+        {
+          "id": "revealed-sequence",
+          "type": "plan",
+          "a": 26.5,
+          "b": 32,
+          "x": 760,
+          "y": 180,
+          "w": 820,
+          "rowHeight": 198,
+          "pitch": 235,
+          "rowRise": 12,
+          "rowEntry": 0.9,
+          "hidden": false,
+          "rows": [
+            {
+              "asset": "crunch-low-v14",
+              "title": "Settle",
+              "detail": "Find the starting position",
+              "at": 26.7,
+              "fontSize": 42
+            },
+            {
+              "asset": "crunch-new-up",
+              "title": "Move",
+              "detail": "Make the action deliberate",
+              "at": 27.3,
+              "fontSize": 42
+            },
+            {
+              "asset": "point-viewer",
+              "title": "Pause",
+              "detail": "Let the idea land",
+              "at": 27.9,
+              "fontSize": 42
+            }
+          ]
+        },
+        {
+          "id": "calendar-copy",
+          "type": "text",
+          "a": 28.4,
+          "b": 31.8,
+          "text": "A real month",
+          "x": 1505,
+          "y": 140,
+          "w": 540,
+          "size": 48
+        },
+        {
+          "id": "literal-calendar",
+          "type": "calendar",
+          "a": 28.6,
+          "b": 32,
+          "x": 1505,
+          "y": 265,
+          "w": 465,
+          "days": 31
+        }
+      ]
+    }
+  ]
+}

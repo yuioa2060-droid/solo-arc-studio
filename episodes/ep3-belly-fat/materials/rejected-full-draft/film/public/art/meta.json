@@ -1,0 +1,350 @@
+{
+  "b-w1": {
+    "width": 640,
+    "height": 1024
+  },
+  "b-w2": {
+    "width": 640,
+    "height": 1024
+  },
+  "b-w3": {
+    "width": 640,
+    "height": 1024
+  },
+  "c-lens": {
+    "width": 1314,
+    "height": 1015
+  },
+  "c-notebook": {
+    "width": 1058,
+    "height": 860
+  },
+  "c-phone": {
+    "width": 634,
+    "height": 946
+  },
+  "c-stamp": {
+    "width": 1148,
+    "height": 981
+  },
+  "c-tag": {
+    "width": 1067,
+    "height": 971
+  },
+  "c-ticket": {
+    "width": 1428,
+    "height": 809
+  },
+  "h-back": {
+    "width": 370,
+    "height": 994
+  },
+  "h-cross": {
+    "width": 570,
+    "height": 1024
+  },
+  "h-crunch": {
+    "width": 1536,
+    "height": 772
+  },
+  "h-down": {
+    "width": 733,
+    "height": 1024
+  },
+  "h-explain": {
+    "width": 698,
+    "height": 1024
+  },
+  "h-fist": {
+    "width": 776,
+    "height": 1024
+  },
+  "h-intro": {
+    "width": 649,
+    "height": 1024
+  },
+  "h-plate": {
+    "width": 722,
+    "height": 1024
+  },
+  "h-profile": {
+    "width": 630,
+    "height": 1024
+  },
+  "h-rise": {
+    "width": 697,
+    "height": 1024
+  },
+  "h-think": {
+    "width": 584,
+    "height": 1024
+  },
+  "h-up": {
+    "width": 705,
+    "height": 1024
+  },
+  "h-you": {
+    "width": 637,
+    "height": 1024
+  },
+  "k5-sticker": {
+    "width": 865,
+    "height": 850
+  },
+  "m-s0": {
+    "width": 628,
+    "height": 1520
+  },
+  "m-s1": {
+    "width": 559,
+    "height": 1507
+  },
+  "m-s2": {
+    "width": 580,
+    "height": 1525
+  },
+  "o-backpack": {
+    "width": 1106,
+    "height": 1048
+  },
+  "o-bed": {
+    "width": 1046,
+    "height": 1041
+  },
+  "o-belt": {
+    "width": 1471,
+    "height": 227
+  },
+  "o-books": {
+    "width": 1214,
+    "height": 944
+  },
+  "o-breath": {
+    "width": 788,
+    "height": 1193
+  },
+  "o-calendar": {
+    "width": 798,
+    "height": 915
+  },
+  "o-carbs": {
+    "width": 1175,
+    "height": 802
+  },
+  "o-card": {
+    "width": 886,
+    "height": 1170
+  },
+  "o-chair": {
+    "width": 798,
+    "height": 1079
+  },
+  "o-chips": {
+    "width": 1145,
+    "height": 858
+  },
+  "o-clock": {
+    "width": 910,
+    "height": 1138
+  },
+  "o-crunch": {
+    "width": 1031,
+    "height": 1022
+  },
+  "o-drop": {
+    "width": 556,
+    "height": 798
+  },
+  "o-dumbbell": {
+    "width": 1183,
+    "height": 805
+  },
+  "o-hourglass-full": {
+    "width": 526,
+    "height": 1146
+  },
+  "o-hourglass-low": {
+    "width": 594,
+    "height": 1171
+  },
+  "o-moon": {
+    "width": 669,
+    "height": 749
+  },
+  "o-pasta": {
+    "width": 1076,
+    "height": 1047
+  },
+  "o-plate-empty": {
+    "width": 1001,
+    "height": 1209
+  },
+  "o-plate": {
+    "width": 1070,
+    "height": 1050
+  },
+  "o-protein": {
+    "width": 1228,
+    "height": 956
+  },
+  "o-rice": {
+    "width": 1090,
+    "height": 1004
+  },
+  "o-salt": {
+    "width": 999,
+    "height": 757
+  },
+  "o-salt2": {
+    "width": 1120,
+    "height": 863
+  },
+  "o-scale": {
+    "width": 1112,
+    "height": 1023
+  },
+  "o-scale2": {
+    "width": 1173,
+    "height": 819
+  },
+  "o-sneaker": {
+    "width": 1138,
+    "height": 1101
+  },
+  "o-tape": {
+    "width": 1011,
+    "height": 987
+  },
+  "o-tape2": {
+    "width": 1086,
+    "height": 891
+  },
+  "o-veg": {
+    "width": 1041,
+    "height": 894
+  },
+  "o-walk": {
+    "width": 791,
+    "height": 1014
+  },
+  "o-watch": {
+    "width": 908,
+    "height": 1001
+  },
+  "o-water": {
+    "width": 1010,
+    "height": 1060
+  },
+  "p-fridge": {
+    "width": 1536,
+    "height": 1024
+  },
+  "p-sleep": {
+    "width": 1521,
+    "height": 1012
+  },
+  "p-waist": {
+    "width": 1536,
+    "height": 1024
+  },
+  "p-walk": {
+    "width": 1536,
+    "height": 1024
+  },
+  "s0-hover": {
+    "width": 574,
+    "height": 1010
+  },
+  "s0-jeans": {
+    "width": 752,
+    "height": 1024
+  },
+  "s0-off": {
+    "width": 616,
+    "height": 1014
+  },
+  "s0-scale": {
+    "width": 600,
+    "height": 992
+  },
+  "x-push-a": {
+    "width": 1428,
+    "height": 1020
+  },
+  "x-push-b": {
+    "width": 1536,
+    "height": 886
+  },
+  "x-push-bad": {
+    "width": 1536,
+    "height": 1023
+  },
+  "x-push-good": {
+    "width": 1536,
+    "height": 1024
+  },
+  "x-row-a": {
+    "width": 544,
+    "height": 1024
+  },
+  "x-row-b": {
+    "width": 705,
+    "height": 1024
+  },
+  "x-soft": {
+    "width": 522,
+    "height": 1526
+  },
+  "x-squat-a": {
+    "width": 790,
+    "height": 1015
+  },
+  "x-squat-b": {
+    "width": 1060,
+    "height": 993
+  },
+  "x-squat-drop": {
+    "width": 917,
+    "height": 993
+  },
+  "h-tape": {
+    "width": 632,
+    "height": 1022
+  },
+  "h-log": {
+    "width": 596,
+    "height": 1024
+  },
+  "h-open": {
+    "width": 982,
+    "height": 940
+  },
+  "s-mirror": {
+    "width": 672,
+    "height": 1007
+  },
+  "s-meal": {
+    "width": 737,
+    "height": 940
+  },
+  "x-hinge-a": {
+    "width": 1536,
+    "height": 1024
+  },
+  "x-hinge-b": {
+    "width": 1536,
+    "height": 1024
+  },
+  "x-crunch-high": {
+    "width": 1800,
+    "height": 1100
+  },
+  "x-crunch-low": {
+    "width": 1800,
+    "height": 1100
+  },
+  "x-hinge-menu": {
+    "width": 424,
+    "height": 889
+  }
+}

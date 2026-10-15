@@ -13,7 +13,10 @@
     "check:ep2": "node scripts/ep2.mjs check",
     "render:ep2-ending": "node scripts/ep2.mjs ending",
     "rebuild:ep2": "node scripts/ep2.mjs rebuild",
-    "verify:context": "node scripts/verify-context.mjs"
+    "verify:context": "node scripts/verify-context.mjs",
+    "check:ep3": "node scripts/ep3.mjs check",
+    "studio:ep3": "node scripts/ep3.mjs studio",
+    "render:ep3-sample": "node scripts/ep3.mjs sample"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.454",
