@@ -1,0 +1,28 @@
+{
+  "startedAt": "2026-10-12T10:48:30.026Z",
+  "endpoint": "https://a6.a6api.com/v1/images/edits",
+  "model": "gpt-image-2.5",
+  "declaredRouteId": "4995",
+  "expectedPriceUsd": "0.0012",
+  "routeVerifiedByResponse": false,
+  "billedCostUsd": null,
+  "promptSha256": "00fab92f7c18d97d52561dd12369d319ae5bbca025bc68e20418875e8267cc8a",
+  "references": [
+    {
+      "name": "style-ref.png",
+      "sha256": "b12e73228b66779ea7d3d67d2c38317990c833bd97fdca0f72e38f9bc57b7c9b"
+    },
+    {
+      "name": "o-style-anchor.png",
+      "sha256": "beda08de70a2b19477c3620f27fc22218c6dfae2325ddab1d9c3ba83eec6a964"
+    }
+  ],
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/rc-dinner.png",
+  "dryRun": false,
+  "httpStatus": 200,
+  "status": "saved-unreviewed",
+  "actualFile": "/tmp/hoplite/workspace/episodes/ep3-one-slice/raw/rc-dinner.png",
+  "imageBytes": 3093236,
+  "imageSha256": "50d637aa74c402343f7142de59e6ad74dcf1e2939fd9ad3f20195b18e15e9732",
+  "finishedAt": "2026-10-12T10:49:10.707Z"
+}

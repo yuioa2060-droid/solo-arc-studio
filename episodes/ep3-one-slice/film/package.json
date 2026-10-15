@@ -1,0 +1,24 @@
+{
+  "name": "ep3-one-slice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --public-dir=public",
+    "render": "node render-resume.mjs --concurrency 2",
+    "studio:audio": "remotion studio src/index-audio.ts --public-dir=public",
+    "render:portable": "node render-portable.mjs --out out/episode-with-audio.mp4",
+    "doctor": "node doctor.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.454",
+    "@remotion/cli": "4.0.454",
+    "@remotion/renderer": "4.0.454",
+    "remotion": "4.0.454",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0"
+  }
+}

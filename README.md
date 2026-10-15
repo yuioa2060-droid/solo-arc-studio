@@ -17,6 +17,8 @@
 
 Альтернативный черновик EP2, собранный ассистентом (не финал владельца): [`episodes/ep2-alt-hunger-dials/`](episodes/ep2-alt-hunger-dials/README_EP2_RU.md) — другой сценарий и монтаж на ту же тему («Why You're Always Hungry on a Diet (And How to Turn It Down)»), основной MP4 и вариант с музыкой по 5:08. Название и описание не утверждены, публикации не было.
 
+Альтернативная тема, выбранная ассистентом (не EP3 владельца: его EP3 — belly fat, [`episodes/ep3-belly-fat/`](episodes/ep3-belly-fat/README_RU.md)): [`episodes/ep3-one-slice/`](episodes/ep3-one-slice/README_EP3_RU.md) — «One slice»: одна осечка и фраза «раз уж сорвался…», основной MP4 и вариант с музыкой по 4:56. Название и описание не утверждены, публикации не было.
+
 ## Получить медиа и запустить
 
 PNG, шрифты, звук и MP4 хранятся в Git LFS. Нужны Git LFS, Node.js 22.4+ (рекомендуется 24), Python 3.11+, FFmpeg/FFprobe; зависимости Remotion закреплены lockfile.

@@ -1,0 +1,14 @@
+{
+  "dryRun": false,
+  "script": "episodes/ep3-one-slice/voice/full.txt",
+  "characters": 4301,
+  "voice": "oyxaSt75JW8l04MCJaSo",
+  "model": "eleven_v3",
+  "stability": 0.5,
+  "output": "/tmp/hoplite/workspace/episodes/ep3-one-slice/voice/take4",
+  "paidRequestSent": true,
+  "httpStatus": 200,
+  "words": 762,
+  "characterCost": "1892",
+  "status": "saved-unreviewed-native-tempo"
+}
